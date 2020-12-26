@@ -3,16 +3,8 @@ Manifest: https://raw.githubusercontent.com/Nyxll/SR2-FoundryVTT/master/system.j
 
 I will always be happy to look at a Pull Request if there are features or bugs you'd like to work on.
 ## General Information (Read before playing)
-It's complicated, it's a work in progress, but it is _kinda_ stable. I try to break as little as possible.
-#### Currently Supported Actor Sheets 
-- Character
-- Spirit
-- Sprite
-- Vehicle
 
-#### Other Actor Sheet Plans
-- Host, IC, are planned.
-Please visit the wiki for usage information: https://github.com/Nyxll/SR2-FoundryVTT/wiki
+#### Currently Supported Actor Sheets 
 
 ## Compendium Importer
 > You may get *way* more items than you expect, at least until we implement options for imports.
