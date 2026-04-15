@@ -40,6 +40,7 @@
   "url": "https://github.com/Nyxll/SR2-FoundryVTT",
   "bugs": "https://github.com/Nyxll/SR2-FoundryVTT/issues",
   "manifest": "https://raw.githubusercontent.com/Nyxll/SR2-FoundryVTT/main/system.json",
+  "download": "https://github.com/Nyxll/SR2-FoundryVTT/archive/refs/heads/main.zip",
   "documentTypes": {
     "Actor": {
       "character": {},
