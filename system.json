@@ -43,23 +43,23 @@
   "download": "https://github.com/Nyxll/SR2-FoundryVTT/archive/refs/heads/main.zip",
   "documentTypes": {
     "Actor": {
-      "character": { "label": "Character", "htmlFields": ["biography", "notes"] },
-      "npc":       { "label": "NPC",       "htmlFields": ["notes"] },
-      "critter":   { "label": "Critter",   "htmlFields": ["notes"] },
-      "spirit":    { "label": "Spirit",    "htmlFields": ["notes"] },
-      "vehicle":   { "label": "Vehicle",   "htmlFields": ["notes"] }
+      "character": { "htmlFields": ["biography", "notes"] },
+      "npc":       { "htmlFields": ["notes"] },
+      "critter":   { "htmlFields": ["notes"] },
+      "spirit":    { "htmlFields": ["notes"] },
+      "vehicle":   { "htmlFields": ["notes"] }
     },
     "Item": {
-      "weapon":      { "label": "Weapon",      "htmlFields": ["description"] },
-      "armor":       { "label": "Armor",       "htmlFields": ["description"] },
-      "cyberware":   { "label": "Cyberware",   "htmlFields": ["description"] },
-      "bioware":     { "label": "Bioware",     "htmlFields": ["description"] },
-      "gear":        { "label": "Gear",        "htmlFields": ["description"] },
-      "spell":       { "label": "Spell",       "htmlFields": ["description"] },
-      "adept_power": { "label": "Adept Power", "htmlFields": ["description"] },
-      "quality":     { "label": "Quality",     "htmlFields": ["description"] },
-      "contact":     { "label": "Contact",     "htmlFields": ["description"] },
-      "sin":         { "label": "SIN",         "htmlFields": ["description"] }
+      "weapon":      { "htmlFields": ["description"] },
+      "armor":       { "htmlFields": ["description"] },
+      "cyberware":   { "htmlFields": ["description"] },
+      "bioware":     { "htmlFields": ["description"] },
+      "gear":        { "htmlFields": ["description"] },
+      "spell":       { "htmlFields": ["description"] },
+      "adept_power": { "htmlFields": ["description"] },
+      "quality":     { "htmlFields": ["description"] },
+      "contact":     { "htmlFields": ["description"] },
+      "sin":         { "htmlFields": ["description"] }
     }
   },
   "flags": {

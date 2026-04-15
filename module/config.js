@@ -187,24 +187,20 @@ SR2E.MONITOR_FORMULA = {
   stun: (willpower) => 10 + Math.ceil(willpower / 2),
 };
 
-// Wound level thresholds — first box of each level
-// Light: boxes 1-3, Moderate: 4-6, Serious: 7-9, Deadly: 10+
-SR2E.WOUND_LEVELS = [
-  { label: "L", name: "Light",    modifier: 0 },
-  { label: "M", name: "Moderate", modifier: -1 },
-  { label: "S", name: "Serious",  modifier: -2 },
-  { label: "D", name: "Deadly",   modifier: -3 },
-];
-
-// Wound modifier based on boxes filled (index = boxes filled, value = penalty)
-// Per SR2E: -1 per full wound level (every 3 boxes past 0)
-SR2E.woundModifier = function(boxesFilled, maxBoxes) {
-  if (boxesFilled <= 0) return 0;
-  const pct = boxesFilled / maxBoxes;
-  if (pct < 0.25) return 0;   // Light
-  if (pct < 0.5)  return -1;  // Moderate
-  if (pct < 0.75) return -2;  // Serious
-  return -3;                   // Deadly
+// Wound TN modifier per damage track (SR2E Core Rules — Damage and Healing):
+//   0 boxes   = +0 (Uninjured)
+//   1-2 boxes = +1 (Light)
+//   3-5 boxes = +2 (Moderate)
+//   6-9 boxes = +3 (Serious)
+//   10+ boxes = +4 (Deadly / unconscious)
+// Physical and Stun tracks each have their own penalty; they are CUMULATIVE.
+// This value is ADDED to the Target Number, not subtracted from the pool.
+SR2E.woundModifier = function(boxesFilled) {
+  if (boxesFilled >= 10) return 4;  // Deadly
+  if (boxesFilled >= 6)  return 3;  // Serious
+  if (boxesFilled >= 3)  return 2;  // Moderate
+  if (boxesFilled >= 1)  return 1;  // Light
+  return 0;
 };
 
 // ---------------------------------------------------------------------------
@@ -213,8 +209,10 @@ SR2E.woundModifier = function(boxesFilled, maxBoxes) {
 
 SR2E.DEFAULT_TARGET_NUMBER = 4;
 
-// SR2E dice pool success = result >= target number (default 4)
-// Glitch rule: more 1s than successes = glitch
+// SR2E dice pool: roll Nd6, count each die >= TN as a success.
+// Rule of Six (non-initiative only): roll 6 → re-roll and ADD to 6 → check combined total vs TN.
+// A 6 is NOT auto-success; the combined total must still meet or beat the TN.
+// There are NO glitch mechanics in SR2E (those are SR4/5/6 rules).
 
 // ---------------------------------------------------------------------------
 // Damage Codes

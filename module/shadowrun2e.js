@@ -96,7 +96,9 @@ Hooks.once("init", function () {
 
 Hooks.once("ready", function () {
   console.log("SR2E | System ready");
-  // Future: world migration checks go here
+  console.log("SR2E | game.documentTypes.Actor:", game.documentTypes?.Actor);
+  console.log("SR2E | CONFIG.Actor.typeLabels:", CONFIG.Actor.typeLabels);
+  console.log("SR2E | TYPES.Actor.character localized:", game.i18n.localize("TYPES.Actor.character"));
 });
 
 /* -------------------------------------------- */

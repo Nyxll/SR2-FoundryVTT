@@ -1,16 +1,21 @@
 /**
  * SR2Roll — Shadowrun 2nd Edition dice pool resolution.
  *
- * SR2E Core Rules (p.39-40):
+ * SR2E Core Rules — Dice (SR2E Core Book, p.39-40):
  *   - Roll a pool of d6s against a Target Number (TN).
  *   - Each die that meets or beats the TN counts as one success.
- *   - The default TN is 4. GMs may raise or lower it for difficulty.
- *   - Rule of Six: a result of 6 is always a success AND the die is
- *     re-rolled — if the re-roll also meets the TN, that counts as an
- *     additional success. Keep re-rolling 6s until the die fails the TN.
- *     (SR2E Core, p.40 — "The Rule of Six")
- *   - There are NO glitch or critical glitch mechanics in SR2E.
- *     Those are SR4/5/6 rules and do not exist here.
+ *   - The default TN is 4.
+ *
+ * Rule of Six (SR2E p.40 — non-initiative rolls only):
+ *   - When a die shows 6, re-roll it and ADD the new result to 6.
+ *   - The combined total is then checked against the TN.
+ *   - If the addition is also 6, keep adding (roll again).
+ *   - A 6 is NOT automatically a success — the combined total must meet the TN.
+ *   - Example: TN 8, roll 6 → re-roll 3 → total 9 → SUCCESS (9 >= 8)
+ *   - Example: TN 8, roll 6 → re-roll 1 → total 7 → FAILURE (7 < 8)
+ *
+ * There are NO glitch or critical glitch mechanics in SR2E.
+ * Those are SR4/5/6 rules and do not belong here.
  */
 export default class SR2Roll extends Roll {
 
@@ -49,26 +54,26 @@ export default class SR2Roll extends Roll {
     let successes = 0;
     const displayResults = [];  // what to show in chat (one entry per original die)
 
-    for (const die of rawResults) {
-      if (die >= targetNumber) {
-        // Normal success
-        successes++;
-        displayResults.push({ value: die, success: true });
-      } else if (die === 6 && ruleOfSix) {
-        // 6 is always a success; re-roll for bonus successes
-        successes++;
-        let bonusSuccesses = 0;
-        let rerollVal = die;
-        while (rerollVal === 6) {
+    for (const initialRoll of rawResults) {
+      if (ruleOfSix && initialRoll === 6) {
+        // Rule of Six: roll 6 → re-roll and ADD to running total → check vs TN.
+        // Keep re-rolling while the latest die was also 6.
+        // The combined total must meet or beat the TN — 6 alone is NOT auto-success.
+        let total = 6;
+        let lastRoll = 6;
+        while (lastRoll === 6) {
           const reroll = new Roll("1d6");
           await reroll.evaluate();
-          rerollVal = reroll.dice[0].results[0].result;
-          if (rerollVal >= targetNumber) bonusSuccesses++;
+          lastRoll = reroll.dice[0].results[0].result;
+          total += lastRoll;
         }
-        successes += bonusSuccesses;
-        displayResults.push({ value: die, success: true, bonus: bonusSuccesses });
+        const success = total >= targetNumber;
+        if (success) successes++;
+        displayResults.push({ value: initialRoll, total, success, exploded: true });
       } else {
-        displayResults.push({ value: die, success: false });
+        const success = initialRoll >= targetNumber;
+        if (success) successes++;
+        displayResults.push({ value: initialRoll, success });
       }
     }
 

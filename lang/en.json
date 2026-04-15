@@ -1,4 +1,25 @@
 {
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC",
+      "critter": "Critter",
+      "spirit": "Spirit",
+      "vehicle": "Vehicle"
+    },
+    "Item": {
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "cyberware": "Cyberware",
+      "bioware": "Bioware",
+      "gear": "Gear",
+      "spell": "Spell",
+      "adept_power": "Adept Power",
+      "quality": "Quality",
+      "contact": "Contact",
+      "sin": "SIN"
+    }
+  },
   "SR2E": {
     "ActorTypes": {
       "character": "Character",
@@ -205,8 +226,7 @@
       "opposed": "Opposed Roll",
       "successes": "Successes",
       "failures": "Failures",
-      "glitch": "Glitch!",
-      "critical_glitch": "Critical Glitch!"
+      "rule_of_six": "Rule of Six"
     },
     "Settings": {
       "targetNumber": {

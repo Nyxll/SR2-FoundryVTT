@@ -47,15 +47,16 @@ export default class SR2Actor extends Actor {
   }
 
   /**
-   * Returns the wound modifier for a given monitor state.
-   * Per SR2E: 0 at Light, -1 at Moderate, -2 at Serious, -3 at Deadly.
+   * TN penalty for a single damage track (added to target number, not subtracted from pool).
+   * Per SR2E Core Rules — Damage and Healing.
    */
-  _getWoundModifier(filled, max) {
-    return SR2E.woundModifier(filled, max);
+  _getWoundModifier(filled) {
+    return SR2E.woundModifier(filled);
   }
 
   /**
-   * Total wound modifier combining physical + stun monitors.
+   * Total wound TN penalty: physical + stun track modifiers are CUMULATIVE.
+   * Added to the target number on each roll.
    */
   _totalWoundModifier() {
     const sys = this.system;
@@ -63,8 +64,8 @@ export default class SR2Actor extends Actor {
     const phys = sys.monitors.physical;
     const stun = sys.monitors.stun;
     let mod = 0;
-    if (phys) mod += this._getWoundModifier(phys.value, phys.max);
-    if (stun) mod += this._getWoundModifier(stun.value, stun.max);
+    if (phys) mod += this._getWoundModifier(phys.value);
+    if (stun) mod += this._getWoundModifier(stun.value);
     return mod;
   }
 
@@ -269,7 +270,8 @@ export default class SR2Actor extends Actor {
     const linkedAttrVal = this._getAttributeValue(skillDef.linkedAttr);
     const woundMod = sys.woundModifier ?? 0;
 
-    const pool = Math.max(0, skillRating + linkedAttrVal + bonusDice + woundMod);
+    // woundMod is a TN modifier (added to targetNumber), not a pool reduction
+    const pool = Math.max(0, skillRating + linkedAttrVal + bonusDice);
     return {
       pool,
       skillRating,
@@ -282,13 +284,14 @@ export default class SR2Actor extends Actor {
   /**
    * Build a roll descriptor for a raw attribute roll.
    * @param {string} attrKey
-   * @returns {object} { pool, label }
+   * @returns {object} { pool, label, woundMod }
    */
   getAttributeRollData(attrKey) {
     const val = this._getAttributeValue(attrKey);
+    // woundMod is a TN modifier (added to targetNumber), not a pool reduction
     const woundMod = this.system.woundModifier ?? 0;
     return {
-      pool: Math.max(0, val + woundMod),
+      pool: Math.max(0, val),
       label: game.i18n.localize(`SR2E.Attributes.${attrKey}`),
       woundMod,
     };

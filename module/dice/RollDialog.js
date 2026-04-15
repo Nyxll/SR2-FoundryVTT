@@ -25,12 +25,15 @@ export default class SR2RollDialog extends Application {
 
   getData() {
     const { pool, targetNumber, label, woundMod } = this.rollOptions;
+    const baseTN = targetNumber ?? game.settings.get("shadowrun2e", "defaultTargetNumber");
+    const wound  = woundMod ?? 0;
     return {
       pool,
-      targetNumber: targetNumber ?? game.settings.get("shadowrun2e", "defaultTargetNumber"),
+      targetNumber: baseTN + wound,  // wound mod is added to TN (SR2E rules)
+      baseTN,
+      woundMod:     wound,
       label:        label ?? "",
-      woundMod:     woundMod ?? 0,
-      ruleOfSix:    true,  // Rule of Six is a core SR2E rule, always on
+      ruleOfSix:    true,  // Rule of Six: always on for non-initiative rolls (SR2E p.40)
     };
   }
 
