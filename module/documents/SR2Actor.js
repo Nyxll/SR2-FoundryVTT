@@ -125,14 +125,14 @@ export default class SR2Actor extends Actor {
       // Full spellcaster: all Magic = casting pool
       sys.magic.value = Math.max(0, (sys.magic.base ?? 0) + (sys.magic.mod ?? 0));
       sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
-      sys.pools.magic_pool_max = sys.magic.value;
+      sys.pools.magic = sys.magic.value;
 
     } else if (arch === "physical_magician") {
       // Split: casting points + power points; magic.casting = points on spellcasting side
       const castingMagic = Math.max(0, sys.magic.casting ?? 0);
       sys.magic.value = Math.max(0, castingMagic + (sys.magic.mod ?? 0));
       sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
-      sys.pools.magic_pool_max = sys.magic.value;
+      sys.pools.magic = sys.magic.value;
       // Power points total = remaining Magic (base − casting side)
       sys.power_points.total = Math.max(0, (sys.magic.base ?? 0) - castingMagic);
       // power_points.available is not overwritten — persisted from storage
@@ -141,7 +141,7 @@ export default class SR2Actor extends Actor {
       // Physical adept: no spellcasting; all Magic = power points
       sys.magic.value = Math.max(0, (sys.magic.base ?? 0) + (sys.magic.mod ?? 0));
       sys.pools.spell = 0;
-      sys.pools.magic_pool_max = 0;
+      sys.pools.magic = 0;
       sys.power_points.total = sys.magic.value;
       // power_points.available is not overwritten — persisted from storage
 
@@ -322,23 +322,14 @@ export default class SR2Actor extends Actor {
    * @returns {object} { pool, label, woundMod }
    */
   getSkillRollData(skillKey, bonusDice = 0) {
-    const skillDef = SR2E.SKILLS[skillKey];
-    if (!skillDef) return null;
-
     const sys = this.system;
-    const skillRating = sys.skills?.[skillKey]?.rating ?? 0;
-    const linkedAttrVal = this._getAttributeValue(skillDef.linkedAttr);
+    const skillEntry = sys.skills?.[skillKey];
+    const skillRating = skillEntry?.rating ?? 0;
     const woundMod = sys.woundModifier ?? 0;
-
-    // woundMod is a TN modifier (added to targetNumber), not a pool reduction
-    const pool = Math.max(0, skillRating + linkedAttrVal + bonusDice);
-    return {
-      pool,
-      skillRating,
-      attrValue: linkedAttrVal,
-      woundMod,
-      label: game.i18n.localize(skillDef.label),
-    };
+    // Skills in ObjectField have no linked attribute; pool = rating + mods
+    const pool = Math.max(0, skillRating + (skillEntry?.mod ?? 0) + bonusDice);
+    const label = skillEntry?.label || skillKey;
+    return { pool, skillRating, woundMod, label };
   }
 
   /**
