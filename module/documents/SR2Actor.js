@@ -90,11 +90,32 @@ export default class SR2Actor extends Actor {
     const totalEssenceLost = cyberwareItems.reduce((sum, i) => sum + (i.system.essence_cost ?? 0), 0);
     sys.essence.value = Math.max(0, (sys.essence.base ?? 6) - totalEssenceLost);
 
-    // Magic: starts equal to Essence at creation, then raised by initiations/foci independently.
-    // NOT capped by Essence. Non-awakened have 0.
-    if (SR2E.MAGIC_ARCHETYPES.includes(sys.archetype)) {
-      sys.magic.value = (sys.magic.base ?? 0) + (sys.magic.mod ?? 0);
-      sys.magic.value = Math.max(0, sys.magic.value);
+    // Magic & power points — archetype-specific
+    const arch = sys.archetype;
+    if (arch === "mage" || arch === "shaman") {
+      // Full spellcaster: all Magic = casting pool
+      sys.magic.value = Math.max(0, (sys.magic.base ?? 0) + (sys.magic.mod ?? 0));
+      sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
+      sys.pools.magic_pool_max = sys.magic.value;
+
+    } else if (arch === "physical_magician") {
+      // Split: casting points + power points; magic.casting = points on spellcasting side
+      const castingMagic = Math.max(0, sys.magic.casting ?? 0);
+      sys.magic.value = Math.max(0, castingMagic + (sys.magic.mod ?? 0));
+      sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
+      sys.pools.magic_pool_max = sys.magic.value;
+      // Power points total = remaining Magic (base − casting side)
+      sys.power_points.total = Math.max(0, (sys.magic.base ?? 0) - castingMagic);
+      // power_points.available is not overwritten — persisted from storage
+
+    } else if (arch === "adept") {
+      // Physical adept: no spellcasting; all Magic = power points
+      sys.magic.value = Math.max(0, (sys.magic.base ?? 0) + (sys.magic.mod ?? 0));
+      sys.pools.spell = 0;
+      sys.pools.magic_pool_max = 0;
+      sys.power_points.total = sys.magic.value;
+      // power_points.available is not overwritten — persisted from storage
+
     } else {
       sys.magic.value = 0;
     }
@@ -116,21 +137,13 @@ export default class SR2Actor extends Actor {
     sys.monitors.physical.value = Math.min(sys.monitors.physical.value, sys.monitors.physical.max);
     sys.monitors.stun.value     = Math.min(sys.monitors.stun.value, sys.monitors.stun.max);
 
-    // Derived combat pools (SR2E Core Book, p.39)
-    // Combat Pool = (Quickness + Intelligence + Willpower) / 2, round down
+    // Combat Pool = (Quickness + Intelligence + Willpower) / 2, round down (SR2E Core, p.39)
     sys.pools.combat = Math.floor(
       (attrs.quickness.value + attrs.intelligence.value + attrs.willpower.value) / 2
     );
 
-    // Spell casting pool = Sorcery skill rating (Magic attribute = max Magic Pool dice, tracked separately)
-    if (SR2E.MAGIC_ARCHETYPES.includes(sys.archetype)) {
-      sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
-      // Magic Pool max = Magic attribute value (player allocates these dice on each cast)
-      sys.pools.magic_pool_max = sys.magic.value;
-    }
-
     // Hacking pool (deckers only) = Computer skill + Intelligence
-    if (SR2E.DECKER_ARCHETYPES.includes(sys.archetype)) {
+    if (SR2E.DECKER_ARCHETYPES.includes(arch)) {
       const computerSkill = sys.skills?.computer?.rating ?? 0;
       sys.pools.hacking = computerSkill + attrs.intelligence.value;
     }

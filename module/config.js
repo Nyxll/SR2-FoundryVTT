@@ -152,17 +152,22 @@ SR2E.MAGIC_SKILLS = ["sorcery", "conjuring", "enchanting", "centering", "aura_re
 // ---------------------------------------------------------------------------
 
 SR2E.ARCHETYPES = {
-  mundane:        "SR2E.Archetypes.mundane",
-  adept:          "SR2E.Archetypes.adept",
-  mage:           "SR2E.Archetypes.mage",
-  shaman:         "SR2E.Archetypes.shaman",
-  decker:         "SR2E.Archetypes.decker",
-  rigger:         "SR2E.Archetypes.rigger",
-  street_samurai: "SR2E.Archetypes.street_samurai",
+  mundane:           "SR2E.Archetypes.mundane",
+  adept:             "SR2E.Archetypes.adept",
+  physical_magician: "SR2E.Archetypes.physical_magician",
+  mage:              "SR2E.Archetypes.mage",
+  shaman:            "SR2E.Archetypes.shaman",
+  decker:            "SR2E.Archetypes.decker",
+  rigger:            "SR2E.Archetypes.rigger",
+  street_samurai:    "SR2E.Archetypes.street_samurai",
 };
 
-SR2E.MAGIC_ARCHETYPES = ["adept", "mage", "shaman"];
+SR2E.MAGIC_ARCHETYPES = ["adept", "physical_magician", "mage", "shaman"];
 SR2E.DECKER_ARCHETYPES = ["decker", "rigger"];
+
+// Physical magician: splits Magic attribute between adept power points and casting Magic Rating.
+// Spell pool = Sorcery rating; Magic Pool max = casting side only.
+SR2E.PHYSICAL_MAGICIAN_ARCHETYPES = ["physical_magician"];
 
 // ---------------------------------------------------------------------------
 // Metatypes
@@ -183,6 +188,16 @@ SR2E.METATYPES = {
 // SR2E condition monitors: flat 10 boxes each (physical and stun).
 // No formula — Body and Willpower do NOT affect monitor size in SR2E 2nd Edition.
 SR2E.MONITOR_SIZE = { physical: 10, stun: 10 };
+
+// Damage level box thresholds — how many boxes each level represents on the monitor.
+// Used for wound modifier calculation. (SR2E Core, Damage chapter)
+SR2E.WOUND_BOXES = { L: 1, M: 3, S: 6, D: 10 };
+
+// Natural metatype reach bonus for melee combat.
+// Most metatypes = 0; Trolls get +1 (larger frame).
+SR2E.METATYPE_REACH = {
+  human: 0, elf: 0, dwarf: 0, ork: 0, troll: 1,
+};
 
 // Wound TN modifier per damage track (SR2E Core Rules — Damage and Healing):
 //   0 boxes   = +0 (Uninjured)

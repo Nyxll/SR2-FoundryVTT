@@ -12,6 +12,7 @@ export default class WeaponData extends foundry.abstract.TypeDataModel {
       ammo_current:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       ammo_max:      new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       recoil_comp:   new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      smartlink:     new fields.BooleanField({ initial: false }),
       fire_modes:    new fields.SchemaField({
         ss:  new fields.BooleanField({ initial: false }),
         sa:  new fields.BooleanField({ initial: true }),

@@ -125,6 +125,7 @@
     "Archetypes": {
       "mundane": "Mundane",
       "adept": "Physical Adept",
+      "physical_magician": "Physical Magician",
       "mage": "Mage (Hermetic)",
       "shaman": "Shaman",
       "decker": "Decker",
@@ -211,7 +212,16 @@
         "karma": "Karma",
         "nuyen": "Nuyen",
         "contacts": "Contacts",
-        "notes": "Notes"
+        "notes": "Notes",
+        "power_points": "Power Points",
+        "casting_magic": "Casting Magic Rating",
+        "smartlink": "Smartlink"
+      },
+      "WeaponModes": {
+        "SS": "Single Shot",
+        "SA": "Semi-Auto",
+        "BF": "Burst Fire",
+        "FA": "Full Auto"
       },
       "rolls": {
         "attribute": "Roll {attr}",

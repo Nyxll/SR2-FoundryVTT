@@ -39,9 +39,12 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
         base:  new fields.NumberField({ required: true, min: 0, max: 6, initial: 6 }),
       }),
       magic: new fields.SchemaField({
-        value: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-        base:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-        mod:   new fields.NumberField({ required: true, integer: true, initial: 0 }),
+        value:   new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        base:    new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        mod:     new fields.NumberField({ required: true, integer: true, initial: 0 }),
+        // Physical magicians only: points allocated to spellcasting side.
+        // Remaining (base - casting) = power points for adept powers.
+        casting: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       }),
       reaction: new fields.SchemaField({
         value: new fields.NumberField({ required: true, integer: true, min: 1, initial: 1 }),
@@ -80,7 +83,7 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
       // ---------- Identity & Character Info ----------
       metatype:  new fields.StringField({ initial: "human", choices: ["human","elf","dwarf","ork","troll"] }),
       archetype: new fields.StringField({ initial: "mundane",
-        choices: ["mundane","adept","mage","shaman","decker","rigger","street_samurai"] }),
+        choices: ["mundane","adept","physical_magician","mage","shaman","decker","rigger","street_samurai"] }),
       gender:    new fields.StringField({ initial: "" }),
       age:       new fields.StringField({ initial: "" }),
       height:    new fields.StringField({ initial: "" }),
@@ -103,6 +106,15 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
         magic_pool_max:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
         control:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
         hacking:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      }),
+
+      // ---------- Adept Power Points ----------
+      // Used by adept and physical_magician archetypes.
+      // total = immutable reference (set at creation/initiation).
+      // available = working pool, decremented as powers are purchased (accepts decimals: 0.5, 1, 1.5, 2).
+      power_points: new fields.SchemaField({
+        total:     new fields.NumberField({ required: true, min: 0, initial: 0 }),
+        available: new fields.NumberField({ required: true, min: 0, initial: 0 }),
       }),
 
       // ---------- Biography ----------
