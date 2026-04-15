@@ -1,0 +1,93 @@
+{
+  "_id": "2d9444fe24604454",
+  "name": "Dwarf Mercenary",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 6,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 3,
+        "mod": 0
+      },
+      "strength": {
+        "base": 5,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 2,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 3,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 4,
+        "mod": 0
+      },
+      "essence": {
+        "value": 5.5
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 3,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "car": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "gunnery": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "throwing_weapons": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 5,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 4,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Smartlink</p>\n<p>Dwarf: natural thermographic vision, +2 Body for disease resistance. FN-HAR Assault Rifle.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

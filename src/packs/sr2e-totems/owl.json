@@ -1,0 +1,16 @@
+{
+  "_id": "b5a051c95ba24da0",
+  "name": "Owl",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for any sorcery or conjuring by night.</p>\n<p><strong>Disadvantages:</strong> +2 to all target numbers when in direct sunlight; +2 to all target numbers for magic during daylight hours.</p>\n<p><em>Any urban or wilderness location</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

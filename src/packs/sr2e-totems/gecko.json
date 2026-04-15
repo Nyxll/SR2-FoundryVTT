@@ -1,0 +1,16 @@
+{
+  "_id": "c18a8a1f76a34e47",
+  "name": "Gecko",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for manipulation or illusion spells; +1 die for resisting the effects of poison.</p>\n<p><strong>Disadvantages:</strong> -1 die for combat spells.</p>\n<p><em>Anywhere</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

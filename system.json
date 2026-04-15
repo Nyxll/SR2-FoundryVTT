@@ -90,6 +90,20 @@
       "path": "packs/sr2e-grenades.db",
       "type": "Item",
       "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-totems",
+      "label": "SR2E Totems",
+      "path": "packs/sr2e-totems.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-archetypes",
+      "label": "SR2E Archetypes",
+      "path": "packs/sr2e-archetypes.db",
+      "type": "Actor",
+      "system": "shadowrun2e"
     }
   ],
   "flags": {

@@ -1,0 +1,89 @@
+{
+  "_id": "ef4a592efcdf4fad",
+  "name": "Tribesman",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 5,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 5,
+        "mod": 0
+      },
+      "strength": {
+        "base": 5,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 5,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 5,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 5,
+        "mod": 0
+      },
+      "essence": {
+        "value": 6
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "armed_combat": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "biotech": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "etiquette": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "projectile_weapons": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 6,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p>No cyberware. Can call on 2D6 tribe members for backup. Bow + 20 arrows. Excellent all-around attributes.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

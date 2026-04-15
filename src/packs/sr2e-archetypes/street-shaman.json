@@ -1,0 +1,89 @@
+{
+  "_id": "bc0acea6d82046c9",
+  "name": "Street Shaman",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 4,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 3,
+        "mod": 0
+      },
+      "strength": {
+        "base": 2,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 5,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 4,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 6,
+        "mod": 0
+      },
+      "essence": {
+        "value": 6
+      },
+      "magic": {
+        "base": 6,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 3,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "conjuring": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "sorcery": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "magical_theory": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 3,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 6,
+      "magic": 5,
+      "hacking": 0
+    },
+    "archetype": "shaman",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p>Shaman archetype (urban totem). Spell orientation: Fighter, Deceiver, Healer, or Detector.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

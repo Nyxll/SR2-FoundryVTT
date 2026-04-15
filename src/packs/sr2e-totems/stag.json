@@ -1,0 +1,16 @@
+{
+  "_id": "9b38e0f61cfd4b1f",
+  "name": "Stag",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; +1 die for illusion spells; +2 dice for conjuring forest spirits; -1 to all target numbers for tests involving communication with and reactions from sentient animals.</p>\n<p><strong>Disadvantages:</strong> -1 die for Spell Resistance Tests made against manipulation spells.</p>\n<p><em>Anywhere in rural Tír na nÓg. Prefers thick forests but travels widely.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

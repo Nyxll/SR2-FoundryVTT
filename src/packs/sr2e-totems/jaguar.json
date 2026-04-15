@@ -1,0 +1,16 @@
+{
+  "_id": "ab71da05862b45a2",
+  "name": "Jaguar",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for conjuring jungle spirits.</p>\n<p><strong>Disadvantages:</strong> -1 die for health spells.</p>\n<p><em>Jungle</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "5a2893e0757441a5",
+  "name": "Erzulie (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection and illusion spells. Increases shaman’s Charisma and Etiquette, Negotiation, and Psychology skills.</p>\n<p><em>The shaman becomes sensual and charming, possessing great passion and charisma. The shaman wears fine clothes, perfume, and jewelry when mounted.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

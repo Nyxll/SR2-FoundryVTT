@@ -1,0 +1,16 @@
+{
+  "_id": "532f82720aa34941",
+  "name": "Dog",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells; +2 dice for conjuring field and hearth spirits.</p>\n<p><strong>Disadvantages:</strong> Any time the shaman changes plans, they must spend a Complex Action and make a successful Willpower (4) Test.</p>\n<p><em>Urban</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

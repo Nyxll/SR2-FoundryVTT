@@ -1,0 +1,16 @@
+{
+  "_id": "c7ce62c026ba44cf",
+  "name": "Goose",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells; +1 die for combat spells; +2 dice for conjuring wind spirits (wilderness totem</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

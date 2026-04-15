@@ -1,0 +1,16 @@
+{
+  "_id": "11cbfaa92ccb4aab",
+  "name": "Prairie Dog",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells; +1 die for illusion spells; +1 die for Charisma Tests; +2 dice for conjuring Spirits of the Land. Fire-Bringer shamans devote themselves to the betterment of others, even at the expense of their own welfare.</p>\n<p><strong>Disadvantages:</strong> -2 dice for combat spells.</p>\n<p><em>Any environment except water</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

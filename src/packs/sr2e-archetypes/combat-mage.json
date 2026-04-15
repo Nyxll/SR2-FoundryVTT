@@ -1,0 +1,89 @@
+{
+  "_id": "9dbcd8b696dc41e5",
+  "name": "Combat Mage",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 2,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 4,
+        "mod": 0
+      },
+      "strength": {
+        "base": 2,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 2,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 5,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 5,
+        "mod": 0
+      },
+      "essence": {
+        "value": 5.8
+      },
+      "magic": {
+        "base": 5,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 4,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "conjuring": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "sorcery": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "magical_theory": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 2,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 6,
+      "hacking": 0
+    },
+    "archetype": "mage",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Cybereyes (Thermographic, Low-Light)</p>\n<p>Mage archetype. Spells: Manaball 4, Mana Bolt 4, Power Bolt 3, Clairvoyance 3, Detect Enemies 2, Personal Combat Sense 5, Heal 3, Increase Reaction +2, Armor 3, Confusion 3.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

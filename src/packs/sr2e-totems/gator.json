@@ -1,0 +1,16 @@
+{
+  "_id": "77886847fade4969",
+  "name": "Gator",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat and detection spells; +2 dice for conjuring spirits of the swamp, lake, or river (if wilderness totem is chosen) or city spirits (if urban totem is chosen).</p>\n<p><strong>Disadvantages:</strong> -1 die for illusion spells. Breaking off a fight, chase, or other direct action requires a successful Willpower (6) Test.</p>\n<p><em>Swamps, rivers, sewers</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

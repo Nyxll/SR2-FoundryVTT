@@ -1,0 +1,16 @@
+{
+  "_id": "95bbc1e6889748b1",
+  "name": "Cat",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for illusion spells; +2 dice for conjuring city spirits.</p>\n<p><strong>Disadvantages:</strong> When not wounded, Cat shamans must make Willpower (6) Tests when casting combat spells. If the test fails, the shaman casts the least damaging of their combat spells. Also, +1 target modifier whenever the shaman is wounded, dirty, or unkempt.</p>\n<p><em>Urban</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

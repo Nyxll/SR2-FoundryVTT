@@ -1,0 +1,16 @@
+{
+  "_id": "6bf44393dc33452e",
+  "name": "Great Mother",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for all health spells; +2 dice for conjuring all field and forest spirits and Spirits of the Waters.</p>\n<p><strong>Disadvantages:</strong> -2 dice for all tests made in the presence of corruption.</p>\n<p><em>Everywhere</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

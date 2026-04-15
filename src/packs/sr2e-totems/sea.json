@@ -1,0 +1,16 @@
+{
+  "_id": "2ef70352cd624721",
+  "name": "Sea",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health and transformation manipulation spells; +2 dice for conjuring saltwater spirits and ship spirits (hearth spirits).</p>\n<p><strong>Disadvantages:</strong> If insulted, the shaman must make a Willpower (4) Test to avoid flying into a rage. If enraged, the shaman may yell, insult, threaten, or even attack the offender. The effect lasts 4 Combat Turns, reduced by 1 turn for every 2 successes achieved in a Willpower Test.</p>\n<p><em>On or near bodies of saltwater</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "da3ef6367f8b434a",
+  "name": "Bull",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; +1 die for combat and detection spells.</p>\n<p><strong>Disadvantages:</strong> Shaman must have a Charisma Rating of 4 or greater. Must avenge insults and cannot support causes they know or believe are unjust.</p>\n<p><em>Countryside of Tír na nÓg</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

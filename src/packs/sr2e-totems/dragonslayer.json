@@ -1,0 +1,16 @@
+{
+  "_id": "4c02e3d1c6d043a4",
+  "name": "Dragonslayer",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +3 dice for combat spells; +1 die for conjuring hearth spirits.</p>\n<p><strong>Disadvantages:</strong> -2 dice when resisting combat spells; -1 die when resisting perception-related or illusion spells.</p>\n<p><em>Any dry land</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

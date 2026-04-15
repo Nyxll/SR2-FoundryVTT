@@ -1,0 +1,16 @@
+{
+  "_id": "af6ea4d6b9de4b3d",
+  "name": "Eagle",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells; +2 dice for conjuring wind spirits.</p>\n<p><strong>Disadvantages:</strong> Double all Essence losses caused by cyberware.</p>\n<p><em>Mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

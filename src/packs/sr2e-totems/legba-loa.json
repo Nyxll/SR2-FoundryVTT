@@ -1,0 +1,16 @@
+{
+  "_id": "3807da9bf2614cb4",
+  "name": "Legba (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection and manipulation spells. Increases shaman’s Charisma and Social and Knowledge skills.</p>\n<p><em>Reduces the shaman’s Movement to 1 meter per Combat Phase.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

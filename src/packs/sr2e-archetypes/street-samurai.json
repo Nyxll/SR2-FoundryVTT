@@ -1,0 +1,93 @@
+{
+  "_id": "eda3ca2095f34d64",
+  "name": "Street Samurai",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 6,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 4,
+        "mod": 0
+      },
+      "strength": {
+        "base": 6,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 2,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 5,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 5,
+        "mod": 0
+      },
+      "essence": {
+        "value": 0.1
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 9,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "armed_combat": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "bike": {
+        "rating": 2,
+        "specialization": ""
+      },
+      "etiquette": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 6,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Cybereyes (Low-Light), Dermal Plating 2, Muscle Replacement 1, Retractable Hand Razors, Smartlink, Wired Reflexes 2</p>\n<p>Reaction 9 + 3D6 initiative. Body 6(8), Quickness 4(5), Strength 6(7) with cyber. Uzi III + Ares Predator.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

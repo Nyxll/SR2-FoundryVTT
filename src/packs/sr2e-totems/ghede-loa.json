@@ -1,0 +1,16 @@
+{
+  "_id": "457b80944c5b424f",
+  "name": "Ghede (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for casting health and manipulation spells. Increases shaman’s Intelligence and Biotech and Negotiation skills. The shaman is immune to the effects of pain, gaining a point of Pain Resistance equal to the manifestation’s Force (as the physical adept power; see p. 126, SRII) and the effects of intoxication, though poisons or pathogens may still affect them.</p>\n<p><strong>Disadvantages:</strong> The shaman suffers a penalty to all Etiquette Test target numbers equal to the loa’s Force unless they make a successful Willpower Test. Reduce the penalty by 1 for each success achieved in the Willpower Test.</p>\n<p><em>The shaman displays a sly cleverness and wicked sense of humor. While mounted, the shaman must make a successful Willpower Test to resist an offer of food or drink.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

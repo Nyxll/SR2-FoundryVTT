@@ -1,0 +1,16 @@
+{
+  "_id": "3e603c4569284550",
+  "name": "Griffin",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat spells; +2 dice for conjuring Spirits of the Sky.</p>\n<p><strong>Disadvantages:</strong> Any time the shaman is insulted or defended, they must make a Willpower Test against an injury-modified Target Number of 4 to avoid becoming enraged. If the shaman rolls 2 or fewer successes, the test fails, and the shaman flies into a berserk rage. For 3 turns, the shaman attacks the offender using their most powerful physical or magical weapon. The rage ends after 3 turns or as soon as the target is killed or incapacitated. In combat, the shaman will declare an attack against 1 opponent (the most powerful target they face) and battle that opponent until the target is killed or incapacitated. If someone steps into the battle to help the shaman, the shaman must make the Willpower Test above to avoid becoming enraged at the insult.</p>\n<p><em>Mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

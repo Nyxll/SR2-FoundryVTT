@@ -1,0 +1,16 @@
+{
+  "_id": "cefe1a1603bc43a3",
+  "name": "Horse",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; use of the critter power Enhanced Movement (3 times per day).</p>\n<p><strong>Disadvantages:</strong> -1 die to resist combat or illusion spells.</p>\n<p><em>Farmland, light woodland, rural areas near forests</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

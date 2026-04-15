@@ -1,0 +1,101 @@
+{
+  "_id": "e60fa804013c4445",
+  "name": "Detective",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 4,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 4,
+        "mod": 0
+      },
+      "strength": {
+        "base": 3,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 3,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 6,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 4,
+        "mod": 0
+      },
+      "essence": {
+        "value": 6
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "biotech": {
+        "rating": 2,
+        "specialization": ""
+      },
+      "car": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "computer": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "etiquette": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "negotiation": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 6,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p>No cyberware. 6 contacts. Ares Predator + Walther Palm Pistol.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

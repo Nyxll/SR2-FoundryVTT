@@ -1,0 +1,85 @@
+{
+  "_id": "217c8949be264bfb",
+  "name": "Elven Decker",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 2,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 5,
+        "mod": 0
+      },
+      "strength": {
+        "base": 2,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 5,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 5,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 4,
+        "mod": 0
+      },
+      "essence": {
+        "value": 5.5
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "bike": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "computer": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "electronics": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 3,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 0,
+      "hacking": 10
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Datajack, Headware Memory 30 Mp</p>\n<p>Elf: natural low-light eyes. Hacking pool 10 (12 in Matrix). Fuchi Cyber-4.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

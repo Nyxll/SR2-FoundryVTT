@@ -1,0 +1,16 @@
+{
+  "_id": "24c56bb470e14075",
+  "name": "Loco and Ayizan (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells (Loco), +2 dice for health spells (Ayizan</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

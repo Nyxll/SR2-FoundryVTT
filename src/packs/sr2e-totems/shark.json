@@ -1,0 +1,16 @@
+{
+  "_id": "a3502a0677ed4abf",
+  "name": "Shark",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat and detection spells; +2 dice for conjuring sea spirits.</p>\n<p><strong>Disadvantages:</strong> If wounded in combat or after killing a target, the shaman must make a Willpower Test against an injury-modified Target Number 4. On 2 or fewer successes, the shaman goes berserk. For 3 turns, reduced by the number of successes, the shaman attacks the closest living target using their most powerful physical or magical weapon.</p>\n<p><em>On or by the sea</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

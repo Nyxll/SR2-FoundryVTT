@@ -1,0 +1,16 @@
+{
+  "_id": "e502be1c10e14892",
+  "name": "Moon",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for manipulation and illusion spells; +1 die for detection spells; +2 dice for conjuring water spirits.</p>\n<p><strong>Disadvantages:</strong> -1 die for combat spells. Successful Willpower (4) Test required for direct confrontation.</p>\n<p><em>Wild places, far from civilization, or hidden corners in cities</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

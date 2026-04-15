@@ -1,0 +1,16 @@
+{
+  "_id": "8ea4e7dbeee946b3",
+  "name": "Agwe (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for illusion spells; +2 dice for banishing water spirits. Increases shaman’s Body and Charisma, Swimming Skill, and all Social skills.</p>\n<p><em>When mounted, the shaman must splash or immerse themselves in water. Agwe remains only as long as the shaman is wet and may spontaneously mount followers in danger in or on the sea.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

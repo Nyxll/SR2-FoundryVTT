@@ -1,0 +1,16 @@
+{
+  "_id": "a2a140ff657e45cf",
+  "name": "Serpent",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health and manipulation spells; +2 dice for conjuring mountain spirits.</p>\n<p><strong>Disadvantages:</strong> If engaged in combat or other ongoing activity, the shaman must make a Willpower (6) Test to quit and do something else. Shaman must sleep an average of 70 hours per week.</p>\n<p><em>Mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

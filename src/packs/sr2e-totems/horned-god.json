@@ -1,0 +1,16 @@
+{
+  "_id": "f5c017dbdf6847e2",
+  "name": "Horned God",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for all combat spells; +2 dice for conjuring all Spirits of the Land.</p>\n<p><strong>Disadvantages:</strong> If in the vicinity of a fight, the shaman must make a successful Willpower (6) Test to resist the urge to join in. Any time they meet an attractive member of the opposite sex, the shaman must make a Willpower Test against a target number equal to 10 minus the individual’s Charisma. If the test fails, the shaman constantly tries to impress the individual.</p>\n<p><em>Any dry ground</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

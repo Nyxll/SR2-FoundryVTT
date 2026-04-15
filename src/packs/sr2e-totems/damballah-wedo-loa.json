@@ -1,0 +1,16 @@
+{
+  "_id": "428dd8289892410c",
+  "name": "Damballah Wedo (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection spells; +2 dice for banishing Spirits of the Air. Increases shaman’s Intelligence and all Knowledge skills.</p>\n<p><em>When mounted, the shaman acts like a snake and must make a successful Willpower Test for their speech to be understood.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

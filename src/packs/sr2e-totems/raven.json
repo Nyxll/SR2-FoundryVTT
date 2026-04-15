@@ -1,0 +1,16 @@
+{
+  "_id": "26ad866cea354631",
+  "name": "Raven",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for manipulation spells; +2 dice for conjuring wind spirits.</p>\n<p><strong>Disadvantages:</strong> -1 die for combat spells. When not under open sky, +1 to all target numbers.</p>\n<p><em>Anywhere under the open sky</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

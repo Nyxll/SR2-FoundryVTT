@@ -1,0 +1,16 @@
+{
+  "_id": "133567fcd473440f",
+  "name": "Gargoyle",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +1 die for detection and illusion spells; +2 dice for conjuring city spirits.</p>\n<p><strong>Disadvantages:</strong> -1 die for conjuring Spirits of the Waters. Shamans must live in a skyscraper or castle-like structure, which usually requires a High or Luxury lifestyle.</p>\n<p><em>Urban</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

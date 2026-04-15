@@ -1,0 +1,93 @@
+{
+  "_id": "e630fa5af0d948f2",
+  "name": "Rigger",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 5,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 6,
+        "mod": 0
+      },
+      "strength": {
+        "base": 4,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 4,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 6,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 5,
+        "mod": 0
+      },
+      "essence": {
+        "value": 1.35
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 10,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "bike": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "car": {
+        "rating": 5,
+        "specialization": ""
+      },
+      "computer": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "electronics": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 2,
+        "specialization": ""
+      },
+      "gunnery": {
+        "rating": 4,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 8,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Cybereyes (Low-Light, Flare Protection, Thermographic), Datajack, Radio, Smartlink, Vehicle Control Rig 2</p>\n<p>Reaction 10 + 3D6 when rigged. Control pool 10 rigged. Eurocar Westwind 2000 + surveillance drones.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

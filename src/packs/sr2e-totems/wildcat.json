@@ -1,0 +1,16 @@
+{
+  "_id": "69b6b00dd2834976",
+  "name": "Wildcat",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat and health spells; +2 dice for conjuring any nature spirit during hours of darkness.</p>\n<p><strong>Disadvantages:</strong> -1 die for Spell Resistance Tests made against illusion spells.</p>\n<p><em>Anywhere in the British Wild Lands except Cornwall</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

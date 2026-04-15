@@ -1,0 +1,16 @@
+{
+  "_id": "3a77b57f3eb54818",
+  "name": "Iguana",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; +2 dice for conjuring desert spirits.</p>\n<p><strong>Disadvantages:</strong> +2 target modifier when in close quarters. When imprisoned or trapped in a confined place with no direct view of the sky, the shaman must make a Willpower (6) Test. On 2 or fewer successes, they enter a berserk panic for 3 turns, minus 1 turn for every success rolled.</p>\n<p><em>Desert, forest, or mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_id": "b6b12e8a45a34f80",
+  "name": "Mercenary",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 5,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 4,
+        "mod": 0
+      },
+      "strength": {
+        "base": 5,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 3,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 4,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 3,
+        "mod": 0
+      },
+      "essence": {
+        "value": 3.4
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 6,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "armed_combat": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "car": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "demolitions": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "gunnery": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "throwing_weapons": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 6,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 5,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Cybereyes (Low-Light), Radio Receiver, Wired Reflexes 1</p>\n<p>Reaction 6 + 2D6 initiative. Ingram Valiant LMG + Ares Predator.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

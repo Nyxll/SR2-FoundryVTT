@@ -1,0 +1,16 @@
+{
+  "_id": "1ea356b0d35f4c29",
+  "name": "Puma",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for illusion spells.</p>\n<p><strong>Disadvantages:</strong> +2 target modifier for magic tests when in direct sunlight or crowds.</p>\n<p><em>Any wilderness location except deserts</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

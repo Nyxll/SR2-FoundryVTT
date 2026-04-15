@@ -1,0 +1,16 @@
+{
+  "_id": "8ded54df09274c6f",
+  "name": "Spider",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for illusion spells; +1 die for conjuring spells.</p>\n<p><strong>Disadvantages:</strong> +2 target modifier for magic tests made in open areas. +1 target modifier when the shaman does not have time to consider a situation (gamemaster’s discretion).</p>\n<p><em>Quiet, dark places where few seldom look</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

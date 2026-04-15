@@ -1,0 +1,16 @@
+{
+  "_id": "370c7ae2511040ff",
+  "name": "Oak",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; +2 dice to conjure forest spirits and Spirits of Man in structures constructed wholly or partially of oak.</p>\n<p><strong>Disadvantages:</strong> Shaman must possess Strength and Body attributes of 4 or higher.</p>\n<p><em>Deep forests, sacred groves, and towns built of oak</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

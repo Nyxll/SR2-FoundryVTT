@@ -1,0 +1,89 @@
+{
+  "_id": "4612d7f0992f474d",
+  "name": "Former Wage Mage",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 2,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 3,
+        "mod": 0
+      },
+      "strength": {
+        "base": 1,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 1,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 6,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 4,
+        "mod": 0
+      },
+      "essence": {
+        "value": 6
+      },
+      "magic": {
+        "base": 6,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 4,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "conjuring": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "sorcery": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "magical_theory": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "negotiation": {
+        "rating": 2,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 6,
+      "magic": 6,
+      "hacking": 0
+    },
+    "archetype": "mage",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p>Mage archetype. No cyberware. Spell orientation: Fighter (Fireball 5, Mana Bolt 6, Powerball 6, Sleep 5), Healer, or Prowler.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

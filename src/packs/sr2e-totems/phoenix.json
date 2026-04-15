@@ -1,0 +1,16 @@
+{
+  "_id": "3304daa63b704ceb",
+  "name": "Phoenix",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +1 die for health and illusion spells; can conjure spirits of the Great Fiery Firmament (see source text).</p>\n<p><strong>Disadvantages:</strong> Charisma of 4 or greater at character creation.</p>\n<p><em>Desert and fields</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

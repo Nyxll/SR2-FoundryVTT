@@ -1,0 +1,16 @@
+{
+  "_id": "5c1e4a6842434f24",
+  "name": "Raccoon",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for manipulation spells; +2 dice for conjuring city spirits.</p>\n<p><strong>Disadvantages:</strong> -1 die for combat spells.</p>\n<p><em>Anywhere but the desert</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

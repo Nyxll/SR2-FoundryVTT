@@ -1,0 +1,16 @@
+{
+  "_id": "fa867520bae64bd3",
+  "name": "Sun",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat, health, and detection spells; +2 dice for conjuring any spirit in direct sunlight.</p>\n<p><strong>Disadvantages:</strong> +2 target modifier when conjuring any spirit at night. Shaman must possess a Charisma Attribute of 4 or higher.</p>\n<p><em>Anywhere, but commonly in open places such as hills, fields, and farming villages</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "c31b6dff45184a9c",
+  "name": "Boar",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat spells; +1 service from any spirit summoned for combat purposes.</p>\n<p><strong>Disadvantages:</strong> -2 dice when resisting illusion spells. When territory is invaded, the shaman attacks without warning and refuses to let up, even when outnumbered.</p>\n<p><em>Sacred sites, thick forests of Tír na nÓg</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

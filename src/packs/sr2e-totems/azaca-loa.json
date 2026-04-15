@@ -1,0 +1,16 @@
+{
+  "_id": "af319b2408014d25",
+  "name": "Azaca (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health spells; +2 dice for banishing Spirits of the Land. Increases shaman’s Quickness and Body, Stealth Skill, and all skills related to plant life, woodcraft, or agriculture.</p>\n<p><em>To force the loa to follow their carefully laid plans and strategies, the shaman must make a successful Willpower Test.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

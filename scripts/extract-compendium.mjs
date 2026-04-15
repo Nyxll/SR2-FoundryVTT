@@ -314,10 +314,53 @@ function writeGrenades() {
 }
 
 // ---------------------------------------------------------------------------
+// TOTEMS
+// ---------------------------------------------------------------------------
+function extractTotems() {
+  const sqlPath = path.join(SQL_DIR, "totems.sql");
+  if (!fs.existsSync(sqlPath)) { console.error("totems.sql not found"); return; }
+  const sql = fs.readFileSync(sqlPath, "utf8");
+
+  // Column order: id, name, advantages, disadvantages, description, source_book, source_chunk_id, created_at
+  const rows = extractRows(sql, "totems");
+  let count = 0;
+
+  for (const row of rows) {
+    const [id, name, advantages, disadvantages, description] = row;
+    if (!name) continue;
+
+    const parts = [];
+    if (advantages && advantages !== "None") parts.push(`<p><strong>Advantages:</strong> ${String(advantages)}</p>`);
+    if (disadvantages && disadvantages !== "None") parts.push(`<p><strong>Disadvantages:</strong> ${String(disadvantages)}</p>`);
+    if (description) parts.push(`<p><em>${String(description)}</em></p>`);
+
+    const item = {
+      _id:    id?.replace(/-/g, "").slice(0, 16) || randomUUID().replace(/-/g, "").slice(0, 16),
+      name:   String(name),
+      type:   "quality",
+      img:    "icons/magic/nature/wolf-spirit-blue.webp",
+      system: {
+        quality_type: "positive",
+        cost:         0,
+        description:  parts.join("\n"),
+      },
+      folder: null,
+      flags:  {},
+      _stats: { systemId: "shadowrun2e" },
+    };
+
+    writeItem("sr2e-totems", name, item);
+    count++;
+  }
+  console.log(`Totems: ${count} written`);
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 extractSpells();
 extractAdeptPowers();
 extractQualities();
 writeGrenades();
+extractTotems();
 console.log("Done. Run: npm run pack");

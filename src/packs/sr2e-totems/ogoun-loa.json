@@ -1,0 +1,16 @@
+{
+  "_id": "ca9d5cb6aa244f05",
+  "name": "Ogoun (Loa)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for combat and health spells. Increases Strength, Reaction, and Combat skills. The shaman gains (magical) Impact armor equal to the loa’s Force.</p>\n<p><em>The shaman carries a sword and generally acts like a soldier.</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

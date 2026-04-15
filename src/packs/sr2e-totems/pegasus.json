@@ -1,0 +1,16 @@
+{
+  "_id": "e3cfaec16ea94c21",
+  "name": "Pegasus",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +1 die to detection and health spells; +2 dice for conjuring Spirits of the Sky.</p>\n<p><strong>Disadvantages:</strong> See source text.</p>\n<p><em>Rural area under open sky</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

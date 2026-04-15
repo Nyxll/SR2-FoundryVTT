@@ -1,0 +1,16 @@
+{
+  "_id": "908c806d8b43481f",
+  "name": "Firebringer",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection and manipulation spells; +2 dice for conjuring Spirits of Man.</p>\n<p><strong>Disadvantages:</strong> -1 die for illusion spells.</p>\n<p><em>Urban</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

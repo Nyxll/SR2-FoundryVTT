@@ -1,0 +1,16 @@
+{
+  "_id": "578b92d96353454e",
+  "name": "Goose (Nene)",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +1 die for combat spells; +3 dice for conjuring mountain spirits.</p>\n<p><strong>Disadvantages:</strong> +2 target modifier for all tests made when not on the Hawaiian Islands.</p>\n<p><em>Volcanic mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

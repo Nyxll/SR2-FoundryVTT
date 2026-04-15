@@ -1,0 +1,16 @@
+{
+  "_id": "dd57119fcec2448b",
+  "name": "Wild Huntsman",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for perception and illusion spells; +2 dice for conjuring storm spirits.</p>\n<p><strong>Disadvantages:</strong> When faced with a setback, the shaman must make a Willpower (4) Test. If the test fails, the shaman goes berserk for a number of turns equal to 3 minus the number of successes rolled. The gamemaster controls the character, who may engage in senseless babbling, attacks on friends or imaginary foes, or sudden jaunts into astral space.</p>\n<p><em>Woods, mountains, heath</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "_id": "805917355c774b76",
+  "name": "Gang Member",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 5,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 6,
+        "mod": 0
+      },
+      "strength": {
+        "base": 5,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 6,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 4,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 4,
+        "mod": 0
+      },
+      "essence": {
+        "value": 5.7
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 5,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "armed_combat": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "bike": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "etiquette": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "projectile_weapons": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 3,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 3,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 7,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Hand Razors, Cybereyes (Low-Light)</p>\n<p>Can call on 2D6 gang members for backup. Streetline Special pistol.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "5ba08ce2bcb14c9f",
+  "name": "Bodyguard",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "base": 6,
+        "mod": 0
+      },
+      "quickness": {
+        "base": 6,
+        "mod": 0
+      },
+      "strength": {
+        "base": 5,
+        "mod": 0
+      },
+      "charisma": {
+        "base": 3,
+        "mod": 0
+      },
+      "intelligence": {
+        "base": 5,
+        "mod": 0
+      },
+      "willpower": {
+        "base": 5,
+        "mod": 0
+      },
+      "essence": {
+        "value": 0.2
+      },
+      "magic": {
+        "base": 0,
+        "mod": 0
+      },
+      "reaction": {
+        "base": 9,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "car": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "firearms": {
+        "rating": 6,
+        "specialization": ""
+      },
+      "negotiation": {
+        "rating": 4,
+        "specialization": ""
+      },
+      "stealth": {
+        "rating": 2,
+        "specialization": ""
+      },
+      "unarmed_combat": {
+        "rating": 6,
+        "specialization": ""
+      }
+    },
+    "pools": {
+      "combat": 8,
+      "magic": 0,
+      "hacking": 0
+    },
+    "archetype": "mundane",
+    "monitors": {
+      "physical": {
+        "value": 0,
+        "max": 10
+      },
+      "stun": {
+        "value": 0,
+        "max": 10
+      }
+    },
+    "notes": "<p><strong>Cyberware:</strong> Air Filtration 5, Dermal Plating 3, Skillwires 3, Smartlink, Wired Reflexes 2</p>\n<p>Reaction 9 + 3D6 initiative. Body 6(9) with Dermal Plating.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

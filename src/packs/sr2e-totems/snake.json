@@ -1,0 +1,16 @@
+{
+  "_id": "9b6fd3f08d0b41c6",
+  "name": "Snake",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health, illusion, and detection spells; +2 dice for conjuring any one Spirit of the Land (shaman’s choice, wilderness totem only</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "9a78445688304330",
+  "name": "Wolf",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for detection and combat spells; +2 dice for conjuring forest or prairie spirits (shaman’s choice).</p>\n<p><strong>Disadvantages:</strong> If injured, the shaman must make a Willpower Test against an injury-modified Target Number 3. On 2 or fewer successes, the shaman goes berserk. For 3 turns, reduced by the number of successes rolled, the shaman attacks the closest living target using their most powerful physical or magical weapon. The effect ends after 3 turns or if the shaman kills or incapacitates an enemy.</p>\n<p><em>Forest, prairie, or mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

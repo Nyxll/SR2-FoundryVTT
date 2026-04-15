@@ -1,0 +1,16 @@
+{
+  "_id": "331633a98ed44077",
+  "name": "Wyrm",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for health and manipulation spells; +2 dice for conjuring mountain spirits.</p>\n<p><strong>Disadvantages:</strong> If engaged in combat or any ongoing activity, the shaman must make a successful Willpower (6) Test to quit.</p>\n<p><em>Mountains</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

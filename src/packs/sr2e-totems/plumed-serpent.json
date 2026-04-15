@@ -1,0 +1,16 @@
+{
+  "_id": "44a8bbc0f1414a5b",
+  "name": "Plumed Serpent",
+  "type": "quality",
+  "img": "icons/magic/nature/wolf-spirit-blue.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 0,
+    "description": "<p><strong>Advantages:</strong> +2 dice for any information-gathering spell.</p>\n<p><strong>Disadvantages:</strong> -2 dice for any magical activity outside Aztlan’s territorial borders.</p>\n<p><em>Anywhere within Aztlan</em></p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}
