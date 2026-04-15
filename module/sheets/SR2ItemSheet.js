@@ -4,7 +4,7 @@ import { SR2E } from "../config.js";
  * Item sheet for all SR2E item types.
  * Uses a single sheet class with per-type template switching.
  */
-export default class SR2ItemSheet extends ItemSheet {
+export default class SR2ItemSheet extends foundry.appv1.sheets.ItemSheet {
 
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {

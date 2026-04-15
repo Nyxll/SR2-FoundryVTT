@@ -5,7 +5,7 @@ import { SR2E } from "../config.js";
 /**
  * Compact actor sheet for NPCs.
  */
-export default class SR2NPCSheet extends ActorSheet {
+export default class SR2NPCSheet extends foundry.appv1.sheets.ActorSheet {
 
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {

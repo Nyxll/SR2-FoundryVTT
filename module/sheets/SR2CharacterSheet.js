@@ -5,7 +5,7 @@ import { SR2E } from "../config.js";
 /**
  * Actor sheet for Player Characters.
  */
-export default class SR2CharacterSheet extends ActorSheet {
+export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
 
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {

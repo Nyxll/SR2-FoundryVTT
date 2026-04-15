@@ -52,7 +52,12 @@ Hooks.once("init", function () {
 
   console.log("SR2E | Actor dataModels registered:", Object.keys(CONFIG.Actor.dataModels));
 
-  // Register actor sheets
+  // Register actor sheets (v14 namespaced APIs)
+  const Actors = foundry.documents.collections.Actors;
+  const Items  = foundry.documents.collections.Items;
+  const ActorSheet = foundry.appv1.sheets.ActorSheet;
+  const ItemSheet  = foundry.appv1.sheets.ItemSheet;
+
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("shadowrun2e", SR2CharacterSheet, {
     types: ["character"],
@@ -65,7 +70,6 @@ Hooks.once("init", function () {
     label: "NPC Sheet",
   });
 
-  // Register item sheet
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("shadowrun2e", SR2ItemSheet, {
     makeDefault: true,
@@ -170,5 +174,5 @@ async function _preloadTemplates() {
     "systems/shadowrun2e/templates/dialog/roll-dialog.hbs",
     "systems/shadowrun2e/templates/chat/roll-result.hbs",
   ];
-  return loadTemplates(templatePaths);
+  return foundry.applications.handlebars.loadTemplates(templatePaths);
 }
