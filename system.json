@@ -10,9 +10,9 @@
     }
   ],
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.351",
-    "maximum": "13"
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
   },
   "esmodules": [
     "module/shadowrun2e.js"
@@ -39,7 +39,7 @@
   },
   "url": "https://github.com/Nyxll/SR2-FoundryVTT",
   "bugs": "https://github.com/Nyxll/SR2-FoundryVTT/issues",
-  "manifest": "https://raw.githubusercontent.com/Nyxll/SR2-FoundryVTT/master/system.json",
+  "manifest": "https://raw.githubusercontent.com/Nyxll/SR2-FoundryVTT/main/system.json",
   "documentTypes": {
     "Actor": {
       "character": {},
