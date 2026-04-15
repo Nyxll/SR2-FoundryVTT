@@ -27,6 +27,9 @@ Hooks.once("init", function () {
   CONFIG.Actor.documentClass = documents.SR2Actor;
   CONFIG.Item.documentClass  = documents.SR2Item;
 
+  // Set default actor type for create dialog fallback
+  CONFIG.Actor.defaultType = "character";
+
   // Register DataModels for each actor type (use Object.assign, don't replace)
   Object.assign(CONFIG.Actor.dataModels, {
     character: datamodels.CharacterData,
@@ -96,7 +99,9 @@ Hooks.once("init", function () {
 
 Hooks.once("ready", function () {
   console.log("SR2E | System ready");
+  console.log("SR2E | game.model.Actor:", game.model?.Actor);
   console.log("SR2E | game.documentTypes.Actor:", game.documentTypes?.Actor);
+  console.log("SR2E | Actor.TYPES:", Actor.TYPES);
   console.log("SR2E | CONFIG.Actor.typeLabels:", CONFIG.Actor.typeLabels);
   console.log("SR2E | TYPES.Actor.character localized:", game.i18n.localize("TYPES.Actor.character"));
 });
@@ -131,25 +136,9 @@ function _registerSettings() {
 /* -------------------------------------------- */
 
 function _registerHandlebarsHelpers() {
-  // Concatenate strings
+  // Concatenate strings (Foundry doesn't provide this one)
   Handlebars.registerHelper("concat", (...args) => args.slice(0, -1).join(""));
-
-  // Greater-than-or-equal comparison (for dice highlighting)
-  Handlebars.registerHelper("gte", (a, b) => a >= b);
-
-  // Equality check
-  Handlebars.registerHelper("eq", (a, b) => a === b);
-
-  // Select options from array of {value, label} objects
-  Handlebars.registerHelper("selectOptions", function (options, opts) {
-    const selected = opts.hash.selected ?? "";
-    const valueAttr = opts.hash.valueAttr ?? "value";
-    const labelAttr = opts.hash.labelAttr ?? "label";
-    return options.map(o => {
-      const isSelected = String(o[valueAttr]) === String(selected) ? ' selected="selected"' : "";
-      return `<option value="${o[valueAttr]}"${isSelected}>${o[labelAttr]}</option>`;
-    }).join("\n");
-  });
+  // Note: eq, gte, selectOptions are provided by Foundry core — no need to register here
 }
 
 /* -------------------------------------------- */

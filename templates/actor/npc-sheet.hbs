@@ -64,7 +64,12 @@
             </tr>
             <tr>
               <td>Reaction</td>
-              <td><span>{{system.reaction.value}}</span></td>
+              <td>
+                {{!-- NPC: reaction is in attributes; Critter: at system.reaction --}}
+                <input type="number" name="system.attributes.reaction.base"
+                       value="{{system.attributes.reaction.base}}" min="1" style="width:50px" />
+                <span>({{system.attributes.reaction.value}})</span>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -74,34 +79,18 @@
         <h3>Dice Pools</h3>
         <div class="form-group">
           <label>Combat Pool</label>
-          <input type="number" name="system.combat_pool" value="{{system.combat_pool}}" min="0" style="width:50px" />
-          <button type="button" class="pool-roll" data-pool="{{system.combat_pool}}" data-label="Combat Pool">🎲</button>
+          <input type="number" name="system.pools.combat" value="{{system.pools.combat}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.pools.combat}}" data-label="Combat Pool">🎲</button>
         </div>
         <div class="form-group">
-          <label>Defense Pool</label>
-          <input type="number" name="system.defense_pool" value="{{system.defense_pool}}" min="0" style="width:50px" />
-          <button type="button" class="pool-roll" data-pool="{{system.defense_pool}}" data-label="Defense Roll">🎲</button>
+          <label>Magic Pool</label>
+          <input type="number" name="system.pools.magic" value="{{system.pools.magic}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.pools.magic}}" data-label="Magic Pool">🎲</button>
         </div>
         <div class="form-group">
           <label>Hacking Pool</label>
-          <input type="number" name="system.hacking_pool" value="{{system.hacking_pool}}" min="0" style="width:50px" />
-          <button type="button" class="pool-roll" data-pool="{{system.hacking_pool}}" data-label="Hacking Roll">🎲</button>
-        </div>
-
-        <h3>Initiative</h3>
-        <div class="form-group">
-          <label>Base</label>
-          <input type="number" name="system.initiative.base" value="{{system.initiative.base}}" min="1" style="width:50px" />
-          <label>Dice</label>
-          <input type="number" name="system.initiative.dice" value="{{system.initiative.dice}}" min="1" max="4" style="width:40px" />
-        </div>
-
-        <h3>Damage</h3>
-        <div class="form-group">
-          <label>Default Dmg</label>
-          <input type="text" name="system.damage" value="{{system.damage}}" style="width:50px" />
-          <label>Reach</label>
-          <input type="number" name="system.reach" value="{{system.reach}}" min="0" style="width:40px" />
+          <input type="number" name="system.pools.hacking" value="{{system.pools.hacking}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.pools.hacking}}" data-label="Hacking Roll">🎲</button>
         </div>
       </div>
     </div>

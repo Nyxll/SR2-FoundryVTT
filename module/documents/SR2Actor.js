@@ -60,8 +60,15 @@ export default class SR2Actor extends Actor {
       for (const key of SR2E.ATTRIBUTES) {
         if (mods[key]) attrs[key].value = (attrs[key].value ?? 1) + mods[key];
       }
-      if (mods.reaction)        sys.reaction.mod        = (sys.reaction.mod ?? 0) + mods.reaction;
-      if (mods.initiative_dice) sys.initiative.dice     = (sys.initiative.dice ?? 1) + mods.initiative_dice;
+      if (mods.reaction) {
+        // For NPCs, reaction lives in attributes; for PCs it's at sys.reaction
+        if (sys.attributes?.reaction) {
+          sys.attributes.reaction.mod = (sys.attributes.reaction.mod ?? 0) + mods.reaction;
+        } else if (sys.reaction) {
+          sys.reaction.mod = (sys.reaction.mod ?? 0) + mods.reaction;
+        }
+      }
+      if (mods.initiative_dice && sys.initiative) sys.initiative.dice = (sys.initiative.dice ?? 1) + mods.initiative_dice;
     }
   }
 
@@ -200,11 +207,13 @@ export default class SR2Actor extends Actor {
     // Apply installed cyberware/bioware attribute mods
     this._applyAugmentMods(sys, attrs);
 
-    sys.reaction.value = Math.floor((attrs.quickness.value + attrs.intelligence.value) / 2)
-      + (sys.reaction.mod ?? 0);
-    sys.reaction.value = Math.max(1, sys.reaction.value);
-
-    sys.initiative.base = sys.reaction.value;
+    // Reaction is inside attributes for NPCs
+    const rxn = attrs.reaction;
+    if (rxn) {
+      rxn.value = Math.floor((attrs.quickness.value + attrs.intelligence.value) / 2)
+        + (rxn.mod ?? 0);
+      rxn.value = Math.max(1, rxn.value);
+    }
 
     sys.monitors.physical.max = 10;
     sys.monitors.stun.max     = 10;
@@ -350,7 +359,8 @@ export default class SR2Actor extends Actor {
 
   _getAttributeValue(key) {
     const sys = this.system;
-    if (key === "reaction") return sys.reaction?.value ?? 1;
+    // reaction lives in sys.attributes for NPCs, at sys.reaction for PCs
+    if (key === "reaction") return sys.attributes?.reaction?.value ?? sys.reaction?.value ?? 1;
     if (key === "magic")    return sys.magic?.value ?? 0;
     return sys.attributes?.[key]?.value ?? 1;
   }
@@ -360,7 +370,7 @@ export default class SR2Actor extends Actor {
    */
   async rollInitiative(options = {}) {
     const sys = this.system;
-    const base = sys.initiative?.base ?? sys.reaction?.value ?? 1;
+    const base = sys.initiative?.base ?? sys.attributes?.reaction?.value ?? sys.reaction?.value ?? 1;
     const dice = sys.initiative?.dice ?? 1;
     const formula = `${base} + ${dice}d6`;
     return this.rollFormula(formula, {

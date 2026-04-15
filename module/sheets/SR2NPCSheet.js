@@ -71,7 +71,7 @@ export default class SR2NPCSheet extends foundry.appv1.sheets.ActorSheet {
     html.find(".weapon-roll").click(ev => {
       const li   = ev.currentTarget.closest(".item");
       const item = this.actor.items.get(li.dataset.itemId);
-      const pool = this.actor.system.combat_pool ?? 0;
+      const pool = this.actor.system.pools?.combat ?? 0;
       SR2RollDialog.prompt({
         pool,
         label: `${item.name} (${item.system.damage_code})`,
