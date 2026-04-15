@@ -41,6 +41,7 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
       magic: new fields.SchemaField({
         value: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
         base:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        mod:   new fields.NumberField({ required: true, integer: true, initial: 0 }),
       }),
       reaction: new fields.SchemaField({
         value: new fields.NumberField({ required: true, integer: true, min: 1, initial: 1 }),
@@ -97,10 +98,11 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
 
       // ---------- Combat Pools ----------
       pools: new fields.SchemaField({
-        combat:     new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-        spell:      new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-        control:    new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
-        hacking:    new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        combat:          new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        spell:           new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        magic_pool_max:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        control:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        hacking:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       }),
 
       // ---------- Biography ----------

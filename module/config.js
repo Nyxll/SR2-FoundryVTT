@@ -180,12 +180,9 @@ SR2E.METATYPES = {
 // Condition Monitors
 // ---------------------------------------------------------------------------
 
-// Physical monitor boxes = 10 + (Body / 2, round up)
-// Stun monitor boxes = 10 + (Willpower / 2, round up)
-SR2E.MONITOR_FORMULA = {
-  physical: (body) => 10 + Math.ceil(body / 2),
-  stun: (willpower) => 10 + Math.ceil(willpower / 2),
-};
+// SR2E condition monitors: flat 10 boxes each (physical and stun).
+// No formula — Body and Willpower do NOT affect monitor size in SR2E 2nd Edition.
+SR2E.MONITOR_SIZE = { physical: 10, stun: 10 };
 
 // Wound TN modifier per damage track (SR2E Core Rules — Damage and Healing):
 //   0 boxes   = +0 (Uninjured)

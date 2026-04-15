@@ -90,9 +90,11 @@ export default class SR2Actor extends Actor {
     const totalEssenceLost = cyberwareItems.reduce((sum, i) => sum + (i.system.essence_cost ?? 0), 0);
     sys.essence.value = Math.max(0, (sys.essence.base ?? 6) - totalEssenceLost);
 
-    // Magic: capped by Essence (can't exceed essence for awakened)
+    // Magic: starts equal to Essence at creation, then raised by initiations/foci independently.
+    // NOT capped by Essence. Non-awakened have 0.
     if (SR2E.MAGIC_ARCHETYPES.includes(sys.archetype)) {
-      sys.magic.value = Math.min(sys.magic.base ?? 0, Math.floor(sys.essence.value));
+      sys.magic.value = (sys.magic.base ?? 0) + (sys.magic.mod ?? 0);
+      sys.magic.value = Math.max(0, sys.magic.value);
     } else {
       sys.magic.value = 0;
     }
@@ -105,9 +107,9 @@ export default class SR2Actor extends Actor {
     // Initiative base = Reaction (+ mods handled in roll)
     sys.initiative.base = sys.reaction.value + (sys.initiative.mod ?? 0);
 
-    // Condition monitor sizes
-    sys.monitors.physical.max = 10 + Math.ceil(attrs.body.value / 2);
-    sys.monitors.stun.max     = 10 + Math.ceil(attrs.willpower.value / 2);
+    // Condition monitor sizes — SR2E: flat 10 boxes each (Core Rules, Damage chapter)
+    sys.monitors.physical.max = 10;
+    sys.monitors.stun.max     = 10;
     sys.monitors.overflow.max = attrs.body.value;
 
     // Clamp current damage to max
@@ -120,9 +122,11 @@ export default class SR2Actor extends Actor {
       (attrs.quickness.value + attrs.intelligence.value + attrs.willpower.value) / 2
     );
 
-    // Spell pool (magic users only) = Magic attribute
+    // Spell casting pool = Sorcery skill rating (Magic attribute = max Magic Pool dice, tracked separately)
     if (SR2E.MAGIC_ARCHETYPES.includes(sys.archetype)) {
-      sys.pools.spell = sys.magic.value;
+      sys.pools.spell = sys.skills?.sorcery?.rating ?? 0;
+      // Magic Pool max = Magic attribute value (player allocates these dice on each cast)
+      sys.pools.magic_pool_max = sys.magic.value;
     }
 
     // Hacking pool (deckers only) = Computer skill + Intelligence
@@ -156,8 +160,8 @@ export default class SR2Actor extends Actor {
 
     sys.initiative.base = sys.reaction.value;
 
-    sys.monitors.physical.max = 10 + Math.ceil(attrs.body.value / 2);
-    sys.monitors.stun.max     = 10 + Math.ceil(attrs.willpower.value / 2);
+    sys.monitors.physical.max = 10;
+    sys.monitors.stun.max     = 10;
     sys.monitors.physical.value = Math.min(sys.monitors.physical.value, sys.monitors.physical.max);
     sys.monitors.stun.value     = Math.min(sys.monitors.stun.value, sys.monitors.stun.max);
 
@@ -183,8 +187,8 @@ export default class SR2Actor extends Actor {
 
     sys.initiative.base = sys.reaction.value;
 
-    sys.monitors.physical.max = 10 + Math.ceil(attrs.body.value / 2);
-    sys.monitors.stun.max     = 10 + Math.ceil(attrs.willpower.value / 2);
+    sys.monitors.physical.max = 10;
+    sys.monitors.stun.max     = 10;
     sys.monitors.physical.value = Math.min(sys.monitors.physical.value, sys.monitors.physical.max);
     sys.monitors.stun.value     = Math.min(sys.monitors.stun.value, sys.monitors.stun.max);
 
@@ -205,8 +209,9 @@ export default class SR2Actor extends Actor {
       if (sys.attributes[key] !== undefined) sys.attributes[key] = val;
     }
 
-    sys.monitors.physical.max = 10 + Math.ceil(f / 2);
-    sys.monitors.astral.max   = 10 + Math.ceil(f / 2);
+    // Spirits: flat 10 boxes each
+    sys.monitors.physical.max = 10;
+    sys.monitors.astral.max   = 10;
     sys.monitors.physical.value = Math.min(sys.monitors.physical.value, sys.monitors.physical.max);
     sys.monitors.astral.value   = Math.min(sys.monitors.astral.value, sys.monitors.astral.max);
   }
