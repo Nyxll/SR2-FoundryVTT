@@ -43,23 +43,23 @@
   "download": "https://github.com/Nyxll/SR2-FoundryVTT/archive/refs/heads/main.zip",
   "documentTypes": {
     "Actor": {
-      "character": {},
-      "npc": {},
-      "critter": {},
-      "spirit": {},
-      "vehicle": {}
+      "character": { "label": "Character", "htmlFields": ["biography", "notes"] },
+      "npc":       { "label": "NPC",       "htmlFields": ["notes"] },
+      "critter":   { "label": "Critter",   "htmlFields": ["notes"] },
+      "spirit":    { "label": "Spirit",    "htmlFields": ["notes"] },
+      "vehicle":   { "label": "Vehicle",   "htmlFields": ["notes"] }
     },
     "Item": {
-      "weapon": {},
-      "armor": {},
-      "cyberware": {},
-      "bioware": {},
-      "gear": {},
-      "spell": {},
-      "adept_power": {},
-      "quality": {},
-      "contact": {},
-      "sin": {}
+      "weapon":      { "label": "Weapon",      "htmlFields": ["description"] },
+      "armor":       { "label": "Armor",       "htmlFields": ["description"] },
+      "cyberware":   { "label": "Cyberware",   "htmlFields": ["description"] },
+      "bioware":     { "label": "Bioware",     "htmlFields": ["description"] },
+      "gear":        { "label": "Gear",        "htmlFields": ["description"] },
+      "spell":       { "label": "Spell",       "htmlFields": ["description"] },
+      "adept_power": { "label": "Adept Power", "htmlFields": ["description"] },
+      "quality":     { "label": "Quality",     "htmlFields": ["description"] },
+      "contact":     { "label": "Contact",     "htmlFields": ["description"] },
+      "sin":         { "label": "SIN",         "htmlFields": ["description"] }
     }
   },
   "flags": {

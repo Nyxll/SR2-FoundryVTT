@@ -48,24 +48,24 @@ Hooks.once("init", function () {
     sin:         datamodels.SinData,
   };
 
-  // Register actor sheets
+  // Register actor sheets (v14 API)
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("shadowrun2e", SR2CharacterSheet, {
     types: ["character"],
     makeDefault: true,
-    label: "SR2E.Sheet.CharacterSheet",
+    label: "Character Sheet",
   });
   Actors.registerSheet("shadowrun2e", SR2NPCSheet, {
     types: ["npc", "critter", "spirit", "vehicle"],
     makeDefault: true,
-    label: "SR2E.Sheet.NPCSheet",
+    label: "NPC Sheet",
   });
 
-  // Register item sheet
+  // Register item sheet (v14 API)
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("shadowrun2e", SR2ItemSheet, {
     makeDefault: true,
-    label: "SR2E.Sheet.ItemSheet",
+    label: "Item Sheet",
   });
 
   // Register system settings
