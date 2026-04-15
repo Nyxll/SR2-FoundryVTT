@@ -30,7 +30,7 @@ export default class SR2RollDialog extends Application {
       targetNumber: targetNumber ?? game.settings.get("shadowrun2e", "defaultTargetNumber"),
       label:        label ?? "",
       woundMod:     woundMod ?? 0,
-      ruleOfSix:    game.settings.get("shadowrun2e", "ruleOfSix"),
+      ruleOfSix:    true,  // Rule of Six is a core SR2E rule, always on
     };
   }
 

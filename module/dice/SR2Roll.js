@@ -1,34 +1,38 @@
 /**
  * SR2Roll — Shadowrun 2nd Edition dice pool resolution.
  *
- * Mechanics:
- *   - Roll a pool of d6s.
- *   - Each die >= target number (default 4) counts as a success.
- *   - If more 1s than successes are rolled, it's a Glitch.
- *   - If ALL dice are 1s (or pool is 0), it's a Critical Glitch.
- *   - Rule of Six: Any die showing 6 may be re-rolled and added to original
- *     result (optional, enabled by setting).
+ * SR2E Core Rules (p.39-40):
+ *   - Roll a pool of d6s against a Target Number (TN).
+ *   - Each die that meets or beats the TN counts as one success.
+ *   - The default TN is 4. GMs may raise or lower it for difficulty.
+ *   - Rule of Six: a result of 6 is always a success AND the die is
+ *     re-rolled — if the re-roll also meets the TN, that counts as an
+ *     additional success. Keep re-rolling 6s until the die fails the TN.
+ *     (SR2E Core, p.40 — "The Rule of Six")
+ *   - There are NO glitch or critical glitch mechanics in SR2E.
+ *     Those are SR4/5/6 rules and do not exist here.
  */
 export default class SR2Roll extends Roll {
 
   /**
-   * @param {number} pool         — Number of dice to roll
-   * @param {number} targetNumber — Target number for successes (default 4)
-   * @param {object} [options]    — Additional options
-   * @param {boolean} [options.ruleOfSix=false] — Apply Rule of Six
-   * @param {string}  [options.label]           — Display label
+   * Roll a dice pool against a target number and return the result.
+   *
+   * @param {number}  pool         — Number of d6s to roll
+   * @param {number}  targetNumber — Target number (default 4; SR2E standard)
+   * @param {object}  [options]
+   * @param {boolean} [options.ruleOfSix=true]  — Apply Rule of Six (SR2E default: ON)
+   * @param {string}  [options.label]            — Display label for chat
+   * @returns {Promise<object>} roll result data
    */
   static async rollPool(pool, targetNumber = 4, options = {}) {
+    const ruleOfSix = options.ruleOfSix ?? true;
+
     if (pool <= 0) {
-      // Zero pool = automatic Critical Glitch
       return {
         pool: 0,
         targetNumber,
         results: [],
         successes: 0,
-        ones: 0,
-        glitch: false,
-        criticalGlitch: true,
         label: options.label ?? "",
         roll: null,
       };
@@ -39,55 +43,44 @@ export default class SR2Roll extends Roll {
     await roll.evaluate();
 
     const rawResults = roll.dice[0].results.map(r => r.result);
-    let results = [...rawResults];
 
-    // Rule of Six: for each 6, roll again and add to that die's result
-    if (options.ruleOfSix) {
-      results = await SR2Roll._applyRuleOfSix(results);
+    // Apply Rule of Six: each 6 is a success and re-rolls for more successes.
+    // The extra successes are tracked separately and added to the total.
+    let successes = 0;
+    const displayResults = [];  // what to show in chat (one entry per original die)
+
+    for (const die of rawResults) {
+      if (die >= targetNumber) {
+        // Normal success
+        successes++;
+        displayResults.push({ value: die, success: true });
+      } else if (die === 6 && ruleOfSix) {
+        // 6 is always a success; re-roll for bonus successes
+        successes++;
+        let bonusSuccesses = 0;
+        let rerollVal = die;
+        while (rerollVal === 6) {
+          const reroll = new Roll("1d6");
+          await reroll.evaluate();
+          rerollVal = reroll.dice[0].results[0].result;
+          if (rerollVal >= targetNumber) bonusSuccesses++;
+        }
+        successes += bonusSuccesses;
+        displayResults.push({ value: die, success: true, bonus: bonusSuccesses });
+      } else {
+        displayResults.push({ value: die, success: false });
+      }
     }
-
-    const successes = results.filter(r => r >= targetNumber).length;
-    const ones      = rawResults.filter(r => r === 1).length;
-
-    const glitch         = ones > successes && ones > 0;
-    const criticalGlitch = rawResults.every(r => r === 1);
 
     return {
       pool,
       targetNumber,
-      results,
+      results: displayResults,
       rawResults,
       successes,
-      ones,
-      glitch,
-      criticalGlitch,
       label: options.label ?? "",
       roll,
     };
-  }
-
-  /**
-   * Rule of Six: any die showing 6 gets re-rolled; add the new result to 6.
-   * Recurses if the new result is also a 6.
-   */
-  static async _applyRuleOfSix(results) {
-    const final = [];
-    for (const r of results) {
-      if (r === 6) {
-        let total = 6;
-        let next = 6;
-        while (next === 6) {
-          const reroll = new Roll("1d6");
-          await reroll.evaluate();
-          next = reroll.dice[0].results[0].result;
-          total += next;
-        }
-        final.push(total);
-      } else {
-        final.push(r);
-      }
-    }
-    return final;
   }
 
   /**

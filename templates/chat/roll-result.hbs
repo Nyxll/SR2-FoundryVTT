@@ -10,15 +10,14 @@
 
   <div class="dice-results flexrow">
     {{#each results as |die|}}
-    <span class="die-result {{#if (gte die ../targetNumber)}}success{{else}}failure{{/if}}
-                            {{#if (eq die 1)}}glitch-die{{/if}}">{{die}}</span>
+    <span class="die-result {{#if die.success}}success{{else}}failure{{/if}}"
+          title="{{die.value}}{{#if die.bonus}} (+{{die.bonus}} bonus){{/if}}">
+      {{die.value}}{{#if die.bonus}}<sup>+{{die.bonus}}</sup>{{/if}}
+    </span>
     {{/each}}
   </div>
 
-  <div class="roll-summary flexrow">
-    <span class="successes">✓ {{successes}} {{#if (eq successes 1)}}success{{else}}successes{{/if}}</span>
-    {{#if glitch}}
-    <span class="glitch-warning">{{#if criticalGlitch}}⚠ CRITICAL GLITCH!{{else}}⚠ Glitch!{{/if}}</span>
-    {{/if}}
+  <div class="roll-summary">
+    <span class="successes">{{successes}} {{#if (eq successes 1)}}success{{else}}successes{{/if}}</span>
   </div>
 </div>

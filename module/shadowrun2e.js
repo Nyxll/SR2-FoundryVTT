@@ -110,15 +110,6 @@ function _registerSettings() {
     range:   { min: 2, max: 9, step: 1 },
   });
 
-  game.settings.register("shadowrun2e", "ruleOfSix", {
-    name:    "Rule of Six",
-    hint:    "When enabled, dice showing 6 are re-rolled and added to the result.",
-    scope:   "world",
-    config:  true,
-    type:    Boolean,
-    default: false,
-  });
-
   game.settings.register("shadowrun2e", "woundModifiers", {
     name: game.i18n.localize("SR2E.Settings.woundModifiers.label"),
     hint: game.i18n.localize("SR2E.Settings.woundModifiers.hint"),
