@@ -1,0 +1,6 @@
+node_modules/
+foundryconfig.json
+*.swp
+.idea/
+.DS_Store
+packs/*.db

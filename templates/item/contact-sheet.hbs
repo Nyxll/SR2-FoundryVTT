@@ -1,0 +1,20 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="Contact Name" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group"><label>Archetype / Role</label>
+        <input type="text" name="system.archetype" value="{{system.archetype}}" placeholder="Fixer, Street Doc..." /></div>
+      <div class="form-group"></div>
+      <div class="form-group"><label>Loyalty (1-6)</label>
+        <input type="number" name="system.loyalty" value="{{system.loyalty}}" min="1" max="6" /></div>
+      <div class="form-group"><label>Connection (1-6)</label>
+        <input type="number" name="system.connection" value="{{system.connection}}" min="1" max="6" /></div>
+    </div>
+    <div style="padding:8px">
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

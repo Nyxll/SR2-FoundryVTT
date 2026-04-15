@@ -1,0 +1,24 @@
+<div class="sr2e-roll-result">
+  {{#if label}}
+  <div class="roll-header"><strong>{{label}}</strong></div>
+  {{/if}}
+
+  <div class="roll-meta flexrow">
+    <span>Pool: <strong>{{pool}}</strong></span>
+    <span>TN: <strong>{{targetNumber}}</strong></span>
+  </div>
+
+  <div class="dice-results flexrow">
+    {{#each results as |die|}}
+    <span class="die-result {{#if (gte die ../targetNumber)}}success{{else}}failure{{/if}}
+                            {{#if (eq die 1)}}glitch-die{{/if}}">{{die}}</span>
+    {{/each}}
+  </div>
+
+  <div class="roll-summary flexrow">
+    <span class="successes">✓ {{successes}} {{#if (eq successes 1)}}success{{else}}successes{{/if}}</span>
+    {{#if glitch}}
+    <span class="glitch-warning">{{#if criticalGlitch}}⚠ CRITICAL GLITCH!{{else}}⚠ Glitch!{{/if}}</span>
+    {{/if}}
+  </div>
+</div>

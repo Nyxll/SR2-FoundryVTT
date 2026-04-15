@@ -1,0 +1,15 @@
+{
+  "name": "shadowrun2e",
+  "version": "0.1.0",
+  "description": "Shadowrun 2nd Edition system for Foundry VTT",
+  "license": "GNU General Public License",
+  "author": "Nyxll",
+  "dependencies": {},
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^2.0.0"
+  },
+  "scripts": {
+    "pack": "node ./.tools/pullJSONtoLDB.mjs",
+    "unpack": "node ./.tools/pushLDBtoJSON.mjs"
+  }
+}

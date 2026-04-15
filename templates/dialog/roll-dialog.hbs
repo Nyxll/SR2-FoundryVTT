@@ -1,0 +1,30 @@
+<form class="flexcol" autocomplete="off">
+  {{#if label}}
+  <div class="roll-label"><strong>{{label}}</strong></div>
+  {{/if}}
+
+  <div class="form-group">
+    <label>Dice Pool</label>
+    <input type="number" name="pool" value="{{pool}}" min="0" max="40" style="width:60px" />
+    {{#if woundMod}}
+    <span class="wound-hint" style="color:#c33; font-size:0.85em">(wound mod: {{woundMod}})</span>
+    {{/if}}
+  </div>
+
+  <div class="form-group">
+    <label>Target Number</label>
+    <input type="number" name="targetNumber" value="{{targetNumber}}" min="2" max="12" style="width:60px" />
+    <span class="hint" style="font-size:0.8em">(standard: 4)</span>
+  </div>
+
+  <div class="form-group">
+    <label>Rule of Six</label>
+    <input type="checkbox" name="ruleOfSix" {{#if ruleOfSix}}checked{{/if}} />
+    <span class="hint" style="font-size:0.8em">(re-roll 6s, add result)</span>
+  </div>
+
+  <div class="form-group flexrow" style="justify-content:flex-end; gap:8px; margin-top:8px">
+    <button type="button" class="cancel-btn">Cancel</button>
+    <button type="button" class="roll-btn">Roll!</button>
+  </div>
+</form>

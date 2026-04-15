@@ -1,0 +1,222 @@
+{
+  "SR2E": {
+    "ActorTypes": {
+      "character": "Character",
+      "npc": "NPC",
+      "critter": "Critter",
+      "spirit": "Spirit",
+      "vehicle": "Vehicle"
+    },
+    "ItemTypes": {
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "cyberware": "Cyberware",
+      "bioware": "Bioware",
+      "gear": "Gear",
+      "spell": "Spell",
+      "adept_power": "Adept Power",
+      "quality": "Quality",
+      "contact": "Contact",
+      "sin": "SIN"
+    },
+    "Attributes": {
+      "body": "Body",
+      "quickness": "Quickness",
+      "strength": "Strength",
+      "charisma": "Charisma",
+      "intelligence": "Intelligence",
+      "willpower": "Willpower",
+      "essence": "Essence",
+      "magic": "Magic",
+      "reaction": "Reaction",
+      "initiative": "Initiative"
+    },
+    "Skills": {
+      "armed_combat": "Armed Combat",
+      "unarmed_combat": "Unarmed Combat",
+      "firearms": "Firearms",
+      "heavy_weapons": "Heavy Weapons",
+      "projectile_weapons": "Projectile Weapons",
+      "throwing_weapons": "Throwing Weapons",
+      "stealth": "Stealth",
+      "athletics": "Athletics",
+      "bike": "Bike",
+      "car": "Car",
+      "hovercraft": "Hovercraft",
+      "motorboat": "Motorboat",
+      "sailboat": "Sailboat",
+      "sub": "Sub",
+      "fixed_wing": "Fixed Wing",
+      "rotary_wing": "Rotary Wing",
+      "vectored_thrust": "Vectored Thrust",
+      "aerofoil": "Aerofoil",
+      "computer": "Computer",
+      "electronics": "Electronics",
+      "demolitions": "Demolitions",
+      "biotech": "Biotech",
+      "first_aid": "First Aid",
+      "etiquette": "Etiquette",
+      "leadership": "Leadership",
+      "negotiations": "Negotiations",
+      "interrogation": "Interrogation",
+      "instruction": "Instruction",
+      "street_etiquette": "Street Etiquette",
+      "corporate_etiquette": "Corporate Etiquette",
+      "tribal_etiquette": "Tribal Etiquette",
+      "magical_threats": "Magical Threats",
+      "police_procedures": "Police Procedures",
+      "shadowrun_community": "Shadowrun Community",
+      "sorcery": "Sorcery",
+      "conjuring": "Conjuring",
+      "enchanting": "Enchanting",
+      "centering": "Centering",
+      "aura_reading": "Aura Reading",
+      "astral_combat": "Astral Combat",
+      "wilderness_survival": "Wilderness Survival",
+      "tracking": "Tracking",
+      "navigation": "Navigation",
+      "perception": "Perception",
+      "disguise": "Disguise",
+      "escape_artist": "Escape Artist",
+      "forgery": "Forgery",
+      "lockpicking": "Lockpicking",
+      "palming": "Palming",
+      "pickpocket": "Pickpocket",
+      "security_systems": "Security Systems"
+    },
+    "SkillCategories": {
+      "combat": "Combat",
+      "vehicle": "Vehicle",
+      "technical": "Technical",
+      "social": "Social",
+      "knowledge": "Knowledge",
+      "magic": "Magic",
+      "outdoor": "Outdoor",
+      "stealth": "Stealth"
+    },
+    "Metatypes": {
+      "human": "Human",
+      "elf": "Elf",
+      "dwarf": "Dwarf",
+      "ork": "Ork",
+      "troll": "Troll"
+    },
+    "Archetypes": {
+      "mundane": "Mundane",
+      "adept": "Physical Adept",
+      "mage": "Mage (Hermetic)",
+      "shaman": "Shaman",
+      "decker": "Decker",
+      "rigger": "Rigger",
+      "street_samurai": "Street Samurai"
+    },
+    "Monitors": {
+      "physical": "Physical",
+      "stun": "Stun",
+      "overflow": "Overflow"
+    },
+    "DamageTypes": {
+      "physical": "Physical",
+      "stun": "Stun"
+    },
+    "DamageLevels": {
+      "L": "Light",
+      "M": "Moderate",
+      "S": "Serious",
+      "D": "Deadly"
+    },
+    "WeaponCategories": {
+      "pistol": "Pistol",
+      "smg": "SMG",
+      "rifle": "Rifle",
+      "shotgun": "Shotgun",
+      "heavy_weapon": "Heavy Weapon",
+      "melee": "Melee",
+      "thrown": "Thrown",
+      "bow": "Bow",
+      "grenade": "Grenade"
+    },
+    "SpellCategories": {
+      "combat": "Combat",
+      "detection": "Detection",
+      "health": "Health",
+      "illusion": "Illusion",
+      "manipulation": "Manipulation"
+    },
+    "SpellTypes": {
+      "physical": "Physical",
+      "mana": "Mana"
+    },
+    "SpiritTypes": {
+      "fire": "Fire Elemental",
+      "water": "Water Elemental",
+      "earth": "Earth Elemental",
+      "air": "Air Elemental",
+      "city": "City Spirit",
+      "field": "Field Spirit",
+      "forest": "Forest Spirit",
+      "hearth": "Hearth Spirit",
+      "lake": "Lake Spirit",
+      "river": "River Spirit",
+      "prairie": "Prairie Spirit",
+      "storm": "Storm Spirit",
+      "sea": "Sea Spirit"
+    },
+    "Sheet": {
+      "tabs": {
+        "attributes": "Attributes",
+        "skills": "Skills",
+        "combat": "Combat",
+        "gear": "Gear",
+        "magic": "Magic",
+        "matrix": "Matrix",
+        "background": "Background"
+      },
+      "labels": {
+        "base": "Base",
+        "mod": "Mod",
+        "total": "Total",
+        "rating": "Rating",
+        "specialization": "Spec",
+        "pool": "Pool",
+        "damage": "Damage",
+        "reach": "Reach",
+        "conceal": "Conceal",
+        "essence": "Essence",
+        "ballistic": "Ballistic",
+        "impact": "Impact",
+        "force": "Force",
+        "drain": "Drain",
+        "karma": "Karma",
+        "nuyen": "Nuyen",
+        "contacts": "Contacts",
+        "notes": "Notes"
+      },
+      "rolls": {
+        "attribute": "Roll {attr}",
+        "skill": "Roll {skill}",
+        "opposed": "Opposed Roll",
+        "damage_resistance": "Damage Resistance"
+      }
+    },
+    "Roll": {
+      "pool": "Dice Pool",
+      "target": "Target Number",
+      "opposed": "Opposed Roll",
+      "successes": "Successes",
+      "failures": "Failures",
+      "glitch": "Glitch!",
+      "critical_glitch": "Critical Glitch!"
+    },
+    "Settings": {
+      "targetNumber": {
+        "label": "Default Target Number",
+        "hint": "The default target number for dice rolls (SR2E standard is 4)."
+      },
+      "woundModifiers": {
+        "label": "Apply Wound Modifiers",
+        "hint": "Automatically subtract wound modifier from dice pools."
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{{!-- SR2E NPC Sheet (compact) --}}
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" style="width:50px;height:50px;" />
+    <div class="flexcol" style="flex:1; padding:0 8px">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{actor.name}}" placeholder="NPC Name" />
+      </h1>
+      <div class="flexrow">
+        <div class="form-group"><label>Metatype</label>
+          <input type="text" name="system.metatype" value="{{system.metatype}}" style="width:80px" /></div>
+        <div class="form-group"><label>Archetype</label>
+          <input type="text" name="system.archetype" value="{{system.archetype}}" style="width:100px" /></div>
+      </div>
+    </div>
+    <div class="monitors-compact flexcol">
+      <div class="monitor-section">
+        <span class="monitor-label">Phys</span>
+        <div class="monitor-boxes">
+          {{#each physicalBoxes}}
+          <div class="monitor-box {{#if filled}}filled{{/if}}"
+               data-monitor="physical" data-index="{{index}}"></div>
+          {{/each}}
+        </div>
+        <span>{{system.monitors.physical.value}}/{{system.monitors.physical.max}}</span>
+      </div>
+      <div class="monitor-section">
+        <span class="monitor-label">Stun</span>
+        <div class="monitor-boxes">
+          {{#each stunBoxes}}
+          <div class="monitor-box {{#if filled}}filled{{/if}}"
+               data-monitor="stun" data-index="{{index}}"></div>
+          {{/each}}
+        </div>
+        <span>{{system.monitors.stun.value}}/{{system.monitors.stun.max}}</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="stats">Stats</a>
+    <a class="item" data-tab="weapons">Weapons</a>
+    <a class="item" data-tab="notes">Notes</a>
+  </nav>
+
+  <section class="sheet-body">
+
+    <div class="tab flexrow" data-group="primary" data-tab="stats">
+      <div class="npc-attributes" style="flex:1">
+        <table class="attributes-table">
+          <thead><tr><th>Attribute</th><th>Value</th></tr></thead>
+          <tbody>
+            {{#each config.ATTRIBUTES as |key|}}
+            <tr>
+              <td>{{localize (concat "SR2E.Attributes." key)}}</td>
+              <td><input type="number" name="system.attributes.{{key}}.base"
+                         value="{{lookup (lookup ../system.attributes key) 'base'}}" min="1" style="width:50px" /></td>
+            </tr>
+            {{/each}}
+            <tr>
+              <td>Essence</td>
+              <td><input type="number" name="system.essence.value" value="{{system.essence.value}}" min="0" max="6" style="width:50px" /></td>
+            </tr>
+            <tr>
+              <td>Reaction</td>
+              <td><span>{{system.reaction.value}}</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="npc-pools" style="flex:1; padding-left:8px">
+        <h3>Dice Pools</h3>
+        <div class="form-group">
+          <label>Combat Pool</label>
+          <input type="number" name="system.combat_pool" value="{{system.combat_pool}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.combat_pool}}" data-label="Combat Pool">🎲</button>
+        </div>
+        <div class="form-group">
+          <label>Defense Pool</label>
+          <input type="number" name="system.defense_pool" value="{{system.defense_pool}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.defense_pool}}" data-label="Defense Roll">🎲</button>
+        </div>
+        <div class="form-group">
+          <label>Hacking Pool</label>
+          <input type="number" name="system.hacking_pool" value="{{system.hacking_pool}}" min="0" style="width:50px" />
+          <button type="button" class="pool-roll" data-pool="{{system.hacking_pool}}" data-label="Hacking Roll">🎲</button>
+        </div>
+
+        <h3>Initiative</h3>
+        <div class="form-group">
+          <label>Base</label>
+          <input type="number" name="system.initiative.base" value="{{system.initiative.base}}" min="1" style="width:50px" />
+          <label>Dice</label>
+          <input type="number" name="system.initiative.dice" value="{{system.initiative.dice}}" min="1" max="4" style="width:40px" />
+        </div>
+
+        <h3>Damage</h3>
+        <div class="form-group">
+          <label>Default Dmg</label>
+          <input type="text" name="system.damage" value="{{system.damage}}" style="width:50px" />
+          <label>Reach</label>
+          <input type="number" name="system.reach" value="{{system.reach}}" min="0" style="width:40px" />
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="weapons">
+      <div class="flexrow items-header">
+        <h3>Weapons</h3>
+        <button type="button" class="item-create" data-type="weapon">+ Add</button>
+      </div>
+      <table class="items-table">
+        <thead><tr><th>Name</th><th>Dmg</th><th>Reach</th><th></th></tr></thead>
+        <tbody>
+          {{#each weapons as |item|}}
+          <tr class="item" data-item-id="{{item.id}}">
+            <td><a class="weapon-roll">{{item.name}}</a></td>
+            <td>{{item.system.damage_code}}</td>
+            <td>{{item.system.reach}}</td>
+            <td class="item-controls">
+              <a class="item-edit"><i class="fas fa-edit"></i></a>
+              <a class="item-delete"><i class="fas fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="notes">
+      <div class="editor">
+        {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
+      </div>
+    </div>
+
+  </section>
+</form>

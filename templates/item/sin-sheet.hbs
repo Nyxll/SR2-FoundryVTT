@@ -1,0 +1,17 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="SIN Name / Identity" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group"><label>Quality (1-6)</label>
+        <input type="number" name="system.quality" value="{{system.quality}}" min="1" max="6" /></div>
+      <div class="form-group"><label>Identity Name</label>
+        <input type="text" name="system.identity" value="{{system.identity}}" /></div>
+    </div>
+    <div style="padding:8px">
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

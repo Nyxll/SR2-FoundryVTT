@@ -1,0 +1,33 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="Spell Name" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group"><label>Category</label>
+        <select name="system.category">
+          {{selectOptions spellCategoryOptions selected=system.category labelAttr="label" valueAttr="value"}}
+        </select></div>
+      <div class="form-group"><label>Type</label>
+        <select name="system.type">
+          {{selectOptions spellTypeOptions selected=system.type labelAttr="label" valueAttr="value"}}
+        </select></div>
+      <div class="form-group"><label>Range</label>
+        <select name="system.range">
+          {{selectOptions spellRangeOptions selected=system.range labelAttr="label" valueAttr="value"}}
+        </select></div>
+      <div class="form-group"><label>Duration</label>
+        <select name="system.duration">
+          {{selectOptions spellDurationOptions selected=system.duration labelAttr="label" valueAttr="value"}}
+        </select></div>
+      <div class="form-group"><label>Drain Code</label>
+        <input type="text" name="system.drain_code" value="{{system.drain_code}}" placeholder="(F/2)M" /></div>
+      <div class="form-group"><label>Default Force</label>
+        <input type="number" name="system.force" value="{{system.force}}" min="1" /></div>
+    </div>
+    <div style="padding:8px">
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

@@ -1,0 +1,75 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="Weapon Name" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group">
+        <label>Category</label>
+        <select name="system.category">
+          {{selectOptions weaponCategoryOptions selected=system.category labelAttr="label" valueAttr="value"}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Skill</label>
+        <select name="system.skill">
+          {{selectOptions skillOptions selected=system.skill labelAttr="label" valueAttr="value"}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Damage Power</label>
+        <input type="number" name="system.damage_power" value="{{system.damage_power}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Damage Level</label>
+        <select name="system.damage_level">
+          {{selectOptions damageLevelOptions selected=system.damage_level labelAttr="label" valueAttr="value"}}
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Reach</label>
+        <input type="number" name="system.reach" value="{{system.reach}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Concealability</label>
+        <input type="number" name="system.concealability" value="{{system.concealability}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Ammo (Current)</label>
+        <input type="number" name="system.ammo_current" value="{{system.ammo_current}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Ammo (Max)</label>
+        <input type="number" name="system.ammo_max" value="{{system.ammo_max}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Recoil Comp</label>
+        <input type="number" name="system.recoil_comp" value="{{system.recoil_comp}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Price (¥)</label>
+        <input type="number" name="system.price" value="{{system.price}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Availability</label>
+        <input type="text" name="system.availability" value="{{system.availability}}" />
+      </div>
+      <div class="form-group">
+        <label>Restriction</label>
+        <input type="text" name="system.restriction" value="{{system.restriction}}" />
+      </div>
+    </div>
+    <div class="form-group" style="padding:8px">
+      <label>Fire Modes</label>
+      <label><input type="checkbox" name="system.fire_modes.ss" {{#if system.fire_modes.ss}}checked{{/if}} /> SS</label>
+      <label><input type="checkbox" name="system.fire_modes.sa" {{#if system.fire_modes.sa}}checked{{/if}} /> SA</label>
+      <label><input type="checkbox" name="system.fire_modes.bf" {{#if system.fire_modes.bf}}checked{{/if}} /> BF</label>
+      <label><input type="checkbox" name="system.fire_modes.fa" {{#if system.fire_modes.fa}}checked{{/if}} /> FA</label>
+    </div>
+    <div style="padding:8px">
+      <label>Description</label>
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

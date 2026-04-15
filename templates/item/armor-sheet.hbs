@@ -1,0 +1,25 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="Armor Name" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group"><label>Ballistic</label>
+        <input type="number" name="system.ballistic" value="{{system.ballistic}}" min="0" /></div>
+      <div class="form-group"><label>Impact</label>
+        <input type="number" name="system.impact" value="{{system.impact}}" min="0" /></div>
+      <div class="form-group"><label>Concealability</label>
+        <input type="number" name="system.concealability" value="{{system.concealability}}" min="0" /></div>
+      <div class="form-group"><label>Price (¥)</label>
+        <input type="number" name="system.price" value="{{system.price}}" min="0" /></div>
+      <div class="form-group"><label>Availability</label>
+        <input type="text" name="system.availability" value="{{system.availability}}" /></div>
+      <div class="form-group"><label>Equipped</label>
+        <input type="checkbox" name="system.equipped" {{#if system.equipped}}checked{{/if}} /></div>
+    </div>
+    <div style="padding:8px">
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

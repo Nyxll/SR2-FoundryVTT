@@ -1,0 +1,25 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header flexrow">
+    <img class="item-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="width:36px;height:36px" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="Cyberware Name" style="flex:1" />
+  </header>
+  <section class="sheet-body">
+    <div class="grid grid-2col" style="gap:8px; padding:8px">
+      <div class="form-group"><label>Grade</label>
+        <select name="system.grade">
+          {{selectOptions cyberGradeOptions selected=system.grade labelAttr="label" valueAttr="value"}}
+        </select></div>
+      <div class="form-group"><label>Essence Cost</label>
+        <input type="number" name="system.essence_cost" value="{{system.essence_cost}}" min="0" step="0.1" /></div>
+      <div class="form-group"><label>Price (¥)</label>
+        <input type="number" name="system.price" value="{{system.price}}" min="0" /></div>
+      <div class="form-group"><label>Availability</label>
+        <input type="text" name="system.availability" value="{{system.availability}}" /></div>
+      <div class="form-group"><label>Installed</label>
+        <input type="checkbox" name="system.installed" {{#if system.installed}}checked{{/if}} /></div>
+    </div>
+    <div style="padding:8px">
+      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

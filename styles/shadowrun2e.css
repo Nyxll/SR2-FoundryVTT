@@ -1,0 +1,538 @@
+/* ============================================================
+   Shadowrun 2nd Edition — Foundry VTT System Stylesheet
+   ============================================================ */
+
+/* --- Variables --- */
+:root {
+  --sr2-red:        #8b0000;
+  --sr2-dark:       #1a1a1a;
+  --sr2-dark-mid:   #2d2d2d;
+  --sr2-mid:        #444;
+  --sr2-light:      #ccc;
+  --sr2-accent:     #c0392b;
+  --sr2-gold:       #b8860b;
+  --sr2-success:    #2e7d32;
+  --sr2-failure:    #555;
+  --sr2-glitch:     #b71c1c;
+  --sr2-font:       "Signika", "Palatino Linotype", serif;
+}
+
+/* --- Sheet base --- */
+.shadowrun2e.sheet {
+  font-family: var(--sr2-font);
+  background: #f5f0e8;
+  color: var(--sr2-dark);
+}
+
+/* --- Header --- */
+.shadowrun2e .sheet-header {
+  background: var(--sr2-dark);
+  color: #eee;
+  padding: 8px;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.shadowrun2e .sheet-header .charname input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--sr2-light);
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 100%;
+}
+
+.shadowrun2e .profile-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 2px solid var(--sr2-gold);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shadowrun2e .header-row {
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.shadowrun2e .header-row .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shadowrun2e .header-row label {
+  font-size: 0.7em;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.shadowrun2e .header-row input,
+.shadowrun2e .header-row select {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid var(--sr2-mid);
+  color: #eee;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* --- Condition Monitors --- */
+.shadowrun2e .monitors-header {
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.shadowrun2e .monitor-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.shadowrun2e .monitor-label {
+  font-size: 0.7em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.shadowrun2e .monitor-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.shadowrun2e .monitor-box {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #666;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.shadowrun2e .monitor-box.filled {
+  background: var(--sr2-red);
+  border-color: var(--sr2-accent);
+}
+
+.shadowrun2e .monitor-box:hover {
+  border-color: var(--sr2-gold);
+}
+
+.shadowrun2e .monitor-fraction {
+  font-size: 0.75em;
+  color: #aaa;
+}
+
+.shadowrun2e .wound-mod {
+  color: var(--sr2-accent);
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.shadowrun2e .initiative-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.shadowrun2e .initiative-section button {
+  background: var(--sr2-red);
+  border: 1px solid var(--sr2-accent);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.shadowrun2e .init-formula {
+  font-size: 0.75em;
+  color: #aaa;
+  text-align: center;
+}
+
+/* --- Tabs --- */
+.shadowrun2e .sheet-tabs {
+  background: var(--sr2-dark-mid);
+  border-bottom: 2px solid var(--sr2-red);
+  padding: 0 8px;
+}
+
+.shadowrun2e .sheet-tabs .item {
+  color: #aaa;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.shadowrun2e .sheet-tabs .item.active,
+.shadowrun2e .sheet-tabs .item:hover {
+  color: #fff;
+  border-bottom-color: var(--sr2-gold);
+}
+
+/* --- Sheet body --- */
+.shadowrun2e .sheet-body {
+  padding: 8px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.shadowrun2e .tab {
+  display: none;
+}
+
+.shadowrun2e .tab.active {
+  display: block;
+}
+
+.shadowrun2e h3 {
+  color: var(--sr2-red);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--sr2-red);
+  margin: 12px 0 6px;
+  padding-bottom: 2px;
+}
+
+/* --- Tables --- */
+.shadowrun2e table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+}
+
+.shadowrun2e table th {
+  background: var(--sr2-dark);
+  color: var(--sr2-light);
+  text-align: left;
+  padding: 3px 6px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.shadowrun2e table td {
+  padding: 3px 6px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+.shadowrun2e table tr:nth-child(even) td {
+  background: rgba(0,0,0,0.04);
+}
+
+.shadowrun2e table input[type="number"],
+.shadowrun2e table input[type="text"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: #fafafa;
+}
+
+.shadowrun2e .attr-value {
+  font-weight: bold;
+  color: var(--sr2-red);
+  text-align: center;
+}
+
+.shadowrun2e .attr-tag {
+  font-size: 0.75em;
+  color: #888;
+}
+
+/* --- Roll buttons --- */
+.shadowrun2e button.attribute-roll,
+.shadowrun2e button.skill-roll {
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: var(--sr2-red);
+  cursor: pointer;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+
+.shadowrun2e button.attribute-roll:hover,
+.shadowrun2e button.skill-roll:hover {
+  background: var(--sr2-red);
+  color: #fff;
+  border-color: var(--sr2-red);
+}
+
+/* --- Clickable skill/weapon labels --- */
+.shadowrun2e a.weapon-roll,
+.shadowrun2e a.spell-roll {
+  color: var(--sr2-red);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.shadowrun2e a.weapon-roll:hover,
+.shadowrun2e a.spell-roll:hover {
+  color: var(--sr2-accent);
+}
+
+/* --- Pools block --- */
+.shadowrun2e .pools-block {
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.shadowrun2e .pool-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.shadowrun2e .pool-label {
+  font-size: 0.75em;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.shadowrun2e .pool-label.pool-roll {
+  cursor: pointer;
+  color: var(--sr2-red);
+}
+
+.shadowrun2e .pool-label.pool-roll:hover {
+  text-decoration: underline;
+}
+
+.shadowrun2e .pool-value {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: var(--sr2-dark);
+}
+
+/* --- Item controls --- */
+.shadowrun2e .item-controls {
+  white-space: nowrap;
+}
+
+.shadowrun2e .item-controls a {
+  color: #888;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.shadowrun2e .item-controls a:hover {
+  color: var(--sr2-red);
+}
+
+.shadowrun2e .items-header {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.shadowrun2e .items-header button {
+  font-size: 0.8em;
+  padding: 2px 8px;
+  background: var(--sr2-red);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* --- Secondary attributes --- */
+.shadowrun2e .secondary-attrs {
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.shadowrun2e .secondary-attrs .form-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.shadowrun2e .secondary-attrs label {
+  font-size: 0.8em;
+  color: #666;
+  min-width: 60px;
+}
+
+.shadowrun2e .secondary-attrs span {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--sr2-red);
+  min-width: 24px;
+  text-align: center;
+}
+
+/* --- NPC compact monitors --- */
+.shadowrun2e .monitors-compact {
+  gap: 4px;
+  padding: 0 8px;
+}
+
+.shadowrun2e .monitors-compact .monitor-section {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+/* --- Chat roll result --- */
+.sr2e-roll-result {
+  background: #1a1a1a;
+  color: #eee;
+  border: 1px solid var(--sr2-red);
+  border-radius: 4px;
+  padding: 8px;
+  font-family: var(--sr2-font);
+}
+
+.sr2e-roll-result .roll-header {
+  font-size: 1.05em;
+  color: var(--sr2-gold);
+  margin-bottom: 6px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 4px;
+}
+
+.sr2e-roll-result .roll-meta {
+  gap: 16px;
+  font-size: 0.85em;
+  color: #aaa;
+  margin-bottom: 6px;
+}
+
+.sr2e-roll-result .dice-results {
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.sr2e-roll-result .die-result {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1em;
+  border: 1px solid #444;
+}
+
+.sr2e-roll-result .die-result.success {
+  background: var(--sr2-success);
+  color: #fff;
+  border-color: #4caf50;
+}
+
+.sr2e-roll-result .die-result.failure {
+  background: #333;
+  color: #888;
+}
+
+.sr2e-roll-result .die-result.glitch-die {
+  border-color: var(--sr2-glitch);
+}
+
+.sr2e-roll-result .roll-summary {
+  gap: 12px;
+  font-size: 0.95em;
+}
+
+.sr2e-roll-result .successes {
+  color: #81c784;
+  font-weight: bold;
+}
+
+.sr2e-roll-result .glitch-warning {
+  color: var(--sr2-glitch);
+  font-weight: bold;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 1; }
+  to   { opacity: 0.6; }
+}
+
+/* --- Roll Dialog --- */
+.sr2e.roll-dialog .roll-label {
+  padding: 4px 0 8px;
+  font-size: 1.05em;
+  color: var(--sr2-red);
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.sr2e.roll-dialog .wound-hint {
+  margin-left: 8px;
+}
+
+.sr2e.roll-dialog button.roll-btn {
+  background: var(--sr2-red);
+  color: #fff;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sr2e.roll-dialog button.cancel-btn {
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* --- Bio section --- */
+.shadowrun2e .bio-section .form-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.shadowrun2e .bio-section label {
+  min-width: 90px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.shadowrun2e .bio-section input {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+/* --- Utility --- */
+.shadowrun2e .hint {
+  color: #888;
+  font-style: italic;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+}
+
+.shadowrun2e .form-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

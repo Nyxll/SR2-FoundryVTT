@@ -1,0 +1,70 @@
+{
+  "id": "shadowrun2e",
+  "title": "Shadowrun 2nd Edition",
+  "description": "Shadowrun 2nd Edition RPG system for Foundry VTT",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Nyxll",
+      "url": "https://github.com/Nyxll/SR2-FoundryVTT"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "module/shadowrun2e.js"
+  ],
+  "styles": [
+    "styles/shadowrun2e.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "initiative": "@attributes.quickness.value + 1d6",
+  "primaryTokenAttribute": "monitors.physical",
+  "secondaryTokenAttribute": "monitors.stun",
+  "grid": {
+    "type": 1,
+    "distance": 1,
+    "units": "m",
+    "diagonals": 1
+  },
+  "url": "https://github.com/Nyxll/SR2-FoundryVTT",
+  "bugs": "https://github.com/Nyxll/SR2-FoundryVTT/issues",
+  "manifest": "https://raw.githubusercontent.com/Nyxll/SR2-FoundryVTT/master/system.json",
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {},
+      "critter": {},
+      "spirit": {},
+      "vehicle": {}
+    },
+    "Item": {
+      "weapon": {},
+      "armor": {},
+      "cyberware": {},
+      "bioware": {},
+      "gear": {},
+      "spell": {},
+      "adept_power": {},
+      "quality": {},
+      "contact": {},
+      "sin": {}
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "hbs", "html", "json"],
+      "paths": ["styles", "templates", "lang"]
+    }
+  }
+}
