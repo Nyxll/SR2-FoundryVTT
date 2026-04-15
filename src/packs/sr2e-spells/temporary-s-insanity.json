@@ -1,0 +1,20 @@
+{
+  "_id": "0fc686adf16049e3",
+  "name": "Temporary S Insanity",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]S",
+    "force": 1,
+    "description": "<p>Manipulation spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "a1fb5dce5b9845b3",
+  "name": "Net",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]D",
+    "force": 1,
+    "description": "<p>The net spell is a version of the bind spell that traps targets in an area of effect. Targets can resist with a Quickness Test. The magical net has a Barrier Rating equal to the caster's net successes.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

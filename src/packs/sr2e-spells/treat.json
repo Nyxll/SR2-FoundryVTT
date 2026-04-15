@@ -1,0 +1,20 @@
+{
+  "_id": "c186fa7871ff40e0",
+  "name": "Treat",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)(Wound Level)",
+    "force": 1,
+    "description": "<p>The treat and heal spells are both curative. Each will heal a number of boxes of damage equal to the successes rolled. The difference is that the treat spell must be applied within one hour of injury. The heal spell may be applied at any time. A character can only be magically treated or healed once for any single set of injuries.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

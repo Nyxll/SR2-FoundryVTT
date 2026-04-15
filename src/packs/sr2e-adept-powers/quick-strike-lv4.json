@@ -1,0 +1,17 @@
+{
+  "_id": "34098ed36acc4a27",
+  "name": "Quick Strike Lv4",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 1,
+    "level": 1,
+    "active": false,
+    "description": "<p>AW-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

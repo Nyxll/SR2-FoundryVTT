@@ -1,0 +1,20 @@
+{
+  "_id": "19934e907cc44684",
+  "name": "Video",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>Illusion spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

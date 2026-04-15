@@ -1,0 +1,20 @@
+{
+  "_id": "3c983c80644742ed",
+  "name": "Night Vision",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>The night vision spell grants the target the low-light vision modifiers listed on the Visibility Table, p. 89, SRII.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "52c326aec5cd47bb",
+  "name": "Intoxication",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell makes a subject feel drunk. The subject suffers Stun damage penalties to all actions based on the caster's successes. With 10 or more successes, the subject becomes incapacitated but remains conscious. This spell can be resisted by antidote or detox spells.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

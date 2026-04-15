@@ -1,0 +1,20 @@
+{
+  "_id": "8c5f381ec953443a",
+  "name": "(Critter) Form",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Similar to the shapechange spell listed later in this section, this spell allows the magician to change into a specific, non-paranormal animal. This spell requires a voluntary subject.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

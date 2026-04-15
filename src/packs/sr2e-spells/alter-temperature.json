@@ -1,0 +1,20 @@
+{
+  "_id": "54c9d254473041c2",
+  "name": "Alter Temperature",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This area-effect spell changes the ambient temperature by 5 degrees Celsius for every 2 successes. Extreme temperatures can cause damage to those without protection.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

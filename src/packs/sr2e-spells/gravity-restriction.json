@@ -1,0 +1,20 @@
+{
+  "_id": "c28c93b49c3f4941",
+  "name": "Gravity Restriction",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+8]D",
+    "force": 1,
+    "description": "<p>Manipulation spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

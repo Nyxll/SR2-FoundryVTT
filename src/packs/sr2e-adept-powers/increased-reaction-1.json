@@ -1,0 +1,17 @@
+{
+  "_id": "cc848a8a1baa40ef",
+  "name": "Increased Reaction +1",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 1,
+    "level": 1,
+    "active": false,
+    "description": "<p>SR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

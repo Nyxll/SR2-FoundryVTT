@@ -1,0 +1,20 @@
+{
+  "_id": "d3aa54fc8754421c",
+  "name": "Stun Touch",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-2]M",
+    "force": 1,
+    "description": "<p>A hands-on spell that causes Stun damage to a single target.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

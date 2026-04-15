@@ -1,0 +1,17 @@
+{
+  "_id": "3978b2a929614094",
+  "name": "Missile Parry",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 1,
+    "level": 1,
+    "active": false,
+    "description": "<p>GR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "d3b40b1a02fd4145",
+  "name": "Detox D Toxin",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)-2]D",
+    "force": 1,
+    "description": "<p>Health spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

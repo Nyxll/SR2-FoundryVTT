@@ -1,0 +1,37 @@
+{
+  "_id": "4a1d68ace5af49f7",
+  "name": "Flashbang Grenade",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/grenade-round-grey.webp",
+  "system": {
+    "category": "grenade",
+    "skill": "throwing_weapons",
+    "damage_power": 12,
+    "damage_level": "M",
+    "reach": 0,
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_current": 1,
+    "ammo_max": 1,
+    "recoil_comp": 0,
+    "smartlink": false,
+    "blast_falloff": 1,
+    "aerodynamic": false,
+    "fire_modes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "equipped": false,
+    "description": "<p>Power 12undefined, falloff 1 per meter. Stun damage.</p>",
+    "price": 60,
+    "availability": "5/48 hrs",
+    "restriction": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

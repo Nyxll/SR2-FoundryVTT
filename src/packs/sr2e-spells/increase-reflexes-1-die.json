@@ -1,0 +1,20 @@
+{
+  "_id": "718f106263014648",
+  "name": "Increase Reflexes +1 die",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>This spell increases the Initiative dice of the voluntary subject by the amount indicated for the spell (+1, +2, or +3). There is no cybered version of this spell, so characters who have received cybernetic enhancements that add Initiative dice (e.g., wired reflexes) cannot be boosted by this spell.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

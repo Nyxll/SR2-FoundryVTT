@@ -1,0 +1,20 @@
+{
+  "_id": "35fceee4bceb4b2e",
+  "name": "Smoke Cloud",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]D",
+    "force": 1,
+    "description": "<p>This area-effect spell creates a cloud of smoke that inflicts Stun damage on targets within it and imposes a visibility penalty.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

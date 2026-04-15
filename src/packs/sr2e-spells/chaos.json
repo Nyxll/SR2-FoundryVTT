@@ -1,0 +1,20 @@
+{
+  "_id": "34bc8f4ee37b4df2",
+  "name": "Chaos",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>A target who fails to resist a chaos spell is subject to massive distractions. The spell consumes all senses in a cloud of blinding sights, fierce odors, and tickling sensations. A major distraction (+1 to all target numbers) is suffered for every extra success the spell has after being reduced by the Spell Resistance Test. This spell can also deceive technological sensing devices in addition to the target's own senses.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

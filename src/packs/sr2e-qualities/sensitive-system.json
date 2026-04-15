@@ -1,0 +1,16 @@
+{
+  "_id": "49",
+  "name": "Sensitive System",
+  "type": "quality",
+  "img": "icons/magic/symbols/rune-carved-bone.webp",
+  "system": {
+    "quality_type": "negative",
+    "cost": -3,
+    "description": "<p>{}</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

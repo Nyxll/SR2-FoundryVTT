@@ -1,0 +1,20 @@
+{
+  "_id": "0ab1ce98c67d4d28",
+  "name": "Shape Earth",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]D",
+    "force": 1,
+    "description": "<p>This spell allows the caster to magically move and shape a quantity of earth. It can be used to dig holes, fill trenches, or push over barricades.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

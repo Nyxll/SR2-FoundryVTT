@@ -62,6 +62,36 @@
       "sin":         { "htmlFields": ["description"] }
     }
   },
+  "packs": [
+    {
+      "name": "sr2e-spells",
+      "label": "SR2E Spells",
+      "path": "packs/sr2e-spells.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-adept-powers",
+      "label": "SR2E Adept Powers",
+      "path": "packs/sr2e-adept-powers.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-qualities",
+      "label": "SR2E Qualities",
+      "path": "packs/sr2e-qualities.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-grenades",
+      "label": "SR2E Grenades",
+      "path": "packs/sr2e-grenades.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    }
+  ],
   "flags": {
     "hotReload": {
       "extensions": ["css", "hbs", "html", "json"],

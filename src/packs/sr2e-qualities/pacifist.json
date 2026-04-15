@@ -1,0 +1,16 @@
+{
+  "_id": "58",
+  "name": "Pacifist",
+  "type": "quality",
+  "img": "icons/magic/symbols/rune-carved-bone.webp",
+  "system": {
+    "quality_type": "negative",
+    "cost": -2,
+    "description": "<p>{}</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

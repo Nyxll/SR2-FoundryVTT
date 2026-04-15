@@ -1,0 +1,16 @@
+{
+  "_id": "54",
+  "name": "Flashbacks",
+  "type": "quality",
+  "img": "icons/magic/symbols/rune-carved-bone.webp",
+  "system": {
+    "quality_type": "negative",
+    "cost": -4,
+    "description": "<p>{}</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "03560e97721c4612",
+  "name": "Astral Static",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>This area-effect spell creates a cloud of crackling,swirling mana in astral space, generating a background count of I for every 2 successes the caster rolls. As with normal background count (see Background Count, p. 89) the rating of the static increases the target numbers of all AstralSuccess Tests within the area of effect, including the caster's target numbers.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "9340373bef184091",
+  "name": "Alleviate Mild Allergy",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>The alleviate allergy spell allows the spellcaster to reduce the effects of an allergy suffered by the spell's target. For example, an alleviate severe allergy spell would protect a vampire exposed to sunlight. Because it does not aid against vulnerabilities, however, the alleviate allergy spell would not protect the vampire from an attack with a wooden weapon.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

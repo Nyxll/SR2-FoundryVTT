@@ -1,0 +1,20 @@
+{
+  "_id": "3efbb77b72944380",
+  "name": "Blade Barrier",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Similar to the physical barrier spell (p. 158, SRII) and the bullet barrier spell following, this spell provides protection against bladed weapons. The barrier's effective BarrierRating equals the spell's Force Rating. The Impact ArmorRating may be added to the Barrier Rating. The personal form of this spell has a Drain Code of [(F / 2)+2]L.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

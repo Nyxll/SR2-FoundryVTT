@@ -1,0 +1,17 @@
+{
+  "_id": "a0f4ceca8e6b49d2",
+  "name": "Smashing Blow",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 1,
+    "level": 1,
+    "active": false,
+    "description": "<p>AW-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

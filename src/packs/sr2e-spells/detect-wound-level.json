@@ -1,0 +1,20 @@
+{
+  "_id": "f64c764919a04eac",
+  "name": "Detect Wound Level",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>Detection spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

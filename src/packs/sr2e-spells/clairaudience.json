@@ -1,0 +1,20 @@
+{
+  "_id": "3b56ba1651964a29",
+  "name": "Clairaudience",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>A hypersense spell. The magician can hear distant sounds as if present, to the range of the new sense. The magician must concentrate to use this sense, and while using it, cannot use physical hearing. This spell does not translate visual images.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

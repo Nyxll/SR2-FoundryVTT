@@ -1,0 +1,20 @@
+{
+  "_id": "96a4127ba0e74490",
+  "name": "Preserve",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>This spell prevents dead organic matter from drying out,decaying, or putrefying. The magician must roll a single success to cast the spell. The preserve spell can be used on food, but is most often used by forensic magicians to protect cadavers from decay before autopsy, or to preserve small organic samples taken from a crime scene for later use as a material link (see Ritual Magic, p. 35, and p. 135, SRII). Often, this spell is applied with a spell lock.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

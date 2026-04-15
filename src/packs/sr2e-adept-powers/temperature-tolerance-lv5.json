@@ -1,0 +1,17 @@
+{
+  "_id": "d15d81f300e5486d",
+  "name": "Temperature Tolerance Lv5",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 1.25,
+    "level": 1,
+    "active": false,
+    "description": "<p>AW-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

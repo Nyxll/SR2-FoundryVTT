@@ -1,0 +1,20 @@
+{
+  "_id": "de9d04790a8c449b",
+  "name": "Clair Spell",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Detection spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

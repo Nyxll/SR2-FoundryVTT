@@ -1,0 +1,20 @@
+{
+  "_id": "e839527a12144334",
+  "name": "Chaff",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)-1]S",
+    "force": 1,
+    "description": "<p>A variation of chaotic world, this spell adds +1 to the target numbers for all non-living sensing devices, including smartgun links.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

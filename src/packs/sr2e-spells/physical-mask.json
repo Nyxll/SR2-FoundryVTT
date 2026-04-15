@@ -1,0 +1,20 @@
+{
+  "_id": "29dad80f19ad4b29",
+  "name": "Physical Mask",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>Similar to the mask spell (p. 156, SRII), this version works against technological devices.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

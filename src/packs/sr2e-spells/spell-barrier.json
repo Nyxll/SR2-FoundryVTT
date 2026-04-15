@@ -1,0 +1,20 @@
+{
+  "_id": "5c1a38b4e3de4140",
+  "name": "Spell Barrier",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>Similar to the mana barrier spell (p. 158, SRII), the spellbarrier spell provides protection against spells. The personal form of this spell has a Drain Code of [(F / 2)+2]L.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

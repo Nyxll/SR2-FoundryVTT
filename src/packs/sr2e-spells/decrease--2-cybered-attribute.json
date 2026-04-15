@@ -1,0 +1,20 @@
+{
+  "_id": "cf7346b616204aeb",
+  "name": "Decrease -2 Cybered Attribute",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]M",
+    "force": 1,
+    "description": "<p>Health spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "74bf636c2acb4621",
+  "name": "Analyze Truth",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>A hypersense spell. The magician can tell whether a target's statement is the truth or not. The target makes a Spell Resistance Test using his Willpower Rating against the Force of the spell to reduce the spellcaster's successes. The caster needs at least 1 success to determine validity. The spell does not work on written materials. The magician must hear a statement to know if it is true or not.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

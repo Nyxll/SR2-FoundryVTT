@@ -1,0 +1,20 @@
+{
+  "_id": "29a3234d226f43cd",
+  "name": "Blunder",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)D",
+    "force": 1,
+    "description": "<p>Manipulation spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

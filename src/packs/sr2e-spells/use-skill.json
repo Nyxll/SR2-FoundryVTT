@@ -1,0 +1,20 @@
+{
+  "_id": "5b7b14e87aef4893",
+  "name": "Use (Skill)",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]L",
+    "force": 1,
+    "description": "<p>A limited form of the magic fingers spell (p.157, SRII),this spell allows the caster to use a skill telekinetically. The gamemaster determines which skills may be used in this manner. Typical examples include Armed Combat, B/RElectronics, Demolitions, Driving, and so on. Knowledge/skills, requiring no physical action, would not be appropriate for this spell. The spell operates in the same way as the magic fingers spell, except that the caster's actual SkillRating determines the spell's effect.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

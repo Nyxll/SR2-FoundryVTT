@@ -1,0 +1,20 @@
+{
+  "_id": "251509cdbfc04a12",
+  "name": "Catfall",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]L",
+    "force": 1,
+    "description": "<p>The catfall spell psychokinetically slows a target's fall and ensures an upright landing. The distance it cushions is determined by the caster's successes and Magic Attribute.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

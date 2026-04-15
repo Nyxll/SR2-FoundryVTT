@@ -1,0 +1,17 @@
+{
+  "_id": "c579629d07e3431a",
+  "name": "Improved Athletic Skills +1",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.25,
+    "level": 1,
+    "active": false,
+    "description": "<p>SR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

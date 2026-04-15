@@ -1,0 +1,20 @@
+{
+  "_id": "b33cecf3fae14702",
+  "name": "Ram Touch",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]M",
+    "force": 1,
+    "description": "<p>The ram spell damages inanimate objects. The ramtouch spell functions in the same way as the basic ram spell (p. 151, SRII), except that the casting magician must touch the target.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

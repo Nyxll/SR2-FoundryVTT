@@ -1,0 +1,20 @@
+{
+  "_id": "ee1c0d09f0374189",
+  "name": "Compel Truth",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]L",
+    "force": 1,
+    "description": "<p>The compel truth spell forces a subject to speak what they believe to be the truth. The subject can choose not to speak but cannot deliberately lie.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

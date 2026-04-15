@@ -1,0 +1,20 @@
+{
+  "_id": "0a554fcd0c61406f",
+  "name": "Mob Mind",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]S",
+    "force": 1,
+    "description": "<p>This area-effect spell allows the caster to control the thoughts of all within its range. For purposes of making aSuccess Test to gauge the spell's effect, treat the crowd as a single character. Pedestrians are assumed to have aWillpower of 3. Major characters, both player and non-player,should defend against the spell individually, based on the number of successes the caster generates with his or her single Force Success Test.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

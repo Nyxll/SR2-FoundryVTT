@@ -1,0 +1,20 @@
+{
+  "_id": "f12ce243031c4802",
+  "name": "Fireball",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+3]D",
+    "force": 1,
+    "description": "<p>An area-effect spell that causes Physical damage. The fireball spell can ignite combustible materials in its blast area. Gamemaster discretion.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "aad5993134f04d8e",
+  "name": "Mask",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>This spell requires that the magician touch a voluntary subject. The subject assumes some physical appearance (same basic size and shape) chosen by the caster. The number of successes becomes the target number for Perception Tests by observers. This spell does not work through technological devices.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

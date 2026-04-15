@@ -1,0 +1,20 @@
+{
+  "_id": "a19d1ba117dc4431",
+  "name": "Shattershield",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>The shattershield spell is specifically designed to break through magical barriers such as wards. The spell strikes the barrier with a single attack. If the attack is successful, reduce the Barrier or Ward Rating by 1, and for every 2 successes beyond the first, reduce the Barrier or Ward Rating by an additional 1 point. For example, 3 successes reduce the Ward Rating by 2, 5 successes reduce it by 3, and so on. Throretically, a character can shatter a ward with a single spell. To use the shattershield spell against astral barriers (such as wards or mana barriers), the spellcaster must be astrally active and able to assense the barrier when the spell is cast.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

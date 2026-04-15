@@ -1,0 +1,17 @@
+{
+  "_id": "d631a50128a84065",
+  "name": "Magic Resistance Lv4",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 4,
+    "level": 1,
+    "active": false,
+    "description": "<p>AW-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

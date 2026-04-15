@@ -1,0 +1,20 @@
+{
+  "_id": "c175618e7e3d42c4",
+  "name": "Magic Fingers",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Magic fingers is classic telekinesis. The magician creates \"invisible hands\" and can hold or manipulate items by mental power. The Spell Success Test has a Target Number 6. The number of successes becomes the spell's ratings for Strength and Quick-ness. The character can use his own skills with the magic fingers spell, but all target numbers receive a +2 because of the problems of remote control. Even simple actions may require a Quickness Test. The magician can fight, pick a lock, or whatever, using magic fingers. The fingers can reach any point the magician can see. The casting magician can use a clairvoyance spell or even remote-viewing technology to get a close-up of the scene, as long as the actual location is within his view. The spell comes in very handy for disarming bombs.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

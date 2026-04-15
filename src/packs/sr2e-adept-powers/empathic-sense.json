@@ -1,0 +1,17 @@
+{
+  "_id": "42b34d81028e4da2",
+  "name": "Empathic Sense",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.5,
+    "level": 1,
+    "active": false,
+    "description": "<p>AW-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "5cfd4ec1c6114f1c",
+  "name": "Overstimulation",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>This spell stimulates the sensory centers of the target's brain. As long as the spell lasts, the subject suffers penalties to all actions as if a number of boxes equal to the caster's successes were filled in on the target's Stun condition monitor. The penalties do not reflect actual damage, but only represent the spell's effects. If the casting magician rolls 10 or more successes, the victim will be conscious but incapable of action.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

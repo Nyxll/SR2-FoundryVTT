@@ -1,0 +1,20 @@
+{
+  "_id": "cd2c85616b2f4dbe",
+  "name": "Treat S Wounds",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)-1]S",
+    "force": 1,
+    "description": "<p>Health spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

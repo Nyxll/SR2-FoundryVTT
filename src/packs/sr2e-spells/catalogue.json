@@ -1,0 +1,20 @@
+{
+  "_id": "c0e7d64fd63e422d",
+  "name": "Catalogue",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]L",
+    "force": 1,
+    "description": "<p>The catalogue spell is a simple area-effect spell that enables the spellcaster to compile a comprehensive, itemized list of all of the non living items within his line of sight. If the Spell Test succeeds, the caster becomes able to write or dictate a list of all the items in a manner similar to automatic writing. (If the spell's area of effect contains items that the magician would not recognize on sight, they will be listed as \"unknown.\") The spell cannot catalogue what the spellcaster cannot see. A warehouse full of boxes, for example, will list the number of boxes rather than what the boxes contain. As soon as he produces the list, the caster forgets the exact items and quantities.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "3ab8b78523b2477d",
+  "name": "Flame Aura",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell creates a fiery aura around a subject that harms any attacker in melee combat. The flames do not harm the subject of the spell.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "92d0bc19a5bc48fa",
+  "name": "Enhanced Sight",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+4]D",
+    "force": 1,
+    "description": "<p>Detection spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

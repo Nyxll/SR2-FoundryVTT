@@ -1,0 +1,20 @@
+{
+  "_id": "7a94abf63c4a4547",
+  "name": "Power Bolt",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>See Mana Bolt, above.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "b2cb838f9b2a438d",
+  "name": "Detect Life",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>An area-effect, general hypersense spell. The magician detects all living beings within range and knows their number and position. In a crowded area, the spell is virtually useless, picking up a blurred mass of traces. Requires a voluntary subject.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

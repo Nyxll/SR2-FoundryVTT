@@ -1,0 +1,37 @@
+{
+  "_id": "eec0931586ef4aa8",
+  "name": "IPE Offensive HE",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/grenade-round-grey.webp",
+  "system": {
+    "category": "grenade",
+    "skill": "throwing_weapons",
+    "damage_power": 15,
+    "damage_level": "D",
+    "reach": 0,
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_current": 1,
+    "ammo_max": 1,
+    "recoil_comp": 0,
+    "smartlink": false,
+    "blast_falloff": 1,
+    "aerodynamic": false,
+    "fire_modes": {
+      "ss": true,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "equipped": false,
+    "description": "<p>Power 15undefined, falloff 1 per meter. Physical damage.</p>",
+    "price": 150,
+    "availability": "10/14 days",
+    "restriction": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

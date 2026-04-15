@@ -1,0 +1,17 @@
+{
+  "_id": "76f02d9679624d8d",
+  "name": "Low-light vision",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.25,
+    "level": 1,
+    "active": false,
+    "description": "<p>SR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

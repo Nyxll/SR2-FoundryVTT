@@ -1,0 +1,20 @@
+{
+  "_id": "8beb9018b6cf490e",
+  "name": "Animate",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell allows the caster to make inanimate objects move. The object moves according to its structure (balls can roll, rugs may crawl, humanoid statues can walk, and so on.). The spell imparts a certain amount of flexibility, allowing solid things like statues to move as if they had joints. The caster can only move the whole object, not just one part of it such as computer keys or vehicle weapons. Movement continues for a number of meters per action equal to one-half the caster's Magic Attribute Rating (round down).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

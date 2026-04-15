@@ -1,0 +1,17 @@
+{
+  "_id": "bb1013d592634e58",
+  "name": "Enhanced Centering (x skill)",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 2,
+    "level": 1,
+    "active": false,
+    "description": "<p>GR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

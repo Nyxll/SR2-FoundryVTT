@@ -1,0 +1,20 @@
+{
+  "_id": "f672c2941d994d0c",
+  "name": "Flame Arrows",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>Combat spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

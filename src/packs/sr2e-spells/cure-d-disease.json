@@ -1,0 +1,20 @@
+{
+  "_id": "c774901005104811",
+  "name": "Cure D Disease",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)D",
+    "force": 1,
+    "description": "<p>The cure disease spell can be used at any point after infection, killing the germs in the patient's system and eliminating any symptoms at once, but it does not heal damage already done by the disease. That takes a separate healing spell. Successes from the cure spell directly reduce the Virulence (Power) of the disease at a one-to-one ratio, making the target's own Resistance Tests easier.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

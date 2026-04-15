@@ -1,0 +1,20 @@
+{
+  "_id": "1547edcc5ab14276",
+  "name": "False Memory",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This spell implants a false memory into a subject. The memory feels real, but the subject has a chance to realize it's false each time they recall it.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

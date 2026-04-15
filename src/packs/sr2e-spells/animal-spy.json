@@ -1,0 +1,20 @@
+{
+  "_id": "ae0ecf03cd2e4479",
+  "name": "Animal Spy",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>The animal spy spell enables a magician to perceive his surroundings using the senses of any non-paranormal animal. The animal must be within a range of meters in a circle around the caster determined by the following formula: Spell Test Successes x Magic Attribute × 5. The spellcaster has no control over the animal's actions and cannot target spells using the animal's eyesight. As long as the magician sustains the spell, he can switch to the senses of any other animal within the spell's range by spending a Simple Action. If the gamemaster believes that a targeted animal would have some reason to resist this spell (most animals would be completely unaware of it), he may make a Willpower Test against the Force of the spell. If the test succeeds, the spell does not affect the animal.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

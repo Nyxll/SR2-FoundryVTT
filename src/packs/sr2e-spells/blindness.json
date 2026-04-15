@@ -1,0 +1,20 @@
+{
+  "_id": "d28265331b4645fb",
+  "name": "Blindness",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>This spell magically blinds a subject for its duration by affecting the brain's ability to process visual information. It works on subjects with cybereyes as well as natural eyes.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

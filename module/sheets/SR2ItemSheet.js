@@ -40,6 +40,7 @@ export default class SR2ItemSheet extends foundry.appv1.sheets.ItemSheet {
       .map(([k, v]) => ({ value: k, label: game.i18n.localize(v.label) }))
       .sort((a, b) => a.label.localeCompare(b.label));
     context.damageLevelOptions    = SR2E.DAMAGE_LEVELS.map(l => ({ value: l, label: l }));
+    context.ammoTypeOptions       = this._toOptions(SR2E.AMMO_TYPES);
 
     return context;
   }

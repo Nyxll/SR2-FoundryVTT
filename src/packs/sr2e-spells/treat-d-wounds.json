@@ -1,0 +1,20 @@
+{
+  "_id": "191d8fa69e3d4888",
+  "name": "Treat D Wounds",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)-1]D",
+    "force": 1,
+    "description": "<p>Health spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

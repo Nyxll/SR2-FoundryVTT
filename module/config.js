@@ -243,6 +243,28 @@ SR2E.DAMAGE_STAGING = {
 // Weapon Categories
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// Ammunition Types
+// ---------------------------------------------------------------------------
+
+// Ammo type effects (applied at roll time):
+//   regular    — no modifier
+//   apds       — halve target's armor rating (round up) — Armor Piercing
+//   explosive  — +2 Power; misfire on all-1s attack roll
+//   hollow_pt  — +1 damage level vs unarmored; use Impact armor (not Ballistic)
+//   flechette  — +1 damage level vs unarmored; 2× Impact armor vs armored; Dermal armor negates bonus
+//   gel        — −2 Power; all damage is Stun; Impact armor applies; no Ballistic armor
+//   tracer     — full-auto only; −1 TN per 3 rounds at >short range
+SR2E.AMMO_TYPES = {
+  regular:   "SR2E.AmmoTypes.regular",
+  apds:      "SR2E.AmmoTypes.apds",
+  explosive: "SR2E.AmmoTypes.explosive",
+  hollow_pt: "SR2E.AmmoTypes.hollow_pt",
+  flechette: "SR2E.AmmoTypes.flechette",
+  gel:       "SR2E.AmmoTypes.gel",
+  tracer:    "SR2E.AmmoTypes.tracer",
+};
+
 SR2E.WEAPON_CATEGORIES = {
   pistol:       "SR2E.WeaponCategories.pistol",
   smg:          "SR2E.WeaponCategories.smg",

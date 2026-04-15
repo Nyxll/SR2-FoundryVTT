@@ -1,0 +1,20 @@
+{
+  "_id": "9ad479612ded493e",
+  "name": "Clean Water",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>This spell purifies a volume of water in the spell's area of effect. The target number depends on the type of impurities.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

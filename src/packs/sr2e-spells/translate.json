@@ -1,0 +1,20 @@
+{
+  "_id": "13aec850abee4f37",
+  "name": "Translate",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>The translate spell sets up a low-level telepathic connection between two willing subjects. The connection allows the subjects to converse with one another as if both spoke the same language. Generally, the spell translates a speaker's intent more accurately than his exact phrasing, so it is no replacement for the tact of a skilled translator. Nevertheless, international corporate and government types often use translate spells to conduct transactions and negotiations. The number of successes the spellcaster achieves on his Spell Success Test indicate the quality of the translation.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "24b3736be90f405f",
+  "name": "Paralyze",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>The paralyze spell overrides a subject's voluntary muscles, making them unable to move or speak for the spell's duration. The subject can attempt a Willpower Test each round to break the spell.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "1baaa77868c24afc",
+  "name": "Redirect",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "special",
+    "force": 1,
+    "description": "<p>The redirect spell sends the energy of an incoming physical or melee attack back against the attacker in the form of a powerful mental shock. To use the spell, the target magician must have a higher Initiative than the attacker and must delay his action. The target magician makes a Spell (4) Test. If his successes exceed the attacker's Attack Test successes, the target magician avoids the attack and sends it back to the attacker, who suffers Stun damage with a Damage Code equal to the initial attack. The target magician must resist Drain equal to half the Force of the spell at a Damage Level one less than the Damage Level of the initial attack. If the attacker and the target magician achieve the same number of successes, the redirect spell has no effect and the target magician takes damage from the initial attack. The attacker may resist the Stun damage with Willpower. Armor has no effect. Redirect spells may be anchored to places or objects (see p. 47, Grimoire II).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

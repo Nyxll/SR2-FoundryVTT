@@ -1,0 +1,20 @@
+{
+  "_id": "28bba177163d4144",
+  "name": "Control Animal",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]D",
+    "force": 1,
+    "description": "<p>Similar to the control thoughts spell (p. 157, SRII), this spell works only on non-sentient animals. Sentience is determined at the gamemaster's discretion. Paranormal animals should resist this spell with either Willpower orEssence, whichever is higher.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

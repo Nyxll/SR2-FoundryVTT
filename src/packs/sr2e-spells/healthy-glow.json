@@ -1,0 +1,20 @@
+{
+  "_id": "8f2d042eda974f39",
+  "name": "Healthy Glow",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>This spell brightens eyes and hair, sloughs off dead skin cells, improves circulation, and promotes general well-being. A cosmetic spell, the rich use the healthy glow spell as a status symbol and pick-me-up. Though \"permanent\" in the sense that it does not require magical sustaining, the spell will wear off in time, based on the subject's lifestyle, diet,vices, and so on.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

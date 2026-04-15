@@ -1,0 +1,17 @@
+{
+  "_id": "8f88dd08ec1a4daf",
+  "name": "Attribute Boost (QCK) +1",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.5,
+    "level": 1,
+    "active": false,
+    "description": "<p>GR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

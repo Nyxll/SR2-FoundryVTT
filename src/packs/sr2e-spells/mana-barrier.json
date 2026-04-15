@@ -1,0 +1,20 @@
+{
+  "_id": "4c279106505d43a2",
+  "name": "Mana Barrier",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>Mana barriers do not stop physical weapons, but they do block movement by living beings. Unliving things (like bullets) pass right through. Passengers inside closed vehicles are not affected by a mana barrier spell, but it would knock the rider off a motorcycle. A mana barrier spell also acts as a defense against spells. Add one-half the spell's Force (the barrier's Rating) to the target numbers of all magicians casting spells across the barrier. It is also an astral barrier.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

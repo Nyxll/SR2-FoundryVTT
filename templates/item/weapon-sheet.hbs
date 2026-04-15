@@ -36,6 +36,12 @@
         <input type="number" name="system.concealability" value="{{system.concealability}}" min="0" />
       </div>
       <div class="form-group">
+        <label>Ammo Type</label>
+        <select name="system.ammo_type">
+          {{selectOptions ammoTypeOptions selected=system.ammo_type labelAttr="label" valueAttr="value"}}
+        </select>
+      </div>
+      <div class="form-group">
         <label>Ammo (Current)</label>
         <input type="number" name="system.ammo_current" value="{{system.ammo_current}}" min="0" />
       </div>
@@ -47,6 +53,16 @@
         <label>Recoil Comp</label>
         <input type="number" name="system.recoil_comp" value="{{system.recoil_comp}}" min="0" />
       </div>
+      {{#if (eq system.category "grenade")}}
+      <div class="form-group">
+        <label>Blast Falloff (per m)</label>
+        <input type="number" name="system.blast_falloff" value="{{system.blast_falloff}}" min="0" />
+      </div>
+      <div class="form-group">
+        <label>Aerodynamic</label>
+        <input type="checkbox" name="system.aerodynamic" {{#if system.aerodynamic}}checked{{/if}} />
+      </div>
+      {{/if}}
       <div class="form-group">
         <label>Price (¥)</label>
         <input type="number" name="system.price" value="{{system.price}}" min="0" />

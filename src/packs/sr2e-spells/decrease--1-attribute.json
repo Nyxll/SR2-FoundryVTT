@@ -1,0 +1,20 @@
+{
+  "_id": "c329b238cb3e434b",
+  "name": "Decrease -1 Attribute",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>The magician's Target Number is 10, minus the target's Essence. The target resists using the Attribute that is attacked, not necessarily his Body Rating. The success totals of both are com-pared. The magician needs only 1 success to affect the target. If an Attribute is reduced to 0, the target is helpless. If this is a Physical Attribute, the victim is unconscious or paralyzed. When a Mental Attribute is reduced to 0, the victim is standing about mindlessly.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

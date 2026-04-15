@@ -1,0 +1,20 @@
+{
+  "_id": "00db5f1cfe5c476d",
+  "name": "Death Touch",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]S",
+    "force": 1,
+    "description": "<p>A particularly lethal combat spell that requires the casting magician to touch the target. The spell causes Physical damage to a single target.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

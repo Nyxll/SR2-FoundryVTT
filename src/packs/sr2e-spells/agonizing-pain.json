@@ -1,0 +1,20 @@
+{
+  "_id": "4b27689405f44da3",
+  "name": "Agonizing Pain",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>The agonizing pain spell inflicts temporary Stun damage on a target equal to the caster's successes. With 10 or more successes, it incapacitates the subject. The subject suffers no actual damage and the pain can be resisted with a successful Willpower Test.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

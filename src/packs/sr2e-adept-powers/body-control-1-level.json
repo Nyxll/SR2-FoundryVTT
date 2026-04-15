@@ -1,0 +1,17 @@
+{
+  "_id": "d18fd3da32cf4882",
+  "name": "Body control +1 level",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.5,
+    "level": 1,
+    "active": false,
+    "description": "<p>GR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

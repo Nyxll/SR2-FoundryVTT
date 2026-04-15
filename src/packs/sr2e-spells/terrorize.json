@@ -1,0 +1,20 @@
+{
+  "_id": "65556aea5b9c45e4",
+  "name": "Terrorize",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>The terrorize spell fills a target with overwhelming fear of the caster, causing them to flee. The subject can make a Willpower Test each round to overcome the effect.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

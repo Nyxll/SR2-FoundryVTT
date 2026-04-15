@@ -1,0 +1,20 @@
+{
+  "_id": "d8a3646400e34d9b",
+  "name": "Control Fire",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This spell allows a magician to control normal flames within their line of sight. The caster can move flames, make them flare, or contain them.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

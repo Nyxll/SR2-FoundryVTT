@@ -1,0 +1,20 @@
+{
+  "_id": "d4180db8c5a0436c",
+  "name": "Fashion",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell instantly tailors clothing, transforming the target's garments into any fashion the caster wishes. The fashion spell requires a voluntary subject. The caster's extrasuccesses measure the degree of style in the tailoring. Thespell cannot change the clothing's protective value, only its cut, color, and fit.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

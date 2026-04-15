@@ -1,0 +1,20 @@
+{
+  "_id": "66297bc36b99481a",
+  "name": "Shapechange",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This spell transforms a voluntary subject into a normal critter, though the subject retains human consciousness. To determine the shapechanged critter's Physical Attributes,consult the Critter Statistics Table, p. 233, SRII, adding 1 to the critter's Base Ratings for every 2 successes the caster generates. Also, increase the critter's Reaction Rating by the subject's Intelligence Rating, to reflect the human mind controlling the animal form. Mental Attributes remain the subject's own. This spell does not transform clothing andequipment. Magicians under this spell can cast spells, but cannot fulfill geasa or use Centering Skills requiring activities that the animal shape cannot perform, such as speech.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

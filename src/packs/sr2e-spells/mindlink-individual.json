@@ -1,0 +1,20 @@
+{
+  "_id": "633b9c1e8305406c",
+  "name": "Mindlink (Individual)",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This is a hypersense spell requiring a voluntary subject that allows the casting magician to communicate mentally,exchanging conversation, emotions, and mental images with a specific person chosen at the time of the spell's design (presumably a teammate.). The subject must be within both line of sight and the range of the spell at the time of the initialcasting. Once the magician has cast the spell, the target must remain within the limited-range area, but may move out of line of sight. (Restricted Target: Individual).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

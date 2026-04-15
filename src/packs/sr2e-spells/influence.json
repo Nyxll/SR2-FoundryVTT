@@ -1,0 +1,20 @@
+{
+  "_id": "99627e5d3c2f4962",
+  "name": "Influence",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>Similar to the control thoughts spell (p. 157, SRII), this spell permanently implants a single suggestion in the victim's mind. He will act according to this suggestion or carry out this order as if it were his own idea. Proving the falseness of the idea to the victim, or forcing the caster to withdraw it, can overcome the spell.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

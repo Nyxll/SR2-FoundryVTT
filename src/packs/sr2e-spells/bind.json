@@ -1,0 +1,20 @@
+{
+  "_id": "fdefad41248f4af5",
+  "name": "Bind",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This spell entraps and holds the target in bands of mystical energy. The magician makes a Spell Success Test using the target's Quickness Attribute Rating as the target number. The target resists by making a Quickness SuccessTest against a target number equal to the Force Rating of the spell. Net successes in the caster's favor provide the effectiveBarrier Rating of the mystic energy. The character can attempt to escape by breaking the bands. In this situation, compare the character's StrengthRating to the Barrier Rating, per those rules (p. 98, SRII). The character must make a Strength Success Test against a target number equal to the Force Rating of the spell in order to exert more pressure against the bonds. Every 2 successes the character rolls allows him to increase his effectiveStrength Rating by 1 for this purpose. Upon breaking free, he must make a Body Success Test to resist (Character'sStrength)L Stun damage, representing the fatigue caused by his efforts.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

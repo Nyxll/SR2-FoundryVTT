@@ -1,0 +1,20 @@
+{
+  "_id": "7d1129e7be3c45ae",
+  "name": "Detect (Life Form)",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)-1]L",
+    "force": 1,
+    "description": "<p>See Detect (Object)</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

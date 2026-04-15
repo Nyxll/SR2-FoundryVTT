@@ -1,0 +1,20 @@
+{
+  "_id": "5749cc48749c4ed5",
+  "name": "Urban Renewal",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)D",
+    "force": 1,
+    "description": "<p>This spell works in a manner similar to the ram spell (p.151, SRII), but affects only parts of buildings. (RestrictedTarget: Buildings.) Also, this version is an area-effect spell. The gamemaster must check for the actual effect only against significant, important objects within the affected area. For other affected objects, the gamemaster may use his or her own discretion.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

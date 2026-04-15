@@ -1,0 +1,20 @@
+{
+  "_id": "eba321de87cc453c",
+  "name": "Levitate Item",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>Levitation allows a magician to lift an item or person from the ground and move him or it around. The maximum \"distance\" that the target can be moved in meters is the magician's Magic Rating times the number of successes. This distance can be expressed as vertical distance (height), horizontal distance, or any combination of the two. A magician with a distance result of 12, for example, could move an object 12 meters horizontally, or 12 meters verti-cally or any combination of the two, as long as the total distance (horizontal plus vertical) equalled 12. This means that 10 horizontal and 2 vertical is fine (10 + 2 = 12), as is 5 horizontal and 7 vertical (5 + 7 = 12). The sum of the vertical and horizontal components must equal the \"distance.\" All movement is figured from the starting point of the target.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

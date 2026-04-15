@@ -1,0 +1,17 @@
+{
+  "_id": "00204704bb20411d",
+  "name": "Astral Perception",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 2,
+    "level": 1,
+    "active": false,
+    "description": "<p>SR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

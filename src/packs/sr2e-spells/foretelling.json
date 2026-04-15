@@ -1,0 +1,20 @@
+{
+  "_id": "11c34b1b8eef4155",
+  "name": "Foretelling",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)D",
+    "force": 1,
+    "description": "<p>The foretelling spell gives the spellcaster a brief insight into the probabilities surrounding a future event. If the Spell Success Test is successful, the magician receives either a brief vision of the circumstances surrounding a specific event or the answer to a single yes-or-no question concerning some future event. Precognition is a very speculative area of magical study, and so the effects of a foretelling spell are not entirely predictable. Use it as a means of providing information, hints and foreshadowings to the players, but do not provide them with definitive answers about the future. Many magicians make use of fetishes such as crystals, mirrors, cards, yarrow sticks, bones and rune stones when casting this spell. The gamemaster must handle this powerful, dangerous spell with great care to avoid upsetting the balance of his game. Do not allow the foretelling spell to ruin planned events-as always, the truth and degree of information provided is at the gamemaster's discretion.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

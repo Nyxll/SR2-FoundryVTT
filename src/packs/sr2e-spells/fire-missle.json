@@ -1,0 +1,20 @@
+{
+  "_id": "e48ac2ba63224d8e",
+  "name": "Fire Missle",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>A bolt of magical energy that causes Physical damage to a single target using the elemental effect of fire.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

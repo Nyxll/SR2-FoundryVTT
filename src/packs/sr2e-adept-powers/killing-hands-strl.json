@@ -1,0 +1,17 @@
+{
+  "_id": "9eb0e5c0ff624726",
+  "name": "Killing Hands (Str)L",
+  "type": "adept_power",
+  "img": "icons/magic/perception/hand-eye-open-yellow.webp",
+  "system": {
+    "cost": 0.5,
+    "level": 1,
+    "active": false,
+    "description": "<p>SR2-???</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

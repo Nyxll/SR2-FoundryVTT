@@ -1,0 +1,20 @@
+{
+  "_id": "4ff7e4247c164e4e",
+  "name": "Flamethrower",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>This spell creates a stream of flame from the caster to the target. Being of real flame, it causes easily flammable materials to ignite and burn. The Damage Code for this attack is (F)M. Every 2 successes increase the Damage Code by one level. The spell is resisted by Body. and one-half the value of Impact Armor reduces the Power (Force) of the attack. Resolve using the ranged combat procedure.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

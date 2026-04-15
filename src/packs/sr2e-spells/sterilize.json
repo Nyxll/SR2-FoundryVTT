@@ -1,0 +1,20 @@
+{
+  "_id": "e4786a5a963548f6",
+  "name": "Sterilize",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>This area-effect spell kills small life forms such as bacteria and other microorganisms. In addition, it also destroys or renders unusable such biomaterial as skinflakes, stray hairs, spilled blood, and so forth that might be left behind at a crime scene. Organic material affected by this spell cannot be used as a material link (see RitualMagic, p. 35, and p. 135, SRII). Because the spell does not affect biomaterial attached to a living being, it does not kill the various helpful and harmful microorganisms living inside a creature. Successful application of the spell requires only 1 success. For game purposes, this spell does not affect organisms classified as bioweapons.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

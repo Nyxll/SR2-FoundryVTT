@@ -1,0 +1,20 @@
+{
+  "_id": "f44f87b13a7e403c",
+  "name": "Bullet Barrier",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Similar to the physical barrier spell (p. 158, SRII), the bullet barrier spell provides protection against bullets and other ballistic weapons. The barrier's effective Barrier Rating equals the spell's Force Rating. The Ballistic Armor Rating can be added to the Barrier Rating. The personal form of this spell has a Drain Code of [(F / 2)+2]L.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

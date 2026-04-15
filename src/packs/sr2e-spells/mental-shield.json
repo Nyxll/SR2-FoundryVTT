@@ -1,0 +1,20 @@
+{
+  "_id": "b759f2a3565f4d3f",
+  "name": "Mental Shield",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>The mental shield spell provides protection against spells and powers that affect the mind. It gives the target extra dice to resist such attacks.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

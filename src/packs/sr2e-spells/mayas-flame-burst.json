@@ -1,0 +1,20 @@
+{
+  "_id": "a157a7f074ae4b3d",
+  "name": "Maya's Flame Burst",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>Illusion spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

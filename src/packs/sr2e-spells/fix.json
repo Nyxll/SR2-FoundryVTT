@@ -1,0 +1,20 @@
+{
+  "_id": "ffb2accf6e714ee5",
+  "name": "Fix",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>The fix spell repairs physical damage to inanimate objects. It cannot restore magical properties or bonds.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "fdf947ce14ca4814",
+  "name": "Flare",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>The flare spell creates a bright flash of light that can temporarily blind a target. The duration of the blindness depends on the caster's net successes.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "bc36bb4a2d914ff0",
+  "name": "Wrecker",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>This spell works in a manner similar to the ram spell (p.151, SRII), but affects only a single vehicle. (RestrictedTarget: Vehicles.)</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

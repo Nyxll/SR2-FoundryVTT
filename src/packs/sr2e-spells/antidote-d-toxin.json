@@ -1,0 +1,20 @@
+{
+  "_id": "912b7774da88412a",
+  "name": "Antidote D Toxin",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)D",
+    "force": 1,
+    "description": "<p>These curative spells act on a toxin (poison or drug) or the disease, not the person affected by them. The Spell Success Test has a target number equal to the Strength (Power) of the infection or toxin. The antidote spell must be used before the toxin damages the victim. Its successes directly reduce the Strength of the toxin at a one-to-one ratio, making it easier for the target to make his own Resistance Tests.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

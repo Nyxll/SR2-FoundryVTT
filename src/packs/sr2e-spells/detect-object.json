@@ -1,0 +1,20 @@
+{
+  "_id": "f355de3d202e4e27",
+  "name": "Detect (Object)",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>An area-effect, general hypersense spell. The magician detects a specified type of target: detect ork, detect dragon, detect guns, detect computers, detect cameras, and so forth. Each variation is a separate spell.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

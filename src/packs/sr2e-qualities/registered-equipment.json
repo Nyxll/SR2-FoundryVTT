@@ -1,0 +1,16 @@
+{
+  "_id": "35",
+  "name": "Registered Equipment",
+  "type": "quality",
+  "img": "icons/magic/symbols/star-gold-white.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 6,
+    "description": "<p>{}</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "eea455f43868481e",
+  "name": "Resist Pain L",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>This spell reduces the penalties suffered because ofPhysical damage (not Stun damage). Though this spell does not heal or treat damage, it offsets the injury modifiers (to the target number and Initiative) the character must use to reflect the damage. Magical assistance to resist pain requires a different spell for (L)ight, (M)oderate, and (S)erious Condition Levels. A resist pain spell cannot be used to counteract the pain of Deadly damage, because any character with a (D)eadly injury is unconscious and must be healed. The spell is \"permanent\" in that the boost to the patient's endorphin levels does not wear off. If the subject's damage rises above the Condition Level at which the patient is resisting pain, or the wounds heal, then the spell dissipates.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "3",
+  "name": "Aptitude",
+  "type": "quality",
+  "img": "icons/magic/symbols/star-gold-white.webp",
+  "system": {
+    "quality_type": "positive",
+    "cost": 2,
+    "description": "<p>{}</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

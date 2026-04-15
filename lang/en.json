@@ -147,6 +147,15 @@
       "S": "Serious",
       "D": "Deadly"
     },
+    "AmmoTypes": {
+      "regular":   "Regular",
+      "apds":      "APDS (Armor Piercing)",
+      "explosive": "Explosive (EX) +2P",
+      "hollow_pt": "Hollow Point +1L vs unarmored",
+      "flechette": "Flechette +1L vs unarmored",
+      "gel":       "Gel (Stun) −2P",
+      "tracer":    "Tracer (FA only)"
+    },
     "WeaponCategories": {
       "pistol": "Pistol",
       "smg": "SMG",

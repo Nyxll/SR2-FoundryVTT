@@ -1,0 +1,20 @@
+{
+  "_id": "130ecd08cb664091",
+  "name": "Spirit Bolt",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]S",
+    "force": 1,
+    "description": "<p>A bolt of magical energy that causes Physical damage to a single spirit. (Restricted Target: Spirits.)</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "1d6bea1523af441c",
+  "name": "Light",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>An area-effect spell. This spell creates a mobile point of light that illuminates an area equal to the magician's Magic Rating times the spell's successes in meters. The illumination is roughly equal to that from a good flashlight, but as an area-effect. This spell cannot be used to blind, but does offset visibility modifiers for darkness; 2 successes counters a +1 modifier.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

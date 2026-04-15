@@ -1,0 +1,20 @@
+{
+  "_id": "8f04043519954f11",
+  "name": "Fire Bolt",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>A powerful bolt of energy that causes Physical damage to a single target, using the elemental effect of fire.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "6f8b06e9c1b343db",
+  "name": "Analyze Magic",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>This spell allows the casting magician to analyze a magic item as if assensing it. To determine the effect of the spell, make the Spell Force test using the Force Rating of the spell, focus, or other magical phenomena as the target number. To determine the information the caster acquires,consult the Astral Examination table (p. 146, SRII).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

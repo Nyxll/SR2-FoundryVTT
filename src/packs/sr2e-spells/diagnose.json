@@ -1,0 +1,20 @@
+{
+  "_id": "d4f48da0c69f4096",
+  "name": "Diagnose",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]M",
+    "force": 1,
+    "description": "<p>The diagnose spell provides the spellcaster with information on any illnesses, injuries or other medical problems from which the subject suffers. To use the spell, the magician makes a Spell Success Test against a target number equal to 10 minus the subject's Essence Rating. For 1 success, the spell reveals whether the subject is healthy or ill and provides a general idea of the subject's Essence (high, average, dangerously low, hey-you're dead!). For 3 successes, the spell reveals specific illnesses or injuries, and for 5 successes it reveals even difficult-to-detect viruses (such as HMHVV) and internal injuries. This spell does not differentiate between low Essence due to deadly wounds or as a result of cyberware. The magician can only tell that something serious happened to the target's body.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

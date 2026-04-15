@@ -1,0 +1,20 @@
+{
+  "_id": "d75d7517855f43eb",
+  "name": "Acid",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>This spell strikes the target with a spray of acid, using the elemental effect rules. (See Elemental Effects, p. 112.).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

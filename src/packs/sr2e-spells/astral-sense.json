@@ -1,0 +1,20 @@
+{
+  "_id": "b8418cacc0324e27",
+  "name": "Astral Sense",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>The astral sense spell enables the spellcaster to sense the presence of astrally active forms within the spell's range (spellcaster's Magic Attribute × 5 meters), even if the character is not astrally active at the time. To use the spell, the magician makes a Spell Success (10) Test. All standard modifiers apply to this test. Each success on the Spell Success Test allows the character to sense astrally active forms of a Force or Magic rating equal to the number of successes. For example, 3 successes allow a character to sense all the items of Force or Magic Rating 3 or below within range, but not a Rating 5 ward. This spell cannot differentiate between spirits, spells and other astrally active forms such as foci and wards.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

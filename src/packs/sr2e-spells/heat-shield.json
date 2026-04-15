@@ -1,0 +1,20 @@
+{
+  "_id": "e6999d59a6c641c5",
+  "name": "Heat Shield",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>The heat shield spell protects a target from fire and heat attacks. It reduces the Power of such attacks by the spell's Force Rating.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "81c2c2a1ef7d4d55",
+  "name": "Improved Invisibility",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>Like the invisibility spell, below, except that this spell affects technological sensing devices.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

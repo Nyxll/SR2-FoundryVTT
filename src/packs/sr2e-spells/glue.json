@@ -1,0 +1,20 @@
+{
+  "_id": "aa52e9d88fc74dd1",
+  "name": "Glue",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>The glue spell magically bonds two inanimate surfaces together. The strength of the bond depends on the spell's Force and the caster's successes.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

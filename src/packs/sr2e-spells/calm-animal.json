@@ -1,0 +1,20 @@
+{
+  "_id": "f9b14aced6bd49d3",
+  "name": "Calm Animal",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]L",
+    "force": 1,
+    "description": "<p>The calm animal spell makes a subject with animal-level intelligence calm and passive. Subjects in combat have a reduced target number to resist.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

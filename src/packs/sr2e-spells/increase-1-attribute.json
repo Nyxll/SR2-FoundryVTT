@@ -1,0 +1,20 @@
+{
+  "_id": "b031a57488074e8d",
+  "name": "Increase +1 Attribute",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>The spell increases a normal Physical or Mental Attribute and Reaction (with special modifications) but not any other Special Attributes. The target number for the Spell Success Test is equal to twice the rating of the Attribute to be increased. A single success is sufficient. This spell does not affect cybernetic features, which require the spell described next. Each Attribute has four specific spells, and so there might be a magician who knows Increase Strength +2, Increase Quickness +1, and so on.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

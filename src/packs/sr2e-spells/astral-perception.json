@@ -1,0 +1,20 @@
+{
+  "_id": "2738d1afbdda4ab0",
+  "name": "Astral Perception",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>Detection spell. Description will be populated from RAG database.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

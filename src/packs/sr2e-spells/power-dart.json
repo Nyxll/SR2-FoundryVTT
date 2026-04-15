@@ -1,0 +1,20 @@
+{
+  "_id": "bae7b4fbaf304eb7",
+  "name": "Power Dart",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]L",
+    "force": 1,
+    "description": "<p>See Mana Dart, above.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "1744736381f3479b",
+  "name": "Detect Enemies",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]M",
+    "force": 1,
+    "description": "<p>An area-effect, general hypersense spell requiring a voluntary subject. Within range. detects living beings who have hostile intentions toward the subject of the spell. This spell would not detect a trap (it is not alive) nor a terrorist about to shoot into a crowd at random (the intention is not personal).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

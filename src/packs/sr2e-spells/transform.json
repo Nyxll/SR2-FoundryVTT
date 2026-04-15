@@ -1,0 +1,20 @@
+{
+  "_id": "cd018628d12a481d",
+  "name": "Transform",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>This spell changes the subject into a normal critter. A transformed being has no awareness of its former state, and has only animal intelligence. The spell will not transform clothing and equipment.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

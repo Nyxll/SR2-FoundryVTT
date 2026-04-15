@@ -1,0 +1,20 @@
+{
+  "_id": "5a9f1f4230da4607",
+  "name": "X-Ray Vision",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>The x-ray vision spell enables a willing subject to see through inanimate barriers. For each success on the spellcaster's Spell Success Test, the subject can see through 1 Barrier Rating Point of non-living objects. The subject must spend a Simple Action to do so. The line of sight provided by the x-ray vision spell fulfills the LOS requirement for casting other spells. The x-ray vision spell does not enable subjects to see through living or magical barriers, and does not work in astral space.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

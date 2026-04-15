@@ -1,0 +1,20 @@
+{
+  "_id": "fed86047e79245a0",
+  "name": "Detect Magic",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>The detect magic spell is an area-effect, general hypersense spell requiring a voluntary subject. Within limited range, the magician detects the presence of active magic in the form of magical items (foci), sustained, quickened, or anchored spells, and/ or spirits. This spell does not detect magically active characters.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

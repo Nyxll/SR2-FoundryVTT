@@ -1,0 +1,20 @@
+{
+  "_id": "8ae38d460ba34621",
+  "name": "Mana Bolt",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>A powerful bolt of magical energy that causes Physical damage.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

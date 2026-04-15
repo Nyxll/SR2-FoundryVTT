@@ -1,0 +1,20 @@
+{
+  "_id": "5527dd0b51c84d0c",
+  "name": "Firewall",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]D",
+    "force": 1,
+    "description": "<p>The firewall spell creates a wall of fire that causes damage to anything that touches it and provides visual cover. It does not block attacks but can detonate explosives.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

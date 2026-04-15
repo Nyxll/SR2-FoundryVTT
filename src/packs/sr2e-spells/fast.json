@@ -1,0 +1,20 @@
+{
+  "_id": "ce20eb89cc6f400b",
+  "name": "Fast",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "permanent",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>The fast spell allows a voluntary subject to ignore hunger and thirst for 48 hours, though it does not replace the need for nourishment.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

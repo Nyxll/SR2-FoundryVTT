@@ -1,0 +1,20 @@
+{
+  "_id": "80a6541d17b74018",
+  "name": "Oxygenate",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell, requiring a voluntary subject, oxygenates his or her blood, giving him or her extra Body dice (1 die for every 2 successes) to resist suffocation, strangulation, the effects of inhaled gas, or any other effect of oxygen deprivation. The spell also allows the subject to breathe water.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

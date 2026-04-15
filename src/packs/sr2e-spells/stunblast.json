@@ -1,0 +1,20 @@
+{
+  "_id": "fb3a9e7fd82149f5",
+  "name": "Stunblast",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>An area-effect spell that causes Stun damage using the elemental effect of blast.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

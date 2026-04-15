@@ -1,0 +1,20 @@
+{
+  "_id": "c807294fc4c84ef8",
+  "name": "Mana Dart",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)L",
+    "force": 1,
+    "description": "<p>A small dart of magical power that does Physical damage.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "60b799943192472f",
+  "name": "Decrease -1 Cybered Attribute",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+3]L",
+    "force": 1,
+    "description": "<p>This spell works in a manner similar to the decrease (Attribute) spell (p. 154, SRII) except that it affects cyberedAttributes. Increase the Drain Level by +1 for the version of this spell that affects cybered Reaction.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

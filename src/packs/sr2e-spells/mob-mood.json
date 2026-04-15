@@ -1,0 +1,20 @@
+{
+  "_id": "88594e3a7d164da9",
+  "name": "Mob Mood",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>Similar to the mob mind spell above, mob mood affects only the crowd's emotions. This spell does not give the caster control of a crowd, but allows him or her to shift a crowd's mood.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

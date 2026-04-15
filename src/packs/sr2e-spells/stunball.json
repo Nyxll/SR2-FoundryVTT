@@ -1,0 +1,20 @@
+{
+  "_id": "44a52dd6f0004e5b",
+  "name": "Stunball",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)-1]D",
+    "force": 1,
+    "description": "<p>An area-effect spell that causes Stun damage to a single target.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

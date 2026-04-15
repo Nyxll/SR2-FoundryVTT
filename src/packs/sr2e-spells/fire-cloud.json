@@ -1,0 +1,20 @@
+{
+  "_id": "abf95b088cac4f8f",
+  "name": "Fire Cloud",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "combat",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)+1]D",
+    "force": 1,
+    "description": "<p>An area-effect cloud of magical energy that causes Physical damage, using the elemental effect of fire.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

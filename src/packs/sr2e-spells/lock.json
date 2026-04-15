@@ -1,0 +1,20 @@
+{
+  "_id": "37f1c04639604bde",
+  "name": "Lock",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]M",
+    "force": 1,
+    "description": "<p>This spell holds any door, portal, closure, and other similar barriers magically closed as long as the caster sustains the spell. Because the lock has the same strength as the material of the door, opening it would require breaking or blasting through it.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "0197f2af4ae14c31",
+  "name": "Fling",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>The fling spell hurls an object at a target with a force equal to the spell's Force. The object's weight is limited by the caster's Magic Attribute.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "3d47e920e9c941ce",
+  "name": "Sap Strength",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+2]S",
+    "force": 1,
+    "description": "<p>The sap strength spell reduces a target's Strength Attribute. For every 2 successes, the target's Strength is reduced by 1. Against inanimate objects, it can cause them to collapse.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

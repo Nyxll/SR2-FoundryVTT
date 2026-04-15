@@ -1,0 +1,20 @@
+{
+  "_id": "196dc1f38282400e",
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "illusion",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)M",
+    "force": 1,
+    "description": "<p>The spellcaster must touch the subject, who becomes invisible to normal light. Thermographic vision can still detect body heat, and the subject is completely tangible and detectable to the senses of hearing, smell, and so forth. Double the number of successes to get the target number for an observer's Perception Test. A success-ful Perception Test means that the invisible person or thing has been noticed. The spell does not affect technological sensing systems (not including cybereyes which are considered natural because of the Essence Cost paid).</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

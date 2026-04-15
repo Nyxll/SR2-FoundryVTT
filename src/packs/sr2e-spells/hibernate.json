@@ -1,0 +1,20 @@
+{
+  "_id": "cf8d0dd236ca4b68",
+  "name": "Hibernate",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "manipulation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)S",
+    "force": 1,
+    "description": "<p>The magician must touch a voluntary or unconscious subject. The spell puts the subject in a form of suspended animation. Double the successes from the Spell Success Test to get the factor by which bodily processes are slowed. If 4 successes are scored, the hiber-nate spell slows the subject's metabolism by a factor of 8. If the subject has exceeded his Condition Monitor, he or she, or it would take an extra box of damage every 80 minutes instead of 10 minutes, as described in Exceeding the Condition Monitor, p. 111. If the subject were suffering from a disease that weakened him every hour, it would now take 8 hours. If he were sealed into a chamber with only enough air to keep him alive for 1 day, the air would now last 8 days.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

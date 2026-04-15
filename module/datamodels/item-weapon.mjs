@@ -8,11 +8,15 @@ export default class WeaponData extends foundry.abstract.TypeDataModel {
       damage_level:  new fields.StringField({ initial: "M", choices: ["L","M","S","D"] }),
       reach:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       concealability: new fields.NumberField({ required: true, integer: true, min: 0, initial: 4 }),
-      ammo_type:     new fields.StringField({ initial: "regular" }),
+      ammo_type:     new fields.StringField({ initial: "regular",
+        choices: ["regular","apds","explosive","hollow_pt","flechette","gel","tracer"] }),
       ammo_current:  new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       ammo_max:      new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       recoil_comp:   new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       smartlink:     new fields.BooleanField({ initial: false }),
+      // Grenade/explosive fields (used when category = "grenade")
+      blast_falloff: new fields.NumberField({ required: true, integer: true, min: 0, initial: 1 }),
+      aerodynamic:   new fields.BooleanField({ initial: false }),
       fire_modes:    new fields.SchemaField({
         ss:  new fields.BooleanField({ initial: false }),
         sa:  new fields.BooleanField({ initial: true }),

@@ -1,0 +1,20 @@
+{
+  "_id": "6a3aef2a4c8f4007",
+  "name": "Clairaudience (Extended)",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "detection",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)-1]S",
+    "force": 1,
+    "description": "<p>This spell works in a manner similar to the clairaudience spell (p. 153, SRII), but includes the Extended Range option. For a complete explanation of Extended Range, see SpellDesign, p.110.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

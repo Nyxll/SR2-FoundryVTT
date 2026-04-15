@@ -1,0 +1,20 @@
+{
+  "_id": "e3c32b8a7fdb45d2",
+  "name": "Decrease Reflexes -1 die",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-purple.webp",
+  "system": {
+    "category": "health",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drain_code": "(F/2)+1]S",
+    "force": 1,
+    "description": "<p>Similar to the increase reflexes spell (p. 155, SRII) this spell reduces the number of Initiative dice available to the target by the number indicated (-1, -2, or-3). This spell will not affect characters with cybernetic Initiative enhancements. Any character who ends up with no, or a negative number of Initiative dice as a result of this spell uses his or her Reaction as Initiative.</p>"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}
