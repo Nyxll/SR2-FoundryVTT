@@ -47,6 +47,25 @@ export default class SR2Actor extends Actor {
   }
 
   /**
+   * Apply installed cyberware/bioware attribute bonuses to derived attribute values.
+   * Called after base attributes are computed, before reaction/pools are derived.
+   */
+  _applyAugmentMods(sys, attrs) {
+    const augments = this.items.filter(
+      i => (i.type === "cyberware" || i.type === "bioware") && i.system.installed
+    );
+    for (const aug of augments) {
+      const mods = aug.system.mods;
+      if (!mods) continue;
+      for (const key of SR2E.ATTRIBUTES) {
+        if (mods[key]) attrs[key].value = (attrs[key].value ?? 1) + mods[key];
+      }
+      if (mods.reaction)        sys.reaction.mod        = (sys.reaction.mod ?? 0) + mods.reaction;
+      if (mods.initiative_dice) sys.initiative.dice     = (sys.initiative.dice ?? 1) + mods.initiative_dice;
+    }
+  }
+
+  /**
    * TN penalty for a single damage track (added to target number, not subtracted from pool).
    * Per SR2E Core Rules — Damage and Healing.
    */
@@ -89,6 +108,9 @@ export default class SR2Actor extends Actor {
     const cyberwareItems = this.items.filter(i => i.type === "cyberware" && i.system.installed);
     const totalEssenceLost = cyberwareItems.reduce((sum, i) => sum + (i.system.essence_cost ?? 0), 0);
     sys.essence.value = Math.max(0, (sys.essence.base ?? 6) - totalEssenceLost);
+
+    // Apply installed cyberware/bioware attribute mods
+    this._applyAugmentMods(sys, attrs);
 
     // Magic & power points — archetype-specific
     const arch = sys.archetype;
@@ -148,6 +170,14 @@ export default class SR2Actor extends Actor {
       sys.pools.hacking = computerSkill + attrs.intelligence.value;
     }
 
+    // Adept power points available = total - sum of purchased power costs
+    if (arch === "adept" || arch === "physical_magician") {
+      const purchasedCost = this.items
+        .filter(i => i.type === "adept_power")
+        .reduce((sum, i) => sum + (i.system.cost ?? 0), 0);
+      sys.power_points.available = Math.max(0, sys.power_points.total - purchasedCost);
+    }
+
     // Wound modifier stored for reference by rolls
     sys.woundModifier = this._totalWoundModifier();
   }
@@ -166,6 +196,9 @@ export default class SR2Actor extends Actor {
       attrs[key].value = (attrs[key].base ?? 1) + (attrs[key].mod ?? 0);
       attrs[key].value = Math.max(1, attrs[key].value);
     }
+
+    // Apply installed cyberware/bioware attribute mods
+    this._applyAugmentMods(sys, attrs);
 
     sys.reaction.value = Math.floor((attrs.quickness.value + attrs.intelligence.value) / 2)
       + (sys.reaction.mod ?? 0);

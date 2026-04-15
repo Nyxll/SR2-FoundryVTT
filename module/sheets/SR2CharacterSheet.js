@@ -163,6 +163,13 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
       this._onSpellRoll(item);
     });
 
+    // Adept power active toggle
+    html.find(".adept-power-active").change(ev => {
+      const itemId = ev.currentTarget.dataset.itemId;
+      const item   = this.actor.items.get(itemId);
+      item.update({ "system.active": ev.currentTarget.checked });
+    });
+
     // Initiative roll
     html.find(".initiative-roll").click(() => this.actor.rollInitiative());
 

@@ -48,6 +48,24 @@ export default class CritterData extends foundry.abstract.TypeDataModel {
       critter_type: new fields.StringField({ initial: "" }),
       magical:      new fields.BooleanField({ initial: false }),
       notes:        new fields.HTMLField({ initial: "" }),
+
+      // Natural weapons embedded on the critter (claws, bite, tail, etc.)
+      natural_weapons: new fields.ArrayField(
+        new fields.SchemaField({
+          name:         new fields.StringField({ required: true, initial: "Claws" }),
+          damage_power: new fields.NumberField({ required: true, integer: true, min: 0, initial: 4 }),
+          damage_level: new fields.StringField({ initial: "M", choices: ["L","M","S","D"] }),
+          reach:        new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+        })
+      ),
+
+      // Special critter abilities (Regeneration, Venom, Fear, Concealment, etc.)
+      special_powers: new fields.ArrayField(
+        new fields.SchemaField({
+          name:        new fields.StringField({ required: true, initial: "" }),
+          description: new fields.StringField({ initial: "" }),
+        })
+      ),
     };
   }
 }

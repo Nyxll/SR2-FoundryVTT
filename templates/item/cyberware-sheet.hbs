@@ -19,6 +19,27 @@
         <input type="checkbox" name="system.installed" {{#if system.installed}}checked{{/if}} /></div>
     </div>
     <div style="padding:8px">
+      <h4 style="margin:4px 0">Attribute Bonuses</h4>
+      <div class="grid grid-4col" style="gap:4px">
+        <div class="form-group"><label>BOD</label>
+          <input type="number" name="system.mods.body" value="{{system.mods.body}}" style="width:45px" /></div>
+        <div class="form-group"><label>QUI</label>
+          <input type="number" name="system.mods.quickness" value="{{system.mods.quickness}}" style="width:45px" /></div>
+        <div class="form-group"><label>STR</label>
+          <input type="number" name="system.mods.strength" value="{{system.mods.strength}}" style="width:45px" /></div>
+        <div class="form-group"><label>CHA</label>
+          <input type="number" name="system.mods.charisma" value="{{system.mods.charisma}}" style="width:45px" /></div>
+        <div class="form-group"><label>INT</label>
+          <input type="number" name="system.mods.intelligence" value="{{system.mods.intelligence}}" style="width:45px" /></div>
+        <div class="form-group"><label>WIL</label>
+          <input type="number" name="system.mods.willpower" value="{{system.mods.willpower}}" style="width:45px" /></div>
+        <div class="form-group"><label>REA</label>
+          <input type="number" name="system.mods.reaction" value="{{system.mods.reaction}}" style="width:45px" /></div>
+        <div class="form-group"><label>Init Dice</label>
+          <input type="number" name="system.mods.initiative_dice" value="{{system.mods.initiative_dice}}" style="width:45px" /></div>
+      </div>
+    </div>
+    <div style="padding:8px">
       {{editor system.description target="system.description" button=true owner=owner editable=editable}}
     </div>
   </section>

@@ -40,6 +40,7 @@
   <nav class="sheet-tabs tabs" data-group="primary">
     <a class="item" data-tab="stats">Stats</a>
     <a class="item" data-tab="weapons">Weapons</a>
+    <a class="item" data-tab="powers">Powers</a>
     <a class="item" data-tab="notes">Notes</a>
   </nav>
 
@@ -126,6 +127,53 @@
           {{/each}}
         </tbody>
       </table>
+    </div>
+
+    {{!-- Powers tab: natural weapons + special powers (critters) --}}
+    <div class="tab" data-group="primary" data-tab="powers">
+
+      <div class="flexrow items-header">
+        <h3>Natural Weapons</h3>
+        <button type="button" class="nat-weapon-add">+ Add</button>
+      </div>
+      <table class="items-table">
+        <thead><tr><th>Name</th><th>Power</th><th>Level</th><th>Reach</th><th></th></tr></thead>
+        <tbody>
+          {{#each system.natural_weapons as |w i|}}
+          <tr data-index="{{i}}">
+            <td><input type="text" name="system.natural_weapons.{{i}}.name" value="{{w.name}}" style="width:90px" /></td>
+            <td><input type="number" name="system.natural_weapons.{{i}}.damage_power" value="{{w.damage_power}}" min="0" style="width:45px" /></td>
+            <td>
+              <select name="system.natural_weapons.{{i}}.damage_level">
+                {{#each (array "L" "M" "S" "D") as |lvl|}}
+                <option value="{{lvl}}" {{#if (eq lvl w.damage_level)}}selected{{/if}}>{{lvl}}</option>
+                {{/each}}
+              </select>
+            </td>
+            <td><input type="number" name="system.natural_weapons.{{i}}.reach" value="{{w.reach}}" min="0" style="width:40px" /></td>
+            <td><a class="nat-weapon-delete" data-index="{{i}}"><i class="fas fa-trash"></i></a></td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+      <div class="flexrow items-header" style="margin-top:8px">
+        <h3>Special Powers</h3>
+        <button type="button" class="special-power-add">+ Add</button>
+      </div>
+      <table class="items-table">
+        <thead><tr><th>Name</th><th>Description</th><th></th></tr></thead>
+        <tbody>
+          {{#each system.special_powers as |p i|}}
+          <tr data-index="{{i}}">
+            <td><input type="text" name="system.special_powers.{{i}}.name" value="{{p.name}}" style="width:100px" /></td>
+            <td><input type="text" name="system.special_powers.{{i}}.description" value="{{p.description}}" style="width:180px" /></td>
+            <td><a class="special-power-delete" data-index="{{i}}"><i class="fas fa-trash"></i></a></td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
     </div>
 
     <div class="tab" data-group="primary" data-tab="notes">

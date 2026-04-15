@@ -92,5 +92,31 @@ export default class SR2NPCSheet extends foundry.appv1.sheets.ActorSheet {
       const li = ev.currentTarget.closest(".item");
       this.actor.items.get(li.dataset.itemId).delete();
     });
+
+    // Natural weapons (embedded array)
+    html.find(".nat-weapon-add").click(() => {
+      const weapons = foundry.utils.deepClone(this.actor.system.natural_weapons ?? []);
+      weapons.push({ name: "Claws", damage_power: 4, damage_level: "M", reach: 0 });
+      this.actor.update({ "system.natural_weapons": weapons });
+    });
+    html.find(".nat-weapon-delete").click(ev => {
+      const idx = parseInt(ev.currentTarget.dataset.index);
+      const weapons = foundry.utils.deepClone(this.actor.system.natural_weapons ?? []);
+      weapons.splice(idx, 1);
+      this.actor.update({ "system.natural_weapons": weapons });
+    });
+
+    // Special powers (embedded array)
+    html.find(".special-power-add").click(() => {
+      const powers = foundry.utils.deepClone(this.actor.system.special_powers ?? []);
+      powers.push({ name: "", description: "" });
+      this.actor.update({ "system.special_powers": powers });
+    });
+    html.find(".special-power-delete").click(ev => {
+      const idx = parseInt(ev.currentTarget.dataset.index);
+      const powers = foundry.utils.deepClone(this.actor.system.special_powers ?? []);
+      powers.splice(idx, 1);
+      this.actor.update({ "system.special_powers": powers });
+    });
   }
 }

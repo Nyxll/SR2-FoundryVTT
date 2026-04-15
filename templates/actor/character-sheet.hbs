@@ -328,18 +328,68 @@
     {{#if isMagic}}
     <div class="tab" data-group="primary" data-tab="magic">
       {{#if (eq system.archetype "adept")}}
+      <p class="hint">Power Points: <strong>{{system.power_points.available}}</strong> / {{system.power_points.total}} remaining</p>
       <div class="flexrow items-header">
         <h3>Adept Powers</h3>
         <button type="button" class="item-create" data-type="adept_power">+ Add Power</button>
       </div>
       <table class="items-table">
-        <thead><tr><th>Name</th><th>Cost</th><th>Level</th><th></th></tr></thead>
+        <thead><tr><th>Name</th><th>Cost</th><th>Lvl</th><th>Active</th><th></th></tr></thead>
         <tbody>
           {{#each adeptPowers as |item|}}
           <tr class="item" data-item-id="{{item.id}}">
             <td>{{item.name}}</td>
             <td>{{item.system.cost}}</td>
             <td>{{item.system.level}}</td>
+            <td><input type="checkbox" class="adept-power-active" data-item-id="{{item.id}}"
+                       {{#if item.system.active}}checked{{/if}} /></td>
+            <td class="item-controls">
+              <a class="item-edit"><i class="fas fa-edit"></i></a>
+              <a class="item-delete"><i class="fas fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      {{else if (eq system.archetype "physical_magician")}}
+      <p class="hint">
+        Power Points: <strong>{{system.power_points.available}}</strong> / {{system.power_points.total}} remaining &nbsp;|&nbsp;
+        Casting Magic: {{system.magic.value}} &nbsp;|&nbsp; Spell Pool: {{system.pools.spell}}
+      </p>
+      <div class="flexrow items-header">
+        <h3>Adept Powers</h3>
+        <button type="button" class="item-create" data-type="adept_power">+ Add Power</button>
+      </div>
+      <table class="items-table">
+        <thead><tr><th>Name</th><th>Cost</th><th>Lvl</th><th>Active</th><th></th></tr></thead>
+        <tbody>
+          {{#each adeptPowers as |item|}}
+          <tr class="item" data-item-id="{{item.id}}">
+            <td>{{item.name}}</td>
+            <td>{{item.system.cost}}</td>
+            <td>{{item.system.level}}</td>
+            <td><input type="checkbox" class="adept-power-active" data-item-id="{{item.id}}"
+                       {{#if item.system.active}}checked{{/if}} /></td>
+            <td class="item-controls">
+              <a class="item-edit"><i class="fas fa-edit"></i></a>
+              <a class="item-delete"><i class="fas fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <div class="flexrow items-header" style="margin-top:8px">
+        <h3>Spells</h3>
+        <button type="button" class="item-create" data-type="spell">+ Add Spell</button>
+      </div>
+      <table class="items-table">
+        <thead><tr><th>Name</th><th>Category</th><th>Drain</th><th></th></tr></thead>
+        <tbody>
+          {{#each spells as |item|}}
+          <tr class="item" data-item-id="{{item.id}}">
+            <td><a class="spell-roll">{{item.name}}</a></td>
+            <td>{{item.system.category}}</td>
+            <td>{{item.system.drain_code}}</td>
             <td class="item-controls">
               <a class="item-edit"><i class="fas fa-edit"></i></a>
               <a class="item-delete"><i class="fas fa-trash"></i></a>
