@@ -16,6 +16,8 @@ import SR2ItemSheet      from "./sheets/SR2ItemSheet.js";
 
 Hooks.once("init", function () {
   console.log("SR2E | Initializing Shadowrun 2nd Edition System");
+  console.log("SR2E | datamodels loaded:", Object.keys(datamodels));
+  console.log("SR2E | documents loaded:", Object.keys(documents));
 
   // Expose config on game object for macro / module access
   game.sr2e = { config: SR2E };
@@ -25,17 +27,17 @@ Hooks.once("init", function () {
   CONFIG.Actor.documentClass = documents.SR2Actor;
   CONFIG.Item.documentClass  = documents.SR2Item;
 
-  // Register DataModels for each actor type
-  CONFIG.Actor.dataModels = {
+  // Register DataModels for each actor type (use Object.assign, don't replace)
+  Object.assign(CONFIG.Actor.dataModels, {
     character: datamodels.CharacterData,
     npc:       datamodels.NpcData,
     critter:   datamodels.CritterData,
     spirit:    datamodels.SpiritData,
     vehicle:   datamodels.VehicleData,
-  };
+  });
 
   // Register DataModels for each item type
-  CONFIG.Item.dataModels = {
+  Object.assign(CONFIG.Item.dataModels, {
     weapon:      datamodels.WeaponData,
     armor:       datamodels.ArmorData,
     cyberware:   datamodels.CyberwareData,
@@ -46,9 +48,11 @@ Hooks.once("init", function () {
     quality:     datamodels.QualityData,
     contact:     datamodels.ContactData,
     sin:         datamodels.SinData,
-  };
+  });
 
-  // Register actor sheets (v14 API)
+  console.log("SR2E | Actor dataModels registered:", Object.keys(CONFIG.Actor.dataModels));
+
+  // Register actor sheets
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("shadowrun2e", SR2CharacterSheet, {
     types: ["character"],
@@ -61,18 +65,22 @@ Hooks.once("init", function () {
     label: "NPC Sheet",
   });
 
-  // Register item sheet (v14 API)
+  // Register item sheet
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("shadowrun2e", SR2ItemSheet, {
     makeDefault: true,
     label: "Item Sheet",
   });
 
+  console.log("SR2E | Sheets registered");
+
   // Register system settings
   _registerSettings();
 
   // Register Handlebars helpers
   _registerHandlebarsHelpers();
+
+  console.log("SR2E | Init complete");
 
   // Preload templates
   return _preloadTemplates();
