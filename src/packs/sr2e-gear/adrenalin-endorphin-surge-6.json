@@ -1,0 +1,24 @@
+{
+  "_id": "6149a279a348b6d5",
+  "name": "Adrenalin/Endorphin Surge 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 75000,
+    "availability": "6/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

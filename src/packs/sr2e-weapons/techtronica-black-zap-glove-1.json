@@ -1,0 +1,28 @@
+{
+  "_id": "51fbca1ee2e928b4",
+  "name": "Techtronica Black-Zap Glove",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "9S Stun",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1,
+    "cost": 1200,
+    "availability": "6/48hrs",
+    "street_index": 2.2,
+    "legality": "",
+    "description": "Techtronica Black-Zap Glove - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

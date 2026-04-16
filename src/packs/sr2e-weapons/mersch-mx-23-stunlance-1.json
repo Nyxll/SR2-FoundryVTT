@@ -1,0 +1,28 @@
+{
+  "_id": "009e6849be2ded16",
+  "name": "Mersch MX-23 Stunlance",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+2)L/9S Stun",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 3,
+    "cost": 2500,
+    "availability": "5/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Mersch MX-23 Stunlance - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

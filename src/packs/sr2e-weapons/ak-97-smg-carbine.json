@@ -1,0 +1,28 @@
+{
+  "_id": "0877518154c0a9c7",
+  "name": "AK-97 SMG/Carbine",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-rifle.webp",
+  "system": {
+    "category": "rifle",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 800,
+    "availability": "5/3days",
+    "street_index": 1,
+    "legality": "",
+    "description": "AK-97 SMG/Carbine - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

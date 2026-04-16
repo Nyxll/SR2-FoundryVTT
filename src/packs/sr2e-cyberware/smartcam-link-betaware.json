@@ -1,0 +1,26 @@
+{
+  "_id": "c1f971c1ad2ea4bb",
+  "name": "Smartcam Link (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 12500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

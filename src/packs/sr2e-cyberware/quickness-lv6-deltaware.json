@@ -1,0 +1,28 @@
+{
+  "_id": "10244b9d740b106c",
+  "name": "Quickness Lv6 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.36,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3300000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "quickness": 6
+    },
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute. The cybertorso also reduces by half (round up) the additional Essence cost of Strength or Quickness enhancements beyond 3 points (see Limb Enhancements, p. 31, and Cyberware Rules, p. 49)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

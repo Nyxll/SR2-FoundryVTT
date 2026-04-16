@@ -1,0 +1,28 @@
+{
+  "_id": "592bbd05700c0fb0",
+  "name": "Kendachi Dragon flamethrower",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "M",
+    "damage_code": "10M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.25,
+    "cost": 1660,
+    "availability": "10/5 days",
+    "street_index": 4.5,
+    "legality": "",
+    "description": "Kendachi Dragon flamethrower - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

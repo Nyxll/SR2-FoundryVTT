@@ -1,0 +1,21 @@
+{
+  "_id": "c23ef573b424f869",
+  "name": "Masetto 'Guercio' Helmet",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": null,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 600,
+    "availability": "3/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

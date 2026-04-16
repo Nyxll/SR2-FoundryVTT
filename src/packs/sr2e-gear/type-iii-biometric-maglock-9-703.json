@@ -1,0 +1,24 @@
+{
+  "_id": "fd5fa13b95356df5",
+  "name": "Type III Biometric Maglock (9)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 9,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 3150,
+    "availability": "9/5days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Type III Biometric Maglock (9) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "972c0bc54c3d7436",
+  "name": "Language skill Chip, Level 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 300,
+    "availability": "5/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "64c19620531e00bd",
+  "name": "Data Encryption System Lv 10",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 10000,
+    "availability": "10/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Data Encryption System Lv 10 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

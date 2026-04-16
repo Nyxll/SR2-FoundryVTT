@@ -1,0 +1,24 @@
+{
+  "_id": "3aa03f6b94ec1062",
+  "name": "See Through Paper Spray",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 15,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "See Through Paper Spray - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

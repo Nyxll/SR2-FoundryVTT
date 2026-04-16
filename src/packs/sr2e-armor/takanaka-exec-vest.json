@@ -1,0 +1,21 @@
+{
+  "_id": "6f36beef4709fcf0",
+  "name": "Takanaka Exec Vest",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 500,
+    "availability": "6/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

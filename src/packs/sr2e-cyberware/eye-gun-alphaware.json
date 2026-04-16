@@ -1,0 +1,26 @@
+{
+  "_id": "d4351781f13ccf9c",
+  "name": "Eye Gun (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.32,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 12800,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "Treat as a hold-out pistol with one-half range (round down), a -1 Damage modifier, and a +1 recoil modifier. One shot per reload. Reloading takes 10 Combat Turns, but a successful Biotech Test reduces the reload time by half the character's Quickness. Rounds cost five times the normal price. Firing requires a Special Skill or Quickness Test. Cannot be linked to any kind of aim enhancer. After firing, a character must apply a +2 modifier for all visual tests for a period of (6 - Unaugmented Body) Combat Turns, for a minimum of 2 Combat Turns."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

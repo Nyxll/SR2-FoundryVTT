@@ -1,0 +1,24 @@
+{
+  "_id": "2c88ba8f918ff5c0",
+  "name": "DocWagon: Platinum",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 50000,
+    "availability": "On Payment",
+    "street_index": 0,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

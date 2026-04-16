@@ -1,0 +1,24 @@
+{
+  "_id": "f2b81c30abe5064c",
+  "name": "Mobile TV/3V Transmitter ECM 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 25,
+    "cost": 22500,
+    "availability": "14/2weeks",
+    "street_index": 3,
+    "legality": "",
+    "description": "Mobile TV/3V Transmitter ECM 6 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

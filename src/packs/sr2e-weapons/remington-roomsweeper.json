@@ -1,0 +1,28 @@
+{
+  "_id": "0b40db9127cb7ae8",
+  "name": "Remington Roomsweeper",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "9S(f)",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 300,
+    "availability": "3/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

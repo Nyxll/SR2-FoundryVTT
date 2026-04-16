@@ -1,0 +1,28 @@
+{
+  "_id": "d7272d75a76b456f",
+  "name": "IWS Assault 20",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 18,
+    "damage_level": "D",
+    "damage_code": "18D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 16,
+    "cost": 7200,
+    "availability": "16/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "IWS Assault 20 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

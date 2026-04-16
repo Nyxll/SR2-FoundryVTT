@@ -1,0 +1,24 @@
+{
+  "_id": "9ace6241e43941cb",
+  "name": "Bar-In-A-Briefcase",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 100,
+    "availability": "6/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

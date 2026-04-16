@@ -1,0 +1,24 @@
+{
+  "_id": "6910f3c5a3b74133",
+  "name": "IPE Offensive HE Minigrenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.1,
+    "cost": 100,
+    "availability": "6/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

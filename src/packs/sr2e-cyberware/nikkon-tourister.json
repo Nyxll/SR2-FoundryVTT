@@ -1,0 +1,26 @@
+{
+  "_id": "8c26e35c0f1dfc71",
+  "name": "Nikkon Tourister",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 22000,
+    "availability": "",
+    "street_index": 1.2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

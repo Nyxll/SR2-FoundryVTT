@@ -1,0 +1,24 @@
+{
+  "_id": "4038b80a557df586",
+  "name": "Retinal Pattern Duplicator 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 7,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 420000,
+    "availability": "14/10days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Retinal Pattern Duplicator 7 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

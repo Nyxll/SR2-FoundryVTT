@@ -1,0 +1,24 @@
+{
+  "_id": "fe93e87a0220cff8",
+  "name": "DTox Spetsdod Round",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 0,
+    "availability": "GM",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

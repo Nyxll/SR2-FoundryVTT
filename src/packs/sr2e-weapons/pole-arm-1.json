@@ -1,0 +1,28 @@
+{
+  "_id": "ca547f768ed8fa4c",
+  "name": "Pole Arm",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "S",
+    "damage_code": "(STR)S",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 4,
+    "cost": 500,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Pole Arm - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

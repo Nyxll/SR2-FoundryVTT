@@ -1,0 +1,26 @@
+{
+  "_id": "b429754ae1932f05",
+  "name": "Eye L /w Flash-pak (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "You can also get a nasty, nasty high-intensity BrightLight flash system. Brights come in two intensities; the first is reusable and works just like a flash-pak. The second is a one-shot deal until the flash units are replaced; this puppy creates a flash bright enough to overload the optic nerves of the poor bastard in front of you, blinding and stunning him at the same time."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

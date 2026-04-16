@@ -1,0 +1,21 @@
+{
+  "_id": "5daa3cb5a7df5685",
+  "name": "MetalGear Torso Piece",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1.5,
+    "impact": 1.25,
+    "concealability": 0,
+    "cost": 2000,
+    "availability": "10/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

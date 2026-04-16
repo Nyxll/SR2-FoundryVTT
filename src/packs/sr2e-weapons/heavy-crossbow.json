@@ -1,0 +1,28 @@
+{
+  "_id": "41bc571ae575810d",
+  "name": "Heavy Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 8,
+    "damage_level": "S",
+    "damage_code": "8S",
+    "concealability": null,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 750,
+    "availability": "6/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Heavy Crossbow - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

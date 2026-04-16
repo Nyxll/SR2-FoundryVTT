@@ -1,0 +1,28 @@
+{
+  "_id": "3ad1d40bbf44c330",
+  "name": "Colt Peacemaker",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "M",
+    "damage_code": "10M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.75,
+    "cost": 350,
+    "availability": "3/24hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

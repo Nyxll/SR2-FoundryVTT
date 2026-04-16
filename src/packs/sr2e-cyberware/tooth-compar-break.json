@@ -1,0 +1,26 @@
+{
+  "_id": "6536966d031b48bf",
+  "name": "Tooth Compar Break",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 700,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "To break the breakable tooth takes a successful Willpower (2) Test If the contents are non-lethal to the user. If the contents are lethal, a Willpower (4) Test is required. Tooth contents take effect immediately. The contents of either type of tooth compartment can be removed or replaced in three minutes."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

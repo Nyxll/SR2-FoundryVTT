@@ -1,0 +1,24 @@
+{
+  "_id": "bb9a235eece69591",
+  "name": "Single Immunization",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 40000,
+    "availability": "6/20days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Single Immunization - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "e055c85ce61e2232",
+  "name": "External Simlink Rating 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.5,
+    "cost": 65000,
+    "availability": "8/2weeks",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

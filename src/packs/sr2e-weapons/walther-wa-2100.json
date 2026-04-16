@@ -1,0 +1,28 @@
+{
+  "_id": "2ec80a7123b631df",
+  "name": "Walther WA-2100",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 14,
+    "damage_level": "S",
+    "damage_code": "14S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.5,
+    "cost": 6500,
+    "availability": "12/7days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "11fa02ab8fd28ee9",
+  "name": "Split Line Phone Upgrade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 100,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Split Line Phone Upgrade - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

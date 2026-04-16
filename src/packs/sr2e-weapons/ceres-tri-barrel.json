@@ -1,0 +1,28 @@
+{
+  "_id": "c5fe1be5c3e150a2",
+  "name": "Ceres Tri-Barrel",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.5,
+    "cost": 1000,
+    "availability": "9/60hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Ceres Tri-Barrel - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

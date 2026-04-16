@@ -1,0 +1,24 @@
+{
+  "_id": "913a624ff46db770",
+  "name": "Gas Rounds (Shotgun only)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.5,
+    "cost": 50,
+    "availability": "6/48hrs",
+    "street_index": 1.1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

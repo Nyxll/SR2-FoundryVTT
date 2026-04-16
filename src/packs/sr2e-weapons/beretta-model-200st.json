@@ -1,0 +1,28 @@
+{
+  "_id": "38a2a32311152e28",
+  "name": "Beretta Model 200ST",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 750,
+    "availability": "5/24hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

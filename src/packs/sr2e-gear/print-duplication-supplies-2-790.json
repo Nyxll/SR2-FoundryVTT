@@ -1,0 +1,24 @@
+{
+  "_id": "9a1c2a8dbc00d8c3",
+  "name": "Print Duplication Supplies 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 400,
+    "availability": "4/12hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Print Duplication Supplies 2 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "c2227fe4a8501997",
+  "name": "Dual-Purpose Tires",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "extras",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 250,
+    "availability": "",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

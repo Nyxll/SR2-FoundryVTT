@@ -1,0 +1,24 @@
+{
+  "_id": "199ad8278ea684dd",
+  "name": "CS Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 0.5,
+    "cost": 75,
+    "availability": "6/4 days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

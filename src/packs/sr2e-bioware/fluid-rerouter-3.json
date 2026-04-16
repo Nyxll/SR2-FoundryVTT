@@ -1,0 +1,21 @@
+{
+  "_id": "6a7000ff97116cdd",
+  "name": "Fluid Rerouter 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 7500,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

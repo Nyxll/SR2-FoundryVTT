@@ -1,0 +1,24 @@
+{
+  "_id": "aa7ff6f865ac04a6",
+  "name": "Call Waiting Phone Upgrade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 50,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Call Waiting Phone Upgrade - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

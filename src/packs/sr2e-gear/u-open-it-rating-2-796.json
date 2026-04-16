@@ -1,0 +1,24 @@
+{
+  "_id": "005a4032c82b2f12",
+  "name": "U-Open-It Rating 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 5,
+    "cost": 150,
+    "availability": "6/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "U-Open-It Rating 2 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

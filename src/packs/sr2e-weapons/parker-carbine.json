@@ -1,0 +1,28 @@
+{
+  "_id": "45f98be6aca1a8e5",
+  "name": "Parker Carbine",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-rifle.webp",
+  "system": {
+    "category": "rifle",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5.1,
+    "cost": 2500,
+    "availability": "12/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

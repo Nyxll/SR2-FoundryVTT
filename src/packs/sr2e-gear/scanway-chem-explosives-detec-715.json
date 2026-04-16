@@ -1,0 +1,24 @@
+{
+  "_id": "a2ecb8ae3a2c984f",
+  "name": "Scanway Chem/Explosives detec.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 350000,
+    "availability": "9/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Scanway Chem/Explosives detec. - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

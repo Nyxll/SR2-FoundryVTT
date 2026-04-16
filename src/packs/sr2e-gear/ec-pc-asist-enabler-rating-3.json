@@ -1,0 +1,24 @@
+{
+  "_id": "b83cae4ac19a3e55",
+  "name": "EC/PC ASIST Enabler Rating 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 6,
+    "cost": 30000,
+    "availability": "8/1week",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

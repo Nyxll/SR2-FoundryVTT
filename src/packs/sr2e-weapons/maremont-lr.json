@@ -1,0 +1,28 @@
+{
+  "_id": "7645d41e00affd48",
+  "name": "Maremont LR",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "M",
+    "damage_code": "8M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.25,
+    "cost": 1400,
+    "availability": "6/4days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

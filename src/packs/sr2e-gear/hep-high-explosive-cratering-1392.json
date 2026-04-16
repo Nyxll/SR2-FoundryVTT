@@ -1,0 +1,24 @@
+{
+  "_id": "c38372641a5b206d",
+  "name": "HEP (High-Explosive Cratering)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.1,
+    "cost": 60,
+    "availability": "9/5days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

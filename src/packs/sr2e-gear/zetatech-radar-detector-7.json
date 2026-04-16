@@ -1,0 +1,24 @@
+{
+  "_id": "d126dbed610383f3",
+  "name": "Zetatech Radar Detector 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 3150,
+    "availability": "7/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Radar Detector 7 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "2c40a3ea9c048383",
+  "name": "Ranger-X Bow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+4)M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.5,
+    "cost": 120,
+    "availability": "5/36hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ranger-X Bow - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

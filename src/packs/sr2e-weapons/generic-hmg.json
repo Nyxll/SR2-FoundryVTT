@@ -1,0 +1,28 @@
+{
+  "_id": "ee9947f739c2cac6",
+  "name": "Generic HMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 15,
+    "cost": 4000,
+    "availability": "18/18days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Generic HMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

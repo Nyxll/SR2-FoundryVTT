@@ -1,0 +1,24 @@
+{
+  "_id": "a1d1c179a6a89f4b",
+  "name": "Pocket Commo",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.1,
+    "cost": 500,
+    "availability": "always",
+    "street_index": 0.5,
+    "legality": "",
+    "description": "Pocket Commo - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

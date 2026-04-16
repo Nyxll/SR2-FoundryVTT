@@ -1,0 +1,28 @@
+{
+  "_id": "9178c0afb70031a2",
+  "name": "S&W Model F \"Cyborg Assault\"",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "S",
+    "damage_code": "8S",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 1650,
+    "availability": "10/5days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

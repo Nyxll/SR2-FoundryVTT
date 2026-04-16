@@ -1,0 +1,28 @@
+{
+  "_id": "28ce65789993d883",
+  "name": "Standard Bow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR Min.+2)M",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1,
+    "cost": 0,
+    "availability": "3/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Standard Bow - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "864168d164db0456",
+  "name": "Armante \"Executive Suite\" Tux",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 3,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 1100,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

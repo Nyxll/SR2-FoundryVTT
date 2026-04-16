@@ -1,0 +1,24 @@
+{
+  "_id": "521b8458f207ee3c",
+  "name": "Superball Lvl 8 (per meter)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 400,
+    "availability": "16/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Superball Lvl 8 (per meter) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

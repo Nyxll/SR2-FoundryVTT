@@ -1,0 +1,24 @@
+{
+  "_id": "d9e3d6ee967d0c92",
+  "name": "Type II Maglock (rating 5)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 500,
+    "availability": "5/3days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Type II Maglock (rating 5) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

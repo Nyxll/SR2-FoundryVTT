@@ -1,0 +1,28 @@
+{
+  "_id": "55b693b1a8d71a87",
+  "name": "Kimatsuhama UBS-7",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "S",
+    "damage_code": "7S",
+    "concealability": -3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 1700,
+    "availability": "10/7days",
+    "street_index": 1.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

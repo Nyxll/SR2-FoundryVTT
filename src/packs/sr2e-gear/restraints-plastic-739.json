@@ -1,0 +1,24 @@
+{
+  "_id": "004e70a50f543a2e",
+  "name": "Restraints, Plastic",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 15,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 0,
+    "cost": 20,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Restraints, Plastic - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

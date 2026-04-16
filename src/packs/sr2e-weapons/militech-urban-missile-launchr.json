@@ -1,0 +1,28 @@
+{
+  "_id": "5542e4c4b1e63c9b",
+  "name": "Militech Urban Missile Launchr",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Micromissile)",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 4500,
+    "availability": "10/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Militech Urban Missile Launchr - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

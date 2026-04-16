@@ -1,0 +1,26 @@
+{
+  "_id": "dd25fd7f99f6223b",
+  "name": "Cyberhand/Foot (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.14,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 450000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "The presence of a cyberlimb adds to the Power of any unarmed combat attack using that limb. See General Rules for Cyberlimbs, p. 49 of Cyberware Rules."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

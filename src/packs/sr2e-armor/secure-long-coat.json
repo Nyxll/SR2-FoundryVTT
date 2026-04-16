@@ -1,0 +1,21 @@
+{
+  "_id": "f96dfbe32a2087d0",
+  "name": "Secure Long Coat",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 650,
+    "availability": "3/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

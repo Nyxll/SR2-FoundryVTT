@@ -1,0 +1,28 @@
+{
+  "_id": "1f47f1bea8e4c562",
+  "name": "Goncz-Taurus Pistol(Selective)",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 9,
+    "damage_level": "M",
+    "damage_code": "9M",
+    "concealability": 65,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 700,
+    "availability": "8/72hrs",
+    "street_index": 1.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

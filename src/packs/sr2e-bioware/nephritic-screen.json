@@ -1,0 +1,21 @@
+{
+  "_id": "9d2bce4e32b5e66b",
+  "name": "Nephritic Screen",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 20000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "With the installation of a nephritic screen, the kidney is rebuilt to enable a more effective cycle of filtration and reclamation. Finer discrimination in the removal of waste products and the reclamation of useful materials extends a greater level of well-being to the recipient. Characters possessing a nephritic screen add +1 to their Body Attribute for tests to resist toxins and pathogenic agents. In addition, the screen acts to combat the effects of pathogens and blood-vectored toxins. Reduce the attack's Power Level by 1 point."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

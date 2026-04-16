@@ -1,0 +1,28 @@
+{
+  "_id": "625dadbfd156da15",
+  "name": "Hammerli Model 520",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.25,
+    "cost": 1000,
+    "availability": "8/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

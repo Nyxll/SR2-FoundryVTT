@@ -1,0 +1,28 @@
+{
+  "_id": "c3f6b5d09e0fff78",
+  "name": "Brass Knuckles",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+1)M Stun",
+    "concealability": 164,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.2,
+    "cost": 20,
+    "availability": "2/24hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Brass Knuckles - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

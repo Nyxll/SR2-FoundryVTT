@@ -1,0 +1,28 @@
+{
+  "_id": "9471db70660fe3b6",
+  "name": "Reaction Enhan Lv3 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.72,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 360000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {
+      "reaction": 3
+    },
+    "description": "Player characters may increase Reaction up to a maximum of +6 in this manner. The reaction enhancer is completely compatible with all other reaction/Initiative boosters except the move-by-wire system (see p. 39) and the adrenal pump (p. 19, Shadowtech)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

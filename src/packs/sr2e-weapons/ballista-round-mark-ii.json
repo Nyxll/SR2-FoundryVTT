@@ -1,0 +1,28 @@
+{
+  "_id": "c12b066e59575698",
+  "name": "Ballista Round Mark II",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 14,
+    "damage_level": "D",
+    "damage_code": "14D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.75,
+    "cost": 2000,
+    "availability": "18/28days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

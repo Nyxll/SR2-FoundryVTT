@@ -1,0 +1,28 @@
+{
+  "_id": "ec20786370e2adeb",
+  "name": "IWS Mini-5",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "S",
+    "damage_code": "7S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 14,
+    "cost": 13000,
+    "availability": "24/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "IWS Mini-5 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

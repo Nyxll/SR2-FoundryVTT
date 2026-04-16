@@ -1,0 +1,26 @@
+{
+  "_id": "1d555e9a726972e6",
+  "name": "Ares BattleLink (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 1700000,
+    "availability": "",
+    "street_index": 1.2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

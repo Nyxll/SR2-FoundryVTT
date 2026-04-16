@@ -1,0 +1,24 @@
+{
+  "_id": "636114a2880b7bc5",
+  "name": "Poser Impersonation W/Habits",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 46,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 40000,
+    "availability": "24/20days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

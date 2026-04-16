@@ -1,0 +1,28 @@
+{
+  "_id": "14d088afd8cb0860",
+  "name": "FAB-NG Netgun, Normal",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.5,
+    "cost": 1500,
+    "availability": "8/14days",
+    "street_index": 4,
+    "legality": "",
+    "description": "FAB-NG Netgun, Normal - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

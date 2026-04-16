@@ -1,0 +1,28 @@
+{
+  "_id": "98c43ed6e7bb7c84",
+  "name": "Sonic Stunner",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 15,
+    "damage_level": "M",
+    "damage_code": "15M",
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 1000,
+    "availability": "6/36hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Sonic Stunner - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

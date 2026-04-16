@@ -1,0 +1,21 @@
+{
+  "_id": "af6be901df46731f",
+  "name": "Fire-Resistant Coveralls",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 2000,
+    "availability": "10/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "425a44bf5c08b058",
+  "name": "Armor Piercing Flechette Rnds",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.5,
+    "cost": 150,
+    "availability": "6/3days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

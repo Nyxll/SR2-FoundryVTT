@@ -1,0 +1,24 @@
+{
+  "_id": "ecc1e522ce1c28e1",
+  "name": "Concentration Chip, Level 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 27000,
+    "availability": "5/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

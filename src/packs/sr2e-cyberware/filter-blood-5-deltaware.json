@@ -1,0 +1,26 @@
+{
+  "_id": "b39b6a1e5eca64b8",
+  "name": "Filter: Blood 5 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 750000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

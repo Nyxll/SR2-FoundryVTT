@@ -1,0 +1,26 @@
+{
+  "_id": "ce960138502e1992",
+  "name": "Tactical Comp Lv2 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 2.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4500000,
+    "availability": "",
+    "street_index": 4,
+    "mods": {},
+    "description": "Cyberarm versions of these pieces of equipment work in the same way as cranial versions (pp. 53 and 63 of Shadowtech, respectively)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

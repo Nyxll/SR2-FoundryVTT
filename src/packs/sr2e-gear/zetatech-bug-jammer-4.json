@@ -1,0 +1,24 @@
+{
+  "_id": "a22905a590753e0d",
+  "name": "Zetatech Bug Jammer 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 2400,
+    "availability": "4/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Bug Jammer 4 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

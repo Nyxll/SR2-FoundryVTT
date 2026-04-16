@@ -1,0 +1,24 @@
+{
+  "_id": "453735b962086c5a",
+  "name": "EMP Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.3,
+    "cost": 400,
+    "availability": "10/10days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

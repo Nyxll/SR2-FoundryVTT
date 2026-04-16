@@ -1,0 +1,21 @@
+{
+  "_id": "96fedf780ba849e4",
+  "name": "Synthacardium 1",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.2,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 6000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Synthacardium boosts the heart's capabilities by boosting its ability to handle increased levels of activity.\\n\\nSynthacardium consists of artificially enhanced myocardium, the muscle tissue that makes up the heart. When added to the structure of the heart, it enables the organ to perform at higher levels of strenuous activity with greater ease. Each level of synthacardium adds +1 die to Athletics-based Success Tests and tasks. The character also becomes less prone to diseases of the heart and other cardiac-related problems. Characters receive an extra die for each level of synthacardium in their heart for all tests to resist cardiac and circulatory-based conditions or ailments. (If a level 1 synthacardium recipient also has a platelet factory, but is without his anticoagulant, he must add 2 dice to his rolls to resist the ill-effects.)"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

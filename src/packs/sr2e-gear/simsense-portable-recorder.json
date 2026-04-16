@@ -1,0 +1,24 @@
+{
+  "_id": "4d03d76c357b5aa3",
+  "name": "Simsense Portable Recorder",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 50000,
+    "availability": "7/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Simsense Portable Recorder - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

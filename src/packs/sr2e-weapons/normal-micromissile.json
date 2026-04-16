@@ -1,0 +1,28 @@
+{
+  "_id": "edcd6f64d65208a7",
+  "name": "Normal Micromissile",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 12,
+    "damage_level": "M",
+    "damage_code": "12M",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.25,
+    "cost": 500,
+    "availability": "14/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

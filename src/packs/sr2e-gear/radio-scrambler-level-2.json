@@ -1,0 +1,24 @@
+{
+  "_id": "752d1356e2ec67ed",
+  "name": "Radio Scrambler Level 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 2000,
+    "availability": "5/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Radio Scrambler Level 2 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

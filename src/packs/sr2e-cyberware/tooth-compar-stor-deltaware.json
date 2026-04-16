@@ -1,0 +1,26 @@
+{
+  "_id": "f91d4920b357e062",
+  "name": "Tooth Compar Stor (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 15000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": "To remove a storage tooth takes 2 Complex Actions and a successful Quickness (4) Test."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "f5c6c08c4602d834",
+  "name": "Uzi IV",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 1000,
+    "availability": "6/60hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Uzi IV - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

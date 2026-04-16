@@ -1,0 +1,21 @@
+{
+  "_id": "3045f28769659918",
+  "name": "Real Leather",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 750,
+    "availability": "Always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "95974ffa8bc5b76c",
+  "name": "Barbed Wire (per 100 meters)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 20,
+    "cost": 25,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

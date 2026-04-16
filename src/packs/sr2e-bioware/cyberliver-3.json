@@ -1,0 +1,21 @@
+{
+  "_id": "70ad896cf000e9c8",
+  "name": "Cyberliver 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 180000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "62730382150f20c1",
+  "name": "Cyberarm/Leg",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 100000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "The presence of a cyberlimb adds to the Power of any unarmed combat attack using that limb. See General Rules for Cyberlimbs, p. 49 of Cyberware Rules. Also, cyberlimbs reduce Essence loss from some types of cyberware. If the cyberware in question exists entirely in the limb and has minimal neurological connections, the limb offsets Essence loss somewhat."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

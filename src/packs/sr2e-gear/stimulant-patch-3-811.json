@@ -1,0 +1,24 @@
+{
+  "_id": "d0d849932cbfb27c",
+  "name": "Stimulant Patch 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 75,
+    "availability": "2/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Stimulant Patch 3 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

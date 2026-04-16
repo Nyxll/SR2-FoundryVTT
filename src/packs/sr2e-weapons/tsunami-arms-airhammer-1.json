@@ -1,0 +1,28 @@
+{
+  "_id": "104220f61565f5cd",
+  "name": "Tsunami Arms \"Airhammer\" #1",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.5,
+    "cost": 325,
+    "availability": "11/14days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Tsunami Arms \"Airhammer\" #1 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

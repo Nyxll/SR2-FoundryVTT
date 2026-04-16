@@ -1,0 +1,28 @@
+{
+  "_id": "0ad299362763a432",
+  "name": "Colt-Mauser M2X Cannon",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 18,
+    "damage_level": "D",
+    "damage_code": "18D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 23,
+    "cost": 6100,
+    "availability": "20/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Colt-Mauser M2X Cannon - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

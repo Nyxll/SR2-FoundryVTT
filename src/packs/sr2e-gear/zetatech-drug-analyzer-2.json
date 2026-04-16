@@ -1,0 +1,24 @@
+{
+  "_id": "6e7f3bcf35dd53ac",
+  "name": "Zetatech Drug Analyzer 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 450,
+    "availability": "2/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Zetatech Drug Analyzer 2 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

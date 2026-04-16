@@ -1,0 +1,24 @@
+{
+  "_id": "2ef1d68b40df5a73",
+  "name": "Dataline Scanner Lv 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 6,
+    "cost": 600,
+    "availability": "6/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Dataline Scanner Lv 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

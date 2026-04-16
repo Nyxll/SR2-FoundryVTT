@@ -1,0 +1,21 @@
+{
+  "_id": "fc6a02043e409289",
+  "name": "Masetto 'Ciampolo' Gloves",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": null,
+    "impact": null,
+    "concealability": 0,
+    "cost": 40,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

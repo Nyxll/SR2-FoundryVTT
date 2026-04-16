@@ -1,0 +1,24 @@
+{
+  "_id": "292cef4f69822687",
+  "name": "Swiss Army Chronograph",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 120,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "fdb1f7a69e2b29d6",
+  "name": "Kiroshi Monocle",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 200,
+    "availability": "8/7days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": "Kiroshi Monocle - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

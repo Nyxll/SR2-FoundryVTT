@@ -1,0 +1,28 @@
+{
+  "_id": "03e859bff6e26377",
+  "name": "Ares MP LMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 7,
+    "damage_level": "S",
+    "damage_code": "7S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 7.5,
+    "cost": 2200,
+    "availability": "6/5days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ares MP LMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "b77ab5db162210c6",
+  "name": "Data Encryption System Lv 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 8000,
+    "availability": "8/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Data Encryption System Lv 8 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

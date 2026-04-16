@@ -1,0 +1,28 @@
+{
+  "_id": "70c0bef3b69cb30d",
+  "name": "Light Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 300,
+    "availability": "4/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Light Crossbow - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

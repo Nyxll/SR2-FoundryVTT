@@ -1,0 +1,26 @@
+{
+  "_id": "00f7dd0bdf1c0207",
+  "name": "Oral Whip (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.15,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 52500,
+    "availability": "",
+    "street_index": 2.5,
+    "mods": {},
+    "description": "Range equals one meter. Damage is 6M. Use a Special Skill or Quickness for the Ranged Combat Test."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "9bb085b00754e0df",
+  "name": "Pacemaker Coproces (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.12,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 7500,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

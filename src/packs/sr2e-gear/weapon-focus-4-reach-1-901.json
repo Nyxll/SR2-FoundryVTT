@@ -1,0 +1,24 @@
+{
+  "_id": "cb3007c183843145",
+  "name": "Weapon Focus 4,Reach 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 560000,
+    "availability": "8/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Weapon Focus 4,Reach 1 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

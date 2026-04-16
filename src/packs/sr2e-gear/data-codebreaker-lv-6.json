@@ -1,0 +1,24 @@
+{
+  "_id": "f2c66a7742c766b4",
+  "name": "Data Codebreaker Lv 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 60000,
+    "availability": "6/10days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Data Codebreaker Lv 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "94920732a0014de2",
+  "name": "Raineer Reflex 3",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 3.5,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 185000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "initiative_dice": 3
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

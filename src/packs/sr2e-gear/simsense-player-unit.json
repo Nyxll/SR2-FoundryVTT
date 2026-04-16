@@ -1,0 +1,24 @@
+{
+  "_id": "2b5288fe2574c649",
+  "name": "Simsense Player Unit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 350,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Simsense Player Unit - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

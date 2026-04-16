@@ -1,0 +1,24 @@
+{
+  "_id": "13c2a68e703df49b",
+  "name": "Zetatech Techscanner 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 3000,
+    "availability": "4/24hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Techscanner 4 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

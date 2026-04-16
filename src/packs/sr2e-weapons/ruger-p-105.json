@@ -1,0 +1,28 @@
+{
+  "_id": "d80e95def10e61d3",
+  "name": "Ruger P-105",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "M",
+    "damage_code": "10M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 600,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

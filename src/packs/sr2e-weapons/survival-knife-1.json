@@ -1,0 +1,28 @@
+{
+  "_id": "36dfbd16fe7a2d08",
+  "name": "Survival Knife",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "L",
+    "damage_code": "(STR+2)L",
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.75,
+    "cost": 450,
+    "availability": "3/6hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Survival Knife - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

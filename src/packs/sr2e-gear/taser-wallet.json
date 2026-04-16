@@ -1,0 +1,24 @@
+{
+  "_id": "e6ed76a78f51215c",
+  "name": "Taser Wallet",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 165,
+    "availability": "5/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Taser Wallet - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

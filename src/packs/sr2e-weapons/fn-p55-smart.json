@@ -1,0 +1,28 @@
+{
+  "_id": "189a6a6f6620cd1f",
+  "name": "FN P55 Smart",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "M",
+    "damage_code": "8M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.75,
+    "cost": 900,
+    "availability": "9/4days",
+    "street_index": 2.75,
+    "legality": "",
+    "description": "FN P55 Smart - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

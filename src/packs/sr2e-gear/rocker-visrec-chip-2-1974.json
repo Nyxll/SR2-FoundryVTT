@@ -1,0 +1,24 @@
+{
+  "_id": "44242bd9d8af641c",
+  "name": "Rocker VisRec Chip 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 15000,
+    "availability": "5/4days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

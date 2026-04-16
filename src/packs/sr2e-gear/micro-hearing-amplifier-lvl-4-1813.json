@@ -1,0 +1,24 @@
+{
+  "_id": "7ad0185d3db9fd6b",
+  "name": "Micro Hearing Amplifier Lvl 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.4,
+    "cost": 2000,
+    "availability": "6/36hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

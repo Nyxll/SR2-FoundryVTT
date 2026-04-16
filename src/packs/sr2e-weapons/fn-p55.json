@@ -1,0 +1,28 @@
+{
+  "_id": "25116268ce6fc8d4",
+  "name": "FN P55",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "M",
+    "damage_code": "8M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 650,
+    "availability": "8/4days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "FN P55 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

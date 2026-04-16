@@ -1,0 +1,26 @@
+{
+  "_id": "cb7e5e00b2fa88f1",
+  "name": "Ares BattleLink (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 680000,
+    "availability": "",
+    "street_index": 1.2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

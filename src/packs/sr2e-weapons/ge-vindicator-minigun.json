@@ -1,0 +1,28 @@
+{
+  "_id": "e5639975d803326b",
+  "name": "GE Vindicator Minigun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "S",
+    "damage_code": "7S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 15,
+    "cost": 2500,
+    "availability": "24/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "GE Vindicator Minigun - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

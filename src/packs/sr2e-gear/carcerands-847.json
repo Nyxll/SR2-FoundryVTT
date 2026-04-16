@@ -1,0 +1,24 @@
+{
+  "_id": "2130dab4a59417f7",
+  "name": "Carcerands",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "4/10days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Carcerands - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

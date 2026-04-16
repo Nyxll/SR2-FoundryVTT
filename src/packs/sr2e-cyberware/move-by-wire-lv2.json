@@ -1,0 +1,28 @@
+{
+  "_id": "64c29c65dee6302b",
+  "name": "Move-by-Wire Lv2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 3.85,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 500000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {
+      "quickness": 2
+    },
+    "description": "+4RCT"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "c22d855bffab0ebb",
+  "name": "Infrared Laser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "normal",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "+4/+7 days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Infrared Laser - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5c550e6798ef3f88",
+  "name": "Average Full-X ACT Recording",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 6,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Average Full-X ACT Recording - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

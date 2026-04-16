@@ -1,0 +1,28 @@
+{
+  "_id": "97b969bb960d454b",
+  "name": "Smartscope (Magnification 3)",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 1,
+    "damage_level": "M",
+    "damage_code": "1",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 560,
+    "cost": 1.1,
+    "availability": "4250",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

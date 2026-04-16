@@ -1,0 +1,24 @@
+{
+  "_id": "91f27e10d702b7da",
+  "name": "ID Scanner: Thumbprint Lv 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1200,
+    "availability": "6/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "ID Scanner: Thumbprint Lv 6 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

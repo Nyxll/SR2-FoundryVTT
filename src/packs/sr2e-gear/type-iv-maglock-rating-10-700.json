@@ -1,0 +1,24 @@
+{
+  "_id": "7613774923bfb36b",
+  "name": "Type IV Maglock (rating 10)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 2500,
+    "availability": "10/4days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Type IV Maglock (rating 10) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

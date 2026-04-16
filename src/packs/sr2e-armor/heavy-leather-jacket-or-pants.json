@@ -1,0 +1,21 @@
+{
+  "_id": "9f1b45cdc1484b5e",
+  "name": "Heavy Leather(Jacket or Pants)",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": null,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 750,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

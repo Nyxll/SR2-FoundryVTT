@@ -1,0 +1,28 @@
+{
+  "_id": "4847c126fea86a10",
+  "name": "Tiffani Self-Defender",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 4,
+    "damage_level": "L",
+    "damage_code": "4L",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.5,
+    "cost": 450,
+    "availability": "2/12hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

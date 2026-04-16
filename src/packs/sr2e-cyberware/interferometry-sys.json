@@ -1,0 +1,26 @@
+{
+  "_id": "1504649cecf9dfe9",
+  "name": "Interferometry Sys",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

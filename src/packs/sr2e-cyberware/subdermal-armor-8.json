@@ -1,0 +1,28 @@
+{
+  "_id": "013bf2627318939d",
+  "name": "Subdermal Armor 8",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 14500,
+    "availability": "",
+    "street_index": 1.4,
+    "mods": {
+      "body": 3
+    },
+    "description": "-1RCT"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "2aa1747dee8ae256",
+  "name": "Ares MP Maser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "10M + Special",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 25,
+    "cost": 750000,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": "Ares MP Maser - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

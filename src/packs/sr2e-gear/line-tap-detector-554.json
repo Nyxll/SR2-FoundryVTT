@@ -1,0 +1,24 @@
+{
+  "_id": "3cfc021bba38b79a",
+  "name": "Line Tap Detector",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 7,
+    "weight": 0,
+    "cost": 60,
+    "availability": "4/24hrs",
+    "street_index": 0.8,
+    "legality": "",
+    "description": "Line Tap Detector - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

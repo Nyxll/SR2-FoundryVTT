@@ -1,0 +1,21 @@
+{
+  "_id": "5608fb84b9db8ead",
+  "name": "Trauma Damper",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 40000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "A damper is a clump of specialized receptors, implanted at the base of the thalamus, near the midbrain. Upon receiving sensory information indicating fatigue, pain, or physical trauma, the damper triggers the release of concentrated endorphins and enkephalins (naturally produced opiates and painkillers). This may not remove or aid in the repair of physical damage, but at times it may keep the character alive or conscious enough to deal directly with the cause of the inflicted damage. If the damage (per wound) is physical, shift one box of the indicated Damage Level from Physical to Mental; if the trauma stems from a mental cause, subtract one box from the indicated damage. A trauma damper adds +2 to the target numbers needed to resist pain (e.g., Body or Willpower Tests versus the symptoms by torture), or it applies a -2 modifier to the target numbers needed to resist pain (e.g., Body or Willpower Tests versus the symptoms of a painful disease).\\n\\nBecause of the feedback-driven nature of the trauma damper, it cannot function properly when used in conjunction with an activated pain editor, and, under certain conditions, a damage compensator. In characters implanted with a damage compensator, the trauma damper will operate properly only when the compensator's ability to handle both Physical and Mental Damage has been exceeded (i.e., when the compensator fails because of excessive damage)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

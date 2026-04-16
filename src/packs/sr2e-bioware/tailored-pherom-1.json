@@ -1,0 +1,23 @@
+{
+  "_id": "0150dfee4b634b81",
+  "name": "Tailored Pherom. 1",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 20000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {
+      "charisma": 1
+    },
+    "description": "It is possible to alter an individual's main sweat glands so that they will release discrete levels of specially designed pheromones into the surrounding air. Only a few molecules of the pheromone are required to trigger the effect, but no matter how low the concentration of secreted pheromone, all persons in the area of dispersion are affected equally. Dispersion is largely dependent on atmospheric conditions. Under average conditions (an open area with little or no wind), the area of effect extends from the source of the released pheromones in a circle whose diameter is approximately 15 to 20 meters. Mild air currents can increase the area covered, but stronger winds will disperse the pheromones before they can take effect.\\n\\nThe effectiveness of pheromones depends on the olfactory system of the targets; pheromones have no effect on individuals with impaired olfactory abilities or those unable to use their sense of smell (e.g., astral travelers). Pheromones are also species-specific; although human and metahuman pheromones are similar, pheromones will have no effect on non-humanoid creatures. (In related species, such as human to metahumans, and metahumans to different metahumans, halve the effect of the pheromones, rounding down.) Being individually discrete, pheromone augmentation continues to function even if the character is in the presence of another character with tailored pheromones. Every level of tailored pheromones adds a +1 to the recipient's Charisma and Social Skill Tests. Cultured pheromones are exceptionally powerful; double the normally acquired benefits, and extend ranges by an additional 50 percent.\\n\\nTailored pheromones have no effect on astral or conjuring abilities and skills."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

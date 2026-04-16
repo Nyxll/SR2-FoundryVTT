@@ -1,0 +1,28 @@
+{
+  "_id": "1aa194a13e9d7554",
+  "name": "Ingram MAC-20",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "9M/7M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.753,
+    "cost": 700,
+    "availability": "6/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Ingram MAC-20 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

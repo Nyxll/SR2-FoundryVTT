@@ -1,0 +1,26 @@
+{
+  "_id": "8e1a5362e0a3dc26",
+  "name": "Ultrasound Vision (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.32,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 250000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

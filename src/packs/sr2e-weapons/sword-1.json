@@ -1,0 +1,28 @@
+{
+  "_id": "0e94ec2768648cc6",
+  "name": "Sword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+2)M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 1,
+    "weight": 1,
+    "cost": 500,
+    "availability": "3/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Sword - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

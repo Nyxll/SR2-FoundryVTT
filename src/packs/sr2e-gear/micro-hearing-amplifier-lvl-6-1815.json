@@ -1,0 +1,24 @@
+{
+  "_id": "7ba082c2a780d9b7",
+  "name": "Micro Hearing Amplifier Lvl 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.6,
+    "cost": 3000,
+    "availability": "6/36hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "f02bd6e85794f8fa",
+  "name": "Oral Gun",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 5600,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "Treat as a hold-out pistol with a total of four shots. Reloading takes one minute per shot. Ammo costs triple the standard price. Use a Special Skill or Quickness for the Ranged Combat Test. Cannot be linked to alm enhancers."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

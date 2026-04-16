@@ -1,0 +1,24 @@
+{
+  "_id": "9fae13193eae16d5",
+  "name": "Sleaze Rating 1",
+  "type": "gear",
+  "img": "icons/equipment/chest/armor-simple-leather.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 300,
+    "availability": "2/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

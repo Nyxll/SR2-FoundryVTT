@@ -1,0 +1,24 @@
+{
+  "_id": "eaac75f850b4a9af",
+  "name": "Ruthenium Polymers (1 m^3)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 10000,
+    "availability": "5/14days",
+    "street_index": 7.5,
+    "legality": "",
+    "description": "Ruthenium Polymers (1 m^3) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "739c3e7ea33e8cf5",
+  "name": "Personal Body Alarm",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "on payment",
+    "street_index": 0,
+    "legality": "",
+    "description": "Personal Body Alarm - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "272e86c8a0b02a3e",
+  "name": "Scramble Breaker 7 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.16,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 560000,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "7a516c895452a5a1",
+  "name": "Seco M-995",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "M",
+    "damage_code": "8M",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5.75,
+    "cost": 3000,
+    "availability": "10/4days",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "2a1f8dcd0b0d2f8b",
+  "name": "Mercury Radical",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 2400,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

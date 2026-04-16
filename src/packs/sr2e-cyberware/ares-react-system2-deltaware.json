@@ -1,0 +1,28 @@
+{
+  "_id": "5c15dc4b44bfd5ba",
+  "name": "Ares React System2 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 1.12,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 870000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {
+      "reaction": 4
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

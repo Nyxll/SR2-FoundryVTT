@@ -1,0 +1,24 @@
+{
+  "_id": "37962264a47798a9",
+  "name": "Wyzard Handbox Personal Comp.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 6700,
+    "availability": "2/6hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": "Wyzard Handbox Personal Comp. - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

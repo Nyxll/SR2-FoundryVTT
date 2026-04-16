@@ -1,0 +1,21 @@
+{
+  "_id": "9ca2368d84dc233b",
+  "name": "Compound Eyes 5UV",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.3,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 19500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

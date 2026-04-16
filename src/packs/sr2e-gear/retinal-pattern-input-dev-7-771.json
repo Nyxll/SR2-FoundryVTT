@@ -1,0 +1,24 @@
+{
+  "_id": "7b4591700a0b8fd7",
+  "name": "Retinal Pattern Input Dev. 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 7,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 0.5,
+    "cost": 7000,
+    "availability": "10/6days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Retinal Pattern Input Dev. 7 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

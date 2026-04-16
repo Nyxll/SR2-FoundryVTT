@@ -1,0 +1,26 @@
+{
+  "_id": "0cbeb25f3cb364db",
+  "name": "Eye Thermographic",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

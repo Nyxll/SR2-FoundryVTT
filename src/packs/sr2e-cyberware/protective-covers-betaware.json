@@ -1,0 +1,26 @@
+{
+  "_id": "aada7941a87f1ab0",
+  "name": "Protective Covers (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Protects cyber and normal eyes against impact and particles. Available in standard transparent or one-way reflective material; one-way adds 20 percent to the price. At the gamemaster's discretion, covers give 1 point of Impact Armor to the eye area."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

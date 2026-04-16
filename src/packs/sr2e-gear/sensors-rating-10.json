@@ -1,0 +1,24 @@
+{
+  "_id": "1ef216ebd2ef32a0",
+  "name": "Sensors Rating 10+",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1000000,
+    "availability": "24/30days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

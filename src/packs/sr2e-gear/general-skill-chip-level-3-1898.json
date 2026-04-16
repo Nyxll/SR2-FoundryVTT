@@ -1,0 +1,24 @@
+{
+  "_id": "020f5c3dac8ae731",
+  "name": "General Skill Chip, Level 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 4500,
+    "availability": "5/4days",
+    "street_index": 1.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

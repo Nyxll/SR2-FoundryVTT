@@ -1,0 +1,24 @@
+{
+  "_id": "ad816a7b6d147ea7",
+  "name": "Arasaka Omnitec Radar Detector",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 7,
+    "weight": 1,
+    "cost": 2000,
+    "availability": "4/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

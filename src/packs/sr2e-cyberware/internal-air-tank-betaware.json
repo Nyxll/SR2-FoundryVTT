@@ -1,0 +1,26 @@
+{
+  "_id": "d8fc22dd10ecbdb2",
+  "name": "Internal Air Tank (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.15,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 6000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The internal air tank can be vented if necessary."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

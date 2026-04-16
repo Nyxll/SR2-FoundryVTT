@@ -1,0 +1,24 @@
+{
+  "_id": "b354c5fa977b2dd0",
+  "name": "FEN Dz 25 \"Det Card\"",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "explosive",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 10,
+    "weight": 0.02,
+    "cost": 120,
+    "availability": "8/5days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "5e9b0ecd197f0342",
+  "name": "Luigi \"King Buck\" Multi-Magnum",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 1,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 7,
+    "cost": 800,
+    "availability": "12/4days",
+    "street_index": 2.1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

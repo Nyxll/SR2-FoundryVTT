@@ -1,0 +1,24 @@
+{
+  "_id": "026df8fdcb7d229e",
+  "name": "Current Hit Full-X Dir-X Rec",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 450,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Current Hit Full-X Dir-X Rec - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

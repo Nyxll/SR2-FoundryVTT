@@ -1,0 +1,26 @@
+{
+  "_id": "842ba628483afd3e",
+  "name": "Eye Light Systems",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 1200,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Eye lights, another nifty new piece of work, can be either a tool or a weapon. The plain-vanilla light system mounts high-powered, low-heat lights in the cybereye that channel a tight, polarized beam outward down a path parallel to the optical center of the eye. An amount of light sufficient to see with standard low-light eyes falls wherever the user is looking. The tight beam and polarization minimize scatter from the eye, so the light can't be seen unless someone's staring right at you."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

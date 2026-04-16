@@ -1,0 +1,26 @@
+{
+  "_id": "64d9ce73ab4bb9a8",
+  "name": "Commlink 2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 8000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

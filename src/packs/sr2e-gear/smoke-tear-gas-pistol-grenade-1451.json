@@ -1,0 +1,24 @@
+{
+  "_id": "2a1cd9be97812d42",
+  "name": "Smoke/Tear Gas Pistol Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.1,
+    "cost": 20,
+    "availability": "6/7 days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "7a4ed1646f92c594",
+  "name": "7.62cm Single Barrel",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(7.62cm rocket)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 1000,
+    "availability": "10/10days",
+    "street_index": 1.75,
+    "legality": "",
+    "description": "7.62cm Single Barrel - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "c8617b94f7753e4c",
+  "name": "Bug Detector Lvl 5",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 62500,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

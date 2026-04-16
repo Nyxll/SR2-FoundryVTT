@@ -1,0 +1,28 @@
+{
+  "_id": "03a8f7de4a2e6597",
+  "name": "Net Gun, Normal",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 750,
+    "availability": "8/36hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Net Gun, Normal - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

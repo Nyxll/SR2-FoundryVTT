@@ -1,0 +1,26 @@
+{
+  "_id": "dc34a0d9b03db387",
+  "name": "SPU - I/O 1 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.06,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 25000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "548f474f6b1ab7b2",
+  "name": "White Noise Generator Lv 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 9000,
+    "availability": "6/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "White Noise Generator Lv 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

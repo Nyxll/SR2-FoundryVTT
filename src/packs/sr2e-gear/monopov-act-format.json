@@ -1,0 +1,24 @@
+{
+  "_id": "3cbf9adb4fc10288",
+  "name": "MonoPOV ACT Format",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 13,
+    "cost": 15000,
+    "availability": "8/1week",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "1ad73347bd9625e3",
+  "name": "Armante \"Ancien\" Shawl",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 750,
+    "availability": "2/48hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

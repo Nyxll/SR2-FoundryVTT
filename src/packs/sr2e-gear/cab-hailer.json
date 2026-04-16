@@ -1,0 +1,24 @@
+{
+  "_id": "23b9a5b360fa3fe8",
+  "name": "Cab Hailer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 150,
+    "availability": "upon payment",
+    "street_index": 1,
+    "legality": "",
+    "description": "Cab Hailer - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

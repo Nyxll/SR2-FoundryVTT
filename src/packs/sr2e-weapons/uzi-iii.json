@@ -1,0 +1,28 @@
+{
+  "_id": "8c381f65ef50112a",
+  "name": "Uzi III",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 600,
+    "availability": "4/24hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Uzi III - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

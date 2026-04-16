@@ -1,0 +1,21 @@
+{
+  "_id": "e1ae9bc806015bbb",
+  "name": "Mnemonic Enhanc. 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 45000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "By attaching a highly concentrated growth of gray matter to the hippocampus region of the brain, the mnemonic enhancer can increase the capacity for both short- and long-term memory. A person with a mnemonic enhancer is less likely to forget events or information that he/she encounters. For an Intelligence Test needed to recall a specific event or piece of information, the implanted character receives a +1 die for each level of enhancement. In addition, the increased retention of data facilitates the rapid comprehension of knowledge and language skills; apply a +1 die for every two levels of enhancement to Knowledge and Language Success Tests. The maximum level of mnemonic enhancer that can be implanted is equal to a character's unaugmented Body Rating. To remember something, the character must first have seen or experienced it. In general, the more specific the detail, the more difficult it is to recall. For example, to remember that a car was involved in an accident, the Target Number is 2; it is 3 to remember that the car was red, a 4 to remember the model, a 5 to recall that the driver was male, an 8 to remember seeing the long scratch on the side, and so on—assuming that the character noticed the detail in the first place.\\n\\nElapsed time is also an important factor in how difficult or easy it is to remember a particular fact. Apply -1 to the Target Number if the event occurred within the past hour, +0 if within 24 hours, +1 for one week or less, +2 if within the month, +3 if within three months, +4 within four months, +5 within eight months, and so on.\\n\\nComplexity of the item may also affect the Target Number. A single word with great personal significance might subtract -3 from the Target Number, while a complex passage from a poem once memorized in high school may be +4 or greater."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

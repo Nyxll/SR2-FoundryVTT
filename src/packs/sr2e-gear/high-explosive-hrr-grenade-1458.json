@@ -1,0 +1,24 @@
+{
+  "_id": "1648c9241ca8863d",
+  "name": "High Explosive HRR Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 3,
+    "cost": 150,
+    "availability": "5/36hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

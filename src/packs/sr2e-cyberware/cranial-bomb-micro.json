@@ -1,0 +1,26 @@
+{
+  "_id": "db7bd718a2d11ee1",
+  "name": "Cranial Bomb Micro",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 65500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": "If built to do so, all cranial bombs will kill the bearer."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

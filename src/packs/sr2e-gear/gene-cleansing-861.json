@@ -1,0 +1,24 @@
+{
+  "_id": "f4b0854c6d408483",
+  "name": "Gene Cleansing",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 50000,
+    "availability": "6/30days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Gene Cleansing - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

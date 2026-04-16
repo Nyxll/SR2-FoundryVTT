@@ -1,0 +1,24 @@
+{
+  "_id": "43228a74b6c662bc",
+  "name": "Sony Beautiful Dreamer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 200,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Sony Beautiful Dreamer - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

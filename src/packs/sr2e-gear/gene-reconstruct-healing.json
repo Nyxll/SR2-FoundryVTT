@@ -1,0 +1,24 @@
+{
+  "_id": "4d4410a5005d3d83",
+  "name": "Gene Reconstruct/Healing",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 100000,
+    "availability": "6/30days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Gene Reconstruct/Healing - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

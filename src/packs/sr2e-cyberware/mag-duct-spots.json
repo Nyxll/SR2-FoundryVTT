@@ -1,0 +1,26 @@
+{
+  "_id": "0560e3a5a2d58d1f",
+  "name": "Mag-Duct Spots",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2200,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

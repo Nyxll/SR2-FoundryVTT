@@ -1,0 +1,28 @@
+{
+  "_id": "4b07a3383262bc36",
+  "name": "Stundart Pistol",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "10S Stun",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 1090,
+    "availability": "8/4days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Stundart Pistol - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

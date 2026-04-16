@@ -1,0 +1,24 @@
+{
+  "_id": "68dcff1cd2d2393e",
+  "name": "Tight Beam Phone Upgrade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 200,
+    "availability": "2/12hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Tight Beam Phone Upgrade - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

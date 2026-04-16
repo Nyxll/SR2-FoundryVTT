@@ -1,0 +1,28 @@
+{
+  "_id": "f8798da166bd7c27",
+  "name": "Total Body Plating (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 2.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 136000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {
+      "body": 3
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

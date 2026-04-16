@@ -1,0 +1,24 @@
+{
+  "_id": "1430a326f17817e3",
+  "name": "Binder 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 900,
+    "availability": "4/32hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Binder 7 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

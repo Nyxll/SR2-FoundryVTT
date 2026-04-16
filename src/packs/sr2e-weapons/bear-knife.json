@@ -1,0 +1,28 @@
+{
+  "_id": "a284833c3884a82a",
+  "name": "Bear-Knife",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+2)M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1,
+    "cost": 2000,
+    "availability": "6/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Bear-Knife - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

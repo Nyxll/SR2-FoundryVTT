@@ -1,0 +1,28 @@
+{
+  "_id": "fd09655c19abfabf",
+  "name": "Body Enhance Lv5 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3750000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 5
+    },
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

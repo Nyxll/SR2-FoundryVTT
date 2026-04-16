@@ -1,0 +1,26 @@
+{
+  "_id": "49d35d6812f1161f",
+  "name": "Spitting Cobra",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

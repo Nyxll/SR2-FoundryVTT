@@ -1,0 +1,28 @@
+{
+  "_id": "52f40bb8e21742cc",
+  "name": "Bio-Injector",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "5L + drug",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.5,
+    "cost": 15000,
+    "availability": "10/96hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Bio-Injector - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

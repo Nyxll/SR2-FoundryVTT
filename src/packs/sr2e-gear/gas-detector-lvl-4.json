@@ -1,0 +1,24 @@
+{
+  "_id": "d9757519a1135e7f",
+  "name": "Gas Detector Lvl 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 80000,
+    "availability": "12/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Gas Detector Lvl 4 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ea497cefbddac028",
+  "name": "Signal Locator Lv 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 2,
+    "cost": 4000,
+    "availability": "4/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Signal Locator Lv 4 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

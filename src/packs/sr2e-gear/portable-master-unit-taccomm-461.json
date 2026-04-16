@@ -1,0 +1,24 @@
+{
+  "_id": "09424db1c5186fbe",
+  "name": "Portable Master Unit (TacComm)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 14,
+    "cost": 1814,
+    "availability": "20",
+    "street_index": 120000,
+    "legality": "",
+    "description": "Portable Master Unit (TacComm) - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

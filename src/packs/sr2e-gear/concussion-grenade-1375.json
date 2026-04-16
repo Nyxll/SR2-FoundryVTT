@@ -1,0 +1,24 @@
+{
+  "_id": "d9693d1523c66aa0",
+  "name": "Concussion Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 7,
+    "weight": 0.25,
+    "cost": 40,
+    "availability": "6/72hrs",
+    "street_index": 1.2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

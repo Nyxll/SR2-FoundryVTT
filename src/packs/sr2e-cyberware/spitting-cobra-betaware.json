@@ -1,0 +1,26 @@
+{
+  "_id": "242e3114637e8835",
+  "name": "Spitting Cobra (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.06,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 20000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

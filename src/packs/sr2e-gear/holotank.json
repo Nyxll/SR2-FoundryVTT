@@ -1,0 +1,24 @@
+{
+  "_id": "2ec9a0d69c958741",
+  "name": "Holotank",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 100,
+    "cost": 5000,
+    "availability": "5/48hrs",
+    "street_index": 1.2,
+    "legality": "",
+    "description": "Holotank - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

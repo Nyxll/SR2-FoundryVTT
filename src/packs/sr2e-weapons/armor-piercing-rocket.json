@@ -1,0 +1,28 @@
+{
+  "_id": "79a0178981f45ad9",
+  "name": "Armor-Piercing Rocket",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 16,
+    "damage_level": "D",
+    "damage_code": "16D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 3500,
+    "availability": "12/6days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

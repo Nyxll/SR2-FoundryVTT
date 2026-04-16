@@ -1,0 +1,26 @@
+{
+  "_id": "d665036b3d1f3174",
+  "name": "Articulate Arm",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 110000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "This mount works like a tracking mount, but has a full range of motion and covers a 360-degree firing area. The articulate arm can take all light weapons up to a light machine gun. The system gives users 3 points of Recoil Reduction, plus the same modifiers as a laser sight."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

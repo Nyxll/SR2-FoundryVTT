@@ -1,0 +1,28 @@
+{
+  "_id": "61188ef1049307fc",
+  "name": "Darra-Polytechnic M-9",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "M",
+    "damage_code": "8M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.75,
+    "cost": 1300,
+    "availability": "3/36hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

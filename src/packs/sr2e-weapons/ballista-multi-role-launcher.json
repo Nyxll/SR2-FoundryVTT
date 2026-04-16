@@ -1,0 +1,28 @@
+{
+  "_id": "e8467e4b347568f0",
+  "name": "Ballista Multi-Role Launcher",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Round)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 6.5,
+    "cost": 10500,
+    "availability": "18/30days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Ballista Multi-Role Launcher - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

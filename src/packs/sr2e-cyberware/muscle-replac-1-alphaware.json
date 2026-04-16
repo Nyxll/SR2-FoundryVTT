@@ -1,0 +1,28 @@
+{
+  "_id": "4857012b27ecc718",
+  "name": "Muscle Replac. 1 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 40000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "quickness": 1
+    },
+    "description": "+1STR"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

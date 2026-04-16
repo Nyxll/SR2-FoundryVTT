@@ -1,0 +1,24 @@
+{
+  "_id": "37ab4651b3296e3d",
+  "name": "Specialization Chip, Level 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 48000,
+    "availability": "5/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

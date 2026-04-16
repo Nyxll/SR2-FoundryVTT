@@ -1,0 +1,24 @@
+{
+  "_id": "1f545cc51fad8c9b",
+  "name": "Sift Rating 4",
+  "type": "gear",
+  "img": "icons/equipment/chest/armor-simple-leather.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 8000,
+    "availability": "6/7days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

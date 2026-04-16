@@ -1,0 +1,26 @@
+{
+  "_id": "97c3d8d7dfa1ea42",
+  "name": "Tactile Boost lvl5 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.16,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 15000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

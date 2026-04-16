@@ -1,0 +1,28 @@
+{
+  "_id": "200290263b873db9",
+  "name": "Throwing Knife",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 0,
+    "damage_level": "L",
+    "damage_code": "(STR)L",
+    "concealability": 9,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.25,
+    "cost": 20,
+    "availability": "2/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Throwing Knife - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

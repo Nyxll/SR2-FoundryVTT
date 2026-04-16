@@ -1,0 +1,26 @@
+{
+  "_id": "63a2d06141255bfb",
+  "name": "Laser Designator (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 24000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "See pp. 60 and 85, Fields of Fire, for more information on laser designators. Maximum range is 1,000 meters."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

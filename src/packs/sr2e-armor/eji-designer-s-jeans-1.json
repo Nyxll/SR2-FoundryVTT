@@ -1,0 +1,21 @@
+{
+  "_id": "34dc3df90af88322",
+  "name": "Eji Designer's Jeans",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 50,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

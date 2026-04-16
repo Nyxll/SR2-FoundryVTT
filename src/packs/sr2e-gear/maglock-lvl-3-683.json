@@ -1,0 +1,24 @@
+{
+  "_id": "a2477cb4df5806d7",
+  "name": "Maglock Lvl 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 300,
+    "availability": "3/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Maglock Lvl 3 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

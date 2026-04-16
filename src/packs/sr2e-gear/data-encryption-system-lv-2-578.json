@@ -1,0 +1,24 @@
+{
+  "_id": "128574a14e0ca8ee",
+  "name": "Data Encryption System Lv 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 2000,
+    "availability": "2/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Data Encryption System Lv 2 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

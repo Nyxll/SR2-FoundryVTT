@@ -1,0 +1,26 @@
+{
+  "_id": "8f1f341e809b3a86",
+  "name": "Voice Pattern Lvl5",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 110000,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

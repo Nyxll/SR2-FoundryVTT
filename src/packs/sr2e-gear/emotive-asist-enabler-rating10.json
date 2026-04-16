@@ -1,0 +1,24 @@
+{
+  "_id": "30909af7436e7c97",
+  "name": "Emotive ASIST Enabler Rating10",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 6,
+    "cost": 250000,
+    "availability": "8/1week",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

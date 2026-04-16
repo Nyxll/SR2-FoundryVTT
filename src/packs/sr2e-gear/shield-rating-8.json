@@ -1,0 +1,24 @@
+{
+  "_id": "d3e0c536c555988f",
+  "name": "Shield Rating 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 256000,
+    "availability": "12/14days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

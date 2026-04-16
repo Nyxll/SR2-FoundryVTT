@@ -1,0 +1,21 @@
+{
+  "_id": "1e01a27c5147f4d2",
+  "name": "Pathogenic Def. 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 72000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The pathogenic defense augmentation involves an enhancement of the spleen, spearheading the production of more effective and aggressive leukocytes, or white blood cells. These cells are then released into the bloodstream and lymphatic system to combat disease and infection. When combating disease, allergens, microbiologicals, and other foreign particles (not including chemical compounds), reduce the Power Level of the attack by 1 for every 2 levels of pathogenic defense before making the character's Resistance Test. That is, against a 6D2 microbiological attack, a subject with Level 4 pathogenic defense would resist against a 4D2 Damage Code. The maximum level of Pathogenic defense that can be implanted is equal to the character's unaugmented Body Attribute."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

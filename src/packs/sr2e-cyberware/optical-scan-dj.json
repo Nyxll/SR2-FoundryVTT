@@ -1,0 +1,26 @@
+{
+  "_id": "7fa3275a416fe435",
+  "name": "Optical Scan DJ",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 5500,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "The optical scanning datajack includes an emitter unit and a data receptor. The receptor sits In your eye; the emitter you carry around (it's no bigger than a silver oxide battery). You stick the emitter unit onto the data-out port on whatever you came hunting for and you look at it. The data receptor in your eye reads the laser beam put out by the emitter and decodes the data transmitted over it. Dozens of uses for this, neh? It's cutting edge drek, but becoming more available."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

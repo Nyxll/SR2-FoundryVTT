@@ -1,0 +1,28 @@
+{
+  "_id": "92d49f05b4b7ed2f",
+  "name": "Techtronica Model 009",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "10S Stun",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 1950,
+    "availability": "8/72hrs",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Techtronica Model 009 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

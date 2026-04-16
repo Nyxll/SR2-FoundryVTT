@@ -1,0 +1,28 @@
+{
+  "_id": "10b83d0463219315",
+  "name": "Heckler & Koch HK227",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "M",
+    "damage_code": "7M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 1500,
+    "availability": "4/24hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Heckler & Koch HK227 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

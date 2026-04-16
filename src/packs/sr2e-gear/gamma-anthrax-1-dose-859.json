@@ -1,0 +1,24 @@
+{
+  "_id": "a72d4da284fa74f6",
+  "name": "Gamma-Anthrax (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 180,
+    "availability": "14/30days",
+    "street_index": 6,
+    "legality": "",
+    "description": "Gamma-Anthrax (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

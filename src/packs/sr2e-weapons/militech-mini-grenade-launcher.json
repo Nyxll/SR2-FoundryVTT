@@ -1,0 +1,28 @@
+{
+  "_id": "ffeb0c51d3c923f5",
+  "name": "Militech Mini-Grenade Launcher",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 1,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5,
+    "cost": 4750,
+    "availability": "24/12days",
+    "street_index": 5,
+    "legality": "",
+    "description": "Militech Mini-Grenade Launcher - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

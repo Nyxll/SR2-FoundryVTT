@@ -1,0 +1,24 @@
+{
+  "_id": "9fb728c4f246f0da",
+  "name": "Portable Electropack",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 2,
+    "cost": 100,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

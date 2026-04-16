@@ -1,0 +1,21 @@
+{
+  "_id": "ef277b38c551cac7",
+  "name": "Cyberliver 5",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 300000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

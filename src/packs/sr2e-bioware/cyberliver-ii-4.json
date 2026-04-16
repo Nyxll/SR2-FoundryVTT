@@ -1,0 +1,21 @@
+{
+  "_id": "e179aebb4dbd034b",
+  "name": "Cyberliver II 4",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.7,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 480000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "96e37fb9bf264641",
+  "name": "Uzi Miniauto 9",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 700,
+    "availability": "4/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Uzi Miniauto 9 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

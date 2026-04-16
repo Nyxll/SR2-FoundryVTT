@@ -1,0 +1,24 @@
+{
+  "_id": "c2e000bcb5dffc65",
+  "name": "ThunderArc Automapper",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 600,
+    "availability": "6/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "ThunderArc Automapper - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

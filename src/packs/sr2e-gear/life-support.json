@@ -1,0 +1,24 @@
+{
+  "_id": "5c027b54133f5d8c",
+  "name": "Life/Support",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1.5,
+    "cost": 500,
+    "availability": "5/36hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": "Life/Support - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

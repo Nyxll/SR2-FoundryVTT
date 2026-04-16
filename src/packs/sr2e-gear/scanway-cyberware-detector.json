@@ -1,0 +1,24 @@
+{
+  "_id": "b5ef9131d6637491",
+  "name": "Scanway Cyberware detector",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 50000,
+    "availability": "8/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Scanway Cyberware detector - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

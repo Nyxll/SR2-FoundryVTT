@@ -1,0 +1,24 @@
+{
+  "_id": "d3eea8037c698251",
+  "name": "Table Top PC",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 10,
+    "cost": 0,
+    "availability": "Always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Table Top PC - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

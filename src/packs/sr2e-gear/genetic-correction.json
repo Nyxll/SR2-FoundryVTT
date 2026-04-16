@@ -1,0 +1,24 @@
+{
+  "_id": "6298572a0e566399",
+  "name": "Genetic Correction",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 60000,
+    "availability": "6/30days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Genetic Correction - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "9a8640f9b0c8a38f",
+  "name": "Ceska Diplomat",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 4,
+    "damage_level": "L",
+    "damage_code": "4L",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.5,
+    "cost": 250,
+    "availability": "3/12hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

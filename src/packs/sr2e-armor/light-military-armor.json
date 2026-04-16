@@ -1,0 +1,21 @@
+{
+  "_id": "4e474addce0f83e7",
+  "name": "Light Military Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 10,
+    "impact": 7,
+    "concealability": 0,
+    "cost": 25000,
+    "availability": "18/1mth",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

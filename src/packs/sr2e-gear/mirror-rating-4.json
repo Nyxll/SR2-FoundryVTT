@@ -1,0 +1,24 @@
+{
+  "_id": "6e79dd794128279c",
+  "name": "Mirror Rating 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 24000,
+    "availability": "4/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "87f8ca0f3fb5c4c6",
+  "name": "Surveillance Kit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 6.5,
+    "cost": 98000,
+    "availability": "6/5days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Surveillance Kit - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

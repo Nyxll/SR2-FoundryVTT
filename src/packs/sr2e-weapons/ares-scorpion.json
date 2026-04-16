@@ -1,0 +1,28 @@
+{
+  "_id": "2a7e8117fe94a599",
+  "name": "Ares Scorpion",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "L",
+    "damage_code": "7L",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.25,
+    "cost": 275,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

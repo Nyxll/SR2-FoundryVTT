@@ -1,0 +1,24 @@
+{
+  "_id": "2956251a1bb5d067",
+  "name": "Dual-Purpose Rounds",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.5,
+    "cost": 80,
+    "availability": "16/14days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

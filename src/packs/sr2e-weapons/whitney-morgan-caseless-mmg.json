@@ -1,0 +1,28 @@
+{
+  "_id": "bf13a740fca20024",
+  "name": "Whitney-Morgan Caseless MMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 35,
+    "cost": 25000,
+    "availability": "26/30days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Whitney-Morgan Caseless MMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

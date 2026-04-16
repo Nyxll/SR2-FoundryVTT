@@ -1,0 +1,28 @@
+{
+  "_id": "ff43a8a4f4415e75",
+  "name": "Ares Jaguar",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "M",
+    "damage_code": "10M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 300,
+    "availability": "5/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

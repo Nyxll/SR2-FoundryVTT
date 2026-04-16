@@ -1,0 +1,24 @@
+{
+  "_id": "8d9061661aa44160",
+  "name": "Treasurer Datawatch (1 Mp)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 55,
+    "availability": "always",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Treasurer Datawatch (1 Mp) - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "9148e8b9efdf5556",
+  "name": "Low-wattage Flashlight",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 10,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Low-wattage Flashlight - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

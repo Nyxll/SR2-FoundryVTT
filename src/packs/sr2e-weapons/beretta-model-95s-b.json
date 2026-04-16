@@ -1,0 +1,28 @@
+{
+  "_id": "ba052b0955bedaf0",
+  "name": "Beretta Model 95S-B",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 9,
+    "damage_level": "M",
+    "damage_code": "9M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 750,
+    "availability": "6/72hrs",
+    "street_index": 1.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

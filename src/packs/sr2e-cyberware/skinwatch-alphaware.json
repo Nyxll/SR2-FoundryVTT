@@ -1,0 +1,26 @@
+{
+  "_id": "ef36fe41a6b1ef72",
+  "name": "Skinwatch (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.08,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 1000,
+    "availability": "",
+    "street_index": 0.9,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

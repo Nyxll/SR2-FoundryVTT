@@ -1,0 +1,24 @@
+{
+  "_id": "b5a1c02692a17436",
+  "name": "Armor Piercing Rounds",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.5,
+    "cost": 20,
+    "availability": "2/24hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

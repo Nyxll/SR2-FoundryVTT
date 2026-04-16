@@ -1,0 +1,24 @@
+{
+  "_id": "4e3080d718c0b05e",
+  "name": "Maglock Lvl 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 100,
+    "availability": "2/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Maglock Lvl 1 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

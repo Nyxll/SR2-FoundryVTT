@@ -1,0 +1,28 @@
+{
+  "_id": "cfa94f047dbf6088",
+  "name": "Kendachi M-33 Powersword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "S",
+    "damage_code": "(STR+1)S",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 1,
+    "weight": 3,
+    "cost": 1860,
+    "availability": "8/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Kendachi M-33 Powersword - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

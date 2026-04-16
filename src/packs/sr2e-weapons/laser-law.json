@@ -1,0 +1,28 @@
+{
+  "_id": "5eca31bd385a465c",
+  "name": "Laser LAW",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 12,
+    "damage_level": "M",
+    "damage_code": "12M",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5,
+    "cost": 75000,
+    "availability": "24/21days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Laser LAW - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

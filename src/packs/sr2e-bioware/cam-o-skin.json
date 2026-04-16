@@ -1,0 +1,21 @@
+{
+  "_id": "bb36f0bb8ae1192a",
+  "name": "Cam-O-Skin",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.5,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 8500,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

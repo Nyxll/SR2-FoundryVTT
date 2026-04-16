@@ -1,0 +1,26 @@
+{
+  "_id": "58893d89aa701422",
+  "name": "DS Cyber Control (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.04,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 320000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The coloration intensity can be varied in 10-percent increments using a hand-control or the cyber-controller."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

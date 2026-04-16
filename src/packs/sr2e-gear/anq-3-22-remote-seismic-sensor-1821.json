@@ -1,0 +1,24 @@
+{
+  "_id": "3ef6d484763141c2",
+  "name": "ANQ 3/22 Remote Seismic Sensor",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 1,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

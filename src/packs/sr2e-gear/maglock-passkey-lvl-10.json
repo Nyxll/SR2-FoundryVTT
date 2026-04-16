@@ -1,0 +1,24 @@
+{
+  "_id": "23bb987ff98c3048",
+  "name": "Maglock Passkey Lvl 10",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 100000,
+    "availability": "20/10days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Maglock Passkey Lvl 10 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

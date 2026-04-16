@@ -1,0 +1,24 @@
+{
+  "_id": "ead0d4eae71efc2a",
+  "name": "General Kit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 5,
+    "cost": 500,
+    "availability": "5/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

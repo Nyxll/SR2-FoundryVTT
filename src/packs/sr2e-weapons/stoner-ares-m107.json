@@ -1,0 +1,28 @@
+{
+  "_id": "316d10f1f3d571a1",
+  "name": "Stoner-Ares M107",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 12.5,
+    "cost": 5200,
+    "availability": "18/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Stoner-Ares M107 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

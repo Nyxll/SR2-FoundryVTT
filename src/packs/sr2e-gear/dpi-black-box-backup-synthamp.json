@@ -1,0 +1,24 @@
+{
+  "_id": "9213609285b22866",
+  "name": "DPI Black Box Backup Synthamp",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 8000,
+    "availability": "6/48hrs",
+    "street_index": 1.3,
+    "legality": "",
+    "description": "DPI Black Box Backup Synthamp - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

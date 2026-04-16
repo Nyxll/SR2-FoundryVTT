@@ -1,0 +1,24 @@
+{
+  "_id": "533dd4b74bb0baef",
+  "name": "Cybercast",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 312,
+    "cost": 3000,
+    "availability": "1.5",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

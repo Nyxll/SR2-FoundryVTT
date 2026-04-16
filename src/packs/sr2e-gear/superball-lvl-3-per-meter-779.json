@@ -1,0 +1,24 @@
+{
+  "_id": "81111fedf7b36980",
+  "name": "Superball Lvl 3 (per meter)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 150,
+    "availability": "6/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Superball Lvl 3 (per meter) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

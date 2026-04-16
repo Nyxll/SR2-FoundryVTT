@@ -1,0 +1,26 @@
+{
+  "_id": "89fa9a7ffbe2c465",
+  "name": "Retinal Clock",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 450,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "Displays a time/date stamp in the lower right corner of the wearer's field of vision or wherever the user wants. Can be modified for region and season and includes a stopwatch style timer and a countdown timer. Accurate to +/- . 0001 seconds per year."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

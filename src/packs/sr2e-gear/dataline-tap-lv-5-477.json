@@ -1,0 +1,24 @@
+{
+  "_id": "96f86b7389e687d8",
+  "name": "Dataline Tap Lv 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 12,
+    "weight": 0,
+    "cost": 25000,
+    "availability": "5/8days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Dataline Tap Lv 5 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

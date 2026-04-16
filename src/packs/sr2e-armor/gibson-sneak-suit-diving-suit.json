@@ -1,0 +1,21 @@
+{
+  "_id": "f27e9f0914c6c0b1",
+  "name": "Gibson Sneak Suit Diving Suit",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 35000,
+    "availability": "12/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

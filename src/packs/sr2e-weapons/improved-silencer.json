@@ -1,0 +1,28 @@
+{
+  "_id": "9559add42d9ebf8d",
+  "name": "Improved Silencer",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0.2,
+    "damage_level": "M",
+    "damage_code": ".2",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 872,
+    "cost": 2,
+    "availability": "5000",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

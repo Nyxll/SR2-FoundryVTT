@@ -1,0 +1,24 @@
+{
+  "_id": "42366e6938196113",
+  "name": "Zetatech PDA+ (20 Mp)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1.1,
+    "cost": 3000,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Zetatech PDA+ (20 Mp) - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "b5cc2e6d519a4094",
+  "name": "Laser Link (TacComm)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 0,
+    "availability": "1",
+    "street_index": 2700,
+    "legality": "",
+    "description": "Laser Link (TacComm) - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

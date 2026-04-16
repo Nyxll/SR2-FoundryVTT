@@ -1,0 +1,21 @@
+{
+  "_id": "1f356fefe1e07f1c",
+  "name": "Military Helmet",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 2500,
+    "availability": "24/1mth",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

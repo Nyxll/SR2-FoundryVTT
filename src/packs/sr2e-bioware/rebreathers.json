@@ -1,0 +1,21 @@
+{
+  "_id": "a04206b8072bace8",
+  "name": "Rebreathers",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.75,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 95000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

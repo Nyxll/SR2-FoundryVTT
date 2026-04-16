@@ -1,0 +1,24 @@
+{
+  "_id": "52870cfe13a0a780",
+  "name": "Basic Rush System",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 4.5,
+    "cost": 500,
+    "availability": "always",
+    "street_index": 0.8,
+    "legality": "",
+    "description": "Basic Rush System - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "419a867c11210e39",
+  "name": "Wired Reflexes 1 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 550000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 2
+    },
+    "description": "+1INI"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

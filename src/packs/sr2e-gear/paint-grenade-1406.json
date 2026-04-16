@@ -1,0 +1,24 @@
+{
+  "_id": "ac972c89fa3e718b",
+  "name": "Paint Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.25,
+    "cost": 20,
+    "availability": "3/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "13d8a1feac1fced2",
+  "name": "Sub Speakers (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.04,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 6500,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Usually mounted under the skin just behind the ear, these tiny speakers vibrate various bones in the ear to transmit sound. Sound comIng over them cannot be overheard."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

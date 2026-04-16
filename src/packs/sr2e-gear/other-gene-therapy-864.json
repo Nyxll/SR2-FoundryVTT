@@ -1,0 +1,24 @@
+{
+  "_id": "edd7152cf65e9eea",
+  "name": "Other Gene Therapy",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 50000,
+    "availability": "6/30days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Other Gene Therapy - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

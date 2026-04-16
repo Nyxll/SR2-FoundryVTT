@@ -1,0 +1,26 @@
+{
+  "_id": "4abe672055d786dd",
+  "name": "Voice Synth Lvl 5",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.75,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 115000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "871d8f04f1cdf701",
+  "name": "Generic Under-Barrel",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": -3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 1700,
+    "availability": "8/4days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Generic Under-Barrel - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

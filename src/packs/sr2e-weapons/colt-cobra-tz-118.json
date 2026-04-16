@@ -1,0 +1,28 @@
+{
+  "_id": "77ce10d9bfa22c15",
+  "name": "Colt Cobra TZ-118",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 1000,
+    "availability": "6/36hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Colt Cobra TZ-118 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

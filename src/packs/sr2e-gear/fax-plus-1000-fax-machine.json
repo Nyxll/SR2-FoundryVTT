@@ -1,0 +1,24 @@
+{
+  "_id": "daa5c7349149aff1",
+  "name": "Fax Plus 1000 Fax Machine",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 300,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Fax Plus 1000 Fax Machine - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "bf8f2d73708cc703",
+  "name": "Takanaka Exec Armored Topcoat",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 2000,
+    "availability": "8/72hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

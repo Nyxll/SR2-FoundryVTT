@@ -1,0 +1,28 @@
+{
+  "_id": "85d2664abf05a1d2",
+  "name": "H&K \"Blaster\"",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 12,
+    "damage_level": "M",
+    "damage_code": "12M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 0,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

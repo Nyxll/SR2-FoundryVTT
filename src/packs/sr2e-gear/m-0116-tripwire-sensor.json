@@ -1,0 +1,24 @@
+{
+  "_id": "5ee8a126a80bca8b",
+  "name": "M-0116 Tripwire Sensor",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 20,
+    "availability": "3/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "M-0116 Tripwire Sensor - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "a623a27f6267adc6",
+  "name": "Mauser Ladyline",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 7,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.75,
+    "cost": 350,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

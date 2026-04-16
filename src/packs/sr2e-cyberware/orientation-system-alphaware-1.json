@@ -1,0 +1,26 @@
+{
+  "_id": "e28eabd295078e51",
+  "name": "Orientation System (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 30000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Cyberarm versions of these pieces of equipment work in the same way as cranial versions (pp. 53 and 63 of Shadowtech, respectively)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

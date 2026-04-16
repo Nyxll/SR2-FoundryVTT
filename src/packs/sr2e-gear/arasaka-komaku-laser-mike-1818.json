@@ -1,0 +1,24 @@
+{
+  "_id": "24d459db923811dc",
+  "name": "Arasaka \"Komaku\" Laser Mike",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 1,
+    "cost": 6000,
+    "availability": "4/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

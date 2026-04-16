@@ -1,0 +1,24 @@
+{
+  "_id": "0fd60074eeb8023e",
+  "name": "Zetatech Lie Detector 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 1800,
+    "availability": "9/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Zetatech Lie Detector 3 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

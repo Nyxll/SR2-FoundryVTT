@@ -1,0 +1,28 @@
+{
+  "_id": "6d57d9bd2704e23e",
+  "name": "Arbelast II MAW",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 15,
+    "damage_level": "D",
+    "damage_code": "15D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.75,
+    "cost": 1200,
+    "availability": "8/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Arbelast II MAW - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "e42009434d0ed34c",
+  "name": "Explosive Rounds",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.75,
+    "cost": 50,
+    "availability": "3/36hrs",
+    "street_index": 0.8,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

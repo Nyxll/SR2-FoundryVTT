@@ -1,0 +1,24 @@
+{
+  "_id": "da7480cc8e8e860c",
+  "name": "Satellite Injecton Uplink ECM5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 20,
+    "cost": 16000,
+    "availability": "13/2weeks",
+    "street_index": 3,
+    "legality": "",
+    "description": "Satellite Injecton Uplink ECM5 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

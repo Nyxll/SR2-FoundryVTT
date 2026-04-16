@@ -1,0 +1,21 @@
+{
+  "_id": "8b462b4753fe1912",
+  "name": "Uniware Boots",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 60,
+    "availability": "4/4days",
+    "street_index": 1.2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

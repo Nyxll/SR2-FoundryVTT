@@ -1,0 +1,28 @@
+{
+  "_id": "6536289c71657c5f",
+  "name": "Kitchen Sink",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "((2x STR)-6)S Stun",
+    "concealability": null,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 10,
+    "cost": 100,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Kitchen Sink - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

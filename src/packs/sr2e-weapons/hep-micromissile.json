@@ -1,0 +1,28 @@
+{
+  "_id": "216c80d9675c6339",
+  "name": "HEP Micromissile",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 14,
+    "damage_level": "M",
+    "damage_code": "14M",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.25,
+    "cost": 200,
+    "availability": "12/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

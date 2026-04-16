@@ -1,0 +1,24 @@
+{
+  "_id": "7bf3469fd4cfb590",
+  "name": "Stinger Rounds (Shotgun only)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 30,
+    "availability": "4/18hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

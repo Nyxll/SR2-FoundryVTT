@@ -1,0 +1,26 @@
+{
+  "_id": "2cb351b7dddc16a8",
+  "name": "Cybercomm Link",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 62000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "The cybercomm link consists of a transducer and a radio transmitter. The transducer translates thoughts Into words, so that the user need not speak aloud; the transmitter sends and receives these unspoken Impulses. No external evidence of this system's use is visible or audible. Quadruples the number of spoken words allowed in a Free Action (p. 81, SRII)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

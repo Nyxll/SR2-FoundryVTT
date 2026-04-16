@@ -1,0 +1,28 @@
+{
+  "_id": "236f061c52929ac7",
+  "name": "2-Barrel HMG Chaingun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 20,
+    "cost": 6500,
+    "availability": "26/21days",
+    "street_index": 2,
+    "legality": "",
+    "description": "2-Barrel HMG Chaingun - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

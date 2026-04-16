@@ -1,0 +1,21 @@
+{
+  "_id": "68a1c2d268ee0052",
+  "name": "Nanooptic Upgrade",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.2,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 7500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

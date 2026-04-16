@@ -1,0 +1,28 @@
+{
+  "_id": "ef14548b7ab9fcb2",
+  "name": "Colt TP-6A",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "S",
+    "damage_code": "8S",
+    "concealability": 7,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.75,
+    "cost": 550,
+    "availability": "6/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Colt TP-6A - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

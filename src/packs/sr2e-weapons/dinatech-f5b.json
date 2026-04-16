@@ -1,0 +1,28 @@
+{
+  "_id": "8888f14965fe39fb",
+  "name": "DinaTech F5B",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "S",
+    "damage_code": "7S",
+    "concealability": 10,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0,
+    "cost": 700,
+    "availability": "12/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "39f1935fbd241b5f",
+  "name": "Kevlar T-Shirt/Vest",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 220,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

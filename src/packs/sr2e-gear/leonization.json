@@ -1,0 +1,24 @@
+{
+  "_id": "cc98389209e8a677",
+  "name": "Leonization",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2000000,
+    "cost": 0,
+    "availability": "6/30days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Leonization - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

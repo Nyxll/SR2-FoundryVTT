@@ -1,0 +1,26 @@
+{
+  "_id": "7a5d005463ce9063",
+  "name": "Eye Rangefinder (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.04,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 20000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

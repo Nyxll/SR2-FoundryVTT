@@ -1,0 +1,24 @@
+{
+  "_id": "5552e3517643b979",
+  "name": "Ally Conjuring Materials",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1000,
+    "availability": "(Force)/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Ally Conjuring Materials - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

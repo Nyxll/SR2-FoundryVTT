@@ -1,0 +1,21 @@
+{
+  "_id": "2c38e7c178eae860",
+  "name": "Heavy Military Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 14,
+    "impact": 9,
+    "concealability": 0,
+    "cost": 70000,
+    "availability": "28/1mth",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

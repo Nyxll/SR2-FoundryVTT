@@ -1,0 +1,24 @@
+{
+  "_id": "835ef579e2701aca",
+  "name": "Data Codebreaker Lv 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 80000,
+    "availability": "8/10days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Data Codebreaker Lv 8 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "46c5fe43d6afd6b4",
+  "name": "Tetsubo",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "S",
+    "damage_code": "(STR+3)S",
+    "concealability": null,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 3,
+    "cost": 500,
+    "availability": "5/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Tetsubo - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

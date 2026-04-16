@@ -1,0 +1,26 @@
+{
+  "_id": "07cd26c1d1695f98",
+  "name": "Finger: MaceSprayr (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.12,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3000,
+    "availability": "",
+    "street_index": 2.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

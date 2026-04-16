@@ -1,0 +1,24 @@
+{
+  "_id": "0ee786508a1ad294",
+  "name": "Antibac Level 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 1500,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Antibac Level 7 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

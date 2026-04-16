@@ -1,0 +1,24 @@
+{
+  "_id": "1c4e8382957ec8f9",
+  "name": "Anti-Personnel Mine",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 618,
+    "weight": 0.25,
+    "cost": 50,
+    "availability": "14/10days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

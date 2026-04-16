@@ -1,0 +1,28 @@
+{
+  "_id": "183ee5e624e6a89c",
+  "name": "Polymer One-Shot Cannon",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 5,
+    "damage_level": "S",
+    "damage_code": "5S",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.5,
+    "cost": 190,
+    "availability": "3/12hrs",
+    "street_index": 0.6,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

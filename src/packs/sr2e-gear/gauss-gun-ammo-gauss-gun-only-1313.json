@@ -1,0 +1,24 @@
+{
+  "_id": "03d6756405415a49",
+  "name": "Gauss Gun ammo(Gauss Gun only)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 1.5,
+    "cost": 300,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

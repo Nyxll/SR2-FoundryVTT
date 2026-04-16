@@ -1,0 +1,24 @@
+{
+  "_id": "1a625e3ffd027228",
+  "name": "General Skill Chip, Level 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 30000,
+    "availability": "5/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

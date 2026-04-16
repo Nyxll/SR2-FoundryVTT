@@ -1,0 +1,28 @@
+{
+  "_id": "dd7e7daaa6496953",
+  "name": "Underbarrel Capacitor Laser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "M",
+    "damage_code": "10M",
+    "concealability": -2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5,
+    "cost": 95000,
+    "availability": "24/21 days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": "Underbarrel Capacitor Laser - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

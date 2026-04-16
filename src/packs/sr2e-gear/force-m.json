@@ -1,0 +1,24 @@
+{
+  "_id": "503a2544d50671a5",
+  "name": "Force M",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "-",
+    "street_index": 1,
+    "legality": "",
+    "description": "Force M - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

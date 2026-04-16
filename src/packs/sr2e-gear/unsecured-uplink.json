@@ -1,0 +1,24 @@
+{
+  "_id": "6b136af6a11b4a93",
+  "name": "Unsecured Uplink",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 0,
+    "availability": "4/72hrs",
+    "street_index": 1000,
+    "legality": "",
+    "description": "Unsecured Uplink - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5365917dd8811932",
+  "name": "Mirror Rating 5",
+  "type": "gear",
+  "img": "icons/equipment/chest/armor-simple-leather.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 37500,
+    "availability": "4/7days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

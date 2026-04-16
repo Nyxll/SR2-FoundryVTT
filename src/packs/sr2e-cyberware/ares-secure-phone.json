@@ -1,0 +1,26 @@
+{
+  "_id": "3f205d4649616354",
+  "name": "Ares Secure Phone",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 122000,
+    "availability": "",
+    "street_index": 1.2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "90dda086f05f9651",
+  "name": "Armor Jacket",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 5,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 900,
+    "availability": "3/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

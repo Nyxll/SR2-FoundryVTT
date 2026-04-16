@@ -1,0 +1,21 @@
+{
+  "_id": "71827f957edbd84a",
+  "name": "Form-fitting Armor Lvl 3",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 500,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

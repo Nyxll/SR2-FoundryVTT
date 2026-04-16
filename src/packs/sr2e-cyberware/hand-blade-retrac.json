@@ -1,0 +1,26 @@
+{
+  "_id": "e2a2128938ca67f1",
+  "name": "Hand Blade Retrac",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 10000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Hand blades do (STR + 3)L Damage. Essence Cost only applies if the blade is mounted in a normal hand."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

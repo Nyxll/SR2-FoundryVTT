@@ -1,0 +1,28 @@
+{
+  "_id": "d87e6f37140c28ab",
+  "name": "Setsuko-Arasaka \"PMS\" Advanced",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 1150,
+    "availability": "4/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Setsuko-Arasaka \"PMS\" Advanced - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

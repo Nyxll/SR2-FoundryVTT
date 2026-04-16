@@ -1,0 +1,24 @@
+{
+  "_id": "6010b09a090228c3",
+  "name": "Current Hit Full-X ACT Rec.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 9,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Current Hit Full-X ACT Rec. - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

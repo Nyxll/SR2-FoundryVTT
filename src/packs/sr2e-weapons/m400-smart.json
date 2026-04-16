@@ -1,0 +1,28 @@
+{
+  "_id": "6b60a6329444826f",
+  "name": "M400 Smart",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 19,
+    "cost": 7500,
+    "availability": "24/21days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "M400 Smart - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

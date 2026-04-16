@@ -1,0 +1,24 @@
+{
+  "_id": "96a542a2af8aa567",
+  "name": "Directional A-P Mine",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 0.5,
+    "cost": 100,
+    "availability": "10/7days",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

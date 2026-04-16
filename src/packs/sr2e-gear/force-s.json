@@ -1,0 +1,24 @@
+{
+  "_id": "d4b5d771a0acf41d",
+  "name": "Force S",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 0,
+    "availability": "-",
+    "street_index": 1,
+    "legality": "",
+    "description": "Force S - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

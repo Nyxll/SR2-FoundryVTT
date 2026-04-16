@@ -1,0 +1,21 @@
+{
+  "_id": "455618de5cb6d219",
+  "name": "\"Mirage Gear\" Combat Helmet",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 700,
+    "availability": "9/4days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

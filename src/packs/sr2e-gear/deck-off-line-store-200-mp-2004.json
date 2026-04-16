@@ -1,0 +1,24 @@
+{
+  "_id": "acf195a1b37adbe6",
+  "name": "Off-line Store 200 Mp",
+  "type": "gear",
+  "img": "icons/equipment/chest/armor-simple-leather.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 200,
+    "availability": "2/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

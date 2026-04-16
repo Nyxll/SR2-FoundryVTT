@@ -1,0 +1,24 @@
+{
+  "_id": "a2920eb1b12534f8",
+  "name": "Stundart Rounds (HP only)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.75,
+    "cost": 80,
+    "availability": "6/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

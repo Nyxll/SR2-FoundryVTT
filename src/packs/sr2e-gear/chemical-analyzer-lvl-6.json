@@ -1,0 +1,24 @@
+{
+  "_id": "252acd50d8f6aa6c",
+  "name": "Chemical Analyzer Lvl 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 22500,
+    "availability": "4/5days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Chemical Analyzer Lvl 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

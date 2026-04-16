@@ -1,0 +1,21 @@
+{
+  "_id": "37045d81e3c22701",
+  "name": "\"Mirage Gear\"",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 1050,
+    "availability": "5/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5753a36b7376fcc6",
+  "name": "S91KA Remote Heat Sensor",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 2000,
+    "availability": "4/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "S91KA Remote Heat Sensor - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

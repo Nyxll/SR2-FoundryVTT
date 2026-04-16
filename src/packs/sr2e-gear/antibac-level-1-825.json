@@ -1,0 +1,24 @@
+{
+  "_id": "77b2a8ae524ffab5",
+  "name": "Antibac Level 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 500,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Antibac Level 1 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

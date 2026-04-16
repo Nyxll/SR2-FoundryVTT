@@ -1,0 +1,24 @@
+{
+  "_id": "0ff0cb3b3979fb2e",
+  "name": "Elemental Conjuring Materials",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1000,
+    "availability": "(Force)/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Elemental Conjuring Materials - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

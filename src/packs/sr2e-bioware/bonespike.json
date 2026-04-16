@@ -1,0 +1,21 @@
+{
+  "_id": "fe4ba47b21e7a3f0",
+  "name": "Bonespike",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.3,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 10000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

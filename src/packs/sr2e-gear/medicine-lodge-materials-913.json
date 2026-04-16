@@ -1,0 +1,24 @@
+{
+  "_id": "0ede35b4beccc41e",
+  "name": "Medicine Lodge Materials",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 500,
+    "availability": "(Rating)/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Medicine Lodge Materials - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

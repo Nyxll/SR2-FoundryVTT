@@ -1,0 +1,26 @@
+{
+  "_id": "d2bf2b3696543758",
+  "name": "Micromissile Lnchr",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4500,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

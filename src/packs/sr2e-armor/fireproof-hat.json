@@ -1,0 +1,21 @@
+{
+  "_id": "3f204d977f726650",
+  "name": "Fireproof Hat",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 130,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

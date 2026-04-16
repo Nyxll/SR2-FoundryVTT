@@ -1,0 +1,24 @@
+{
+  "_id": "36332313e03038b4",
+  "name": "Myco-Protein",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 25,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Myco-Protein - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

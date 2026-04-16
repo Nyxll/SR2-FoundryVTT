@@ -1,0 +1,26 @@
+{
+  "_id": "30baf91cb39a99fa",
+  "name": "Body Plating S Lv6 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 120000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Soft armor adds | point of Ballistic and Impact armor per level, cumulative with any armor worn."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

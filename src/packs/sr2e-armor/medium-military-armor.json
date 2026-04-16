@@ -1,0 +1,21 @@
+{
+  "_id": "a6514a0cd57bc3e4",
+  "name": "Medium Military Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 12,
+    "impact": 8,
+    "concealability": 0,
+    "cost": 45000,
+    "availability": "24/1mth",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

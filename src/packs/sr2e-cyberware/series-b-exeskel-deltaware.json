@@ -1,0 +1,26 @@
+{
+  "_id": "ca9c70772b71e821",
+  "name": "Series-B Exeskel. (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3000000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

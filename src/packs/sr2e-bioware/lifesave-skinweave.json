@@ -1,0 +1,21 @@
+{
+  "_id": "2085e9e0742fa77e",
+  "name": "Lifesave Skinweave",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 2,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 45000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

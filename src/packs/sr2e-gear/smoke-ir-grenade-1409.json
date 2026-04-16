@@ -1,0 +1,24 @@
+{
+  "_id": "ea24276701529278",
+  "name": "Smoke (IR) Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.25,
+    "cost": 40,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "712d410f0b7f93ff",
+  "name": "Ingram MAC-14",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "M",
+    "damage_code": "7M",
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 650,
+    "availability": "4/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Ingram MAC-14 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "1d5224b055560a4c",
+  "name": "Microwave Link (TacComm)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 0,
+    "cost": 1821,
+    "availability": "1",
+    "street_index": 4800,
+    "legality": "",
+    "description": "Microwave Link (TacComm) - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

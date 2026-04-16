@@ -1,0 +1,28 @@
+{
+  "_id": "d4ef1e8f407f6388",
+  "name": "Federated Arms 454 DA",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 11,
+    "damage_level": "M",
+    "damage_code": "11M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.5,
+    "cost": 1375,
+    "availability": "5/36hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

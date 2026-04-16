@@ -1,0 +1,24 @@
+{
+  "_id": "0a88f6df00639710",
+  "name": "Unsecured Short-Haul Link",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 0,
+    "availability": "4/72hrs",
+    "street_index": 4000,
+    "legality": "",
+    "description": "Unsecured Short-Haul Link - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

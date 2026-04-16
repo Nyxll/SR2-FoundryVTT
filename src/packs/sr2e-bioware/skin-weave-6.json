@@ -1,0 +1,21 @@
+{
+  "_id": "387050a8d5f58417",
+  "name": "Skin Weave 6",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 3,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 300000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

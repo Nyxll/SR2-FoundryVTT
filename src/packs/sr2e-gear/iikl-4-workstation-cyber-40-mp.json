@@ -1,0 +1,24 @@
+{
+  "_id": "4199548d06d6866a",
+  "name": "IIKL-4 Workstation Cyber 40 Mp",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 10,
+    "cost": 1120,
+    "availability": "3/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "IIKL-4 Workstation Cyber 40 Mp - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

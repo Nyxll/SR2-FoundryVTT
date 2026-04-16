@@ -1,0 +1,28 @@
+{
+  "_id": "7120d1e95d67b1af",
+  "name": "FN MAG-5 MMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 9.5,
+    "cost": 3200,
+    "availability": "18/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "FN MAG-5 MMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

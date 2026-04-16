@@ -1,0 +1,21 @@
+{
+  "_id": "820eef5e47b591d6",
+  "name": "Helmet, Steel",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 250,
+    "availability": "14/14days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

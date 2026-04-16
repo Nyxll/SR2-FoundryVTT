@@ -1,0 +1,24 @@
+{
+  "_id": "8ff17e4bbfecb0fb",
+  "name": "Tritech Datashielding",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 0,
+    "availability": "5/48hrs",
+    "street_index": 1.2,
+    "legality": "",
+    "description": "Tritech Datashielding - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

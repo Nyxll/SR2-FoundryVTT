@@ -1,0 +1,28 @@
+{
+  "_id": "d461c094ce4d14ea",
+  "name": "Forearm Snap Blades",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR)M",
+    "concealability": 7,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.5,
+    "cost": 850,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Forearm Snap Blades - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

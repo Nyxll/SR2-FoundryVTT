@@ -1,0 +1,28 @@
+{
+  "_id": "e80299a545da6154",
+  "name": "Speedware (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 1.02,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 250000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 2
+    },
+    "description": "+1INI"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

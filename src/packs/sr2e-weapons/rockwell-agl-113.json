@@ -1,0 +1,28 @@
+{
+  "_id": "ae1950e169449687",
+  "name": "Rockwell AGL-113",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 50,
+    "cost": 15000,
+    "availability": "24/21days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Rockwell AGL-113 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

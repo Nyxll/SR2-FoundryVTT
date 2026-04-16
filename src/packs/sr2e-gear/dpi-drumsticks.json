@@ -1,0 +1,24 @@
+{
+  "_id": "09643a2f5bceeeb1",
+  "name": "DPI Drumsticks",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.25,
+    "cost": 800,
+    "availability": "3/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "DPI Drumsticks - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

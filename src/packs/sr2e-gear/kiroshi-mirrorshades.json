@@ -1,0 +1,24 @@
+{
+  "_id": "d5d799c058249a96",
+  "name": "Kiroshi Mirrorshades",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 300,
+    "availability": "8/7days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": "Kiroshi Mirrorshades - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

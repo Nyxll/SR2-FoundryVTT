@@ -1,0 +1,24 @@
+{
+  "_id": "eb71ea993f5bc1b7",
+  "name": "Average Baseline Dir-X Rec.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 90,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Average Baseline Dir-X Rec. - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "68c07977b0e06b41",
+  "name": "'Farinata' Tech Tool Kit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 5,
+    "cost": 350,
+    "availability": "5/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

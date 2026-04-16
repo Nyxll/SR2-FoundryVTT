@@ -1,0 +1,28 @@
+{
+  "_id": "40fbf7f273cbf76c",
+  "name": "Scythe",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "S",
+    "damage_code": "(STR+1)S",
+    "concealability": null,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 7,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Scythe - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "af14f6bf5facbc41",
+  "name": "Buzzsaw",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "L",
+    "damage_code": "7L",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5.5,
+    "cost": 215,
+    "availability": "12/14days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Buzzsaw - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

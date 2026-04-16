@@ -1,0 +1,26 @@
+{
+  "_id": "ee65015fb333b964",
+  "name": "Oral Spur",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 8200,
+    "availability": "",
+    "street_index": 2.5,
+    "mods": {},
+    "description": "Treat as a cyberspur: use a Special Skill or Quickness for the Melee Combat Test."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "4c37000f8223c447",
+  "name": "ICON Long Skirt",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 600,
+    "availability": "always",
+    "street_index": 0.8,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "628cbd16c108747b",
+  "name": "Non-Mobile TV/3V Transm. ECM 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 35,
+    "cost": 18000,
+    "availability": "13/1week",
+    "street_index": 3,
+    "legality": "",
+    "description": "Non-Mobile TV/3V Transm. ECM 5 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

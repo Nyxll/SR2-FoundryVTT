@@ -1,0 +1,28 @@
+{
+  "_id": "cb521dc20742c41f",
+  "name": "Muscle Replac. 3",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 60000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "quickness": 3
+    },
+    "description": "+3STR"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

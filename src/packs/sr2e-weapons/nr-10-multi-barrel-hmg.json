@@ -1,0 +1,28 @@
+{
+  "_id": "60509acbef6de731",
+  "name": "NR-10 Multi-Barrel HMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 41,
+    "cost": 75000,
+    "availability": "28/30days",
+    "street_index": 3,
+    "legality": "",
+    "description": "NR-10 Multi-Barrel HMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

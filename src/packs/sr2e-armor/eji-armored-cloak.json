@@ -1,0 +1,21 @@
+{
+  "_id": "337a0bbd1c5fc6d8",
+  "name": "Eji Armored Cloak",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 500,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

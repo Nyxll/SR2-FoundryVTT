@@ -1,0 +1,26 @@
+{
+  "_id": "9f4ef0dcfbf913f0",
+  "name": "Zeiss FullSpectrum",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 10000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

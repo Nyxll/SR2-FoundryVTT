@@ -1,0 +1,28 @@
+{
+  "_id": "b75fe154a8e0dc18",
+  "name": "Wristbreaker II",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 8,
+    "damage_level": "S",
+    "damage_code": "8S",
+    "concealability": 34,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.75,
+    "cost": 1450,
+    "availability": "8/10days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

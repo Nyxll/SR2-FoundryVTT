@@ -1,0 +1,26 @@
+{
+  "_id": "be21236498faf75b",
+  "name": "Scramble Breaker 7 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.08,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2800000,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

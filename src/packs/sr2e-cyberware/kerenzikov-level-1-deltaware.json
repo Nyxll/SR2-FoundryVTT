@@ -1,0 +1,28 @@
+{
+  "_id": "e33255ce8a1d67a4",
+  "name": "Kerenzikov Level 1 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.24,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 150000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 2
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

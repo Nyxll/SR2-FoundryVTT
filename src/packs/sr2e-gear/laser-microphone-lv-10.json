@@ -1,0 +1,24 @@
+{
+  "_id": "3090ade1bbe39ec3",
+  "name": "Laser Microphone Lv 10",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 15000,
+    "availability": "10/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Laser Microphone Lv 10 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "83a08e8056a2553d",
+  "name": "DS Coloration Lv1",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 30000,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {
+      "body": 2
+    },
+    "description": "Coloration may be purchased as a camouflage pattern (urban, desert, winter, or wilderness), or a solid color (red, green, blue, or black). The coloration intensity can be varied in 10-percent increments using a hand-control or the cyber-controller. Such devices enable the sheath to function as camouflage clothing (see p. 77. Fields of Fire)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

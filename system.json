@@ -99,6 +99,41 @@
       "system": "shadowrun2e"
     },
     {
+      "name": "sr2e-weapons",
+      "label": "SR2E Weapons",
+      "path": "packs/sr2e-weapons.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-armor",
+      "label": "SR2E Armor",
+      "path": "packs/sr2e-armor.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-cyberware",
+      "label": "SR2E Cyberware",
+      "path": "packs/sr2e-cyberware.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-bioware",
+      "label": "SR2E Bioware",
+      "path": "packs/sr2e-bioware.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
+      "name": "sr2e-gear",
+      "label": "SR2E Gear & Equipment",
+      "path": "packs/sr2e-gear.db",
+      "type": "Item",
+      "system": "shadowrun2e"
+    },
+    {
       "name": "sr2e-archetypes",
       "label": "SR2E Archetypes",
       "path": "packs/sr2e-archetypes.db",

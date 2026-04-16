@@ -1,0 +1,21 @@
+{
+  "_id": "5e3ae8971401aad7",
+  "name": "Orthoskin 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.5,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 100000,
+    "availability": "",
+    "street_index": 0.8,
+    "mods": {},
+    "description": "Orthoskin weaves an energy-diffusing material under the skin that gives the recipient the equivalent of personal armor.\\n\\nThe transformation of skin into orthoskin is an extensive process. The individual's skin is peeled back section by section, and the body's dermal layer is fortified by grafts of synthogen (a strengthened and reinforced collagen-protein derivative), flextin (a synthetic and more resilient form of the elastin protein), and flakes of modified and laced cartilage. Much more durable and resistant to damage and environmental extremes, orthoskin gives a character extra levels of both impact and ballistic armor, which is cumulative with externally worn armor.\\n\\nOnce transplanted, orthoskin grows like normal skin and is virtually indistinguishable from unaugmented skin; the underlying subdermis is altered at the same time to enable it to sustain the new dermal architecture. An additional bonus from orthoskin is that any damage to the body heals with little or no scarring. A disadvantage is that characters with orthoskin lose some degree of sensitivity of touch because of the increased density of the dermis. To reflect this, add the orthoskin level to the Target Number for tactile-based Perception Tests (e.g., orthoskin-2 adds +2 to such a Perception Test).\\n\\nOrthoskin is not compatible with dermal armor."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "51e376e14b803827",
+  "name": "Timer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "explosive",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.5,
+    "cost": 100,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

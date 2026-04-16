@@ -1,0 +1,24 @@
+{
+  "_id": "2d93f31c47a69fdd",
+  "name": "Cable Signal Formatter",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 2000,
+    "availability": "8/1week",
+    "street_index": 2,
+    "legality": "",
+    "description": "Cable Signal Formatter - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

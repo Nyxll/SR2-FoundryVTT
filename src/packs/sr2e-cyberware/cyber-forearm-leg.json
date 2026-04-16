@@ -1,0 +1,26 @@
+{
+  "_id": "d388b88dff69f0a8",
+  "name": "Cyber Forearm/Leg",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.65,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 70000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "The presence of a cyberlimb adds to the Power of any unarmed combat attack using that limb. See General Rules for Cyberlimbs, p. 49 of Cyberware Rules."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

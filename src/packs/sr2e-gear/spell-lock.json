@@ -1,0 +1,24 @@
+{
+  "_id": "56ae2a849c14b940",
+  "name": "Spell Lock",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 45000,
+    "availability": "2/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Spell Lock - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

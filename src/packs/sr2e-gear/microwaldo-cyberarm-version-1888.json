@@ -1,0 +1,24 @@
+{
+  "_id": "b3279797bae1f779",
+  "name": "Microwaldo, Cyberarm version",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 8000,
+    "availability": "8/72hrs",
+    "street_index": 3.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

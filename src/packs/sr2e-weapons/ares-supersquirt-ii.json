@@ -1,0 +1,28 @@
+{
+  "_id": "41a316bf711ac2b3",
+  "name": "Ares SuperSquirt II",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 7,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 800,
+    "availability": "9/14days",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Ares SuperSquirt II - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

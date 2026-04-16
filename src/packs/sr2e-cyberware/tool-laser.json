@@ -1,0 +1,26 @@
+{
+  "_id": "04c7749b5d63e643",
+  "name": "Tool Laser",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 5200,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "The tool laser has a Damage Code of 4L. If it is used as a weapon, make Combat Tests using the character's Quickness or a Special Skill. These tests have a Base Target Number 4, with a +1 modifier to the target number for each meter or part thereof beyond 1. The Power of the attack is -1 against targets up to two meters away and -2 against targets up to four meters away. Will not penetrate reflective metals or silvered glass, but can cut mirrored plastics."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

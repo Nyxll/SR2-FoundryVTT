@@ -1,0 +1,24 @@
+{
+  "_id": "eefb8be74a078dd8",
+  "name": "MAO Inhibitors (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 60,
+    "cost": 0,
+    "availability": "?",
+    "street_index": 1,
+    "legality": "",
+    "description": "MAO Inhibitors (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

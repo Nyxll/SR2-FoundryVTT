@@ -1,0 +1,26 @@
+{
+  "_id": "9ce6746e289acc3f",
+  "name": "Tooth Compar Stor (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 7500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": "To remove a storage tooth takes 2 Complex Actions and a successful Quickness (4) Test."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

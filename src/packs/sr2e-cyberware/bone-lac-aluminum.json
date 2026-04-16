@@ -1,0 +1,28 @@
+{
+  "_id": "4971542546131afc",
+  "name": "Bone Lac. Aluminum",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.15,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 25000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 1
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

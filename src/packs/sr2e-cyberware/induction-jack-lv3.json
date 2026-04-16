@@ -1,0 +1,26 @@
+{
+  "_id": "717f1cb73b269a02",
+  "name": "Induction Jack Lv3",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 6000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Performs identically to standard and improved datajacks (p. 246 of SRII and p. 45 of Shadowtech, respectively). For the induction equivalent to the datajacks listed in Shadowtech, add .1 to the Essence, multiply the Price by 3, and use the Availability/Street Index listed above."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

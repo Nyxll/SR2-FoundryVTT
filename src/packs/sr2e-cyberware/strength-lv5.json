@@ -1,0 +1,26 @@
+{
+  "_id": "5cd9a0e538b1b4de",
+  "name": "Strength Lv5",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 350000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute. The cybertorso also reduces by half (round up) the additional Essence cost of Strength or Quickness enhancements beyond 3 points (see Limb Enhancements, p. 31, and Cyberware Rules, p. 49)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

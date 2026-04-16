@@ -1,0 +1,24 @@
+{
+  "_id": "326537e7e2b1009e",
+  "name": "Low-wattage Floodlight",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 150,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Low-wattage Floodlight - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "f77f493b7c78c537",
+  "name": "Radio receiver (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.32,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4000,
+    "availability": "",
+    "street_index": 0.8,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

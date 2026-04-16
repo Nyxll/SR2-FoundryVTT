@@ -1,0 +1,24 @@
+{
+  "_id": "ade17eb78954c92d",
+  "name": "Pocket Security",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 3000,
+    "availability": "Always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Pocket Security - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

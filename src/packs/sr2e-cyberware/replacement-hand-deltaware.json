@@ -1,0 +1,26 @@
+{
+  "_id": "578863de67745dfd",
+  "name": "Replacement Hand (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 280000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Attaching/removing a replacement hand requires a free hand and a Complex Action. A variety of tool and gear/weapon hands are available, at a 30-percent increase of the cost of the item itself. Weapons built into a replacement hand receive a +1 modifier to the target number for purposes of Combat Tests."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

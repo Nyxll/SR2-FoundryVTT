@@ -1,0 +1,26 @@
+{
+  "_id": "d0a30e0a512336e8",
+  "name": "Spatial Recognizer (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.16,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2400,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "This cyberear accessory reduces the target numbers for Perception Tests based primarily on sound location by -2 whenever a character attempts to track something by listening for movement. For additional rules in cases of restricted vision, see Cyberware Rules, p. 46."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

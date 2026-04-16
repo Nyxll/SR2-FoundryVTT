@@ -1,0 +1,24 @@
+{
+  "_id": "809dda8fb205a9d8",
+  "name": "Binoculars, Low-Light",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "vision",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 1,
+    "cost": 300,
+    "availability": "4/48hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

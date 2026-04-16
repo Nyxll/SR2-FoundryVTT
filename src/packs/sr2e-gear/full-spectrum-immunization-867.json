@@ -1,0 +1,24 @@
+{
+  "_id": "45fdd6b9b48c01b3",
+  "name": "Full Spectrum Immunization",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 300000,
+    "availability": "6/20days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Full Spectrum Immunization - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "45e9133ee1ab96c7",
+  "name": "Laser Tracker (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.16,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 6400,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Ties into a cyberlimb or external weapon mount and auto-tracks a designated target. This function is built into the unit and does not require an additional laser designator."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

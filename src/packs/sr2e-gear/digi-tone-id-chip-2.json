@@ -1,0 +1,24 @@
+{
+  "_id": "2d4408a270bc8cc5",
+  "name": "Digi-Tone ID Chip 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 140,
+    "availability": "2/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

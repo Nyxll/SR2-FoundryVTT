@@ -1,0 +1,26 @@
+{
+  "_id": "f06703a8b9d70fc8",
+  "name": "Series-A Exoskel. (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2400000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

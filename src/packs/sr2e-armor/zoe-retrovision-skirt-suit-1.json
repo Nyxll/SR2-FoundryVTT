@@ -1,0 +1,21 @@
+{
+  "_id": "fbaa51534e6f4c6e",
+  "name": "Zoe \"Retrovision\" Skirt Suit",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 3,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 2500,
+    "availability": "4/48hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

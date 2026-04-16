@@ -1,0 +1,28 @@
+{
+  "_id": "91d60f34ea08e410",
+  "name": "Uzi IV Smart",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.25,
+    "cost": 1200,
+    "availability": "8/60hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": "Uzi IV Smart - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "27e67a790cf65619",
+  "name": "Move-by-Wire Lv4 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 2.58,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 30000000,
+    "availability": "",
+    "street_index": 3.5,
+    "mods": {
+      "quickness": 4
+    },
+    "description": "+8RCT"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

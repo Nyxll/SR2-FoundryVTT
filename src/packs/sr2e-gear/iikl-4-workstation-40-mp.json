@@ -1,0 +1,24 @@
+{
+  "_id": "804708ac1f568521",
+  "name": "IIKL-4 Workstation 40 Mp",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 10,
+    "cost": 800,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "IIKL-4 Workstation 40 Mp - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

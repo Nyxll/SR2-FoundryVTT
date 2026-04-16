@@ -1,0 +1,28 @@
+{
+  "_id": "a6d6059bb3e507e4",
+  "name": "Raineer Reflex 3 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 1.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 1850000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "initiative_dice": 3
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "a27fdca6fa60abac",
+  "name": "Smartlock Door Sec. System 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 750,
+    "availability": "5/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Smartlock Door Sec. System 3 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "03ebe84076e4d562",
+  "name": "Rush Virtual Villains",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 150,
+    "availability": "always",
+    "street_index": 0.9,
+    "legality": "",
+    "description": "Rush Virtual Villains - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

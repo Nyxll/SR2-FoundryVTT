@@ -1,0 +1,24 @@
+{
+  "_id": "3e11435775114309",
+  "name": "Superball Lvl 1 (per meter)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 50,
+    "availability": "2/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Superball Lvl 1 (per meter) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

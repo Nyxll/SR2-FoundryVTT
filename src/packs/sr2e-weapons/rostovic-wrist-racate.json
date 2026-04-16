@@ -1,0 +1,28 @@
+{
+  "_id": "455851227525acc6",
+  "name": "Rostovic Wrist Racate",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 3800,
+    "availability": "18/20days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": "Rostovic Wrist Racate - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

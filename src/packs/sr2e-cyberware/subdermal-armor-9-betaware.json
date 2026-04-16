@@ -1,0 +1,28 @@
+{
+  "_id": "c6262e7e9a3fb1f3",
+  "name": "Subdermal Armor 9 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 1.14,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 87500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 3
+    },
+    "description": "-1RCT"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

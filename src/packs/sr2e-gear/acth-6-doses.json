@@ -1,0 +1,24 @@
+{
+  "_id": "cb1078f89dc28494",
+  "name": "ACTH (6 doses)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 100,
+    "availability": "5/12hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "ACTH (6 doses) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

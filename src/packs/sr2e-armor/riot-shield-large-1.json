@@ -1,0 +1,21 @@
+{
+  "_id": "c32c0310b58005f2",
+  "name": "Riot Shield, Large",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 3200,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

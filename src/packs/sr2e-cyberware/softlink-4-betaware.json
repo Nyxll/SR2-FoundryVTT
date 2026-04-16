@@ -1,0 +1,26 @@
+{
+  "_id": "f45bd56ee0fe9038",
+  "name": "Softlink 4 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.18,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 40000,
+    "availability": "",
+    "street_index": 0.9,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

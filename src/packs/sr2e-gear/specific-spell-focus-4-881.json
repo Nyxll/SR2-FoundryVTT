@@ -1,0 +1,24 @@
+{
+  "_id": "e8843a58c7b0b5d5",
+  "name": "Specific Spell Focus 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 180000,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Specific Spell Focus 4 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

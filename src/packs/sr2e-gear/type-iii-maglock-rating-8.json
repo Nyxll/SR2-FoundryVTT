@@ -1,0 +1,24 @@
+{
+  "_id": "a856d177ec7ef92e",
+  "name": "Type III Maglock (rating 8)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 1200,
+    "availability": "8/3.5days",
+    "street_index": 1.25,
+    "legality": "",
+    "description": "Type III Maglock (rating 8) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

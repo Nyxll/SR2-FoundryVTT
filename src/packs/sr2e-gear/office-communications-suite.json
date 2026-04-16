@@ -1,0 +1,24 @@
+{
+  "_id": "4799163b66df93ba",
+  "name": "Office Communications Suite",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 10000,
+    "availability": "10/10days",
+    "street_index": 2.5,
+    "legality": "",
+    "description": "Office Communications Suite - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

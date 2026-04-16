@@ -1,0 +1,24 @@
+{
+  "_id": "a239cf5d6fcde2f5",
+  "name": "Laser Detector Lvl 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 6,
+    "weight": 0.3,
+    "cost": 25000,
+    "availability": "8/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

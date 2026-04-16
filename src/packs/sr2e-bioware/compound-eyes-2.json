@@ -1,0 +1,21 @@
+{
+  "_id": "4f7d9966c7adabff",
+  "name": "Compound Eyes 2",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.3,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 6000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

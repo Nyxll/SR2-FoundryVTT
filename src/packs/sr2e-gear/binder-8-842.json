@@ -1,0 +1,24 @@
+{
+  "_id": "c37755a77dcb97a8",
+  "name": "Binder 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 900,
+    "availability": "4/32hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Binder 8 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

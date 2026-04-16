@@ -1,0 +1,26 @@
+{
+  "_id": "6eb20f7c032f2ae2",
+  "name": "Tactical Comp Lv2 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 1.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 9000000,
+    "availability": "",
+    "street_index": 4,
+    "mods": {},
+    "description": "Cyberarm versions of these pieces of equipment work in the same way as cranial versions (pp. 53 and 63 of Shadowtech, respectively)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

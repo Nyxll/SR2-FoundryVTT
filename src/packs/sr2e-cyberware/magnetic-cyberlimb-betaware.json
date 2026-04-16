@@ -1,0 +1,26 @@
+{
+  "_id": "939634ad0fa58d84",
+  "name": "Magnetic Cyberlimb (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 14000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Each limb system can only hold about 25 kilograms. Multiple systems are cumulative. The weight the magnets can hold is subtracted from the weight of anything being held (see Dangling and Holding, p. 51 of Cyberware Rules)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

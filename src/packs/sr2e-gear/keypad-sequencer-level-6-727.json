@@ -1,0 +1,24 @@
+{
+  "_id": "f6062e12d5f0a028",
+  "name": "Keypad Sequencer Level 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 18000,
+    "availability": "3/10days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Keypad Sequencer Level 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

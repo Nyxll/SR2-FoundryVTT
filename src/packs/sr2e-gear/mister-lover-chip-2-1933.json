@@ -1,0 +1,24 @@
+{
+  "_id": "ea808b0050fb92ac",
+  "name": "Mister Lover Chip 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 200,
+    "availability": "5/48hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

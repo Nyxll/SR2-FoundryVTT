@@ -1,0 +1,24 @@
+{
+  "_id": "67faa356b5ff0168",
+  "name": "Diagnostic Remote, Normal v.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 4000,
+    "availability": "6/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

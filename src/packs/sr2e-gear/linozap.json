@@ -1,0 +1,24 @@
+{
+  "_id": "a9802cad879ba855",
+  "name": "Linozap",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.75,
+    "cost": 350,
+    "availability": "6/4 days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Linozap - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

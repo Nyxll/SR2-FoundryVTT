@@ -1,0 +1,24 @@
+{
+  "_id": "da06e1c328d55122",
+  "name": "Radio Jammer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 536,
+    "availability": "-",
+    "street_index": 100,
+    "legality": "",
+    "description": "Radio Jammer - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

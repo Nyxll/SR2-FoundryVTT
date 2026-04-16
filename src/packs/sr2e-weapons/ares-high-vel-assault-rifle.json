@@ -1,0 +1,28 @@
+{
+  "_id": "b6e28e1394a44fef",
+  "name": "Ares High-Vel. Assault Rifle",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-rifle.webp",
+  "system": {
+    "category": "rifle",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5,
+    "cost": 3200,
+    "availability": "14/7days",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

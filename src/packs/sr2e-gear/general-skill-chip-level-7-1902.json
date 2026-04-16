@@ -1,0 +1,24 @@
+{
+  "_id": "3c0ef054fd8ecb97",
+  "name": "General Skill Chip, Level 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 7,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 105000,
+    "availability": "5/4days",
+    "street_index": 1.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

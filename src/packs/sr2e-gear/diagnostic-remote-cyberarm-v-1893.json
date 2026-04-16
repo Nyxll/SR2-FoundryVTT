@@ -1,0 +1,24 @@
+{
+  "_id": "cbd5bcda82d40c4d",
+  "name": "Diagnostic Remote, Cyberarm v.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 5000,
+    "availability": "8/72hrs",
+    "street_index": 3.25,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

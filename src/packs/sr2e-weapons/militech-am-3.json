@@ -1,0 +1,28 @@
+{
+  "_id": "3558005c27264ddc",
+  "name": "Militech AM-3",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 20,
+    "damage_level": "D",
+    "damage_code": "20D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 26,
+    "cost": 8000,
+    "availability": "20/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Militech AM-3 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

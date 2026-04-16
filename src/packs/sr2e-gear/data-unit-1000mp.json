@@ -1,0 +1,24 @@
+{
+  "_id": "f4bffa6d7b8a97d6",
+  "name": "Data Unit (1000Mp)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 0,
+    "availability": "Always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Data Unit (1000Mp) - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

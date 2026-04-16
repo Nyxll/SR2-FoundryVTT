@@ -1,0 +1,28 @@
+{
+  "_id": "6b271bc12e7193a9",
+  "name": "Kendachi Mononaginata",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "L",
+    "damage_code": "(STR+2)L",
+    "concealability": 2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 1,
+    "weight": 0.5,
+    "cost": 300,
+    "availability": "6/60hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Kendachi Mononaginata - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

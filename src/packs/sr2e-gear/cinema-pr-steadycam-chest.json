@@ -1,0 +1,24 @@
+{
+  "_id": "d59935e3de0b64c8",
+  "name": "Cinema Pr. Steadycam Chest",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 1800,
+    "availability": "3/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Cinema Pr. Steadycam Chest - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

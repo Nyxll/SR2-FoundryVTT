@@ -1,0 +1,26 @@
+{
+  "_id": "bedf9ba937c9d5ae",
+  "name": "Voice Pattern Lvl3 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.28,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 130000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

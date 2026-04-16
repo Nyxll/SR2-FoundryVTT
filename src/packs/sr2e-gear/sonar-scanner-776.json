@@ -1,0 +1,24 @@
+{
+  "_id": "b3f991b904f30ca1",
+  "name": "Sonar Scanner",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 0.2,
+    "cost": 50,
+    "availability": "5/48hrs",
+    "street_index": 1.2,
+    "legality": "",
+    "description": "Sonar Scanner - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

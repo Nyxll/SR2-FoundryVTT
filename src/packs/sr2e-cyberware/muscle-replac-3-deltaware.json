@@ -1,0 +1,28 @@
+{
+  "_id": "f4724e56770cc44d",
+  "name": "Muscle Replac. 3 (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 1.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 600000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "quickness": 3
+    },
+    "description": "+3STR"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

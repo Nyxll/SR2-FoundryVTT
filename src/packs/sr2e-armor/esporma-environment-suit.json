@@ -1,0 +1,21 @@
+{
+  "_id": "3c39ecef1a6aae9c",
+  "name": "Esporma Environment Suit",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 7250,
+    "availability": "6/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

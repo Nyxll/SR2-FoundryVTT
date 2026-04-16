@@ -1,0 +1,24 @@
+{
+  "_id": "c560d4d1630baa0c",
+  "name": "Doom (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 500,
+    "availability": "14/30days",
+    "street_index": 5,
+    "legality": "",
+    "description": "Doom (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

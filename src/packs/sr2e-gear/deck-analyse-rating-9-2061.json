@@ -1,0 +1,24 @@
+{
+  "_id": "f0a89408710dac22",
+  "name": "Analyse Rating 9",
+  "type": "gear",
+  "img": "icons/equipment/chest/armor-simple-leather.webp",
+  "system": {
+    "category": "cyberdeck",
+    "subcategory": "other",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 243000,
+    "availability": "8/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

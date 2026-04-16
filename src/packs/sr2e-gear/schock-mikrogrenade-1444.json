@@ -1,0 +1,24 @@
+{
+  "_id": "fc47a272efaf123a",
+  "name": "Schock Mikrogrenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 9,
+    "weight": 0.1,
+    "cost": 80,
+    "availability": "8/36hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

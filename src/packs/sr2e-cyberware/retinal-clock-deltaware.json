@@ -1,0 +1,26 @@
+{
+  "_id": "946ed05d5d6295c2",
+  "name": "Retinal Clock (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.04,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4500,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "Displays a time/date stamp in the lower right corner of the wearer's field of vision or wherever the user wants. Can be modified for region and season and includes a stopwatch style timer and a countdown timer. Accurate to +/- . 0001 seconds per year."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "a88f1f5fa61c9899",
+  "name": "Narcoject Rifle",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(As toxin)",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.25,
+    "cost": 1700,
+    "availability": "8/2days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Narcoject Rifle - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

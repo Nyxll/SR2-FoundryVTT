@@ -1,0 +1,24 @@
+{
+  "_id": "68fcb60ceb20b668",
+  "name": "Video Transmission Unit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 4000,
+    "availability": "8/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Video Transmission Unit - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

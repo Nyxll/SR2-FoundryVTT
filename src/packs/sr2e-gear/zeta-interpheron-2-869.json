@@ -1,0 +1,24 @@
+{
+  "_id": "99768e046b1d2b41",
+  "name": "Zeta-Interpheron 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 400,
+    "availability": "4/32hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Zeta-Interpheron 2 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

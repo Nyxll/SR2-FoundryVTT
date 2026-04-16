@@ -1,0 +1,26 @@
+{
+  "_id": "1119043ff7ff933a",
+  "name": "Voice Synth Lvl 4 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.36,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 500000,
+    "availability": "",
+    "street_index": 1.4,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

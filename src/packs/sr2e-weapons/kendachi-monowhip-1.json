@@ -1,0 +1,28 @@
+{
+  "_id": "a6c940ea7b91e737",
+  "name": "Kendachi Monowhip",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 9,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 3,
+    "weight": 0,
+    "cost": 3500,
+    "availability": "26/14 days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Kendachi Monowhip - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

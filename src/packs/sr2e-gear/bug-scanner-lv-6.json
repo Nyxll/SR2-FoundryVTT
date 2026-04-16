@@ -1,0 +1,24 @@
+{
+  "_id": "25c54c865aab7597",
+  "name": "Bug Scanner Lv 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 3000,
+    "availability": "6/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Bug Scanner Lv 6 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

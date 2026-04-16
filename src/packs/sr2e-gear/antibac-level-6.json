@@ -1,0 +1,24 @@
+{
+  "_id": "42af7639e00dfa2e",
+  "name": "Antibac Level 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 1000,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Antibac Level 6 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

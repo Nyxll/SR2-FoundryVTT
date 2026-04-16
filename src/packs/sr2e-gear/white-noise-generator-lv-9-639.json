@@ -1,0 +1,24 @@
+{
+  "_id": "de383684a2f952e7",
+  "name": "White Noise Generator Lv 9",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 9,
+    "quantity": 1,
+    "concealability": 3,
+    "weight": 1,
+    "cost": 13500,
+    "availability": "9/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "White Noise Generator Lv 9 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "007f81a2a948d198",
+  "name": "Hyper (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 180,
+    "availability": "4/24hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": "Hyper (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

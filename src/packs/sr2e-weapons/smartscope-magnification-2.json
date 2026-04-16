@@ -1,0 +1,28 @@
+{
+  "_id": "292b6f67725991d3",
+  "name": "Smartscope (Magnification 2)",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 1,
+    "damage_level": "M",
+    "damage_code": "1",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 560,
+    "cost": 1.1,
+    "availability": "3750",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

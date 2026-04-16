@@ -1,0 +1,26 @@
+{
+  "_id": "2f20f5cdd4fd8896",
+  "name": "Nikkon ProSystem",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.7,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 55000,
+    "availability": "",
+    "street_index": 1.2,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

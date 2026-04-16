@@ -1,0 +1,24 @@
+{
+  "_id": "6e82508c131a7407",
+  "name": "Portacom Jammer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 20,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Portacom Jammer - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

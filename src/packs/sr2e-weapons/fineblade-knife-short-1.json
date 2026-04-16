@@ -1,0 +1,28 @@
+{
+  "_id": "8466710a58fd9d94",
+  "name": "Fineblade Knife (short)",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR)M",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.5,
+    "cost": 800,
+    "availability": "5/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Fineblade Knife (short) - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

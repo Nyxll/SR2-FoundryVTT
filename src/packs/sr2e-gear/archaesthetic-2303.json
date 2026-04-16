@@ -1,0 +1,24 @@
+{
+  "_id": "0360a9f1df2884e4",
+  "name": "Archaesthetic",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": -1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 67,
+    "cost": 10000,
+    "availability": "1",
+    "street_index": 4,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

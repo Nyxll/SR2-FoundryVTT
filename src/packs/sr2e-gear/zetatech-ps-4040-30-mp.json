@@ -1,0 +1,24 @@
+{
+  "_id": "abe39aa568b356e9",
+  "name": "Zetatech PS-4040 (30 Mp)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 1600,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Zetatech PS-4040 (30 Mp) - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

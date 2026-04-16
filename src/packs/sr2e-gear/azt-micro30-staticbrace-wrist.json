@@ -1,0 +1,24 @@
+{
+  "_id": "080418680f2a588a",
+  "name": "AZT Micro30 StaticBrace Wrist",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 2200,
+    "availability": "3/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "AZT Micro30 StaticBrace Wrist - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

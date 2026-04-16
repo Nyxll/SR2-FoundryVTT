@@ -1,0 +1,24 @@
+{
+  "_id": "7f12fec770937833",
+  "name": "Microwaldo, Normal version",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 7000,
+    "availability": "6/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

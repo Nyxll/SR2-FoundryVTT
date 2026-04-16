@@ -1,0 +1,24 @@
+{
+  "_id": "e6102ce6bacabb4e",
+  "name": "Methylphenidate",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "drug",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 25,
+    "availability": "4/3hrs",
+    "street_index": 1.8,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

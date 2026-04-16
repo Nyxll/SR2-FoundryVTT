@@ -1,0 +1,26 @@
+{
+  "_id": "abcf721a54ec65de",
+  "name": "Cranial Bomb Kink (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 280000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "If built to do so, all cranial bombs will kill the bearer. At the gamemaster's discretion, kink bombs may have a permanent physiological effect such as blindness, stuttering, and so on."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

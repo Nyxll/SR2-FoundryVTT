@@ -1,0 +1,24 @@
+{
+  "_id": "b75c94865d3c45bc",
+  "name": "Advanced Alarm Removal Kit",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 2900,
+    "availability": "8/12hrs",
+    "street_index": 5,
+    "legality": "",
+    "description": "Advanced Alarm Removal Kit - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

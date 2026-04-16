@@ -1,0 +1,26 @@
+{
+  "_id": "e9a3d6670bf5e389",
+  "name": "Sub Speakers",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 650,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Usually mounted under the skin just behind the ear, these tiny speakers vibrate various bones in the ear to transmit sound. Sound comIng over them cannot be overheard."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

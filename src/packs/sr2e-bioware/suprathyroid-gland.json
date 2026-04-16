@@ -1,0 +1,26 @@
+{
+  "_id": "113e0e756d051eb1",
+  "name": "Suprathyroid Gland",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 50000,
+    "availability": "",
+    "street_index": 2.5,
+    "mods": {
+      "body": 1,
+      "quickness": 1,
+      "strength": 1,
+      "reaction": 1
+    },
+    "description": "The suprathyroid gland is a regulating gland that is grown, then implanted on top of the thyroid gland in the body. This suprathyroid gland supersedes the metabolic functions of the thyroid, optimizing catabolism (the breakdown of complex substances, such as starches into sugars) and anabolism (the chemical conversion of substances, such as the construction of complex sugars) within the body. The altered metabolism produces more energy and effectively supercharges the recipient. Having a suprathyroid increases all the subject's physical attributes and Reaction by +1. (Quickness raised in this fashion can also increase Reaction.)\\n\\nThe benefits come at a price, however. Individuals implanted with a suprathyroid gland must ingest twice as much food and beverage as the normal person to fuel the higher metabolic rate. If the subject also has symbiotes, the increased food requirements are cumulative. A character who has both a suprathyroid and Level 3 symbiotes, for example, would have to consume four times as much food and beverage as a \\normal\\ person of his/her same race, sex, and age. Because stomach capacity remains the same, this involves either eating twice as often or else purchasing and consuming an expensive (triple normal food costs) diet of tailored nutrients. If a character with both a suprathyroid and symbiotes opts for the tailored diet, his total calculated food requirement is halved. That is, someone with the suprathyroid and the symbiotes 3 would have to eat and drink only twice as much as normal if he were living on the tailored nutrients. As most reactions within the body are exothermic (giving out heat), a person with a suprathyroid gives off more heat, which permits observers with thermographic capability a -1 target modifier to notice him or her. With the higher levels of energy available, characters with a suprathyroid have a tendency toward hyperactivity.\\n\\nThe Reaction bonus has no effect on rigging or decking."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

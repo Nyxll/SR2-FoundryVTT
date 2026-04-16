@@ -1,0 +1,24 @@
+{
+  "_id": "77e22bd14c8bf534",
+  "name": "Portable Motion Detector Lvl 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 800,
+    "availability": "4/24hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": "Portable Motion Detector Lvl 4 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "f989d8f01de35da5",
+  "name": "Morrissey Alan",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 5,
+    "damage_level": "L",
+    "damage_code": "5L",
+    "concealability": 8,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.5,
+    "cost": 500,
+    "availability": "8/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

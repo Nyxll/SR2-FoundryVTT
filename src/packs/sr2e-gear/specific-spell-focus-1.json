@@ -1,0 +1,24 @@
+{
+  "_id": "307ca749518414f7",
+  "name": "Specific Spell Focus 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 45000,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Specific Spell Focus 1 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

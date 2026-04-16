@@ -1,0 +1,24 @@
+{
+  "_id": "a9c7d0bf45861bb6",
+  "name": "Satellite Injecton Uplink",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 20,
+    "cost": 1000,
+    "availability": "8/2weeks",
+    "street_index": 2,
+    "legality": "",
+    "description": "Satellite Injecton Uplink - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

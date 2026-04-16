@@ -1,0 +1,28 @@
+{
+  "_id": "29584b5af2ad5998",
+  "name": "Raineer Reflex 1 (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 1.12,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 54000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "initiative_dice": 1
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

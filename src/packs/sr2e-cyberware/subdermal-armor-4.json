@@ -1,0 +1,28 @@
+{
+  "_id": "e95185f633e98bb4",
+  "name": "Subdermal Armor 4",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 8000,
+    "availability": "",
+    "street_index": 1.1,
+    "mods": {
+      "body": 1
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

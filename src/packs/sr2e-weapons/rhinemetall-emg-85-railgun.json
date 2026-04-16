@@ -1,0 +1,28 @@
+{
+  "_id": "de7de543760327a3",
+  "name": "Rhinemetall EMG-85 Railgun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 25,
+    "damage_level": "D",
+    "damage_code": "25D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 35,
+    "cost": 113700,
+    "availability": "-",
+    "street_index": 0,
+    "legality": "",
+    "description": "Rhinemetall EMG-85 Railgun - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

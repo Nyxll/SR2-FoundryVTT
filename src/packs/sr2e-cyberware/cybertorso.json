@@ -1,0 +1,28 @@
+{
+  "_id": "6d3fd4959f88311b",
+  "name": "CyberTorso",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.5,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 120000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "body": 1
+    },
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute. The cybertorso also reduces by half (round up) the additional Essence cost of Strength or Quickness enhancements beyond 3 points (see Limb Enhancements, p. 31, and Cyberware Rules, p. 49)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

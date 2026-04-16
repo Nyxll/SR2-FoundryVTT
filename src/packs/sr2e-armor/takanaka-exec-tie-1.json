@@ -1,0 +1,21 @@
+{
+  "_id": "f7a16cab6cf78d92",
+  "name": "Takanaka Exec Tie",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 0,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 100,
+    "availability": "6/72hrs",
+    "street_index": 0.9,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

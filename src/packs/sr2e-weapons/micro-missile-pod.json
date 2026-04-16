@@ -1,0 +1,28 @@
+{
+  "_id": "c17c4169b6d9c086",
+  "name": "Micro-Missile Pod",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Micromissile)",
+    "concealability": -2,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.75,
+    "cost": 2000,
+    "availability": "8/5days",
+    "street_index": 1.9,
+    "legality": "",
+    "description": "Micro-Missile Pod - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

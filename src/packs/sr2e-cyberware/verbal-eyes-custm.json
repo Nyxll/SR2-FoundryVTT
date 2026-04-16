@@ -1,0 +1,26 @@
+{
+  "_id": "cc1603d75be028d3",
+  "name": "Verbal Eyes: Custm",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.5,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 24000,
+    "availability": "",
+    "street_index": 0.9,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

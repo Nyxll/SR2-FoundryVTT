@@ -1,0 +1,24 @@
+{
+  "_id": "f5b6a91f072aca02",
+  "name": "BRL-3014 Window Trembler 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 0,
+    "availability": "600",
+    "street_index": 1,
+    "legality": "",
+    "description": "BRL-3014 Window Trembler 5 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

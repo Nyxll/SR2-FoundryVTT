@@ -1,0 +1,24 @@
+{
+  "_id": "9749e04b3dd922f8",
+  "name": "Fuchi VX2200 Portacam",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 1000,
+    "availability": "2/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Fuchi VX2200 Portacam - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "00729b34c35fd4ae",
+  "name": "Panther Heavy Recoilless Rifle",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 10,
+    "cost": 4000,
+    "availability": "14/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Panther Heavy Recoilless Rifle - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

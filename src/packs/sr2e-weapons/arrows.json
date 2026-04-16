@@ -1,0 +1,28 @@
+{
+  "_id": "f37c83fe0e47ac44",
+  "name": "Arrows",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-simple.webp",
+  "system": {
+    "category": "bow",
+    "skill": "projectile_weapons",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(As bow)",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.1,
+    "cost": 10,
+    "availability": "3/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Arrows - Bow and crossbow"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

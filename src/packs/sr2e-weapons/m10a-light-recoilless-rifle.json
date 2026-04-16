@@ -1,0 +1,28 @@
+{
+  "_id": "1b53c4da7930c813",
+  "name": "M10A Light Recoilless Rifle",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 6.5,
+    "cost": 2000,
+    "availability": "12/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "M10A Light Recoilless Rifle - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

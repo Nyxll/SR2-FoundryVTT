@@ -1,0 +1,24 @@
+{
+  "_id": "5afd91477eadd1f2",
+  "name": "Zetatech Radar Detector 9",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 4050,
+    "availability": "9/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Radar Detector 9 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "9a240dbbdacb02e9",
+  "name": "Current Hit Baseline ACT Rec.",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 3,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Current Hit Baseline ACT Rec. - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

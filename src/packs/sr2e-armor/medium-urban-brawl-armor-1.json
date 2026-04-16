@@ -1,0 +1,21 @@
+{
+  "_id": "e0e49fe7462112ae",
+  "name": "Medium Urban Brawl Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 750,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

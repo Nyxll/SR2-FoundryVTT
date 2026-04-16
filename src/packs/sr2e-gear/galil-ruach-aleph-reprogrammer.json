@@ -1,0 +1,24 @@
+{
+  "_id": "633e9a1e46b018fa",
+  "name": "Galil Ruach-Aleph Reprogrammer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 10000,
+    "availability": "8/1week",
+    "street_index": 3,
+    "legality": "",
+    "description": "Galil Ruach-Aleph Reprogrammer - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

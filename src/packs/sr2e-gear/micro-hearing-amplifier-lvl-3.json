@@ -1,0 +1,24 @@
+{
+  "_id": "a1185953b20ffb10",
+  "name": "Micro Hearing Amplifier Lvl 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.3,
+    "cost": 1500,
+    "availability": "6/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

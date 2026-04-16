@@ -1,0 +1,24 @@
+{
+  "_id": "6a06d69d99a3409d",
+  "name": "Micro-Recorder",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 9,
+    "weight": 0,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Micro-Recorder - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

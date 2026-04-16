@@ -1,0 +1,28 @@
+{
+  "_id": "7c9ddb532ed4dab5",
+  "name": "Militech Electronics Laser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "3M to 15M",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 25,
+    "cost": 130000,
+    "availability": "26/21days",
+    "street_index": 3.25,
+    "legality": "",
+    "description": "Militech Electronics Laser - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

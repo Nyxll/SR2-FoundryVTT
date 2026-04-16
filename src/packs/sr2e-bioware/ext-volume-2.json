@@ -1,0 +1,21 @@
+{
+  "_id": "090872c7079eec75",
+  "name": "Ext. Volume 2",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.3,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 15000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "Although the volume of the air contained in the lungs of an average adult is approximately 2.5 liters, the actual tidal volume (the amount of air that enters and leaves the lungs with each breath), is only .5 liters. By augmenting the amount of flex in the diaphragm, it is possible to increase the tidal volume, thus increasing the efficiency of gas-exchange and, as a result, enhancing stamina. An average adult can hold his breath for approximately 45 seconds; each level of extended volume increases the amount of time a person can hold his breath by an additional 45 seconds. Individuals with extended volume augmentation may also apply modifiers to target numbers in tests of stamina (based on the particular rating of the system enhancement)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

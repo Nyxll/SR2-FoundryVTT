@@ -1,0 +1,26 @@
+{
+  "_id": "56cbb8138a2b0ccf",
+  "name": "Balance Augmentor",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.4,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 14000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "This device reduces the target numbers by -2 for any Skill Tests involving balance, such as climbing, walking across a narrow platform, landing after a jump, and so on. It also applies a -2 modifier in the character's favor to avoid Knockdown (see pp. 91-92 and p. 103, SRII)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

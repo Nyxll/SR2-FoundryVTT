@@ -1,0 +1,28 @@
+{
+  "_id": "cb835f8e4c21bf61",
+  "name": "Ares ELD-AR",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4.5,
+    "cost": 950,
+    "availability": "9/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ares ELD-AR - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

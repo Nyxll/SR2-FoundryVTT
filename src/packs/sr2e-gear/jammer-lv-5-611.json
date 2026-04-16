@@ -1,0 +1,24 @@
+{
+  "_id": "a9e0659421dd3ec7",
+  "name": "Jammer Lv 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 5,
+    "cost": 5000,
+    "availability": "5/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Jammer Lv 5 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

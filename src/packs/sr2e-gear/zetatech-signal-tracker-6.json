@@ -1,0 +1,24 @@
+{
+  "_id": "188152e361b2eeb6",
+  "name": "Zetatech Signal Tracker 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 5400,
+    "availability": "6/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Signal Tracker 6 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

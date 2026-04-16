@@ -1,0 +1,28 @@
+{
+  "_id": "2c8e4c2cd5b3b072",
+  "name": "Ares HV MP-LMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 6,
+    "damage_level": "S",
+    "damage_code": "6S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 8,
+    "cost": 4500,
+    "availability": "20/14days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Ares HV MP-LMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

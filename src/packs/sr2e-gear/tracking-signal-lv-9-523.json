@@ -1,0 +1,24 @@
+{
+  "_id": "483e8a85f774b2cc",
+  "name": "Tracking Signal Lv 9",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 11,
+    "weight": 0,
+    "cost": 1100,
+    "availability": "9/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Tracking Signal Lv 9 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

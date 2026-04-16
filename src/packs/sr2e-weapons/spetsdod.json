@@ -1,0 +1,28 @@
+{
+  "_id": "9d6cee73d579feac",
+  "name": "Spetsdod",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Dart)",
+    "concealability": 7,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.25,
+    "cost": 3600,
+    "availability": "18/21days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Spetsdod - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

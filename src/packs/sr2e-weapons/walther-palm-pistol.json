@@ -1,0 +1,28 @@
+{
+  "_id": "ea68c3f65d5d9c9f",
+  "name": "Walther Palm Pistol",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 4,
+    "damage_level": "L",
+    "damage_code": "4L",
+    "concealability": 9,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 0.25,
+    "cost": 200,
+    "availability": "3/12hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

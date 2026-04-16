@@ -1,0 +1,24 @@
+{
+  "_id": "9ea55936fae3db34",
+  "name": "Master Unit (TacComm",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 14,
+    "cost": 2421,
+    "availability": "75",
+    "street_index": 60000,
+    "legality": "",
+    "description": "Master Unit (TacComm - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

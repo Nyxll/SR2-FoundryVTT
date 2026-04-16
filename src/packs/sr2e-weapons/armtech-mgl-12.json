@@ -1,0 +1,28 @@
+{
+  "_id": "f1f0b462f4d2af3d",
+  "name": "ArmTech MGL-12",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5,
+    "cost": 2200,
+    "availability": "6/36hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "ArmTech MGL-12 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

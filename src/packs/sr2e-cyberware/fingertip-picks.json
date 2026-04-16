@@ -1,0 +1,26 @@
+{
+  "_id": "9fd9cd12a931f692",
+  "name": "Fingertip Picks",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 18000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "These lock picks have a Skill Rating of 3, and using them is a Complex Action. Most key-and-tumbler locks have a Rating of 2 or 3 depending on their complexity. Resolve attempts to open the lock with an Opposed Test between the lock's rating and that of the ExpertPicks."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

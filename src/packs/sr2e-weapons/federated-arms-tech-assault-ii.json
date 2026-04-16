@@ -1,0 +1,28 @@
+{
+  "_id": "f10db5411b3b4c55",
+  "name": "Federated Arms Tech Assault II",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.5,
+    "cost": 600,
+    "availability": "4/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Federated Arms Tech Assault II - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

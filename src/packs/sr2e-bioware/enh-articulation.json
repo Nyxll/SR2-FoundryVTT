@@ -1,0 +1,23 @@
+{
+  "_id": "6e8892649301e295",
+  "name": "Enh. Articulation",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 40000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "reaction": 1
+    },
+    "description": "Enhanced articulation is a combination of a number of extensive procedures, including joint-surface coating, relubrication, and tendon/ligament augmentation; these procedures result in a muscle and joint system of extreme fluidity. Enhanced articulation allows a character to execute motion-intensive skills (Active Skills) in a more precise and speedier fashion. Possessors of enhanced articulation roll an additional die when making any Success Test involving an Active Skill. (An individual with Athletics 4 and enhanced articulation, for example, rolls 5 dice when making an Athletics Success Test.) Enhanced articulation also adds a +1 to the Reaction Attribute. Studies show that individuals with enhanced articulation may be immune to many arthritic conditions as a long-term side effect of augmentation.\\n\\nThe Reaction bonus given by the augmentation has no effect on rigging or pure cybernetic decking."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

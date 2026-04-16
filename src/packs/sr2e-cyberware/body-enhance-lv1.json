@@ -1,0 +1,28 @@
+{
+  "_id": "78cec86c75a24642",
+  "name": "Body Enhance Lv1",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 75000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 1
+    },
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

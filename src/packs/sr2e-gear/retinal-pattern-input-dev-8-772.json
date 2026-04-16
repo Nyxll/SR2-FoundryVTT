@@ -1,0 +1,24 @@
+{
+  "_id": "923efee435c17f0c",
+  "name": "Retinal Pattern Input Dev. 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 0.5,
+    "cost": 8000,
+    "availability": "10/6days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Retinal Pattern Input Dev. 8 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

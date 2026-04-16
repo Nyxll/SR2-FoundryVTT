@@ -1,0 +1,24 @@
+{
+  "_id": "62c48b3c5b0ce675",
+  "name": "Cable Signal Formatter ECM 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 3500,
+    "availability": "9/1week",
+    "street_index": 3,
+    "legality": "",
+    "description": "Cable Signal Formatter ECM 1 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

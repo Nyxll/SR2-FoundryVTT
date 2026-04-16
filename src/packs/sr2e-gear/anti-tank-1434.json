@@ -1,0 +1,24 @@
+{
+  "_id": "28720442117d1999",
+  "name": "Anti-Tank",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 0.5,
+    "cost": 100,
+    "availability": "8/8 days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

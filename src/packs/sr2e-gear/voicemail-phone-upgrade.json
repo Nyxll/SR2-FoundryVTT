@@ -1,0 +1,24 @@
+{
+  "_id": "91c3c2ffa5b35d4d",
+  "name": "Voicemail Phone Upgrade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 40,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Voicemail Phone Upgrade - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "148b8ed5f8d36937",
+  "name": "Low-Light",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.2,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 4500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

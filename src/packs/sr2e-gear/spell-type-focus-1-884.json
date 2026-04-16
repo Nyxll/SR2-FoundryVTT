@@ -1,0 +1,24 @@
+{
+  "_id": "aed74dbe9b2d530c",
+  "name": "Spell Type Focus 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 75000,
+    "availability": "5/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Spell Type Focus 1 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

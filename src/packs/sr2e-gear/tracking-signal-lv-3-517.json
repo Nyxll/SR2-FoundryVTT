@@ -1,0 +1,24 @@
+{
+  "_id": "b7cf9453498527d3",
+  "name": "Tracking Signal Lv 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 0,
+    "cost": 500,
+    "availability": "3/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Tracking Signal Lv 3 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

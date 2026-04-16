@@ -1,0 +1,23 @@
+{
+  "_id": "595a0820c87e28dc",
+  "name": "Synaptic Accel. 2",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 200000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {
+      "initiative_dice": 2
+    },
+    "description": "With the implantation of a synaptic accelerator, the neural cells, which make up the spinal cord and other main nerve trunks, are encouraged to replicate and lengthen. This provides a wider \\data-path\\ for the transmission of impulses, and decreases the amount of time required for the signal to traverse the distance. Thus, more data can be sent from and received by the brain in a shorter period of time. Each level of synaptic accelerator adds a cumulative +1D6 to the recipient's Initiative. The synaptic acceleration process is incompatible with boosted or wired reflexes, and cannot be combined with either to produce greater effects.\\n\\nThis Initiative bonus does not assist in rigging or decking."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

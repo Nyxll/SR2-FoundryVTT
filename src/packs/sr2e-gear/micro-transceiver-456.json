@@ -1,0 +1,24 @@
+{
+  "_id": "326c56f6145ce0d7",
+  "name": "Micro-Transceiver",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 18,
+    "weight": 0,
+    "cost": 2500,
+    "availability": "6/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Micro-Transceiver - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

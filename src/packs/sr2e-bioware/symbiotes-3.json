@@ -1,0 +1,21 @@
+{
+  "_id": "3699a20f863b38c3",
+  "name": "Symbiotes 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 60000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": "Symbiotes consist of a number of tailored microorganisms (nanites) that are introduced into the host subject's bloodstream. They so dramatically enhance the body's own regenerative functions that the host's natural healing time is reduced for physical and mental trauma. The character must, however, take in 50 percent to 100 percent more food and beverage to fuel the symbiote activity. (If the individual also has a suprathyroid gland, note that the increased food and drink requirements are cumulative. That is, a character with both Level 2 symbiotes and a suprathyroid would have to consume three times as much food and liquid as a \\normal\\ person of his/her same race, sex, and age.) As this enhancement does not affect the stomach's capacity, the increased demand for food must be handled by either eating more often or by ingesting an expensive (triple normal food cost) diet of tailored nutrients.\\n\\nIf a character who has both symbiotes and a suprathyroid opts for the tailored diet, his/her total calculated food requirement is halved; the individual in the above example of symbiotes-2 and the suprathyroid would have to eat and drink only one and a half times as much as normal if taking the tailored nutrients. Lost blood volume due to physical trauma and bleeding does not offset symbiote functioning unduly. The symbiotes will regenerate and grow in number along with the replenishing blood supply."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

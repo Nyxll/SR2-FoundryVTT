@@ -1,0 +1,24 @@
+{
+  "_id": "991f02eb580d83fd",
+  "name": "Smartlock Door Sec. System 7",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 7,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1750,
+    "availability": "5/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Smartlock Door Sec. System 7 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

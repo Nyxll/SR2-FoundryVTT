@@ -1,0 +1,26 @@
+{
+  "_id": "e3c7bec26d23cb0d",
+  "name": "Eye Dart (Deltaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Deltaware",
+      "mult": 0.4,
+      "costMult": 10
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 42000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Fires half-strength (round up) Narcoject/toxin rounds as a hold-out pistol with one-half range (round down). One shot per reload. Reloading takes 10 Combat Turns. Rounds cost four times the normal price. Firing requires a Special Skill or Quickness Test. Cannot be linked to any kind of aim enhancer. See p. 62, Street Samurai Catalog, for Narcoject weapons; p. 186, SRII, for toxins; and pp. 90, 92, 97, Shadowtech, for other compounds. After firing, a character must apply a +2 modifier to all visual tests for a period of (4 - Unaugmented Body) Combat Turns, for a minimum of 1 Combat Turn, For rules on the maximum capacity of the orbital socket, see Cyberware Rules, p. 45."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

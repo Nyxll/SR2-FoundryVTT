@@ -1,0 +1,28 @@
+{
+  "_id": "61e46c60058145f5",
+  "name": "Decapitator battleaxe",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "S",
+    "damage_code": "(STR+4)S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 11,
+    "cost": 2000,
+    "availability": "6/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Decapitator battleaxe - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

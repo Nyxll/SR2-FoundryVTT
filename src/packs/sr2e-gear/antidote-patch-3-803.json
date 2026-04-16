@@ -1,0 +1,24 @@
+{
+  "_id": "2208bece7d85f8f4",
+  "name": "Antidote Patch 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 150,
+    "availability": "6/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Antidote Patch 3 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

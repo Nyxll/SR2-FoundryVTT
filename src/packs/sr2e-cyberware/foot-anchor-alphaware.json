@@ -1,0 +1,26 @@
+{
+  "_id": "1e2e1b84a853238f",
+  "name": "Foot Anchor (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0.32,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 28000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "As a weapon, the foot spur does (STR-1)M Damage. As an anchor. it cannot penetrate materials with a Barrier Rating higher than 8, the Barrier Rating of most pavement. Each foot anchored increases the amount of weight a character can hold up or hang on to by a maximum of 50 kilograms. If the foot anchor is set into a material with a Barrier Rating of less than 8, each Barrier Rating point below 8 reduces the amount of weight by 5 kilograms. See Dangling and Holding, p. 51 of Cyberware Rules."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

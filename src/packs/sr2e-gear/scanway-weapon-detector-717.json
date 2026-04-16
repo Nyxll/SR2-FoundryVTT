@@ -1,0 +1,24 @@
+{
+  "_id": "e9b0d3b880e431eb",
+  "name": "Scanway Weapon Detector",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 25000,
+    "availability": "6/7days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Scanway Weapon Detector - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

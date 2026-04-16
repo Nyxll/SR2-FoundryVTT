@@ -1,0 +1,24 @@
+{
+  "_id": "c45853eb12d9ce75",
+  "name": "Zetatech Bug Detector 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 600,
+    "availability": "2/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Zetatech Bug Detector 1 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

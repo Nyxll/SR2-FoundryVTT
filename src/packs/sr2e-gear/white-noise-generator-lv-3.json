@@ -1,0 +1,24 @@
+{
+  "_id": "496e74d8b495726f",
+  "name": "White Noise Generator Lv 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 3,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 4500,
+    "availability": "3/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "White Noise Generator Lv 3 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

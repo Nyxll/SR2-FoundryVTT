@@ -4,9 +4,9 @@
   "description": "Shadowrun 2nd Edition system for Foundry VTT",
   "license": "GNU General Public License",
   "author": "Nyxll",
-  "dependencies": {},
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^2.0.0"
+    "@foundryvtt/foundryvtt-cli": "^2.0.0",
+    "pg": "^8.20.0"
   },
   "scripts": {
     "pack": "node ./.tools/pullJSONtoLDB.mjs",

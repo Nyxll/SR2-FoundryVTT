@@ -1,0 +1,28 @@
+{
+  "_id": "024e63412a3a582f",
+  "name": "Avante P-1135 Needlegun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 5,
+    "damage_level": "L",
+    "damage_code": "5L",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1,
+    "cost": 200,
+    "availability": "2/12hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "Avante P-1135 Needlegun - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

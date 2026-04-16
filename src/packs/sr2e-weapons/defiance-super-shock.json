@@ -1,0 +1,28 @@
+{
+  "_id": "f74b7e73167d6dbb",
+  "name": "Defiance Super Shock",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2,
+    "cost": 1000,
+    "availability": "5/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Defiance Super Shock - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

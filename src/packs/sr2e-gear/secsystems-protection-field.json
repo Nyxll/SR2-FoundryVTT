@@ -1,0 +1,24 @@
+{
+  "_id": "711c645b6329d50c",
+  "name": "SecSystems Protection Field",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "explosive",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1.5,
+    "cost": 750,
+    "availability": "6/36hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "SecSystems Protection Field - Explosives"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

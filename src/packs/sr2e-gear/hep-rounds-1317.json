@@ -1,0 +1,24 @@
+{
+  "_id": "b8c0516631814172",
+  "name": "HEP Rounds",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 8,
+    "weight": 0.75,
+    "cost": 60,
+    "availability": "5/36hrs",
+    "street_index": 1.1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

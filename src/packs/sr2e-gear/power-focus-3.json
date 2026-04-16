@@ -1,0 +1,24 @@
+{
+  "_id": "91017e89f3843028",
+  "name": "Power Focus 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 315000,
+    "availability": "6/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Power Focus 3 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

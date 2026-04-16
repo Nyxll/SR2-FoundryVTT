@@ -1,0 +1,24 @@
+{
+  "_id": "204544d52f24fe3d",
+  "name": "Personal Comm Unit (TacComm)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 14,
+    "cost": 1214,
+    "availability": ".5",
+    "street_index": 18500,
+    "legality": "",
+    "description": "Personal Comm Unit (TacComm) - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

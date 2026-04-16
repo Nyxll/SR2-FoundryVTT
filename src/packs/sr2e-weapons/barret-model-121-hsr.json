@@ -1,0 +1,28 @@
+{
+  "_id": "70b64d05ccc902c0",
+  "name": "Barret Model 121 HSR",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 14,
+    "damage_level": "D",
+    "damage_code": "14D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 10,
+    "cost": 4800,
+    "availability": "14/30days",
+    "street_index": 5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

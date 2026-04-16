@@ -1,0 +1,26 @@
+{
+  "_id": "5fdce3a92b0df88b",
+  "name": "Subvocal Mic Ext",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 500,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {},
+    "description": "The external unit straps in place at the center of the throat. Either type of microphone adds a +4 modifier to the target number for Perception Tests made to overhear conversations using the system. Both units can connect to an external radio transceiver, the external unit via fiber-optic cable and the Internal via a datajack (mandatory for such a hookup)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

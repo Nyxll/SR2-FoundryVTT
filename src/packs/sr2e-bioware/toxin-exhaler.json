@@ -1,0 +1,21 @@
+{
+  "_id": "ebfde3663c2f2829",
+  "name": "Toxin Exhaler",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 30000,
+    "availability": "",
+    "street_index": 3,
+    "mods": {},
+    "description": "A toxin exhaler is a sac lined with specialized and genetically tailored cells that is implanted in the neck above the larynx (voice box). The cells that line the sac are gengineered to produce a single specific toxin of the recipient's choice. The toxin is stored in the sac until the character wishes to expel the toxin outward. The toxin is expelled by triggering \\learned\\ reflexes; essentially, a massive contraction of the diaphragm, followed by an immediate relaxation, causes a sudden deep breath, followed by a strong exhaling action. The sphincters, which normally keep the sac closed, open slightly during the exhalation, and the resulting effect is much like an aerosol. In average atmospheric conditions (an open area with little or no wind), the cone of effect is similar to an equilateral triangle measuring two meters on each side.\\n\\nThe sac can manufacture only one type of toxin, the one the recipient chooses prior to implantation. Except for removal and replacement of the sac, the toxin cannot be changed or altered once implanted. To prevent accidental injury from the internalized toxin, the character is also partially \\immunized\\ against the toxin. If exposed to the same specific toxin (even if it comes from other sources), the character receives double his \\natural\\ Body Rating (no augmentation) to resist.\\n\\nThe character makes a Quickness (4) Test to hit an intended target. Add +1 to the Target Number per one-half meter to the target. Maximum range equals one-half the unaugmented Body Attribute of the implanted character (round down) in meters."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

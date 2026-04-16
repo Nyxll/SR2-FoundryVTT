@@ -1,0 +1,24 @@
+{
+  "_id": "af7057e4d9bb775e",
+  "name": "Corrosive Compound 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1000,
+    "cost": 2,
+    "availability": "5/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Corrosive Compound 1 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "8192c7646d2bb580",
+  "name": "AZT Micro25 Microcybercam",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2.5,
+    "cost": 3200,
+    "availability": "5/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "AZT Micro25 Microcybercam - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

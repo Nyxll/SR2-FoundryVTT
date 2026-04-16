@@ -1,0 +1,21 @@
+{
+  "_id": "d8aab78dabd2635c",
+  "name": "MedicGear Combat Medical Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 3,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 3400,
+    "availability": "10/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

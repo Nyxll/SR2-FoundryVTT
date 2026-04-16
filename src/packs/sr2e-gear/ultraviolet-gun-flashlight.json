@@ -1,0 +1,24 @@
+{
+  "_id": "24ea6b38ac973e1e",
+  "name": "Ultraviolet Gun-Flashlight",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 500,
+    "availability": "6/4days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ultraviolet Gun-Flashlight - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

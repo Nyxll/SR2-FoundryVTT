@@ -1,0 +1,28 @@
+{
+  "_id": "fa6a291a1d125377",
+  "name": "Boosted Reflexes 1 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.3,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 75000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "initiative_dice": 1
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

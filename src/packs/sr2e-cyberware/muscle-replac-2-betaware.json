@@ -1,0 +1,28 @@
+{
+  "_id": "557aa2c824b4572e",
+  "name": "Muscle Replac. 2 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 1.2,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 200000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "quickness": 2
+    },
+    "description": "+2STR"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

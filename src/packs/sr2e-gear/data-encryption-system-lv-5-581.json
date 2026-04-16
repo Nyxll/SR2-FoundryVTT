@@ -1,0 +1,24 @@
+{
+  "_id": "48137ab16fbd296d",
+  "name": "Data Encryption System Lv 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 5,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 5000,
+    "availability": "5/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Data Encryption System Lv 5 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

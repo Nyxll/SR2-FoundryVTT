@@ -1,0 +1,24 @@
+{
+  "_id": "48555558f4f56a40",
+  "name": "Special Operative Chip",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "chips",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 60000,
+    "availability": "8/6days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

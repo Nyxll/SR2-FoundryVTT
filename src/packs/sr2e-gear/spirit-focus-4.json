@@ -1,0 +1,24 @@
+{
+  "_id": "78b25f78fbb850f6",
+  "name": "Spirit Focus 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 240000,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Spirit Focus 4 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

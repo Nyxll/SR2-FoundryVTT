@@ -1,0 +1,21 @@
+{
+  "_id": "d09b15dc8631be46",
+  "name": "Overdrive Heart",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.6,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 98500,
+    "availability": "",
+    "street_index": 3.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

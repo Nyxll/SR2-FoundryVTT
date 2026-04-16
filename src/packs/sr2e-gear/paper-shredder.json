@@ -1,0 +1,24 @@
+{
+  "_id": "2c0879ec5e523cce",
+  "name": "Paper Shredder",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2.5,
+    "cost": 500,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Paper Shredder - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

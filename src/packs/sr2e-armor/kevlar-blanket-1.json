@@ -1,0 +1,21 @@
+{
+  "_id": "1d6a0795f1ca686c",
+  "name": "Kevlar Blanket",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 0,
+    "concealability": 0,
+    "cost": 500,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

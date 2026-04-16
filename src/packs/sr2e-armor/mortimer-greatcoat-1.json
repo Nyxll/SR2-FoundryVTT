@@ -1,0 +1,21 @@
+{
+  "_id": "04ab07423b396113",
+  "name": "Mortimer \"Greatcoat\"",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 0.75,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "2e5a841e4466dc91",
+  "name": "Omega Phone Tap",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 5,
+    "weight": 0.5,
+    "cost": 35000,
+    "availability": "10/10days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Omega Phone Tap - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

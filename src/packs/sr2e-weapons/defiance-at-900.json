@@ -1,0 +1,28 @@
+{
+  "_id": "a56d4f629c5ee0d4",
+  "name": "Defiance AT-900",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.75,
+    "cost": 900,
+    "availability": "5/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Defiance AT-900 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "370f53bd2263e768",
+  "name": "Perman. Softlink 2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.15,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 6000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

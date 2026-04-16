@@ -1,0 +1,24 @@
+{
+  "_id": "f74f15847110fb4e",
+  "name": "Gas Spectrometer Lvl 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 17500,
+    "availability": "4/5days",
+    "street_index": 1,
+    "legality": "",
+    "description": "Gas Spectrometer Lvl 4 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

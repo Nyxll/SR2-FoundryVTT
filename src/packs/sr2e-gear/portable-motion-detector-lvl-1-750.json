@@ -1,0 +1,24 @@
+{
+  "_id": "d1a9832007c5cb1d",
+  "name": "Portable Motion Detector Lvl 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 200,
+    "availability": "4/24hrs",
+    "street_index": 1.25,
+    "legality": "",
+    "description": "Portable Motion Detector Lvl 1 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

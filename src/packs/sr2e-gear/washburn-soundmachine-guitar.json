@@ -1,0 +1,24 @@
+{
+  "_id": "ec06b3e101625ee5",
+  "name": "Washburn Soundmachine Guitar",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3.5,
+    "cost": 1000,
+    "availability": "5/60hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Washburn Soundmachine Guitar - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

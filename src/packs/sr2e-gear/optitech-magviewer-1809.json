@@ -1,0 +1,24 @@
+{
+  "_id": "7212e1c80b3380e8",
+  "name": "Optitech MagViewer",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "vision",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 4,
+    "weight": 1,
+    "cost": 375,
+    "availability": "always",
+    "street_index": 0.8,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

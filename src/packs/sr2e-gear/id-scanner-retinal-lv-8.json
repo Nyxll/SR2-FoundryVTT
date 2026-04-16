@@ -1,0 +1,24 @@
+{
+  "_id": "ca174985171c6b3c",
+  "name": "ID Scanner: Retinal Lv 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 8000,
+    "availability": "10/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "ID Scanner: Retinal Lv 8 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

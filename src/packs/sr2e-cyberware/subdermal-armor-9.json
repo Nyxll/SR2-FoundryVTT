@@ -1,0 +1,28 @@
+{
+  "_id": "e982ce01cae6ddcf",
+  "name": "Subdermal Armor 9",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.9,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 17500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 3
+    },
+    "description": "-1RCT"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

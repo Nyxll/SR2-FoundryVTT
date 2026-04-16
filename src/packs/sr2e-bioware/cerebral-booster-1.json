@@ -1,0 +1,23 @@
+{
+  "_id": "32fd835ae9908831",
+  "name": "Cerebral Booster 1",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.4,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 50000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {
+      "intelligence": 1
+    },
+    "description": "Boosting the brain via a cerebral booster involves the introduction of additional nervous tissue, along with convolutions and gyri (ridges and furrows), into the frontal lobes of the cerebrum. The extra cells and increased surface area improve the efficiency of cognitive and other higher-level functions because the brain areas augmented are those responsible for these functions. Subjects with a Level 1 booster gain +1 to their Intelligence Attribute; a Level 2 booster adds +2 to the recipient's Intelligence. The Intelligence bonus from a Level 1 booster is not cumulative with that given by a level 2 booster, however. The more advanced booster-2 has the additional advantage of a Task Pool. The levels of a Task Pool can temporarily add dice to a success test. (If a subject has a Task Pool of 1, for example, he may temporarily raise a skill level by +1 for a single test.) The Task Pool refreshes along with the other pools. Technical, Knowledge, and B/R skills are the only skills that can be modified by the Task Pool. The ability to process data on a higher level inherently decreases Reaction time; Intelligence raised in this manner can also increase the Reaction attribute."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

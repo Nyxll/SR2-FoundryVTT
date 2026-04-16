@@ -1,0 +1,24 @@
+{
+  "_id": "8ed8273589a024af",
+  "name": "Tranq Patch 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 160,
+    "availability": "4/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Tranq Patch 8 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

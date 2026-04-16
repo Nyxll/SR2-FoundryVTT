@@ -1,0 +1,28 @@
+{
+  "_id": "7f7c546303f0d724",
+  "name": "H&K MP-2013",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.75,
+    "cost": 900,
+    "availability": "5/48hrs",
+    "street_index": 1.1,
+    "legality": "",
+    "description": "H&K MP-2013 - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

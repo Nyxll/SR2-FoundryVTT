@@ -1,0 +1,26 @@
+{
+  "_id": "921a3d2bc21a310e",
+  "name": "Oral Dart",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 3600,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "Fires Narcoject/toxin rounds at hold-out pistol ranges. Can hold three darts before reloading, which takes 1 minute per dart. Ammo costs double the standard price. Use a Special Skill or Quickness for the Ranged Combat Test. Cannot be linked to aim enhancers."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

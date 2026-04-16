@@ -1,0 +1,24 @@
+{
+  "_id": "67013c5f43b87724",
+  "name": "Gas Detector Lvl 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 1,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.5,
+    "cost": 5000,
+    "availability": "3/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Gas Detector Lvl 1 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

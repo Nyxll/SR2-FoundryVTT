@@ -1,0 +1,21 @@
+{
+  "_id": "923e916c62f3aebf",
+  "name": "Skin Weave 3",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.5,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 100000,
+    "availability": "",
+    "street_index": 0.9,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

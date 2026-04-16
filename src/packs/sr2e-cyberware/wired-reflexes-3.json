@@ -1,0 +1,28 @@
+{
+  "_id": "51a4c5525b516bf1",
+  "name": "Wired Reflexes 3",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 5,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 500000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 6
+    },
+    "description": "+3INI"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

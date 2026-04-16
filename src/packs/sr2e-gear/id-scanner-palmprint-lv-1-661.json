@@ -1,0 +1,24 @@
+{
+  "_id": "0f78f8a1b242eda8",
+  "name": "ID Scanner: Palmprint Lv 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 300,
+    "availability": "2/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "ID Scanner: Palmprint Lv 1 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

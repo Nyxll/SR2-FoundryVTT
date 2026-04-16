@@ -1,0 +1,28 @@
+{
+  "_id": "8cd55b7e2e4f0d6e",
+  "name": "Ruhrmetall GPRL-Alpha",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Missile)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 9.5,
+    "cost": 9000,
+    "availability": "13/28days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ruhrmetall GPRL-Alpha - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

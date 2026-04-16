@@ -1,13 +1,12 @@
 /**
  * Compiles src/packs/{pack-name}/*.json → packs/{pack-name}.db
- * Uses @foundryvtt/foundryvtt-cli to compile NeDB (flat-file) packs.
- * nedb:true produces a single .db file instead of a LevelDB directory.
+ * Writes NeDB format directly (one JSON doc per line) without using
+ * @foundryvtt/foundryvtt-cli, which hangs on Windows with large packs.
  */
-import { compilePack } from "@foundryvtt/foundryvtt-cli";
-import fs from "fs";
+import fs   from "fs";
 import path from "path";
 
-const SRC = "./src/packs";
+const SRC  = "./src/packs";
 const DEST = "./packs";
 
 if (!fs.existsSync(DEST)) fs.mkdirSync(DEST);
@@ -19,12 +18,29 @@ const packs = fs.readdirSync(SRC).filter(d =>
 for (const pack of packs) {
   const src  = path.join(SRC, pack);
   const dest = path.join(DEST, `${pack}.db`);
-  console.log(`Compiling ${pack}...`);
-  try {
-    await compilePack(src, dest, { nedb: true, recursive: false, log: false });
-    const count = fs.readdirSync(src).filter(f => f.endsWith(".json")).length;
-    console.log(`  → ${dest} (${count} entries)`);
-  } catch (e) {
-    console.error(`  ERROR: ${e.message}`);
+  const files = fs.readdirSync(src).filter(f => f.endsWith(".json"));
+
+  if (files.length === 0) {
+    console.log(`Skipping ${pack} (no JSON files)`);
+    continue;
   }
+
+  console.log(`Compiling ${pack}...`);
+  const lines = [];
+  let errors = 0;
+
+  for (const file of files) {
+    try {
+      const raw  = fs.readFileSync(path.join(src, file), "utf8");
+      const doc  = JSON.parse(raw);
+      // NeDB format: one compact JSON line per document
+      lines.push(JSON.stringify(doc));
+    } catch (e) {
+      console.error(`  SKIP ${file}: ${e.message}`);
+      errors++;
+    }
+  }
+
+  fs.writeFileSync(dest, lines.join("\n") + "\n");
+  console.log(`  → ${dest} (${lines.length} entries${errors ? `, ${errors} skipped` : ""})`);
 }

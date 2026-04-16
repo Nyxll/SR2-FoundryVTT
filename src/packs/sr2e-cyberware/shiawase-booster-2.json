@@ -1,0 +1,26 @@
+{
+  "_id": "5e2407229ab9bc38",
+  "name": "Shiawase Booster 2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 2.6,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 87000,
+    "availability": "",
+    "street_index": 4,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

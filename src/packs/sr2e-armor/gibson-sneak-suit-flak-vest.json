@@ -1,0 +1,21 @@
+{
+  "_id": "2c360e0a2cc0f02b",
+  "name": "Gibson Sneak Suit Flak Vest",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 1375,
+    "availability": "8/5days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

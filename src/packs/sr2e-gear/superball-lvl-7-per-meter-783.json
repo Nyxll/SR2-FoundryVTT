@@ -1,0 +1,24 @@
+{
+  "_id": "8988c224f5a3b776",
+  "name": "Superball Lvl 7 (per meter)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 7,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 350,
+    "availability": "14/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Superball Lvl 7 (per meter) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

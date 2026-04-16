@@ -1,0 +1,24 @@
+{
+  "_id": "18b07001a5645c46",
+  "name": "Bug Scanner Lv 3",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 1500,
+    "availability": "3/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Bug Scanner Lv 3 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

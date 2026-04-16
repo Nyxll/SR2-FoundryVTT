@@ -1,0 +1,28 @@
+{
+  "_id": "fbc55c921f32566e",
+  "name": "Speedware",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.7,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 50000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 2
+    },
+    "description": "+1INI"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

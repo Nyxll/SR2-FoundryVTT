@@ -1,0 +1,24 @@
+{
+  "_id": "6db39cf6e2fd91a0",
+  "name": "Weapon Focus 2,Reach 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "magical",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 480000,
+    "availability": "8/72hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Weapon Focus 2,Reach 2 - Magical Equipment"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

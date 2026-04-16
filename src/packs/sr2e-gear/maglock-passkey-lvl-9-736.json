@@ -1,0 +1,24 @@
+{
+  "_id": "39180e98335af1d0",
+  "name": "Maglock Passkey Lvl 9",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 9,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 90000,
+    "availability": "18/10days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Maglock Passkey Lvl 9 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "943044860139a840",
+  "name": "Armor Street Clothes Type 2",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 2,
+    "concealability": 0,
+    "cost": 500,
+    "availability": "3/24hrs",
+    "street_index": 0.8,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

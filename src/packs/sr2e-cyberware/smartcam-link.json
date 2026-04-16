@@ -1,0 +1,26 @@
+{
+  "_id": "8e59453f2bec0c7d",
+  "name": "Smartcam Link",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.5,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 2500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

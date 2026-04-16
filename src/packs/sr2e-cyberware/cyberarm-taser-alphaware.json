@@ -1,0 +1,26 @@
+{
+  "_id": "fb1eedb54fb7582b",
+  "name": "Cyberarm Taser (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 4000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The shock hand does 8S Damage and holds 12 charges. It must be recharged after 12 uses The cyberarm taser does 10S Damage, but can fire only two shots before recharging. It has the same ranges as the standard taser (p. 103, SRII)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

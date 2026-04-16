@@ -1,0 +1,24 @@
+{
+  "_id": "26412e83e6b80f2d",
+  "name": "Micro Hearing Amplifier Lvl 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 2,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0.2,
+    "cost": 1000,
+    "availability": "6/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "f1257c003069315d",
+  "name": "Tracking Mount (Alphaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Alphaware",
+      "mult": 0.8,
+      "costMult": 2
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 48000,
+    "availability": "",
+    "street_index": 2,
+    "mods": {},
+    "description": "This mount is a motorized, pivoting tracking system that ties into an eye laser designator. It can take light, heavy, or machine pistols, submachine guns, and assault rifles; triple the cost of the weapon. Player characters can buy external ammo pods that hold 50 rounds, but only one pod can be mounted at any given time. The system gives users 3 points of Recoil Reduction, plus the same modifiers as a laser sight."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

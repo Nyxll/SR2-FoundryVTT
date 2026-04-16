@@ -1,0 +1,26 @@
+{
+  "_id": "24b73445cd75cf68",
+  "name": "Hand Blade",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 0.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 7500,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "Hand blades do (STR + 3)L Damage. Essence Cost only applies if the blade is mounted in a normal hand."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

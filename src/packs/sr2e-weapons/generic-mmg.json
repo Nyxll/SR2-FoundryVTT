@@ -1,0 +1,28 @@
+{
+  "_id": "3a53febec6132e84",
+  "name": "Generic MMG",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 9,
+    "damage_level": "S",
+    "damage_code": "9S",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 12,
+    "cost": 2500,
+    "availability": "14/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Generic MMG - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

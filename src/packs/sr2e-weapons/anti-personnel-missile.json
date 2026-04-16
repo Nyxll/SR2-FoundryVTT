@@ -1,0 +1,28 @@
+{
+  "_id": "38fd5323775b4466",
+  "name": "Anti-Personnel Missile",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-shoulder.webp",
+  "system": {
+    "category": "heavy_weapon",
+    "skill": "heavy_weapons",
+    "damage_power": 16,
+    "damage_level": "D",
+    "damage_code": "16D",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 2.25,
+    "cost": 2500,
+    "availability": "12/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

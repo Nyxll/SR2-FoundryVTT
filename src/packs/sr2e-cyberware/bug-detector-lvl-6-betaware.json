@@ -1,0 +1,26 @@
+{
+  "_id": "b3d1e6cf9f3262e9",
+  "name": "Bug Detector Lvl 6 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0.21,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 375000,
+    "availability": "",
+    "street_index": 1.75,
+    "mods": {},
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

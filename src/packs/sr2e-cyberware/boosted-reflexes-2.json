@@ -1,0 +1,28 @@
+{
+  "_id": "6828e452e298938c",
+  "name": "Boosted Reflexes 2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 1.25,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 40000,
+    "availability": "",
+    "street_index": 1,
+    "mods": {
+      "reaction": 1
+    },
+    "description": "+1INI"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

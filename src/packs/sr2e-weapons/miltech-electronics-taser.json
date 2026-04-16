@@ -1,0 +1,28 @@
+{
+  "_id": "8d90d50e7f51c002",
+  "name": "Miltech Electronics Taser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "8S Stun",
+    "concealability": 6,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 1.5,
+    "cost": 600,
+    "availability": "5/36hrs",
+    "street_index": 1.4,
+    "legality": "",
+    "description": "Miltech Electronics Taser - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

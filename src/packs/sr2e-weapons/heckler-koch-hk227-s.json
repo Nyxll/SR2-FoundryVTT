@@ -1,0 +1,28 @@
+{
+  "_id": "760798fc72bcd2e8",
+  "name": "Heckler & Koch HK227-S",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "M",
+    "damage_code": "7M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 1200,
+    "availability": "10/7days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Heckler & Koch HK227-S - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

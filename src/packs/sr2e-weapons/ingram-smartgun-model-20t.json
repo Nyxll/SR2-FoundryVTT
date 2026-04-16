@@ -1,0 +1,28 @@
+{
+  "_id": "2a30f51586cf2f8a",
+  "name": "Ingram Smartgun Model 20t",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 7,
+    "damage_level": "M",
+    "damage_code": "7M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3,
+    "cost": 950,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Ingram Smartgun Model 20t - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

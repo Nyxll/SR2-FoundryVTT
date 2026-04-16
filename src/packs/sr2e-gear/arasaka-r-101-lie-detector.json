@@ -1,0 +1,24 @@
+{
+  "_id": "99c47578331f525d",
+  "name": "Arasaka R-101 Lie Detector",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 5000,
+    "availability": "14/20days",
+    "street_index": 4,
+    "legality": "",
+    "description": "Arasaka R-101 Lie Detector - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

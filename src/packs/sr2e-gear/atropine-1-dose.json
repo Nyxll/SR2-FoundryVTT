@@ -1,0 +1,24 @@
+{
+  "_id": "c5265a8b0f8bcf54",
+  "name": "Atropine (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 600,
+    "availability": "5/12hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Atropine (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

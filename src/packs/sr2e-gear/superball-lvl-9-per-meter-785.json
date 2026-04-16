@@ -1,0 +1,24 @@
+{
+  "_id": "8ffd6791846374bd",
+  "name": "Superball Lvl 9 (per meter)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 9,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 450,
+    "availability": "18/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Superball Lvl 9 (per meter) - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

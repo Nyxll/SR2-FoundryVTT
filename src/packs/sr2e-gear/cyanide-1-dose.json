@@ -1,0 +1,24 @@
+{
+  "_id": "ea3bbbce74b76ab9",
+  "name": "Cyanide (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": null,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 360,
+    "availability": "3/48hrs",
+    "street_index": 0.5,
+    "legality": "",
+    "description": "Cyanide (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

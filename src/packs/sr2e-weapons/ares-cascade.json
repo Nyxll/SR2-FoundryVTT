@@ -1,0 +1,28 @@
+{
+  "_id": "706f430a6ecc3b78",
+  "name": "Ares Cascade",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Special)",
+    "concealability": 4,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5.5,
+    "cost": 1800,
+    "availability": "12/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Ares Cascade - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

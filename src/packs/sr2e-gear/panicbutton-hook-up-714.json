@@ -1,0 +1,24 @@
+{
+  "_id": "3ea13e234752be3d",
+  "name": "PANICBUTTON Hook-Up",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1000,
+    "availability": "Call Lone Star",
+    "street_index": 1,
+    "legality": "",
+    "description": "PANICBUTTON Hook-Up - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

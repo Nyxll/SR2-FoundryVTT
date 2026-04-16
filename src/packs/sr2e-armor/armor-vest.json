@@ -1,0 +1,21 @@
+{
+  "_id": "dd522a10258166b5",
+  "name": "Armor Vest",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 2,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 200,
+    "availability": "2/36hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "3b45ccf5b37aeb2e",
+  "name": "Maglock Lvl 10",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 10,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1000,
+    "availability": "10/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Maglock Lvl 10 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

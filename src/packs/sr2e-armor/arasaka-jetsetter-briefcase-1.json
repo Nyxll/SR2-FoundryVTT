@@ -1,0 +1,21 @@
+{
+  "_id": "f77012d70f532308",
+  "name": "Arasaka Jetsetter Briefcase",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 3,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 2000,
+    "availability": "4/36hrs",
+    "street_index": 1.2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

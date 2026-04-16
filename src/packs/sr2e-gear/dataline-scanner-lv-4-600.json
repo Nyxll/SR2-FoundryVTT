@@ -1,0 +1,24 @@
+{
+  "_id": "af727f5d3093aebb",
+  "name": "Dataline Scanner Lv 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 400,
+    "availability": "4/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Dataline Scanner Lv 4 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

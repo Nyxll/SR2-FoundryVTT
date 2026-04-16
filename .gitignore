@@ -3,4 +3,5 @@ foundryconfig.json
 *.swp
 .idea/
 .DS_Store
-packs/*.db
+# packs/*.db  — tracked for distribution
+

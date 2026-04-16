@@ -1,0 +1,24 @@
+{
+  "_id": "f2ddc2ea01bc6a99",
+  "name": "Antibac Level 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 1500,
+    "availability": "4/48hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Antibac Level 8 - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

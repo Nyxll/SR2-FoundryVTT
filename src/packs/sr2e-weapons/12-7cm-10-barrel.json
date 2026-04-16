@@ -1,0 +1,28 @@
+{
+  "_id": "9cae057c832919d1",
+  "name": "12.7cm 10-Barrel",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(12.7cm rocket)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 35,
+    "cost": 12000,
+    "availability": "24/14days",
+    "street_index": 4,
+    "legality": "",
+    "description": "12.7cm 10-Barrel - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

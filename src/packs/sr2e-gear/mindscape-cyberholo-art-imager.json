@@ -1,0 +1,24 @@
+{
+  "_id": "045f716fed3438a4",
+  "name": "Mindscape Cyberholo Art Imager",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 6000,
+    "availability": "always",
+    "street_index": 1,
+    "legality": "",
+    "description": "Mindscape Cyberholo Art Imager - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "f7f63994581c4db3",
+  "name": "Combat Bikr Helmet",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 1,
+    "impact": 1,
+    "concealability": 0,
+    "cost": 600,
+    "availability": "5/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "1f620b8ce4ceed11",
+  "name": "Strength Lv2 (Betaware)",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Betaware",
+      "mult": 0.6,
+      "costMult": 5
+    },
+    "essence_cost": 0,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 1500000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "The cybertorso and cyberskull each add +1 to the character's Body Attribute. The cybertorso also reduces by half (round up) the additional Essence cost of Strength or Quickness enhancements beyond 3 points (see Limb Enhancements, p. 31, and Cyberware Rules, p. 49)."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

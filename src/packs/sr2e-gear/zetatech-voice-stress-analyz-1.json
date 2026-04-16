@@ -1,0 +1,24 @@
+{
+  "_id": "49e1bc64de4cdf14",
+  "name": "Zetatech Voice Stress Analyz 1",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 300,
+    "availability": "2/48hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Zetatech Voice Stress Analyz 1 - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

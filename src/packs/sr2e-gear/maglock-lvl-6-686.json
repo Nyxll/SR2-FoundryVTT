@@ -1,0 +1,24 @@
+{
+  "_id": "113ed55a03852b7c",
+  "name": "Maglock Lvl 6",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 6,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 600,
+    "availability": "6/72hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Maglock Lvl 6 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

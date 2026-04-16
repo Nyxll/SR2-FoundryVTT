@@ -1,0 +1,24 @@
+{
+  "_id": "a50a40650bd0c44c",
+  "name": "Maglock Passkey Lvl 8",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 8,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 1,
+    "cost": 80000,
+    "availability": "16/10days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Maglock Passkey Lvl 8 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

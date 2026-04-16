@@ -1,0 +1,21 @@
+{
+  "_id": "7f4ac5426e50a401",
+  "name": "Damage Comp. 6",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 1.2,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 600000,
+    "availability": "",
+    "street_index": 2.5,
+    "mods": {},
+    "description": "The implanted ribbons of transmissive nerve fiber that form the compensator bypass the safety inhibitors that would normally prevent individuals from functioning while injured. Damage compensators allow their host bodies to act while suffering from physical and/or mental trauma. Compensators do not block the actual damage, only the neurological and physiological effects of shock and fatigue on the body. As long as physical or mental damage remain equal to or below the compensator's level, the character will not suffer any of the penalties to target numbers or Initiative that usually accompany damage. For example, a character with a level 3 damage compensator would take no Initiative or target number penalties from damage if both his Physical and Mental Condition Monitor will suffer the full effects of the damage; the nervous system would have the bypass. Physical and mental damage effects are treated separately for the purposes of calculating compensator action. If physical damage exceeds the compensator's level but mental damage remains below the compensator's level, the compensator will continue to block the effects of mental damage, but the character will begin to take the regular Initiative and target number penalties from sustaining physical damage.\\n\\nThe gamemaster may wish to track the damage taken by a player character with a damage compensator, letting the player know that a hit has occurred, but not the severity. A Perception (6) or Biotech (2) Test could reveal the Damage Level of the hit (Light, Moderate, or Serious.)"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

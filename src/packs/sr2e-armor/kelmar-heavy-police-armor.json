@@ -1,0 +1,21 @@
+{
+  "_id": "41ce271dbfc14ea9",
+  "name": "Kelmar Heavy Police Armor",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 5,
+    "impact": 7,
+    "concealability": 0,
+    "cost": 12500,
+    "availability": "24/20days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

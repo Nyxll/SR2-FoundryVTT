@@ -1,0 +1,24 @@
+{
+  "_id": "35e2f8549768de4c",
+  "name": "Raven \"Tripod\" Waldo Set",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 25,
+    "cost": 8000,
+    "availability": "10/7days",
+    "street_index": 3.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "1c0022e712e9ee9f",
+  "name": "Scanway Large screen",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 500,
+    "availability": "as detector",
+    "street_index": 1,
+    "legality": "",
+    "description": "Scanway Large screen - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

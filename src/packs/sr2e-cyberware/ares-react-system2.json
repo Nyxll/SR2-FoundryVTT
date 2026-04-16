@@ -1,0 +1,28 @@
+{
+  "_id": "737a3c15de4c27ff",
+  "name": "Ares React System2",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 2.8,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 87000,
+    "availability": "",
+    "street_index": 1.25,
+    "mods": {
+      "reaction": 4
+    },
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

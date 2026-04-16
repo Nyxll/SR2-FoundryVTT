@@ -1,0 +1,21 @@
+{
+  "_id": "89cc04f8f85d32d0",
+  "name": "Uniware Armored Trenchcoat",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-metal.webp",
+  "system": {
+    "ballistic": 4,
+    "impact": 3,
+    "concealability": 0,
+    "cost": 900,
+    "availability": "10/4days",
+    "street_index": 1,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

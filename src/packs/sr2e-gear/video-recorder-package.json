@@ -1,0 +1,24 @@
+{
+  "_id": "0e31406304da563f",
+  "name": "Video Recorder Package",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 2,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Video Recorder Package - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

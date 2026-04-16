@@ -1,0 +1,24 @@
+{
+  "_id": "fc2440594bc7bf54",
+  "name": "PCZ Super Laptop (30 Mp)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "lifestyle",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 3,
+    "cost": 750,
+    "availability": "always",
+    "street_index": 0.75,
+    "legality": "",
+    "description": "PCZ Super Laptop (30 Mp) - Lifestyle"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

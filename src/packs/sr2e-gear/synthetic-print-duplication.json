@@ -1,0 +1,24 @@
+{
+  "_id": "09318621e76bf71c",
+  "name": "Synthetic Print Duplication",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 500,
+    "availability": "4/12hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Synthetic Print Duplication - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

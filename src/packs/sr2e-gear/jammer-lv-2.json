@@ -1,0 +1,24 @@
+{
+  "_id": "4e32a0205c7b4509",
+  "name": "Jammer Lv 2",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 5,
+    "cost": 2000,
+    "availability": "2/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "Jammer Lv 2 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

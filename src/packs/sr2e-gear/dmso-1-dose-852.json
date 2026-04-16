@@ -1,0 +1,24 @@
+{
+  "_id": "e75bcb248e90ea40",
+  "name": "DMSO (1 dose)",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "biotech",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": 0,
+    "cost": 10,
+    "availability": "2/12hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": "DMSO (1 dose) - Biotech"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

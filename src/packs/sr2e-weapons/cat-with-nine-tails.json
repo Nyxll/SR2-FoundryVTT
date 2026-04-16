@@ -1,0 +1,28 @@
+{
+  "_id": "b0366cd101d794f7",
+  "name": "Cat With Nine Tails",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(STR+2)M",
+    "concealability": 5,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 2,
+    "weight": 3,
+    "cost": 1000,
+    "availability": "6/48hrs",
+    "street_index": 3,
+    "legality": "",
+    "description": "Cat With Nine Tails - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

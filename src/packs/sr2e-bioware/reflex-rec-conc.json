@@ -1,0 +1,21 @@
+{
+  "_id": "c92897c45ea359f6",
+  "name": "Reflex Rec. (conc)",
+  "type": "bioware",
+  "img": "icons/magic/life/heart-glowing-green.webp",
+  "system": {
+    "body_index": 0.1,
+    "installed": false,
+    "category": "enhancement",
+    "cost": 10000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {},
+    "description": "With this enhancement, extra neural material is deposited and grown in small clusters around each of the 31 pairs of spinal nerves along the spinal cord. These clusters allow \\memorization\\ of certain \\learned\\ motor reflexes, and facilitate their execution. Each recorder allows a character to \\learn\\ one Active or Vehicle Skill (excluding B/R skills) at a +1 die to all future Success Tests. Barring extreme circumstances such as surgical reprogramming, the reflex skill, once learned, cannot be changed; that is, each reflex recorder modifies only a single, pre-chosen skill. The modifier is \\permanent"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

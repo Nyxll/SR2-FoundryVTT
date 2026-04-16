@@ -1,0 +1,28 @@
+{
+  "_id": "7bad01755d3a1a7a",
+  "name": "Sandler Model II",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 3,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 3.75,
+    "cost": 700,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Sandler Model II - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

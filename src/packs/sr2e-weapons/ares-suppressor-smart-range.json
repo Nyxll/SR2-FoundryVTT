@@ -1,0 +1,28 @@
+{
+  "_id": "8cef90b68378520f",
+  "name": "Ares Suppressor (Smart+Range)",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Grenade)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 7,
+    "cost": 7700,
+    "availability": "18/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Ares Suppressor (Smart+Range) - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

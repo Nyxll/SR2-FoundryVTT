@@ -1,0 +1,28 @@
+{
+  "_id": "5802a40e0fce9fb9",
+  "name": "Dermal Sheath Lv3",
+  "type": "cyberware",
+  "img": "icons/equipment/head/helm-visor-technological.webp",
+  "system": {
+    "grade": {
+      "label": "Standard",
+      "mult": 1,
+      "costMult": 1
+    },
+    "essence_cost": 2.1,
+    "installed": false,
+    "category": "bodyware",
+    "cost": 120000,
+    "availability": "",
+    "street_index": 1.5,
+    "mods": {
+      "body": 4
+    },
+    "description": "The dermal sheath boosts the character's Body Attribute by a number of points equal to the sheath's level plus 1: for example, Level 2 sheathing adds 3 points. It also provides Impact Armor equal to one-half the level, rounded up."
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

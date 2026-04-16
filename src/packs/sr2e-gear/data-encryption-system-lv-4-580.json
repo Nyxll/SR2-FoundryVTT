@@ -1,0 +1,24 @@
+{
+  "_id": "790dea0b68ca7a9c",
+  "name": "Data Encryption System Lv 4",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "misc",
+    "subcategory": "",
+    "rating": 4,
+    "quantity": 1,
+    "concealability": 2,
+    "weight": 6,
+    "cost": 4000,
+    "availability": "4/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "Data Encryption System Lv 4 - Stuff With Ratings"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

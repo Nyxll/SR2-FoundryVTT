@@ -1,0 +1,28 @@
+{
+  "_id": "a8197275d017660a",
+  "name": "Malorian Arms SubFlechette Gun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "M",
+    "damage_code": "6M",
+    "concealability": 32,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 4,
+    "cost": 795,
+    "availability": "4/24hrs",
+    "street_index": 1,
+    "legality": "",
+    "description": "Malorian Arms SubFlechette Gun - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "fa4cce7b10a56a62",
+  "name": "Tracking Signal Lv 5",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "security",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 0,
+    "weight": null,
+    "cost": 700,
+    "availability": "5/72hrs",
+    "street_index": 2,
+    "legality": "",
+    "description": "Tracking Signal Lv 5 - Surveillance and Security"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

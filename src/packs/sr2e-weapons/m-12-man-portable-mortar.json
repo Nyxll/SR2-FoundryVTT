@@ -1,0 +1,28 @@
+{
+  "_id": "627cd5133ac79ccd",
+  "name": "M-12 Man-Portable Mortar",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol.webp",
+  "system": {
+    "category": "pistol",
+    "skill": "firearms",
+    "damage_power": 0,
+    "damage_level": "M",
+    "damage_code": "(Round)",
+    "concealability": 0,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 30,
+    "cost": 3000,
+    "availability": "12/14days",
+    "street_index": 2,
+    "legality": "",
+    "description": "M-12 Man-Portable Mortar - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

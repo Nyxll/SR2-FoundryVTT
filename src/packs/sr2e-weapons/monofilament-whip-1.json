@@ -1,0 +1,28 @@
+{
+  "_id": "5e5f872dc1284d88",
+  "name": "Monofilament Whip",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-simple.webp",
+  "system": {
+    "category": "melee",
+    "skill": "armed_combat",
+    "damage_power": 10,
+    "damage_level": "S",
+    "damage_code": "10S",
+    "concealability": 10,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 1,
+    "weight": 0,
+    "cost": 3000,
+    "availability": "24/14days",
+    "street_index": 3,
+    "legality": "",
+    "description": "Monofilament Whip - Edged weapon"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

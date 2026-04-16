@@ -1,0 +1,28 @@
+{
+  "_id": "49a3b6c39e303ff2",
+  "name": "Militech Mini-Gat Carbine",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-rifle.webp",
+  "system": {
+    "category": "rifle",
+    "skill": "firearms",
+    "damage_power": 6,
+    "damage_level": "L",
+    "damage_code": "6L",
+    "concealability": 1,
+    "ammo_type": "regular",
+    "ammo_capacity": 0,
+    "reach": 0,
+    "weight": 5.75,
+    "cost": 2695,
+    "availability": "20/14days",
+    "street_index": 5,
+    "legality": "",
+    "description": "Militech Mini-Gat Carbine - Firearms"
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}

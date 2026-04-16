@@ -1,0 +1,24 @@
+{
+  "_id": "f8f101cd3f313de9",
+  "name": "Explosive Grenade",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-simple.webp",
+  "system": {
+    "category": "ammunition",
+    "subcategory": "",
+    "rating": 0,
+    "quantity": 1,
+    "concealability": 7,
+    "weight": 0.25,
+    "cost": 25,
+    "availability": "6/72hrs",
+    "street_index": 1.5,
+    "legality": "",
+    "description": ""
+  },
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "shadowrun2e"
+  }
+}
