@@ -1,5 +1,5 @@
 {
-  "_id": "b6b12e8a45a34f80",
+  "_id": "b5abe7cad3064dba",
   "name": "Mercenary",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -97,5 +97,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!b5abe7cad3064dba"
 }

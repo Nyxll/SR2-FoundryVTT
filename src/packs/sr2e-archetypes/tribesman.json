@@ -1,5 +1,5 @@
 {
-  "_id": "ef4a592efcdf4fad",
+  "_id": "3c4b3e5c86c04acb",
   "name": "Tribesman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!3c4b3e5c86c04acb"
 }

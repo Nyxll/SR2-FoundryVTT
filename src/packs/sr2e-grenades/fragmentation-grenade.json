@@ -1,5 +1,5 @@
 {
-  "_id": "533c1d149dd24c1d",
+  "_id": "7ed8397b995b4552",
   "name": "Fragmentation Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!7ed8397b995b4552"
 }

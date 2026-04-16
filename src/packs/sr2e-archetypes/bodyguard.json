@@ -1,5 +1,5 @@
 {
-  "_id": "5ba08ce2bcb14c9f",
+  "_id": "4b4d199d63cc459e",
   "name": "Bodyguard",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!4b4d199d63cc459e"
 }

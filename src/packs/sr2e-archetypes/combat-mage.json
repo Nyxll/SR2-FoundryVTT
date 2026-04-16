@@ -1,5 +1,5 @@
 {
-  "_id": "9dbcd8b696dc41e5",
+  "_id": "1d6a62b31c404094",
   "name": "Combat Mage",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!1d6a62b31c404094"
 }

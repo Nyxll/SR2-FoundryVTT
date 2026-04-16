@@ -88,6 +88,8 @@ function extractRows(sqlText, tableName) {
 // ---------------------------------------------------------------------------
 function writeItem(pack, name, data) {
   const safe = name.replace(/[^a-zA-Z0-9\-_ ]/g, "").replace(/\s+/g, "-").toLowerCase().slice(0, 64);
+  // _key is required by foundryvtt-cli v2 nedb compilation: format !{collection}!{id}
+  data._key = `!items!${data._id}`;
   const file = path.join(SRC_DIR, pack, `${safe}.json`);
   fs.writeFileSync(file, JSON.stringify(data, null, 2), "utf8");
 }

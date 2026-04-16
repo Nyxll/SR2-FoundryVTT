@@ -1,5 +1,5 @@
 {
-  "_id": "e630fa5af0d948f2",
+  "_id": "9851ea67740842fd",
   "name": "Rigger",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -89,5 +89,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!9851ea67740842fd"
 }

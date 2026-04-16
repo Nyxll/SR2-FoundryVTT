@@ -1,5 +1,5 @@
 {
-  "_id": "2d9444fe24604454",
+  "_id": "cc1ffaa815bc43a0",
   "name": "Dwarf Mercenary",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -89,5 +89,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!cc1ffaa815bc43a0"
 }

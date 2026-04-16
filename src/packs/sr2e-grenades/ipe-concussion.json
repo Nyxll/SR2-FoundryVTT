@@ -1,5 +1,5 @@
 {
-  "_id": "90278036e3c14381",
+  "_id": "a33bfa06d3c74d68",
   "name": "IPE Concussion",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!a33bfa06d3c74d68"
 }

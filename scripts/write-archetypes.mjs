@@ -192,6 +192,8 @@ const archetypes = [
 
 for (const actor of archetypes) {
   const safe = actor.name.replace(/[^a-zA-Z0-9\-_ ]/g, "").replace(/\s+/g, "-").toLowerCase().slice(0, 64);
+  // _key is required by foundryvtt-cli v2 nedb compilation: format !{collection}!{id}
+  actor._key = `!actors!${actor._id}`;
   const file = path.join(DEST, `${safe}.json`);
   fs.writeFileSync(file, JSON.stringify(actor, null, 2), "utf8");
   console.log(`  → ${actor.name}`);

@@ -1,5 +1,5 @@
 {
-  "_id": "eda3ca2095f34d64",
+  "_id": "623b8324ea0a4034",
   "name": "Street Samurai",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -89,5 +89,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!623b8324ea0a4034"
 }

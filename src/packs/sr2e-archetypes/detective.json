@@ -1,5 +1,5 @@
 {
-  "_id": "e60fa804013c4445",
+  "_id": "681546407f874ca6",
   "name": "Detective",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -97,5 +97,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!681546407f874ca6"
 }

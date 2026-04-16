@@ -1,5 +1,5 @@
 {
-  "_id": "36c4d8e357a945f1",
+  "_id": "e90c89cf0c854901",
   "name": "Aerodynamic Frag Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!e90c89cf0c854901"
 }

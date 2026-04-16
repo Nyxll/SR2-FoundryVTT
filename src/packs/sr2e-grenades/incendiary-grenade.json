@@ -1,5 +1,5 @@
 {
-  "_id": "248092d6f17f496b",
+  "_id": "ba5d296c155f40ab",
   "name": "Incendiary Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!ba5d296c155f40ab"
 }

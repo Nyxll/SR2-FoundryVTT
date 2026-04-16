@@ -1,5 +1,5 @@
 {
-  "_id": "805917355c774b76",
+  "_id": "1c02d939cbda424c",
   "name": "Gang Member",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -93,5 +93,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!1c02d939cbda424c"
 }

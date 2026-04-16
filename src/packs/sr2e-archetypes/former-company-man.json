@@ -1,5 +1,5 @@
 {
-  "_id": "48105785fa444d41",
+  "_id": "b6ea186c60374a5a",
   "name": "Former Company Man",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -89,5 +89,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!b6ea186c60374a5a"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "50ecc6428a4b4c0e",
+  "_id": "f1a607e9d2f84b4a",
   "name": "Decker",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!f1a607e9d2f84b4a"
 }

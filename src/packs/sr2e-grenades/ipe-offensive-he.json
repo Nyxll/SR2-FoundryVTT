@@ -1,5 +1,5 @@
 {
-  "_id": "582fae1a9122483c",
+  "_id": "0f12e59e5d4a4dbc",
   "name": "IPE Offensive HE",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!0f12e59e5d4a4dbc"
 }

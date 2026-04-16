@@ -1,6 +1,7 @@
 /**
  * Compiles src/packs/{pack-name}/*.json → packs/{pack-name}.db
- * Uses @foundryvtt/foundryvtt-cli to compile ClassicLevel (NeDB) packs.
+ * Uses @foundryvtt/foundryvtt-cli to compile NeDB (flat-file) packs.
+ * nedb:true produces a single .db file instead of a LevelDB directory.
  */
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import fs from "fs";
@@ -20,7 +21,7 @@ for (const pack of packs) {
   const dest = path.join(DEST, `${pack}.db`);
   console.log(`Compiling ${pack}...`);
   try {
-    await compilePack(src, dest, { recursive: false, log: false });
+    await compilePack(src, dest, { nedb: true, recursive: false, log: false });
     const count = fs.readdirSync(src).filter(f => f.endsWith(".json")).length;
     console.log(`  → ${dest} (${count} entries)`);
   } catch (e) {

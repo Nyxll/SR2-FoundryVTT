@@ -1,5 +1,5 @@
 {
-  "_id": "bc0acea6d82046c9",
+  "_id": "82614c6e0eb044b0",
   "name": "Street Shaman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!82614c6e0eb044b0"
 }

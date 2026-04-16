@@ -1,5 +1,5 @@
 {
-  "_id": "53acaef8ca7c4b72",
+  "_id": "d149e070f09b4fbd",
   "name": "Smoke Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!d149e070f09b4fbd"
 }

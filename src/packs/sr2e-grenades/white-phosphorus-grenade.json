@@ -1,5 +1,5 @@
 {
-  "_id": "3046cd1267ac41ed",
+  "_id": "8981ba4206b74991",
   "name": "White Phosphorus Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!8981ba4206b74991"
 }

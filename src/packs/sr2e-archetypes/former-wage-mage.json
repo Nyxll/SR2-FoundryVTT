@@ -1,5 +1,5 @@
 {
-  "_id": "4612d7f0992f474d",
+  "_id": "b1e1c5fe7e5041ba",
   "name": "Former Wage Mage",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!b1e1c5fe7e5041ba"
 }

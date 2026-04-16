@@ -1,5 +1,5 @@
 {
-  "_id": "28ae89c5b8114283",
+  "_id": "f509465f57cc4fcb",
   "name": "Shaman",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
@@ -85,5 +85,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!actors!f509465f57cc4fcb"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "02d608ccfd754020",
+  "_id": "bbb1652dd342459f",
   "name": "Concussion Grenade",
   "type": "weapon",
   "img": "icons/weapons/thrown/grenade-round-grey.webp",
@@ -33,5 +33,6 @@
   "flags": {},
   "_stats": {
     "systemId": "shadowrun2e"
-  }
+  },
+  "_key": "!items!bbb1652dd342459f"
 }

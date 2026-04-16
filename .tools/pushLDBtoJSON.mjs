@@ -1,6 +1,6 @@
 /**
  * Extracts packs/{pack-name}.db → src/packs/{pack-name}/*.json
- * Uses @foundryvtt/foundryvtt-cli to extract ClassicLevel (NeDB) packs.
+ * Uses @foundryvtt/foundryvtt-cli to extract NeDB (flat-file) packs.
  */
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
 import fs from "fs";
@@ -18,7 +18,7 @@ for (const db of dbs) {
   if (!fs.existsSync(dstPath)) fs.mkdirSync(dstPath, { recursive: true });
   console.log(`Extracting ${db}...`);
   try {
-    await extractPack(srcPath, dstPath, { recursive: false, log: false });
+    await extractPack(srcPath, dstPath, { nedb: true, recursive: false, log: false });
     console.log(`  → ${dstPath}`);
   } catch (e) {
     console.error(`  ERROR: ${e.message}`);
