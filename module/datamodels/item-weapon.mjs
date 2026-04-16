@@ -25,7 +25,7 @@ export default class WeaponData extends foundry.abstract.TypeDataModel {
       }),
       equipped:      new fields.BooleanField({ initial: true }),
       description:   new fields.HTMLField({ initial: "" }),
-      price:         new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      cost: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       availability:  new fields.StringField({ initial: "" }),
       restriction:   new fields.StringField({ initial: "" }),
     };

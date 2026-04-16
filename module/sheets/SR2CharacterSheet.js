@@ -294,13 +294,114 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
   }
 
   async _onItemCreate(ev) {
-    const type     = ev.currentTarget.dataset.type;
-    const typeLabel = game.i18n.localize(`TYPES.Item.${type}`) || type;
-    const itemData = {
-      name: `New ${typeLabel}`,
-      type,
+    const type = ev.currentTarget.dataset.type;
+
+    // Map item type → compendium pack name
+    const PACK_MAP = {
+      weapon:      "shadowrun2e.sr2e-weapons",
+      armor:       "shadowrun2e.sr2e-armor",
+      cyberware:   "shadowrun2e.sr2e-cyberware",
+      bioware:     "shadowrun2e.sr2e-bioware",
+      gear:        "shadowrun2e.sr2e-gear",
+      spell:       "shadowrun2e.sr2e-spells",
+      adept_power: "shadowrun2e.sr2e-adept-powers",
+      quality:     "shadowrun2e.sr2e-qualities",
     };
-    await Item.create(itemData, { parent: this.actor });
+
+    const packId = PACK_MAP[type];
+    if (!packId) {
+      // No compendium for this type — just create a blank item
+      const typeLabel = game.i18n.localize(`TYPES.Item.${type}`) || type;
+      return Item.create({ name: `New ${typeLabel}`, type }, { parent: this.actor });
+    }
+
+    await this._openCompendiumPicker(type, packId);
+  }
+
+  /**
+   * Open a searchable compendium picker dialog.
+   * Loads index from the pack, shows a filterable list, imports the chosen item.
+   */
+  async _openCompendiumPicker(type, packId) {
+    const pack = game.packs.get(packId);
+    if (!pack) {
+      ui.notifications.warn(`Compendium pack "${packId}" not found.`);
+      return;
+    }
+
+    // Load the full index (name + id + system fields for display)
+    const index = await pack.getIndex({ fields: ["name", "system"] });
+    const entries = index.contents.sort((a, b) => a.name.localeCompare(b.name));
+
+    // Build the picker HTML
+    const typeLabel = type.replace("_", " ").replace(/\b\w/g, c => c.toUpperCase());
+
+    const buildRows = (filter = "") => {
+      const lower = filter.toLowerCase();
+      return entries
+        .filter(e => !lower || e.name.toLowerCase().includes(lower))
+        .map(e => {
+          // Show a useful subtitle depending on type
+          let sub = "";
+          if (type === "cyberware") sub = `Ess ${e.system?.essence_cost ?? "?"} · ${e.system?.grade ?? "standard"}`;
+          else if (type === "bioware")  sub = `BI ${e.system?.body_index ?? "?"}`;
+          else if (type === "weapon")   sub = e.system?.damage_code ?? "";
+          else if (type === "armor")    sub = `B${e.system?.ballistic ?? "?"}/I${e.system?.impact ?? "?"}`;
+          else if (type === "gear")     sub = e.system?.category ?? "";
+          else if (type === "spell")    sub = `${e.system?.category ?? ""} · ${e.system?.drain_code ?? ""}`;
+          else if (type === "adept_power") sub = `PP ${e.system?.cost ?? "?"}`;
+          else if (type === "quality")  sub = e.system?.quality_type ?? "";
+          return `<div class="sr2e-picker-row" data-id="${e._id}" title="${e.name}">
+            <span class="sr2e-picker-name">${e.name}</span>
+            <span class="sr2e-picker-sub">${sub}</span>
+          </div>`;
+        }).join("") || `<p style="padding:8px;color:#888">No matches.</p>`;
+    };
+
+    const content = `
+      <div class="sr2e-compendium-picker">
+        <input type="text" class="sr2e-picker-search" placeholder="Search ${typeLabel}..." style="width:100%;box-sizing:border-box;margin-bottom:6px;padding:4px 6px" autofocus />
+        <div class="sr2e-picker-list" style="max-height:360px;overflow-y:auto;border:1px solid #555;border-radius:3px">
+          ${buildRows()}
+        </div>
+      </div>`;
+
+    const dialog = new foundry.appv1.api.Dialog({
+      title: `Add ${typeLabel}`,
+      content,
+      buttons: {},
+      render: (html) => {
+        const list = html.find(".sr2e-picker-list");
+        const search = html.find(".sr2e-picker-search");
+
+        // Live filter
+        search.on("input", () => {
+          list.html(buildRows(search.val()));
+          // Re-bind clicks after re-render
+          list.find(".sr2e-picker-row").on("click", async (ev) => {
+            const entryId = ev.currentTarget.dataset.id;
+            await this._importFromCompendium(pack, entryId);
+            dialog.close();
+          });
+        });
+
+        // Initial click binding
+        list.find(".sr2e-picker-row").on("click", async (ev) => {
+          const entryId = ev.currentTarget.dataset.id;
+          await this._importFromCompendium(pack, entryId);
+          dialog.close();
+        });
+      },
+      default: "",
+    }, { width: 480, height: 500, resizable: true });
+
+    dialog.render(true);
+  }
+
+  async _importFromCompendium(pack, entryId) {
+    const doc = await pack.getDocument(entryId);
+    if (!doc) return;
+    await Item.create(doc.toObject(), { parent: this.actor });
   }
 
   // ---------------------------------------------------------------------------

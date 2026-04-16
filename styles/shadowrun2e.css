@@ -548,3 +548,26 @@
   font-weight: bold;
   color: #e8c97a;
 }
+
+/* Compendium item picker dialog */
+.sr2e-picker-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.sr2e-picker-row:hover {
+  background: rgba(180,30,30,0.25);
+}
+.sr2e-picker-name {
+  font-weight: bold;
+  flex: 1;
+}
+.sr2e-picker-sub {
+  font-size: 0.82em;
+  color: #aaa;
+  margin-left: 8px;
+  white-space: nowrap;
+}

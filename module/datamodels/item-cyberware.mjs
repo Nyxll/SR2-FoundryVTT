@@ -20,7 +20,7 @@ export default class CyberwareData extends foundry.abstract.TypeDataModel {
         initiative_dice: new fields.NumberField({ required: true, integer: true, initial: 0 }),
       }),
       description:  new fields.HTMLField({ initial: "" }),
-      price:        new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      cost: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       availability: new fields.StringField({ initial: "" }),
     };
   }

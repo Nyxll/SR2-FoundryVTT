@@ -4,7 +4,7 @@ export default class GearData extends foundry.abstract.TypeDataModel {
     return {
       quantity:     new fields.NumberField({ required: true, integer: true, min: 0, initial: 1 }),
       description:  new fields.HTMLField({ initial: "" }),
-      price:        new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+      cost: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       availability: new fields.StringField({ initial: "" }),
       rating:       new fields.NumberField({ required: true, integer: true, min: 0, initial: 0 }),
     };
