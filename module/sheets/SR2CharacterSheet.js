@@ -191,10 +191,10 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
   }
 
   async _onSkillAdd(type) {
-    const name = await Dialog.prompt({
-      title: "New Skill",
-      content: `<input type="text" name="skillName" placeholder="Skill name" style="width:100%" />`,
-      callback: html => html.find("[name=skillName]").val().trim(),
+    const name = await foundry.applications.api.DialogV2.prompt({
+      window: { title: "New Skill" },
+      content: `<input type="text" name="skillName" placeholder="Skill name" style="width:100%;margin:4px 0" autofocus />`,
+      ok: { callback: (_event, button, dialog) => dialog.querySelector("[name=skillName]").value.trim() },
     }).catch(() => null);
     if (!name) return;
     const key = name.toLowerCase().replace(/[^a-z0-9]+/g, "_");

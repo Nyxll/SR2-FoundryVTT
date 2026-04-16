@@ -636,9 +636,11 @@
           <div class="form-group"><label>Spent</label>
             <input type="number" name="system.karma.spent" value="{{system.karma.spent}}" min="0" style="width:65px" /></div>
           <div class="form-group"><label>Available</label>
-            <input type="number" name="system.karma.current" value="{{system.karma.current}}" min="0" style="width:65px" /></div>
+            <span style="width:65px;display:inline-block">{{system.karma.current}}</span>
+            <small>(edit in header)</small></div>
           <div class="form-group"><label>Karma Pool</label>
-            <input type="number" name="system.karma.pool" value="{{system.karma.pool}}" min="0" style="width:65px" /></div>
+            <span style="width:65px;display:inline-block">{{system.karma.pool}}</span>
+            <small>(edit in header)</small></div>
 
           <h3>Reputation</h3>
           <div class="form-group"><label>Reputation</label>
