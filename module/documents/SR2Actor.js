@@ -114,10 +114,20 @@ export default class SR2Actor extends Actor {
       attrs[key].value = Math.max(min, Math.min(max, attrs[key].value));
     }
 
-    // Essence: base 6, reduced by installed cyberware
+    // Essence: base 6, reduced by installed cyberware (grade-adjusted) and bioware (BI/2)
     const cyberwareItems = this.items.filter(i => i.type === "cyberware" && i.system.installed);
-    const totalEssenceLost = cyberwareItems.reduce((sum, i) => sum + (i.system.essence_cost ?? 0), 0);
-    sys.essence.value = Math.max(0, (sys.essence.base ?? 6) - totalEssenceLost);
+    const totalCyberEssence = cyberwareItems.reduce((sum, i) => {
+      const grade = SR2E.CYBERWARE_GRADES[i.system.grade] ?? SR2E.CYBERWARE_GRADES.standard;
+      const effective = Math.round((i.system.essence_cost ?? 0) * grade.essenceMult * 100) / 100;
+      return sum + effective;
+    }, 0);
+    const biowares = this.items.filter(i => i.type === "bioware" && i.system.installed);
+    const totalBioEssence = biowares.reduce((sum, i) => {
+      const bi = i.system.body_index ?? 0;
+      const effective = i.system.cultured ? Math.round(bi * SR2E.BIOWARE_CULTURED_MULT * 100) / 100 : bi;
+      return sum + effective;
+    }, 0);
+    sys.essence.value = Math.max(0, (sys.essence.base ?? 6) - totalCyberEssence - totalBioEssence);
 
     // Apply installed cyberware/bioware attribute mods
     this._applyAugmentMods(sys, attrs);

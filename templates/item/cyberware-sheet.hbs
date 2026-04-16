@@ -9,8 +9,10 @@
         <select name="system.grade">
           {{selectOptions cyberGradeOptions selected=system.grade labelAttr="label" valueAttr="value"}}
         </select></div>
-      <div class="form-group"><label>Essence Cost</label>
-        <input type="number" name="system.essence_cost" value="{{system.essence_cost}}" min="0" step="0.1" /></div>
+      <div class="form-group"><label>Base Essence (Standard)</label>
+        <input type="number" name="system.essence_cost" value="{{system.essence_cost}}" min="0" step="0.01" /></div>
+      <div class="form-group"><label>Effective Essence</label>
+        <span class="computed-value" title="Base × grade multiplier">{{system.effectiveEssence}}</span></div>
       <div class="form-group"><label>Price (¥)</label>
         <input type="number" name="system.price" value="{{system.price}}" min="0" /></div>
       <div class="form-group"><label>Availability</label>

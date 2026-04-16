@@ -5,6 +5,7 @@ export default class CyberwareData extends foundry.abstract.TypeDataModel {
       category:     new fields.StringField({ initial: "bodyware" }),
       grade:        new fields.StringField({ initial: "standard",
         choices: ["standard","alphaware","betaware","deltaware","used"] }),
+      // Base essence cost at standard grade; effective cost = essence_cost × grade multiplier
       essence_cost: new fields.NumberField({ required: true, min: 0, initial: 0.5 }),
       installed:    new fields.BooleanField({ initial: true }),
       // Attribute bonuses this cyberware provides (applied automatically when installed)

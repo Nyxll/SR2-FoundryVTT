@@ -1,3 +1,5 @@
+import { SR2E } from "../config.js";
+
 /**
  * Extended Item document for Shadowrun 2nd Edition.
  */
@@ -10,13 +12,26 @@ export default class SR2Item extends Item {
 
   /** @override */
   prepareDerivedData() {
-    if (this.type === "weapon") this._prepareWeaponData();
+    if (this.type === "weapon")    this._prepareWeaponData();
+    if (this.type === "cyberware") this._prepareCyberwareData();
+    if (this.type === "bioware")   this._prepareBiowwareData();
   }
 
   _prepareWeaponData() {
     const sys = this.system;
-    // Build a display-friendly damage code string, e.g. "9M"
     sys.damage_code = `${sys.damage_power ?? 0}${sys.damage_level ?? "M"}`;
+  }
+
+  _prepareCyberwareData() {
+    const sys = this.system;
+    const grade = SR2E.CYBERWARE_GRADES[sys.grade] ?? SR2E.CYBERWARE_GRADES.standard;
+    sys.effectiveEssence = Math.round((sys.essence_cost ?? 0) * grade.essenceMult * 100) / 100;
+  }
+
+  _prepareBiowwareData() {
+    const sys = this.system;
+    const mult = sys.cultured ? SR2E.BIOWARE_CULTURED_MULT : 1;
+    sys.effectiveBodyIndex = Math.round((sys.body_index ?? 0) * mult * 100) / 100;
   }
 
   /**
@@ -51,7 +66,7 @@ export default class SR2Item extends Item {
     } else if (type === "cyberware") {
       details = [
         { label: "Grade", value: sys.grade },
-        { label: "Essence", value: sys.essence_cost },
+        { label: "Essence", value: sys.effectiveEssence ?? sys.essence_cost },
       ];
     }
 

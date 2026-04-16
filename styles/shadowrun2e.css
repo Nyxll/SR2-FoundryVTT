@@ -536,3 +536,15 @@
   align-items: center;
   gap: 4px;
 }
+
+/* Computed/derived read-only values displayed on item sheets */
+.shadowrun2e .computed-value {
+  display: inline-block;
+  min-width: 48px;
+  padding: 1px 4px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 3px;
+  font-weight: bold;
+  color: #e8c97a;
+}

@@ -358,6 +358,9 @@ SR2E.CYBERWARE_GRADES = {
   used:      { label: "Used",      essenceMult: 1.25 },
 };
 
+// Cultured bioware: Body Cost × 0.75 (25% reduction). Source: Shadowtech (SR2E).
+SR2E.BIOWARE_CULTURED_MULT = 0.75;
+
 SR2E.CYBERWARE_CATEGORIES = {
   headware:      "Headware",
   bodyware:      "Bodyware",
