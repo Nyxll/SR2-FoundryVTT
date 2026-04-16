@@ -403,3 +403,23 @@ SR2E.QUALITY_TYPES = {
 SR2E.VEHICLE_ATTRIBUTES = [
   "handling", "acceleration", "speed", "body", "armor", "signature", "autopilot",
 ];
+
+// ---------------------------------------------------------------------------
+// Karma Advancement Costs (SR2E Core Rules, p.242)
+// ---------------------------------------------------------------------------
+
+/**
+ * Karma cost to raise an attribute or skill to newRating.
+ * SR2E: new rating × 1.5, round up.
+ */
+SR2E.karmaAttrCost  = (newRating) => Math.ceil(newRating * 1.5);
+SR2E.karmaSkillCost = (newRating) => Math.ceil(newRating * 1.5);
+
+/**
+ * Karma cost to raise Magic rating to newRating (awakened chars).
+ * SR2E: new rating × 2.
+ */
+SR2E.karmaMagicCost = (newRating) => newRating * 2;
+
+/** Specialization cost: flat 1 karma. */
+SR2E.karmaSpecCost  = 1;

@@ -119,6 +119,18 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
       this._onMonitorRightClick(monitor, index);
     });
 
+    // Karma spend — attributes
+    html.find(".attr-karma").click(ev => {
+      const attrKey = ev.currentTarget.dataset.attribute;
+      this._onSpendKarmaAttr(attrKey);
+    });
+
+    // Karma spend — skills
+    html.find(".skill-karma").click(ev => {
+      const skillKey = ev.currentTarget.dataset.skill;
+      this._onSpendKarmaSkill(skillKey);
+    });
+
     // Add skill buttons
     html.find(".skill-add").click(ev => {
       const type = ev.currentTarget.dataset.type ?? "active";
@@ -261,5 +273,77 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
       type,
     };
     await Item.create(itemData, { parent: this.actor });
+  }
+
+  // ---------------------------------------------------------------------------
+  // Karma spending
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Spend karma to raise an attribute by 1.
+   * Cost = new rating × 1.5, rounded up.
+   */
+  async _onSpendKarmaAttr(attrKey) {
+    const sys      = this.actor.system;
+    const cur      = sys.attributes[attrKey]?.base ?? 1;
+    const newRating = cur + 1;
+    const cost     = SR2E.karmaAttrCost(newRating);
+    const karmaAvail = sys.karma.current ?? 0;
+    const label    = attrKey.charAt(0).toUpperCase() + attrKey.slice(1);
+
+    if (karmaAvail < cost) {
+      ui.notifications.warn(`Not enough karma. Need ${cost} karma to raise ${label} to ${newRating} (have ${karmaAvail}).`);
+      return;
+    }
+
+    const confirmed = await foundry.applications.api.DialogV2.confirm({
+      window: { title: "Spend Karma" },
+      content: `<p>Raise <strong>${label}</strong> from ${cur} → ${newRating}?</p>
+                <p>Cost: <strong>${cost} karma</strong> (${karmaAvail} available)</p>`,
+    });
+    if (!confirmed) return;
+
+    await this.actor.update({
+      [`system.attributes.${attrKey}.base`]: newRating,
+      "system.karma.current": karmaAvail - cost,
+      "system.karma.spent":   (sys.karma.spent ?? 0) + cost,
+    });
+    ui.notifications.info(`${label} raised to ${newRating}. ${cost} karma spent.`);
+  }
+
+  /**
+   * Spend karma to raise a skill by 1.
+   * Cost = new rating × 1.5, rounded up. New skills (0→1) cost 2.
+   */
+  async _onSpendKarmaSkill(skillKey) {
+    const sys      = this.actor.system;
+    const skill    = sys.skills?.[skillKey];
+    if (!skill) return;
+    const cur      = skill.rating ?? 0;
+    const newRating = cur + 1;
+    const cost     = SR2E.karmaSkillCost(newRating);
+    const karmaAvail = sys.karma.current ?? 0;
+    const label    = skill.label || skillKey;
+
+    if (karmaAvail < cost) {
+      ui.notifications.warn(`Not enough karma. Need ${cost} karma to raise ${label} to ${newRating} (have ${karmaAvail}).`);
+      return;
+    }
+
+    const confirmed = await foundry.applications.api.DialogV2.confirm({
+      window: { title: "Spend Karma" },
+      content: `<p>Raise <strong>${label}</strong> from ${cur} → ${newRating}?</p>
+                <p>Cost: <strong>${cost} karma</strong> (${karmaAvail} available)</p>`,
+    });
+    if (!confirmed) return;
+
+    const skills = foundry.utils.deepClone(sys.skills);
+    skills[skillKey].rating = newRating;
+    await this.actor.update({
+      "system.skills": skills,
+      "system.karma.current": karmaAvail - cost,
+      "system.karma.spent":   (sys.karma.spent ?? 0) + cost,
+    });
+    ui.notifications.info(`${label} raised to ${newRating}. ${cost} karma spent.`);
   }
 }

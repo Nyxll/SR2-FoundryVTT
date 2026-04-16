@@ -119,8 +119,12 @@
               <td><input type="number" name="system.attributes.{{key}}.mod"
                          value="{{lookup (lookup ../system.attributes key) 'mod'}}" style="width:45px" /></td>
               <td class="attr-value">{{lookup (lookup ../system.attributes key) 'value'}}</td>
-              <td><button type="button" class="attribute-roll" data-attribute="{{key}}"
-                          title="Roll {{key}}">🎲</button></td>
+              <td>
+                <button type="button" class="attribute-roll" data-attribute="{{key}}"
+                        title="Roll {{key}}">🎲</button>
+                <button type="button" class="attr-karma" data-attribute="{{key}}"
+                        title="Spend karma to raise {{key}}">+K</button>
+              </td>
             </tr>
             {{/each}}
           </tbody>
@@ -235,9 +239,11 @@
             <td><input type="number" name="system.skills.{{skill.key}}.mod"
                        value="{{skill.mod}}" style="width:40px" /></td>
             <td><input type="text" name="system.skills.{{skill.key}}.specialization"
-                       value="{{skill.specialization}}" placeholder="—" style="width:120px" /></td>
+                       value="{{skill.specialization}}" placeholder="—" style="width:110px" /></td>
             <td>
               <button type="button" class="skill-roll" data-skill="{{skill.key}}" title="Roll {{skill.label}}">🎲</button>
+              <button type="button" class="skill-karma" data-skill="{{skill.key}}"
+                      title="Spend karma to raise {{skill.label}} (cost: {{skill.rating}} → {{skill.rating}}+1)">+K</button>
               <a class="skill-delete" data-skill="{{skill.key}}" title="Remove" style="cursor:pointer"><i class="fas fa-trash"></i></a>
             </td>
           </tr>
@@ -263,8 +269,10 @@
             <td><input type="number" name="system.skills.{{skill.key}}.mod"
                        value="{{skill.mod}}" style="width:40px" /></td>
             <td><input type="text" name="system.skills.{{skill.key}}.specialization"
-                       value="{{skill.specialization}}" placeholder="—" style="width:120px" /></td>
+                       value="{{skill.specialization}}" placeholder="—" style="width:110px" /></td>
             <td>
+              <button type="button" class="skill-karma" data-skill="{{skill.key}}"
+                      title="Spend karma to raise {{skill.label}}">+K</button>
               <a class="skill-delete" data-skill="{{skill.key}}" title="Remove" style="cursor:pointer"><i class="fas fa-trash"></i></a>
             </td>
           </tr>
@@ -290,8 +298,10 @@
             <td><input type="number" name="system.skills.{{skill.key}}.mod"
                        value="{{skill.mod}}" style="width:40px" /></td>
             <td><input type="text" name="system.skills.{{skill.key}}.specialization"
-                       value="{{skill.specialization}}" placeholder="—" style="width:120px" /></td>
+                       value="{{skill.specialization}}" placeholder="—" style="width:110px" /></td>
             <td>
+              <button type="button" class="skill-karma" data-skill="{{skill.key}}"
+                      title="Spend karma to raise {{skill.label}}">+K</button>
               <a class="skill-delete" data-skill="{{skill.key}}" title="Remove" style="cursor:pointer"><i class="fas fa-trash"></i></a>
             </td>
           </tr>
