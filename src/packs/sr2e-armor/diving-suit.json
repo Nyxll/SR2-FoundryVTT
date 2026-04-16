@@ -7,9 +7,9 @@
     "ballistic": 2,
     "impact": 1,
     "concealability": 0,
-    "cost": 0,
+    "cost": 6000,
     "availability": "10/10 days",
-    "street_index": 1,
+    "street_index": 3,
     "legality": "",
     "description": ""
   },

@@ -13,7 +13,7 @@
     "ammo_type": "regular",
     "ammo_capacity": 0,
     "reach": 3,
-    "weight": null,
+    "weight": 0,
     "cost": 3500,
     "availability": "26/14 days",
     "street_index": 3,

@@ -12,7 +12,7 @@
     "concealability": 9,
     "ammo_type": "regular",
     "ammo_capacity": 0,
-    "reach": null,
+    "reach": 0,
     "weight": 0.5,
     "cost": 950,
     "availability": "5/48hrs",

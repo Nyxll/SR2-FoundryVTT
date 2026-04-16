@@ -9,7 +9,7 @@
     "concealability": 0,
     "cost": 900,
     "availability": "always",
-    "street_index": 1,
+    "street_index": 0.9,
     "legality": "",
     "description": ""
   },

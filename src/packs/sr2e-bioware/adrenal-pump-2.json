@@ -11,12 +11,12 @@
     "availability": "",
     "street_index": 3,
     "mods": {
-      "quickness": 2,
+      "reaction": 4,
       "strength": 2,
-      "willpower": 2,
-      "reaction": 4
+      "quickness": 2,
+      "willpower": 2
     },
-    "description": "The adrenal pump is a small, muscular sac implanted in the lower abdominal cavity and connected to each of the two suprarenal (or adrenal) glands. When dormant, the pump concentrates and serves as a reservoir for the hormones adrenaline and noradrenaline. When activated, the sac contracts, sending a surge of concentrates into the bloodstream. Stress and other emotional states such as anger, fear, or lust will also activate the pump.\\n\\nAs the effects produced by hormones depend both on the amount secreted and the responsiveness of the organ or tissue in question, the actual combat effectiveness of the adrenal pump is variable. Once active, roll 1D6 for each level of the adrenal pump; the die result indicates the number of turns the hormones is up in the blood, and, therefore, the number of turns the bonuses will apply. Each level of the pump adds +1 to Quickness, +1 to Strength, +1 to Willpower, and +2 to Reaction for as long as the concentrates remain in the bloodstream. (Quickness raised in this manner does not also affect Reaction.) When that time has expired, however, the subject takes Deadly stun damage with a Power Level equal to one-half the number of turns the hormones remained in the blood (round down) and a Staging of 2 because of system shock and fatigue. For example, after four rounds of hormone-activation, the attack would be 2D2 Stun. The character may roll Body dice to resist the damage.\\n\\nOnce the adrenal pump has discharged its load, it takes approximately 10 to 15 minutes (9+1 D6) for the pump to regenerate its supply. If the pump activates before the sac has been refilled, halve the regular number of turns active (but not the fatigue aftereffects). The pump cannot discharge more than once during the same encounter. Studies have shown that high levels of adrenaline and noradrenaline in the bloodstream contribute to high blood pressure; speculation based on available data also points toward higher incidences of cardiac-related problems stemming from long-term use. When the pump is working, subjects are also more prone to critical heart failure through sheer overexertion. If a character whose adrenal pump is activated completely fails a Body Success Test (rolling all ones), he suffers immediate cardiac arrest (heart attack/Deadly physical and mental damage).\\n\\nAlthough normally triggered involuntarily, the adrenal pump can also be triggered on demand through the use of adrenocorticotropic hormone (ACTH/corticotrophin); inhalers with six doses can be acquired from various sources (see Compounds, p. 89, for more details).\\n\\nThe Reaction increase does not affect the skills involved in rigging or decking. To activate or resist the activation of the pump, the character makes a Willpower (6) Test. A light wound of any kind automatically activates the pump, assuming the character is aware of the damage."
+    "description": ""
   },
   "folder": null,
   "flags": {},

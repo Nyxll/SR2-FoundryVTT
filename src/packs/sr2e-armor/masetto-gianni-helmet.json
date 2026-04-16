@@ -4,12 +4,12 @@
   "type": "armor",
   "img": "icons/equipment/chest/breastplate-metal.webp",
   "system": {
-    "ballistic": null,
+    "ballistic": 0,
     "impact": 1,
     "concealability": 0,
-    "cost": 0,
+    "cost": 3500,
     "availability": "4/48hrs",
-    "street_index": 1,
+    "street_index": 2,
     "legality": "",
     "description": ""
   },

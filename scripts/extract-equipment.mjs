@@ -148,6 +148,7 @@ function weaponImg(cat) {
 async function extractWeapons(db) {
   const packDir = path.join(OUT, "sr2e-weapons");
   ensureDir(packDir);
+  for (const f of fs.readdirSync(packDir)) fs.unlinkSync(path.join(packDir, f));
 
   const { rows } = await db.query("SELECT * FROM gear WHERE category='weapon' ORDER BY name");
   let count = 0;
@@ -218,6 +219,7 @@ async function extractWeapons(db) {
 async function extractArmor(db) {
   const packDir = path.join(OUT, "sr2e-armor");
   ensureDir(packDir);
+  for (const f of fs.readdirSync(packDir)) fs.unlinkSync(path.join(packDir, f));
 
   const { rows } = await db.query("SELECT * FROM gear WHERE category='armor' ORDER BY name");
   let count = 0;
@@ -254,9 +256,10 @@ const SKIP_CATS = new Set(["weapon", "armor", "vehicle", "lifestyle"]);
 async function extractGear(db) {
   const packDir = path.join(OUT, "sr2e-gear");
   ensureDir(packDir);
+  for (const f of fs.readdirSync(packDir)) fs.unlinkSync(path.join(packDir, f));
 
   const { rows } = await db.query(
-    "SELECT * FROM gear WHERE category NOT IN ('weapon','armor','vehicle','lifestyle','cyberdeck') ORDER BY category, name"
+    "SELECT * FROM gear WHERE category NOT IN ('weapon','armor','vehicle','lifestyle','cyberdeck','cyberware','bioware') ORDER BY category, name"
   );
   let count = 0;
 
@@ -325,72 +328,66 @@ async function extractCyberdecks(db) {
   console.log(`  Cyberdecks: ${count}`);
 }
 
-// ── CYBERWARE (from CSV) ───────────────────────────────────────────────────────
+// ── CYBERWARE (from DB) ────────────────────────────────────────────────────────
 
-function extractCyberware() {
+async function extractCyberware(db) {
   const packDir = path.join(OUT, "sr2e-cyberware");
   ensureDir(packDir);
+  // Clear existing files
+  for (const f of fs.readdirSync(packDir)) fs.unlinkSync(path.join(packDir, f));
 
-  const rows = parseCSV(CYBER_CSV);
+  const { rows } = await db.query("SELECT * FROM gear WHERE category='cyberware' ORDER BY name");
   let count = 0;
 
   for (const row of rows) {
-    const name        = row["Name"] ?? row["name"] ?? "";
+    const name        = row.name;
     if (!name) continue;
-    const baseEssence = num(row["Essence Cost"] ?? row["essence_cost"] ?? 0);
-    const baseCost    = num(row["Cost"] ?? row["cost"] ?? 0);
-    const modStr      = row["Modifiers"] ?? row["modifiers"] ?? "";
-    const description = row["description"] ?? row["Description"] ?? "";
-    const mods        = parseMods(modStr);
+    const bs          = row.base_stats ?? {};
+    const baseEssence = num(bs.essence_cost ?? 0);
+    const mods        = row.modifiers ?? {};
 
-    for (const [gradeKey, grade] of Object.entries(GRADES)) {
-      const essenceCost = Math.round(baseEssence * grade.mult * 100) / 100;
-      const cost        = Math.round(baseCost * grade.costMult);
-      const gradedName  = gradeKey === "standard" ? name : `${name} (${grade.label})`;
+    const item = {
+      _id:    makeId(`cyberware:${name}`),
+      name,
+      type:   "cyberware",
+      img:    "icons/equipment/head/helm-visor-technological.webp",
+      system: {
+        grade:        "standard",   // player can change grade on their sheet
+        essence_cost: baseEssence,  // standard grade; sheet applies multiplier
+        installed:    false,
+        category:     row.subcategory ?? "bodyware",
+        cost:         num(row.cost ?? 0),
+        availability: row.availability ?? "",
+        street_index: num(row.street_index ?? 1),
+        mods,
+        description:  row.description ?? "",
+      },
+      folder: null, flags: {}, _stats: { systemId: "shadowrun2e" },
+    };
 
-      const item = {
-        _id:    makeId(`cyberware:${gradedName}`),
-        name:   gradedName,
-        type:   "cyberware",
-        img:    "icons/equipment/head/helm-visor-technological.webp",
-        system: {
-          grade,
-          essence_cost: essenceCost,
-          installed:    false,
-          category:     "bodyware",
-          cost,
-          availability: "",
-          street_index: num(row["Index"] ?? row["street_index"] ?? 1),
-          mods,
-          description,
-        },
-        folder: null, flags: {}, _stats: { systemId: "shadowrun2e" },
-      };
-
-      writeItem(packDir, `${slugify(gradedName)}.json`, item);
-      count++;
-    }
+    writeItem(packDir, `${slugify(name)}.json`, item);
+    count++;
   }
-  console.log(`  Cyberware: ${count} (${count/4|0} base items × 4 grades)`);
+  console.log(`  Cyberware: ${count}`);
 }
 
-// ── BIOWARE (from CSV) ────────────────────────────────────────────────────────
+// ── BIOWARE (from DB) ─────────────────────────────────────────────────────────
 
-function extractBioware() {
+async function extractBioware(db) {
   const packDir = path.join(OUT, "sr2e-bioware");
   ensureDir(packDir);
+  // Clear existing files
+  for (const f of fs.readdirSync(packDir)) fs.unlinkSync(path.join(packDir, f));
 
-  const rows = parseCSV(BIO_CSV);
+  const { rows } = await db.query("SELECT * FROM gear WHERE category='bioware' ORDER BY name");
   let count = 0;
 
   for (const row of rows) {
-    const name      = row["Name"] ?? row["name"] ?? "";
+    const name    = row.name;
     if (!name) continue;
-    const bi        = num(row["B.I."] ?? row["body_index"] ?? row["bi"] ?? 0);
-    const baseCost  = num(row["Cost"] ?? row["cost"] ?? 0);
-    const modStr    = row["MODIFIERS"] ?? row["Modifiers"] ?? row["modifiers"] ?? "";
-    const desc      = row["description"] ?? row["Description"] ?? "";
-    const mods      = parseMods(modStr);
+    const bs      = row.base_stats ?? {};
+    const bi      = num(bs.bionic_index ?? bs.body_index ?? 0);
+    const mods    = row.modifiers ?? {};
 
     const item = {
       _id:    makeId(`bioware:${name}`),
@@ -400,12 +397,12 @@ function extractBioware() {
       system: {
         body_index:   bi,
         installed:    false,
-        category:     "enhancement",
-        cost:         baseCost,
-        availability: "",
-        street_index: num(row["Index"] ?? row["street_index"] ?? 1),
+        category:     row.subcategory ?? "enhancement",
+        cost:         num(row.cost ?? 0),
+        availability: row.availability ?? "",
+        street_index: num(row.street_index ?? 1),
         mods,
-        description:  desc,
+        description:  row.description ?? "",
       },
       folder: null, flags: {}, _stats: { systemId: "shadowrun2e" },
     };
@@ -427,10 +424,8 @@ await extractWeapons(db);
 await extractArmor(db);
 await extractGear(db);
 await extractCyberdecks(db);
-
-console.log("\nExtracting from CSV files:");
-extractCyberware();
-extractBioware();
+await extractCyberware(db);
+await extractBioware(db);
 
 await db.end();
 console.log("\nDone. Run:  npm run pack");

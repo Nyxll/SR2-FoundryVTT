@@ -1,14 +1,10 @@
 {
-  "_id": "07e7236daf3e0309",
-  "name": "Eye Bug Eye",
+  "_id": "1667262e8bb29f86",
+  "name": "Eye \"Bug Eye\"",
   "type": "cyberware",
   "img": "icons/equipment/head/helm-visor-technological.webp",
   "system": {
-    "grade": {
-      "label": "Standard",
-      "mult": 1,
-      "costMult": 1
-    },
+    "grade": "standard",
     "essence_cost": 0.25,
     "installed": false,
     "category": "bodyware",

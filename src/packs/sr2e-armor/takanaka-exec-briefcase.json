@@ -9,7 +9,7 @@
     "concealability": 0,
     "cost": 600,
     "availability": "5/72hrs",
-    "street_index": 1,
+    "street_index": 0.8,
     "legality": "",
     "description": ""
   },

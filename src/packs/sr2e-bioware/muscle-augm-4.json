@@ -11,10 +11,10 @@
     "availability": "",
     "street_index": 0.9,
     "mods": {
-      "quickness": 4,
-      "strength": 4
+      "strength": 4,
+      "quickness": 4
     },
-    "description": "The process of muscle replacement has been slowly evolving toward the procedure now known as muscle augmentation. With the development and improvement of biosurgical techniques, the actual removal and replacement of the natural muscle becomes obsolete and unnecessary. Using a biological weaving treatment, an air-injected fluorinated polymer Teflon (TM) known as Gortex (™) is braided into existing muscle fibers. Gorlex, which is chemically inert, is more than four times as strong as natural muscles and ligaments, and, when braided into cables and incorporated into existing tissues, it can increase muscular system performance enormously. Muscles may be enhanced in this fashion to a maximum Level 4 augmentation.\\n\\nQuickness acquired through muscle augmentation can increase the calculated Reaction Rating.\\n\\nBonuses accrued through muscle augmentation do not affect rigging or decking except as they help the character lift bigger engines or carry heavier decks."
+    "description": ""
   },
   "folder": null,
   "flags": {},

@@ -4,11 +4,7 @@
   "type": "cyberware",
   "img": "icons/equipment/head/helm-visor-technological.webp",
   "system": {
-    "grade": {
-      "label": "Standard",
-      "mult": 1,
-      "costMult": 1
-    },
+    "grade": "standard",
     "essence_cost": 4,
     "installed": false,
     "category": "bodyware",
@@ -16,9 +12,10 @@
     "availability": "",
     "street_index": 1,
     "mods": {
+      "strength": 4,
       "quickness": 4
     },
-    "description": "+4STR"
+    "description": ""
   },
   "folder": null,
   "flags": {},

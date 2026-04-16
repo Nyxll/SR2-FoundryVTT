@@ -4,8 +4,8 @@
   "type": "armor",
   "img": "icons/equipment/chest/breastplate-metal.webp",
   "system": {
-    "ballistic": null,
-    "impact": null,
+    "ballistic": 0,
+    "impact": 0,
     "concealability": 0,
     "cost": 40,
     "availability": "always",

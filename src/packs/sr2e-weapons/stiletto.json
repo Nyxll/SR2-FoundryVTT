@@ -7,7 +7,7 @@
     "category": "melee",
     "skill": "armed_combat",
     "damage_power": 0,
-    "damage_level": "M",
+    "damage_level": "L",
     "damage_code": "(STR-1)L",
     "concealability": 14,
     "ammo_type": "regular",

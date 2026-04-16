@@ -11,7 +11,7 @@
     "availability": "",
     "street_index": 1.5,
     "mods": {},
-    "description": "Platelet factories increase the body's ability to handle damage.\\n\\nBy selective enhancement, thrombocyte (platelet) production within bone marrow is increased to a high level, resulting in the formation of \\platelet factories.\\ When the character takes physical damage, the increased level of platelets in the bloodstream stops bleeding at the site, lessening the trauma from large wounds. A platelet factory removes 1 point of Moderate or higher physical damage. That is, a character implanted with platelet factories would mark off only 5 boxes on the Physical Condition Monitor for a Serious wound, rather than the usual 6.\\n\\nThe high concentration of platelets in the bloodstream can present the risk of thrombosis (the clotting/coagulation of blood within living blood vessels) and resulting embolisms, (blocking of the arteries). To counter this risk, the character must take specially tailored anticoagulants on a regular basis. If the anticoagulant is not administered, make a Body Success Test every twelve hours against a Target Number 3, applying a +1 modifier for each day the character has not taken the anticoagulant. If the test generates no successes, the character has suffered a cardiac arrest or aneurysm stemming from an embolism. Assess immediately for Deadly Physical and Mental Wounds. The anticoagulant must be taken once daily. It costs 20¥ per dose for an injected formula, 25¥ per dose for the orally administered form."
+    "description": ""
   },
   "folder": null,
   "flags": {},

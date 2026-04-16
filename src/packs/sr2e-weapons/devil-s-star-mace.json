@@ -9,7 +9,7 @@
     "damage_power": 0,
     "damage_level": "S",
     "damage_code": "(str)S",
-    "concealability": null,
+    "concealability": 0,
     "ammo_type": "regular",
     "ammo_capacity": 0,
     "reach": 2,

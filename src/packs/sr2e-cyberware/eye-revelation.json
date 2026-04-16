@@ -1,14 +1,10 @@
 {
-  "_id": "479926e5ccd4c7e2",
-  "name": "Eye: Revelation",
+  "_id": "59b57d137faefe28",
+  "name": "Eye: \"Revelation\"",
   "type": "cyberware",
   "img": "icons/equipment/head/helm-visor-technological.webp",
   "system": {
-    "grade": {
-      "label": "Standard",
-      "mult": 1,
-      "costMult": 1
-    },
+    "grade": "standard",
     "essence_cost": 0.25,
     "installed": false,
     "category": "bodyware",

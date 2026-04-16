@@ -5,11 +5,11 @@
   "img": "icons/equipment/chest/breastplate-metal.webp",
   "system": {
     "ballistic": 2,
-    "impact": null,
+    "impact": 0,
     "concealability": 0,
     "cost": 3200,
     "availability": "-",
-    "street_index": 1,
+    "street_index": 0,
     "legality": "",
     "description": ""
   },
