@@ -405,21 +405,53 @@ SR2E.VEHICLE_ATTRIBUTES = [
 ];
 
 // ---------------------------------------------------------------------------
-// Karma Advancement Costs (SR2E Core Rules, p.242)
+// Karma Advancement Costs
+// Source: SR2E core rulebook (verified via MCP karma_calculator.py)
 // ---------------------------------------------------------------------------
 
 /**
- * Karma cost to raise an attribute or skill to newRating.
- * SR2E: new rating × 1.5, round up.
+ * Karma cost to raise an attribute by 1 point.
+ *   Within racial maximum: new rating × 1 karma
+ *   Beyond racial maximum: new rating × 2 karma
+ * NOTE: Reaction, Essence, and Magic CANNOT be raised with karma directly.
+ *
+ * @param {number} newRating  - the rating being raised TO
+ * @param {boolean} withinMax - true if new rating is within racial max, false if beyond
  */
-SR2E.karmaAttrCost  = (newRating) => Math.ceil(newRating * 1.5);
-SR2E.karmaSkillCost = (newRating) => Math.ceil(newRating * 1.5);
+SR2E.karmaAttrCost = (newRating, withinMax = true) => newRating * (withinMax ? 1 : 2);
 
 /**
- * Karma cost to raise Magic rating to newRating (awakened chars).
- * SR2E: new rating × 2.
+ * Karma cost to raise a general skill by 1 point.
+ *   General skills: new rating × 2 karma
+ *   New skill (0 → 1): 1 karma flat
+ *
+ * @param {number} newRating - the rating being raised TO
  */
-SR2E.karmaMagicCost = (newRating) => newRating * 2;
+SR2E.karmaGeneralSkillCost = (newRating) => (newRating === 1 ? 1 : newRating * 2);
 
-/** Specialization cost: flat 1 karma. */
-SR2E.karmaSpecCost  = 1;
+/**
+ * Karma cost to raise a concentration skill by 1 point.
+ *   Concentration skills: new rating × 1.5 karma (round up)
+ *
+ * @param {number} newRating - the rating being raised TO
+ */
+SR2E.karmaConcentrationCost = (newRating) => Math.ceil(newRating * 1.5);
+
+/**
+ * Karma cost to raise a specialization skill by 1 point.
+ *   Specialization skills: new rating × 1 karma
+ *
+ * @param {number} newRating - the rating being raised TO
+ */
+SR2E.karmaSpecializationCost = (newRating) => newRating * 1;
+
+/**
+ * Get karma cost for a skill based on its category.
+ * @param {string} skillCategory - "general" | "concentration" | "specialization"
+ * @param {number} newRating
+ */
+SR2E.karmaSkillCost = (skillCategory, newRating) => {
+  if (skillCategory === "concentration")  return SR2E.karmaConcentrationCost(newRating);
+  if (skillCategory === "specialization") return SR2E.karmaSpecializationCost(newRating);
+  return SR2E.karmaGeneralSkillCost(newRating); // default: general
+};

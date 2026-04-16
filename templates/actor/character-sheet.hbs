@@ -108,24 +108,30 @@
         <h3>Core Attributes</h3>
         <table class="attributes-table">
           <thead>
-            <tr><th>Attribute</th><th>Base</th><th>Mod</th><th>Total</th><th></th></tr>
+            <tr><th>Attribute</th><th>Base</th><th>Mod</th><th>Total</th><th>Race Range</th><th></th></tr>
           </thead>
           <tbody>
             {{#each config.ATTRIBUTES as |key|}}
+            {{!-- Look up racial min/max for this attribute --}}
+            {{#with (lookup ../racialMods key) as |rm|}}
             <tr>
               <td class="attr-label">{{localize (concat "SR2E.Attributes." key)}}</td>
               <td><input type="number" name="system.attributes.{{key}}.base"
-                         value="{{lookup (lookup ../system.attributes key) 'base'}}" min="0" style="width:45px" /></td>
+                         value="{{lookup (lookup ../../system.attributes key) 'base'}}"
+                         min="{{rm.min}}" max="{{rm.max}}" style="width:45px"
+                         title="Min {{rm.min}}, Max {{rm.max}}" /></td>
               <td><input type="number" name="system.attributes.{{key}}.mod"
-                         value="{{lookup (lookup ../system.attributes key) 'mod'}}" style="width:45px" /></td>
-              <td class="attr-value">{{lookup (lookup ../system.attributes key) 'value'}}</td>
+                         value="{{lookup (lookup ../../system.attributes key) 'mod'}}" style="width:45px" /></td>
+              <td class="attr-value">{{lookup (lookup ../../system.attributes key) 'value'}}</td>
+              <td class="racial-range" style="font-size:0.8em;opacity:0.7;text-align:center">{{rm.min}}–{{rm.max}}</td>
               <td>
                 <button type="button" class="attribute-roll" data-attribute="{{key}}"
                         title="Roll {{key}}">🎲</button>
                 <button type="button" class="attr-karma" data-attribute="{{key}}"
-                        title="Spend karma to raise {{key}}">+K</button>
+                        title="Spend karma to raise {{key}} (racial max: {{rm.max}})">+K</button>
               </td>
             </tr>
+            {{/with}}
             {{/each}}
           </tbody>
         </table>
@@ -233,7 +239,7 @@
         <tbody>
           {{#each activeSkills as |skill|}}
           <tr>
-            <td>{{skill.label}}</td>
+            <td>{{skill.label}} <span class="skill-cat-badge" title="Karma category: {{skill.skill_category}}" style="font-size:0.7em;opacity:0.6">[{{skill.skill_category}}]</span></td>
             <td><input type="number" name="system.skills.{{skill.key}}.rating"
                        value="{{skill.rating}}" min="0" max="12" style="width:45px" /></td>
             <td><input type="number" name="system.skills.{{skill.key}}.mod"
@@ -243,7 +249,7 @@
             <td>
               <button type="button" class="skill-roll" data-skill="{{skill.key}}" title="Roll {{skill.label}}">🎲</button>
               <button type="button" class="skill-karma" data-skill="{{skill.key}}"
-                      title="Spend karma to raise {{skill.label}} (cost: {{skill.rating}} → {{skill.rating}}+1)">+K</button>
+                      title="Spend karma to raise {{skill.label}} [{{skill.skill_category}}]">+K</button>
               <a class="skill-delete" data-skill="{{skill.key}}" title="Remove" style="cursor:pointer"><i class="fas fa-trash"></i></a>
             </td>
           </tr>

@@ -52,6 +52,10 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
     context.isDecker   = SR2E.DECKER_ARCHETYPES.includes(context.system.archetype);
     context.isRigger   = context.system.archetype === "rigger";
 
+    // Racial attribute ranges for display (min/max per metatype)
+    context.racialMods = SR2E.METATYPE_ATTRIBUTE_MODS[context.system.metatype]
+                      ?? SR2E.METATYPE_ATTRIBUTE_MODS.human;
+
     // Monitor fill arrays
     context.physicalBoxes = this._buildMonitorBoxes(
       context.system.monitors.physical.value,
@@ -77,6 +81,7 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
         rating:         s.rating ?? 0,
         specialization: s.specialization ?? "",
         mod:            s.mod ?? 0,
+        skill_category: s.skill_category ?? "general",
       }))
       .sort((a, b) => a.label.localeCompare(b.label));
   }
@@ -203,16 +208,38 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
   }
 
   async _onSkillAdd(type) {
-    const name = await foundry.applications.api.DialogV2.prompt({
+    const result = await foundry.applications.api.DialogV2.prompt({
       window: { title: "New Skill" },
-      content: `<input type="text" name="skillName" placeholder="Skill name" style="width:100%;margin:4px 0" autofocus />`,
-      ok: { callback: (_event, button, dialog) => dialog.querySelector("[name=skillName]").value.trim() },
+      content: `
+        <div style="margin:4px 0">
+          <label>Skill Name</label>
+          <input type="text" name="skillName" placeholder="e.g. Gunnery, Whips, French" style="width:100%;margin:2px 0 8px" autofocus />
+        </div>
+        <div style="margin:4px 0">
+          <label>Skill Category (affects karma cost)</label>
+          <select name="skillCategory" style="width:100%;margin:2px 0">
+            <option value="general">General (×2 per level)</option>
+            <option value="concentration">Concentration (×1.5 per level)</option>
+            <option value="specialization">Specialization (×1 per level)</option>
+          </select>
+        </div>`,
+      ok: { callback: (_event, button, dialog) => ({
+        name:     dialog.querySelector("[name=skillName]").value.trim(),
+        category: dialog.querySelector("[name=skillCategory]").value,
+      })},
     }).catch(() => null);
-    if (!name) return;
-    const key = name.toLowerCase().replace(/[^a-z0-9]+/g, "_");
+    if (!result?.name) return;
+    const key = result.name.toLowerCase().replace(/[^a-z0-9]+/g, "_");
     const skills = foundry.utils.deepClone(this.actor.system.skills ?? {});
     if (skills[key]) return; // already exists
-    skills[key] = { label: name, rating: 0, specialization: "", mod: 0, skill_type: type };
+    skills[key] = {
+      label:          result.name,
+      rating:         0,
+      specialization: "",
+      mod:            0,
+      skill_type:     type,
+      skill_category: result.category,
+    };
     await this.actor.update({ "system.skills": skills });
   }
 
@@ -267,9 +294,10 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
   }
 
   async _onItemCreate(ev) {
-    const type = ev.currentTarget.dataset.type;
+    const type     = ev.currentTarget.dataset.type;
+    const typeLabel = game.i18n.localize(`TYPES.Item.${type}`) || type;
     const itemData = {
-      name: game.i18n.format("DOCUMENT.New", { type: game.i18n.localize(`SR2E.ItemTypes.${type}`) }),
+      name: `New ${typeLabel}`,
       type,
     };
     await Item.create(itemData, { parent: this.actor });
@@ -281,15 +309,22 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
 
   /**
    * Spend karma to raise an attribute by 1.
-   * Cost = new rating × 1.5, rounded up.
+   * SR2E rules: new rating × 1 karma (within racial max); new rating × 2 (beyond racial max).
+   * Reaction, Essence, and Magic CANNOT be raised with karma.
    */
   async _onSpendKarmaAttr(attrKey) {
-    const sys      = this.actor.system;
-    const cur      = sys.attributes[attrKey]?.base ?? 1;
-    const newRating = cur + 1;
-    const cost     = SR2E.karmaAttrCost(newRating);
+    const sys        = this.actor.system;
+    const cur        = sys.attributes[attrKey]?.base ?? 1;
+    const newRating  = cur + 1;
+    const label      = attrKey.charAt(0).toUpperCase() + attrKey.slice(1);
     const karmaAvail = sys.karma.current ?? 0;
-    const label    = attrKey.charAt(0).toUpperCase() + attrKey.slice(1);
+
+    // Determine racial max for this attribute
+    const metatypeMods = SR2E.METATYPE_ATTRIBUTE_MODS[sys.metatype] ?? SR2E.METATYPE_ATTRIBUTE_MODS.human;
+    const racialMax    = metatypeMods[attrKey]?.max ?? 6;
+    const withinMax    = newRating <= racialMax;
+    const cost         = SR2E.karmaAttrCost(newRating, withinMax);
+    const rangeNote    = withinMax ? "" : ` <em>(beyond racial max of ${racialMax} — double cost)</em>`;
 
     if (karmaAvail < cost) {
       ui.notifications.warn(`Not enough karma. Need ${cost} karma to raise ${label} to ${newRating} (have ${karmaAvail}).`);
@@ -298,7 +333,7 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
 
     const confirmed = await foundry.applications.api.DialogV2.confirm({
       window: { title: "Spend Karma" },
-      content: `<p>Raise <strong>${label}</strong> from ${cur} → ${newRating}?</p>
+      content: `<p>Raise <strong>${label}</strong> from ${cur} → ${newRating}?${rangeNote}</p>
                 <p>Cost: <strong>${cost} karma</strong> (${karmaAvail} available)</p>`,
     });
     if (!confirmed) return;
@@ -313,17 +348,24 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
 
   /**
    * Spend karma to raise a skill by 1.
-   * Cost = new rating × 1.5, rounded up. New skills (0→1) cost 2.
+   * SR2E rules:
+   *   General skill:        new rating × 2 karma (first point: 1 karma)
+   *   Concentration skill:  new rating × 1.5 karma (round up)
+   *   Specialization skill: new rating × 1 karma
+   * skill_category on the skill entry ("general" | "concentration" | "specialization")
+   * defaults to "general" if not set.
    */
   async _onSpendKarmaSkill(skillKey) {
-    const sys      = this.actor.system;
-    const skill    = sys.skills?.[skillKey];
+    const sys        = this.actor.system;
+    const skill      = sys.skills?.[skillKey];
     if (!skill) return;
-    const cur      = skill.rating ?? 0;
-    const newRating = cur + 1;
-    const cost     = SR2E.karmaSkillCost(newRating);
+    const cur        = skill.rating ?? 0;
+    const newRating  = cur + 1;
+    const category   = skill.skill_category ?? "general";
+    const cost       = SR2E.karmaSkillCost(category, newRating);
     const karmaAvail = sys.karma.current ?? 0;
-    const label    = skill.label || skillKey;
+    const label      = skill.label || skillKey;
+    const catLabel   = category.charAt(0).toUpperCase() + category.slice(1);
 
     if (karmaAvail < cost) {
       ui.notifications.warn(`Not enough karma. Need ${cost} karma to raise ${label} to ${newRating} (have ${karmaAvail}).`);
@@ -332,7 +374,7 @@ export default class SR2CharacterSheet extends foundry.appv1.sheets.ActorSheet {
 
     const confirmed = await foundry.applications.api.DialogV2.confirm({
       window: { title: "Spend Karma" },
-      content: `<p>Raise <strong>${label}</strong> from ${cur} → ${newRating}?</p>
+      content: `<p>Raise <strong>${label}</strong> (${catLabel}) from ${cur} → ${newRating}?</p>
                 <p>Cost: <strong>${cost} karma</strong> (${karmaAvail} available)</p>`,
     });
     if (!confirmed) return;

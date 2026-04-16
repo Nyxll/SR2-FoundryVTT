@@ -103,11 +103,14 @@ export default class SR2Actor extends Actor {
     const sys = this.system;
     const attrs = sys.attributes;
 
-    // Clamp attribute values to metatype ranges
+    // Clamp attribute values to metatype ranges.
+    // base is also floored to racial min (e.g. Troll Body min 5, Ork Body min 4).
+    // This means switching metatype immediately enforces the racial floor on display.
     const metatypeMods = SR2E.METATYPE_ATTRIBUTE_MODS[sys.metatype] ?? SR2E.METATYPE_ATTRIBUTE_MODS.human;
     for (const key of SR2E.ATTRIBUTES) {
       if (!attrs[key] || !metatypeMods[key]) continue;
       const { min, max } = metatypeMods[key];
+      attrs[key].base  = Math.max(min, attrs[key].base ?? 1);
       attrs[key].value = Math.max(min, Math.min(max, attrs[key].value));
     }
 
